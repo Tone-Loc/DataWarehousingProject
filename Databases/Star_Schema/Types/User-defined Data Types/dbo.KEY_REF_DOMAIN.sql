@@ -1,0 +1,2 @@
+CREATE TYPE [dbo].[KEY_REF_DOMAIN] FROM numeric (18, 0) NULL
+GO
