@@ -1,0 +1,75 @@
+﻿<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="4/9/2017 1:35:29 PM"
+  DTS:CreationName="SSIS.Package.3"
+  DTS:CreatorComputerName="RKRALL-7LT64"
+  DTS:CreatorName="AB\rkrall"
+  DTS:DTSID="{CB4D6461-2879-43E7-924E-969F2BFF4EAC}"
+  DTS:ExecutableType="SSIS.Package.3"
+  DTS:LastModifiedProductVersion="11.0.2100.60"
+  DTS:LocaleID="1033"
+  DTS:ObjectName="Package"
+  DTS:PackageType="5"
+  DTS:VersionBuild="1"
+  DTS:VersionGUID="{AE3DD5A4-053D-4BEE-8E9F-81B31E9F8C3A}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">6</DTS:Property>
+  <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[(local).SEIS732_Team_21_Corporate.SEIS732_Team_21_Corporate_User]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{DDCD7571-C60D-4E02-A307-08044B1F2D9E}"
+      DTS:ObjectName="(local).SEIS732_Team_21_Corporate.SEIS732_Team_21_Corporate_User">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Data Source=(local);User ID=SEIS732_Team_21_Corporate_User;Initial Catalog=SEIS732_Team_21_Corporate;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
+          <DTS:Password
+            DTS:Name="Password"
+            Sensitive="1"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeIll/ZDaXUKAdtm3s8eNfwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAACE4w5izVoK4jQ0QBvcIIzCAAAAAASAAACgAAAAEAAAAGuXaH5+PK53GTgj5UpNOEwgAAAAefMzB5PPHEe73Xz/maycnEhD8YlIfzQQjo90kThVaYQUAAAALGyg6fWaCvpKEyeR/Nq9Ghy51WM</DTS:Password>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[(local).SEIS732_Team_21_Sales_Org.SEIS732_Team_21_Sales_Org_User]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{49B04632-FABA-41C7-8B59-7CF0E83F8C8C}"
+      DTS:ObjectName="(local).SEIS732_Team_21_Sales_Org.SEIS732_Team_21_Sales_Org_User">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Data Source=(local);User ID=SEIS732_Team_21_Sales_Org_User;Initial Catalog=SEIS732_Team_21_Sales_Org;Provider=SQLNCLI11.1;Auto Translate=False;">
+          <DTS:Password
+            DTS:Name="Password"
+            Sensitive="1"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeIll/ZDaXUKAdtm3s8eNfwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAADlsSvdsu+9h0UxizmXzJfmAAAAAASAAACgAAAAEAAAADJV0dqBgBAyOa1rDWpvsnwgAAAAA3f3nBWl6ImLAMBQceWUvSzo0kqG8VgonwuQzv5o6lgUAAAA00cz+wGXuTclPApbSWQc4OZdBaA</DTS:Password>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[(local).SEIS732_Team_21_Star_Schema.SEIS732_Team_21_Star_Schema_User]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{1A017C9E-6014-4617-9B58-28F12A40EF33}"
+      DTS:ObjectName="(local).SEIS732_Team_21_Star_Schema.SEIS732_Team_21_Star_Schema_User">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Data Source=(local);User ID=SEIS732_Team_21_Star_Schema_User;Initial Catalog=SEIS732_Team_21_Star_Schema;Provider=SQLNCLI11.1;Auto Translate=False;">
+          <DTS:Password
+            DTS:Name="Password"
+            Sensitive="1"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeIll/ZDaXUKAdtm3s8eNfwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAADdi3nX33JsHpNu2n3F4brxAAAAAASAAACgAAAAEAAAAF+Z1iH1Z28pk5N+3Liy8kggAAAAG/sIZW7qQts+piKBx1pA+94BHPho5vt0t/acxemB7owUAAAAi0mp9PazJMfoq44xVpXKA5xcm0Y</DTS:Password>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+  </DTS:ConnectionManagers>
+  <DTS:Variables />
+  <DTS:Executables />
+  <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
+<!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
+<!--If you manually edit this section and make a mistake, you can delete it. -->
+<!--The package will still be able to load normally but the previous layout information will be lost and the designer will automatically re-arrange the elements on the design surface.-->
+<Objects
+  Version="sql11">
+  <!--Each node below will contain properties that do not affect runtime behavior.-->
+</Objects>]]></DTS:DesignTimeProperties>
+</DTS:Executable>

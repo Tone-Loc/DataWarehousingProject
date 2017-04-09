@@ -1,0 +1,17 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "Team_21_ETL", "Team_21_ETL\Team_21_ETL.dtproj", "{886DB1C9-B676-4778-ADC6-B5E6A0DF21FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{886DB1C9-B676-4778-ADC6-B5E6A0DF21FB}.Development|Default.ActiveCfg = Development
+		{886DB1C9-B676-4778-ADC6-B5E6A0DF21FB}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
