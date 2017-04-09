@@ -8,6 +8,8 @@ CREATE TABLE [dbo].[Ratings]
 GO
 ALTER TABLE [dbo].[Ratings] ADD CONSTRAINT [PK_Ratings] PRIMARY KEY NONCLUSTERED  ([RTG_ID]) ON [PRIMARY]
 GO
+GRANT SELECT ON  [dbo].[Ratings] TO [SEIS732_Team_21_Corporate_User]
+GO
 EXEC sp_addextendedproperty N'MS_Description', 'This Tab le has various rating details', 'SCHEMA', N'dbo', 'TABLE', N'Ratings', NULL, NULL
 GO
 EXEC sp_addextendedproperty N'MS_Description', 'The Rating for a manufacturing plant', 'SCHEMA', N'dbo', 'TABLE', N'Ratings', 'COLUMN', N'RTG_Overall_Rating'

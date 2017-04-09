@@ -7,6 +7,8 @@ CREATE TABLE [dbo].[Department]
 GO
 ALTER TABLE [dbo].[Department] ADD CONSTRAINT [PK_Department] PRIMARY KEY NONCLUSTERED  ([DEP_Code]) ON [PRIMARY]
 GO
+GRANT SELECT ON  [dbo].[Department] TO [SEIS732_Team_21_Corporate_User]
+GO
 EXEC sp_addextendedproperty N'MS_Description', 'This is a corporate Department', 'SCHEMA', N'dbo', 'TABLE', N'Department', NULL, NULL
 GO
 EXEC sp_addextendedproperty N'MS_Description', 'Identifies the type of department', 'SCHEMA', N'dbo', 'TABLE', N'Department', 'COLUMN', N'DEP_Class'

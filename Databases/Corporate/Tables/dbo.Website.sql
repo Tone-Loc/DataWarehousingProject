@@ -8,6 +8,8 @@ CREATE TABLE [dbo].[Website]
 GO
 ALTER TABLE [dbo].[Website] ADD CONSTRAINT [PK_Website] PRIMARY KEY NONCLUSTERED  ([WEB_ID]) ON [PRIMARY]
 GO
+GRANT SELECT ON  [dbo].[Website] TO [SEIS732_Team_21_Corporate_User]
+GO
 EXEC sp_addextendedproperty N'MS_Description', 'This is the website details for a dealership', 'SCHEMA', N'dbo', 'TABLE', N'Website', NULL, NULL
 GO
 EXEC sp_addextendedproperty N'MS_Description', 'This is the email of the web admistrator', 'SCHEMA', N'dbo', 'TABLE', N'Website', 'COLUMN', N'WEB_Admin'

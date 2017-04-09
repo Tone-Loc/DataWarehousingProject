@@ -21,6 +21,8 @@ CREATE NONCLUSTERED INDEX [DEPT_HAS_BRANCH_FK] ON [dbo].[Branch] ([DEP_Code]) ON
 GO
 ALTER TABLE [dbo].[Branch] ADD CONSTRAINT [FK_Branch_Dept_Has_Branch_Department] FOREIGN KEY ([DEP_Code]) REFERENCES [dbo].[Department] ([DEP_Code])
 GO
+GRANT SELECT ON  [dbo].[Branch] TO [SEIS732_Team_21_Corporate_User]
+GO
 EXEC sp_addextendedproperty N'MS_Description', 'This is a branch office', 'SCHEMA', N'dbo', 'TABLE', N'Branch', NULL, NULL
 GO
 EXEC sp_addextendedproperty N'MS_Description', 'The street address including suite number for the branch''s mailing address.', 'SCHEMA', N'dbo', 'TABLE', N'Branch', 'COLUMN', N'BR_Address'

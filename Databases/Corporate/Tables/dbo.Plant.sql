@@ -17,6 +17,8 @@ ALTER TABLE [dbo].[Plant] ADD CONSTRAINT [FK_Plant_Has_Rating_Ratings] FOREIGN K
 GO
 ALTER TABLE [dbo].[Plant] ADD CONSTRAINT [FK_Plant_ISA_Branch_Branch] FOREIGN KEY ([BR_ID]) REFERENCES [dbo].[Branch] ([BR_ID])
 GO
+GRANT SELECT ON  [dbo].[Plant] TO [SEIS732_Team_21_Corporate_User]
+GO
 EXEC sp_addextendedproperty N'MS_Description', 'This is a manufacturing plant, where RRV''s are built.  Each RRV built in a particular plant is marked with the plant code for that plant.', 'SCHEMA', N'dbo', 'TABLE', N'Plant', NULL, NULL
 GO
 EXEC sp_addextendedproperty N'MS_Description', 'Uniquely identifies a branch.', 'SCHEMA', N'dbo', 'TABLE', N'Plant', 'COLUMN', N'BR_ID'

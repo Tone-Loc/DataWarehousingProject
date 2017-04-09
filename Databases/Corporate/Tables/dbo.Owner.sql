@@ -7,6 +7,8 @@ CREATE TABLE [dbo].[Owner]
 GO
 ALTER TABLE [dbo].[Owner] ADD CONSTRAINT [PK_Owner] PRIMARY KEY NONCLUSTERED  ([OWN_ID]) ON [PRIMARY]
 GO
+GRANT SELECT ON  [dbo].[Owner] TO [SEIS732_Team_21_Corporate_User]
+GO
 EXEC sp_addextendedproperty N'MS_Description', 'This is a company or individual that owns (and is therefore reponsible for managing) at least one independent dealership.', 'SCHEMA', N'dbo', 'TABLE', N'Owner', NULL, NULL
 GO
 EXEC sp_addextendedproperty N'MS_Description', 'The first name of an owner', 'SCHEMA', N'dbo', 'TABLE', N'Owner', 'COLUMN', N'OWN_First'

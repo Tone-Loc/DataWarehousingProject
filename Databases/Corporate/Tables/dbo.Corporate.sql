@@ -23,6 +23,8 @@ ALTER TABLE [dbo].[Corporate] ADD CONSTRAINT [FK_Corporate_Has_Website2_Website]
 GO
 ALTER TABLE [dbo].[Corporate] ADD CONSTRAINT [FK_Corporate_Manages_Branch] FOREIGN KEY ([BR_ID]) REFERENCES [dbo].[Branch] ([BR_ID])
 GO
+GRANT SELECT ON  [dbo].[Corporate] TO [SEIS732_Team_21_Corporate_User]
+GO
 EXEC sp_addextendedproperty N'MS_Description', 'This represents a corporately owned and operated dealership.', 'SCHEMA', N'dbo', 'TABLE', N'Corporate', NULL, NULL
 GO
 EXEC sp_addextendedproperty N'MS_Description', 'Uniquely identifies a branch.', 'SCHEMA', N'dbo', 'TABLE', N'Corporate', 'COLUMN', N'BR_ID'

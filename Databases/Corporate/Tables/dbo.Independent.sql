@@ -23,6 +23,8 @@ ALTER TABLE [dbo].[Independent] ADD CONSTRAINT [FK_Independent_Has_Address_Owner
 GO
 ALTER TABLE [dbo].[Independent] ADD CONSTRAINT [FK_Independent_Has_Website_Website] FOREIGN KEY ([WEB_ID]) REFERENCES [dbo].[Website] ([WEB_ID])
 GO
+GRANT SELECT ON  [dbo].[Independent] TO [SEIS732_Team_21_Corporate_User]
+GO
 EXEC sp_addextendedproperty N'MS_Description', 'This is an independently owned and operated Dealership.', 'SCHEMA', N'dbo', 'TABLE', N'Independent', NULL, NULL
 GO
 EXEC sp_addextendedproperty N'MS_Description', 'This is the corporate identifier (unique) for a dealership', 'SCHEMA', N'dbo', 'TABLE', N'Independent', 'COLUMN', N'DLR_Code'

@@ -17,6 +17,8 @@ CREATE NONCLUSTERED INDEX [OWNS_ADDRESS_FK] ON [dbo].[Owner_Address] ([OWN_ID]) 
 GO
 ALTER TABLE [dbo].[Owner_Address] ADD CONSTRAINT [FK_Owner_Address_Owns_Address_Owner] FOREIGN KEY ([OWN_ID]) REFERENCES [dbo].[Owner] ([OWN_ID])
 GO
+GRANT SELECT ON  [dbo].[Owner_Address] TO [SEIS732_Team_21_Corporate_User]
+GO
 EXEC sp_addextendedproperty N'MS_Description', 'This represents the address used by an owner for one or more independent dealerships owned by that owner.', 'SCHEMA', N'dbo', 'TABLE', N'Owner_Address', NULL, NULL
 GO
 EXEC sp_addextendedproperty N'MS_Description', 'The street address of an owner', 'SCHEMA', N'dbo', 'TABLE', N'Owner_Address', 'COLUMN', N'OADR_Address'
