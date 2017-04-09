@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="2"
-  DTS:VersionGUID="{F30F2AC4-3F85-432C-9E7F-55621C304D9D}">
+  DTS:VersionBuild="6"
+  DTS:VersionGUID="{509F0FCA-FC3A-4BFE-9483-A6AC15B24606}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">6</DTS:Property>
   <DTS:ConnectionManagers>
@@ -27,7 +27,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeIll/ZDaXUKAdtm3s8eNfwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAAD29p42b26uNBFhYD3B/a98AAAAAASAAACgAAAAEAAAAEp6AmveiUyu1GcpPhUm8TEgAAAAKBRqfCuVWdbkiBysx/gB8nscxNbsrbCNqPQWJlZEaW8UAAAAIvzMpAr2q4Grtib5kva3JpS7RPU</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeIll/ZDaXUKAdtm3s8eNfwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAAAFhPyRVzjgYYP38VgMEya9AAAAAASAAACgAAAAEAAAABhNmskMnVg4lXbXcOSPPbogAAAAmFIz4UyjNkl3bHaLGlu9/2UCv6R+Y6Po2rFsCvlKMKIUAAAA+vNnfWTPv7qBqkNsLG4yNQ2BYrg</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -42,7 +42,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeIll/ZDaXUKAdtm3s8eNfwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAAATWKTJKfdeHT1/nC7LfMyBAAAAAASAAACgAAAAEAAAABFwZdK/p7Wl22oGwRJDUgQgAAAAIh7PbkpQ9QQr4whqxatReeUmN3Pwckl7bnaL5VTOX8kUAAAABs3T+Ni2V85gCWBgUSFj+rvfYe8</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeIll/ZDaXUKAdtm3s8eNfwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAAAOhPNjH117zQAT9ODBCAQ8AAAAAASAAACgAAAAEAAAADRxphkHpfFxF/l5QyBXWowgAAAA6o1w9lxs9H2KcCX9/y6atBACRY0tsb6P5wXyDT1SqjoUAAAAPcDs/2nICxzBnt/ZHq6JrrKatw4</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -53,11 +53,11 @@
       DTS:ObjectName="(local).SEIS732_Team_21_Star_Schema.SEIS732_Team_21_Star_Schema_User">
       <DTS:ObjectData>
         <DTS:ConnectionManager
-          DTS:ConnectionString="Data Source=(local);User ID=SEIS732_Team_21_Star_Schema_User;Initial Catalog=SEIS732_Team_21_Star_Schema;Provider=SQLNCLI11.1;Auto Translate=False;">
+          DTS:ConnectionString="Data Source=(local);User ID=SEIS732_Team_21_Star_Schema_User;Initial Catalog=SEIS732_Team_21_Star_Schema;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeIll/ZDaXUKAdtm3s8eNfwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAADIcQ9h35QSxkm9MmLwXhtYAAAAAASAAACgAAAAEAAAANVIxlKmUAQ8YfsO7KxMyUIgAAAAMcLOWflbxVrPlVAbHF1cJ4CjPmrI718J8cp8/gaoxRsUAAAAW5byOKpdCBPMrkLtWTe2n4pFHsM</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeIll/ZDaXUKAdtm3s8eNfwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAADQL5QTffLtH3pmwo8U9R7mAAAAAASAAACgAAAAEAAAAGpE8N/q6i+H1rjfiA3aUxQgAAAALRpdd6eIwnrv0waUokZAqkkyY8+szRwOOtHJltdbFO8UAAAAPdjzELntqWCWsyqKNJWvXtugheM</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -83,7 +83,934 @@
           SQLTask:SqlStatementSource="DELETE FROM dbo.CUSTOMER;&#xA;DELETE FROM dbo.DEALER;&#xA;DELETE FROM dbo.INCENTIVE_PLAN;&#xA;DELETE FROM dbo.MANUFACTURE_DATE;&#xA;DELETE FROM dbo.MANUFACTURING_PLANT;&#xA;DELETE FROM dbo.MSA;&#xA;DELETE FROM dbo.PACKAGE;&#xA;DELETE FROM dbo.PRODUCT;&#xA;DELETE FROM dbo.PURCHASE_DATE;&#xA;DELETE FROM dbo.RRV_SALES;&#xA;DELETE FROM dbo.SALES_ORG;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\20000 Dealer Table"
+      DTS:CreationName="STOCK:SEQUENCE"
+      DTS:Description="Sequence Container"
+      DTS:DTSID="{BF978ACE-937F-411B-88CA-5C2915DC4D91}"
+      DTS:ExecutableType="STOCK:SEQUENCE"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="20000 Dealer Table">
+      <DTS:Variables />
+      <DTS:Executables>
+        <DTS:Executable
+          DTS:refId="Package\20000 Dealer Table\21000 Corp Dealers"
+          DTS:CreationName="SSIS.Pipeline.3"
+          DTS:Description="Data Flow Task"
+          DTS:DTSID="{70C133DE-B50E-4438-AF5F-49CE49D01BDB}"
+          DTS:ExecutableType="SSIS.Pipeline.3"
+          DTS:LocaleID="-1"
+          DTS:ObjectName="21000 Corp Dealers"
+          DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) 2007 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+          <DTS:Variables />
+          <DTS:ObjectData>
+            <pipeline
+              version="1">
+              <components>
+                <component
+                  refId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers"
+                  componentClassID="{165A526D-D5DE-47FF-96A6-F8274C19826B}"
+                  contactInfo="OLE DB Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;7"
+                  description="OLE DB Source"
+                  name="21100 Corp Dealers"
+                  usesDispositions="true"
+                  version="7">
+                  <properties>
+                    <property
+                      dataType="System.Int32"
+                      description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                      name="CommandTimeout">0</property>
+                    <property
+                      dataType="System.String"
+                      description="Specifies the name of the database object used to open a rowset."
+                      name="OpenRowset"></property>
+                    <property
+                      dataType="System.String"
+                      description="Specifies the variable that contains the name of the database object used to open a rowset."
+                      name="OpenRowsetVariable"></property>
+                    <property
+                      dataType="System.String"
+                      description="The SQL command to be executed."
+                      name="SqlCommand"
+                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">--USE SEIS732_Team_21_Corporate
+
+SELECT * 
+FROM 
+	(
+	SELECT c.DLR_ID
+			, c.DLR_Code
+			, d.DEP_Name		AS DLR_Name
+			, b.BR_Address		AS DLR_Address
+			, b.BR_City			AS DLR_City
+			, b.BR_County		AS DLR_County
+			, b.BR_State		AS DLR_State
+			, b.BR_Country		AS DLR_Country
+			, b.BR_Zip			AS DLR_Zip
+			, CAST('Unknown' AS VARCHAR(30))	AS DLR_Authorized_Makes --need to figure this out.
+			, 'Corporate'		AS DLR_Independent_Or_Corporate
+			, c.DLR_Email		AS DLR_Email_Address
+			, c.DLR_Since		AS DLR_Initiation_Date
+			, b.BR_Phone		AS DLR_Phone_Number
+			, w.WEB_ID			AS DLR_Official_Website_ID 
+			, w.WEB_URL			AS DLR_Official_WebsiteURL
+			, w.WEB_Admin		AS DLR_Official_WebsiteAdministrator_Email
+			, w.WEB_Start_Date	AS DLR_Official_Website_Start_Date
+	FROM dbo.Corporate AS c
+	LEFT JOIN dbo.Branch AS b ON c.BR_ID = b.BR_ID
+	LEFT JOIN dbo.Department AS d ON b.DEP_Code = d.DEP_Code
+	LEFT JOIN dbo.Website AS w ON c.WEB_ID = w.WEB_ID
+	UNION ALL
+	SELECT i.DLR_ID
+			, i.DLR_Code
+			,i.ID_Name			AS DLR_Name
+			, oa.OADR_Address	AS DLR_Address
+			, oa.OADR_City		AS DLR_City
+			, oa.OADR_County	AS DLR_County
+			, oa.OADR_State		AS DLR_State
+			, oa.OADR_Country	AS DLR_Country
+			, oa.OADR_Zip		AS DLR_Zip
+			, CAST('Unknown' AS VARCHAR(30))	AS DLR_Authorized_Makes
+			, 'Independent'		AS DLR_Independent_Or_Corporate
+			, i.DLR_Email		AS DLR_Email_Address
+			, i.DLR_Since		AS DLR_Initiation_Date
+			, oa.OADR_Phone		AS DLR_Phone_Number
+			, w.WEB_ID			AS DLR_Official_Website_ID 
+			, w.WEB_URL			AS DLR_Official_WebsiteURL
+			, w.WEB_Admin		AS DLR_Official_WebsiteAdministrator_Email
+			, w.WEB_Start_Date	AS DLR_Official_Website_Start_Date
+	FROM dbo.Independent AS i
+	LEFT JOIN dbo.Website AS w ON i.WEB_ID = w.WEB_ID
+	LEFT JOIN dbo.Owner_Address AS oa ON i.OADR_ID = oa.OADR_ID
+) a
+ORDER BY a.DLR_ID asc</property>
+                    <property
+                      dataType="System.String"
+                      description="The variable that contains the SQL command to be executed."
+                      name="SqlCommandVariable"></property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies the column code page to use when code page information is unavailable from the data source."
+                      name="DefaultCodePage">1252</property>
+                    <property
+                      dataType="System.Boolean"
+                      description="Forces the use of the DefaultCodePage property value when describing character data."
+                      name="AlwaysUseDefaultCodePage">false</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies the mode used to access the database."
+                      name="AccessMode"
+                      typeConverter="AccessMode">2</property>
+                    <property
+                      dataType="System.String"
+                      description="The mappings between the parameters in the SQL command and variables."
+                      name="ParameterMapping"></property>
+                  </properties>
+                  <connections>
+                    <connection
+                      refId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Connections[OleDbConnection]"
+                      connectionManagerID="Package.ConnectionManagers[(local).SEIS732_Team_21_Corporate.SEIS732_Team_21_Corporate_User]"
+                      connectionManagerRefId="Package.ConnectionManagers[(local).SEIS732_Team_21_Corporate.SEIS732_Team_21_Corporate_User]"
+                      description="The OLE DB runtime connection used to access the database."
+                      name="OleDbConnection" />
+                  </connections>
+                  <outputs>
+                    <output
+                      refId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output]"
+                      name="OLE DB Source Output">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].Columns[DLR_ID]"
+                          dataType="i2"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].ExternalColumns[DLR_ID]"
+                          lineageId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].Columns[DLR_ID]"
+                          name="DLR_ID"
+                          truncationRowDisposition="FailComponent" />
+                        <outputColumn
+                          refId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].Columns[DLR_Code]"
+                          codePage="1252"
+                          dataType="str"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].ExternalColumns[DLR_Code]"
+                          length="15"
+                          lineageId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].Columns[DLR_Code]"
+                          name="DLR_Code"
+                          truncationRowDisposition="FailComponent" />
+                        <outputColumn
+                          refId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].Columns[DLR_Name]"
+                          codePage="1252"
+                          dataType="str"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].ExternalColumns[DLR_Name]"
+                          length="256"
+                          lineageId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].Columns[DLR_Name]"
+                          name="DLR_Name"
+                          truncationRowDisposition="FailComponent" />
+                        <outputColumn
+                          refId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].Columns[DLR_Address]"
+                          codePage="1252"
+                          dataType="str"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].ExternalColumns[DLR_Address]"
+                          length="256"
+                          lineageId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].Columns[DLR_Address]"
+                          name="DLR_Address"
+                          truncationRowDisposition="FailComponent" />
+                        <outputColumn
+                          refId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].Columns[DLR_City]"
+                          codePage="1252"
+                          dataType="str"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].ExternalColumns[DLR_City]"
+                          length="60"
+                          lineageId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].Columns[DLR_City]"
+                          name="DLR_City"
+                          truncationRowDisposition="FailComponent" />
+                        <outputColumn
+                          refId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].Columns[DLR_County]"
+                          codePage="1252"
+                          dataType="str"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].ExternalColumns[DLR_County]"
+                          length="60"
+                          lineageId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].Columns[DLR_County]"
+                          name="DLR_County"
+                          truncationRowDisposition="FailComponent" />
+                        <outputColumn
+                          refId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].Columns[DLR_Zip]"
+                          codePage="1252"
+                          dataType="str"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].ExternalColumns[DLR_Zip]"
+                          length="10"
+                          lineageId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].Columns[DLR_Zip]"
+                          name="DLR_Zip"
+                          truncationRowDisposition="FailComponent" />
+                        <outputColumn
+                          refId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].Columns[DLR_Independent_Or_Corporate]"
+                          codePage="1252"
+                          dataType="str"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].ExternalColumns[DLR_Independent_Or_Corporate]"
+                          length="11"
+                          lineageId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].Columns[DLR_Independent_Or_Corporate]"
+                          name="DLR_Independent_Or_Corporate"
+                          truncationRowDisposition="FailComponent" />
+                        <outputColumn
+                          refId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].Columns[DLR_Email_Address]"
+                          codePage="1252"
+                          dataType="str"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].ExternalColumns[DLR_Email_Address]"
+                          length="256"
+                          lineageId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].Columns[DLR_Email_Address]"
+                          name="DLR_Email_Address"
+                          truncationRowDisposition="FailComponent" />
+                        <outputColumn
+                          refId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].Columns[DLR_Initiation_Date]"
+                          dataType="dbTimeStamp"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].ExternalColumns[DLR_Initiation_Date]"
+                          lineageId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].Columns[DLR_Initiation_Date]"
+                          name="DLR_Initiation_Date"
+                          truncationRowDisposition="FailComponent" />
+                        <outputColumn
+                          refId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].Columns[DLR_Official_Website_ID]"
+                          dataType="i2"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].ExternalColumns[DLR_Official_Website_ID]"
+                          lineageId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].Columns[DLR_Official_Website_ID]"
+                          name="DLR_Official_Website_ID"
+                          truncationRowDisposition="FailComponent" />
+                        <outputColumn
+                          refId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].Columns[DLR_Official_WebsiteURL]"
+                          codePage="1252"
+                          dataType="str"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].ExternalColumns[DLR_Official_WebsiteURL]"
+                          length="256"
+                          lineageId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].Columns[DLR_Official_WebsiteURL]"
+                          name="DLR_Official_WebsiteURL"
+                          truncationRowDisposition="FailComponent" />
+                        <outputColumn
+                          refId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].Columns[DLR_Official_Website_Start_Date]"
+                          dataType="dbTimeStamp"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].ExternalColumns[DLR_Official_Website_Start_Date]"
+                          lineageId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].Columns[DLR_Official_Website_Start_Date]"
+                          name="DLR_Official_Website_Start_Date"
+                          truncationRowDisposition="FailComponent" />
+                        <outputColumn
+                          refId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].Columns[DLR_State]"
+                          codePage="1252"
+                          dataType="str"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].ExternalColumns[DLR_State]"
+                          length="2"
+                          lineageId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].Columns[DLR_State]"
+                          name="DLR_State"
+                          truncationRowDisposition="FailComponent" />
+                        <outputColumn
+                          refId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].Columns[DLR_Country]"
+                          codePage="1252"
+                          dataType="str"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].ExternalColumns[DLR_Country]"
+                          length="60"
+                          lineageId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].Columns[DLR_Country]"
+                          name="DLR_Country"
+                          truncationRowDisposition="FailComponent" />
+                        <outputColumn
+                          refId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].Columns[DLR_Phone_Number]"
+                          codePage="1252"
+                          dataType="str"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].ExternalColumns[DLR_Phone_Number]"
+                          length="20"
+                          lineageId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].Columns[DLR_Phone_Number]"
+                          name="DLR_Phone_Number"
+                          truncationRowDisposition="FailComponent" />
+                        <outputColumn
+                          refId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].Columns[DLR_Official_WebsiteAdministrator_Email]"
+                          codePage="1252"
+                          dataType="str"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].ExternalColumns[DLR_Official_WebsiteAdministrator_Email]"
+                          length="256"
+                          lineageId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].Columns[DLR_Official_WebsiteAdministrator_Email]"
+                          name="DLR_Official_WebsiteAdministrator_Email"
+                          truncationRowDisposition="FailComponent" />
+                        <outputColumn
+                          refId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].Columns[DLR_Authorized_Makes]"
+                          codePage="1252"
+                          dataType="str"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].ExternalColumns[DLR_Authorized_Makes]"
+                          length="30"
+                          lineageId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].Columns[DLR_Authorized_Makes]"
+                          name="DLR_Authorized_Makes"
+                          truncationRowDisposition="FailComponent" />
+                      </outputColumns>
+                      <externalMetadataColumns
+                        isUsed="True">
+                        <externalMetadataColumn
+                          refId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].ExternalColumns[DLR_ID]"
+                          dataType="i2"
+                          name="DLR_ID" />
+                        <externalMetadataColumn
+                          refId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].ExternalColumns[DLR_Code]"
+                          codePage="1252"
+                          dataType="str"
+                          length="15"
+                          name="DLR_Code" />
+                        <externalMetadataColumn
+                          refId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].ExternalColumns[DLR_Name]"
+                          codePage="1252"
+                          dataType="str"
+                          length="256"
+                          name="DLR_Name" />
+                        <externalMetadataColumn
+                          refId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].ExternalColumns[DLR_Address]"
+                          codePage="1252"
+                          dataType="str"
+                          length="256"
+                          name="DLR_Address" />
+                        <externalMetadataColumn
+                          refId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].ExternalColumns[DLR_City]"
+                          codePage="1252"
+                          dataType="str"
+                          length="60"
+                          name="DLR_City" />
+                        <externalMetadataColumn
+                          refId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].ExternalColumns[DLR_County]"
+                          codePage="1252"
+                          dataType="str"
+                          length="60"
+                          name="DLR_County" />
+                        <externalMetadataColumn
+                          refId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].ExternalColumns[DLR_Zip]"
+                          codePage="1252"
+                          dataType="str"
+                          length="10"
+                          name="DLR_Zip" />
+                        <externalMetadataColumn
+                          refId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].ExternalColumns[DLR_Independent_Or_Corporate]"
+                          codePage="1252"
+                          dataType="str"
+                          length="11"
+                          name="DLR_Independent_Or_Corporate" />
+                        <externalMetadataColumn
+                          refId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].ExternalColumns[DLR_Email_Address]"
+                          codePage="1252"
+                          dataType="str"
+                          length="256"
+                          name="DLR_Email_Address" />
+                        <externalMetadataColumn
+                          refId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].ExternalColumns[DLR_Initiation_Date]"
+                          dataType="dbTimeStamp"
+                          name="DLR_Initiation_Date" />
+                        <externalMetadataColumn
+                          refId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].ExternalColumns[DLR_Official_Website_ID]"
+                          dataType="i2"
+                          name="DLR_Official_Website_ID" />
+                        <externalMetadataColumn
+                          refId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].ExternalColumns[DLR_Official_WebsiteURL]"
+                          codePage="1252"
+                          dataType="str"
+                          length="256"
+                          name="DLR_Official_WebsiteURL" />
+                        <externalMetadataColumn
+                          refId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].ExternalColumns[DLR_Official_Website_Start_Date]"
+                          dataType="dbTimeStamp"
+                          name="DLR_Official_Website_Start_Date" />
+                        <externalMetadataColumn
+                          refId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].ExternalColumns[DLR_State]"
+                          codePage="1252"
+                          dataType="str"
+                          length="2"
+                          name="DLR_State" />
+                        <externalMetadataColumn
+                          refId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].ExternalColumns[DLR_Country]"
+                          codePage="1252"
+                          dataType="str"
+                          length="60"
+                          name="DLR_Country" />
+                        <externalMetadataColumn
+                          refId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].ExternalColumns[DLR_Phone_Number]"
+                          codePage="1252"
+                          dataType="str"
+                          length="20"
+                          name="DLR_Phone_Number" />
+                        <externalMetadataColumn
+                          refId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].ExternalColumns[DLR_Official_WebsiteAdministrator_Email]"
+                          codePage="1252"
+                          dataType="str"
+                          length="256"
+                          name="DLR_Official_WebsiteAdministrator_Email" />
+                        <externalMetadataColumn
+                          refId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].ExternalColumns[DLR_Authorized_Makes]"
+                          codePage="1252"
+                          dataType="str"
+                          length="30"
+                          name="DLR_Authorized_Makes" />
+                      </externalMetadataColumns>
+                    </output>
+                    <output
+                      refId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Error Output]"
+                      isErrorOut="true"
+                      name="OLE DB Source Error Output">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Error Output].Columns[DLR_ID]"
+                          dataType="i2"
+                          lineageId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Error Output].Columns[DLR_ID]"
+                          name="DLR_ID" />
+                        <outputColumn
+                          refId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Error Output].Columns[DLR_Code]"
+                          codePage="1252"
+                          dataType="str"
+                          length="15"
+                          lineageId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Error Output].Columns[DLR_Code]"
+                          name="DLR_Code" />
+                        <outputColumn
+                          refId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Error Output].Columns[DLR_Name]"
+                          codePage="1252"
+                          dataType="str"
+                          length="256"
+                          lineageId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Error Output].Columns[DLR_Name]"
+                          name="DLR_Name" />
+                        <outputColumn
+                          refId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Error Output].Columns[DLR_Address]"
+                          codePage="1252"
+                          dataType="str"
+                          length="256"
+                          lineageId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Error Output].Columns[DLR_Address]"
+                          name="DLR_Address" />
+                        <outputColumn
+                          refId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Error Output].Columns[DLR_City]"
+                          codePage="1252"
+                          dataType="str"
+                          length="60"
+                          lineageId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Error Output].Columns[DLR_City]"
+                          name="DLR_City" />
+                        <outputColumn
+                          refId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Error Output].Columns[DLR_County]"
+                          codePage="1252"
+                          dataType="str"
+                          length="60"
+                          lineageId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Error Output].Columns[DLR_County]"
+                          name="DLR_County" />
+                        <outputColumn
+                          refId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Error Output].Columns[DLR_State]"
+                          codePage="1252"
+                          dataType="str"
+                          length="2"
+                          lineageId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Error Output].Columns[DLR_State]"
+                          name="DLR_State" />
+                        <outputColumn
+                          refId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Error Output].Columns[DLR_Country]"
+                          codePage="1252"
+                          dataType="str"
+                          length="60"
+                          lineageId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Error Output].Columns[DLR_Country]"
+                          name="DLR_Country" />
+                        <outputColumn
+                          refId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Error Output].Columns[DLR_Zip]"
+                          codePage="1252"
+                          dataType="str"
+                          length="10"
+                          lineageId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Error Output].Columns[DLR_Zip]"
+                          name="DLR_Zip" />
+                        <outputColumn
+                          refId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Error Output].Columns[DLR_Authorized_Makes]"
+                          codePage="1252"
+                          dataType="str"
+                          length="30"
+                          lineageId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Error Output].Columns[DLR_Authorized_Makes]"
+                          name="DLR_Authorized_Makes" />
+                        <outputColumn
+                          refId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Error Output].Columns[DLR_Independent_Or_Corporate]"
+                          codePage="1252"
+                          dataType="str"
+                          length="11"
+                          lineageId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Error Output].Columns[DLR_Independent_Or_Corporate]"
+                          name="DLR_Independent_Or_Corporate" />
+                        <outputColumn
+                          refId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Error Output].Columns[DLR_Email_Address]"
+                          codePage="1252"
+                          dataType="str"
+                          length="256"
+                          lineageId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Error Output].Columns[DLR_Email_Address]"
+                          name="DLR_Email_Address" />
+                        <outputColumn
+                          refId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Error Output].Columns[DLR_Initiation_Date]"
+                          dataType="dbTimeStamp"
+                          lineageId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Error Output].Columns[DLR_Initiation_Date]"
+                          name="DLR_Initiation_Date" />
+                        <outputColumn
+                          refId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Error Output].Columns[DLR_Phone_Number]"
+                          codePage="1252"
+                          dataType="str"
+                          length="20"
+                          lineageId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Error Output].Columns[DLR_Phone_Number]"
+                          name="DLR_Phone_Number" />
+                        <outputColumn
+                          refId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Error Output].Columns[DLR_Official_Website_ID]"
+                          dataType="i2"
+                          lineageId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Error Output].Columns[DLR_Official_Website_ID]"
+                          name="DLR_Official_Website_ID" />
+                        <outputColumn
+                          refId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Error Output].Columns[DLR_Official_WebsiteURL]"
+                          codePage="1252"
+                          dataType="str"
+                          length="256"
+                          lineageId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Error Output].Columns[DLR_Official_WebsiteURL]"
+                          name="DLR_Official_WebsiteURL" />
+                        <outputColumn
+                          refId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Error Output].Columns[DLR_Official_WebsiteAdministrator_Email]"
+                          codePage="1252"
+                          dataType="str"
+                          length="256"
+                          lineageId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Error Output].Columns[DLR_Official_WebsiteAdministrator_Email]"
+                          name="DLR_Official_WebsiteAdministrator_Email" />
+                        <outputColumn
+                          refId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Error Output].Columns[DLR_Official_Website_Start_Date]"
+                          dataType="dbTimeStamp"
+                          lineageId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Error Output].Columns[DLR_Official_Website_Start_Date]"
+                          name="DLR_Official_Website_Start_Date" />
+                        <outputColumn
+                          refId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                          dataType="i4"
+                          lineageId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                          name="ErrorCode"
+                          specialFlags="1" />
+                        <outputColumn
+                          refId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                          dataType="i4"
+                          lineageId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                          name="ErrorColumn"
+                          specialFlags="2" />
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                  </outputs>
+                </component>
+                <component
+                  refId="Package\20000 Dealer Table\21000 Corp Dealers\21200 Star Dealers"
+                  componentClassID="{4ADA7EAA-136C-4215-8098-D7A7C27FC0D1}"
+                  contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
+                  description="OLE DB Destination"
+                  name="21200 Star Dealers"
+                  usesDispositions="true"
+                  version="4">
+                  <properties>
+                    <property
+                      dataType="System.Int32"
+                      description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                      name="CommandTimeout">0</property>
+                    <property
+                      dataType="System.String"
+                      description="Specifies the name of the database object used to open a rowset."
+                      name="OpenRowset">[dbo].[DEALER]</property>
+                    <property
+                      dataType="System.String"
+                      description="Specifies the variable that contains the name of the database object used to open a rowset."
+                      name="OpenRowsetVariable"></property>
+                    <property
+                      dataType="System.String"
+                      description="The SQL command to be executed."
+                      name="SqlCommand"
+                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies the column code page to use when code page information is unavailable from the data source."
+                      name="DefaultCodePage">1252</property>
+                    <property
+                      dataType="System.Boolean"
+                      description="Forces the use of the DefaultCodePage property value when describing character data."
+                      name="AlwaysUseDefaultCodePage">false</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies the mode used to access the database."
+                      name="AccessMode"
+                      typeConverter="AccessMode">3</property>
+                    <property
+                      dataType="System.Boolean"
+                      description="Indicates whether the values supplied for identity columns will be copied to the destination. If false, values for identity columns will be auto-generated at the destination. Applies only if fast load is turned on."
+                      name="FastLoadKeepIdentity">false</property>
+                    <property
+                      dataType="System.Boolean"
+                      description="Indicates whether the columns containing null will have null inserted in the destination. If false, columns containing null will have their default values inserted at the destination. Applies only if fast load is turned on."
+                      name="FastLoadKeepNulls">false</property>
+                    <property
+                      dataType="System.String"
+                      description="Specifies options to be used with fast load.  Applies only if fast load is turned on."
+                      name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies when commits are issued during data insertion.  A value of 0 specifies that one commit will be issued at the end of data insertion.  Applies only if fast load is turned on."
+                      name="FastLoadMaxInsertCommitSize">2147483647</property>
+                  </properties>
+                  <connections>
+                    <connection
+                      refId="Package\20000 Dealer Table\21000 Corp Dealers\21200 Star Dealers.Connections[OleDbConnection]"
+                      connectionManagerID="Package.ConnectionManagers[(local).SEIS732_Team_21_Star_Schema.SEIS732_Team_21_Star_Schema_User]"
+                      connectionManagerRefId="Package.ConnectionManagers[(local).SEIS732_Team_21_Star_Schema.SEIS732_Team_21_Star_Schema_User]"
+                      description="The OLE DB runtime connection used to access the database."
+                      name="OleDbConnection" />
+                  </connections>
+                  <inputs>
+                    <input
+                      refId="Package\20000 Dealer Table\21000 Corp Dealers\21200 Star Dealers.Inputs[OLE DB Destination Input]"
+                      errorOrTruncationOperation="Insert"
+                      errorRowDisposition="FailComponent"
+                      hasSideEffects="true"
+                      name="OLE DB Destination Input">
+                      <inputColumns>
+                        <inputColumn
+                          refId="Package\20000 Dealer Table\21000 Corp Dealers\21200 Star Dealers.Inputs[OLE DB Destination Input].Columns[DLR_Code]"
+                          cachedCodepage="1252"
+                          cachedDataType="str"
+                          cachedLength="15"
+                          cachedName="DLR_Code"
+                          externalMetadataColumnId="Package\20000 Dealer Table\21000 Corp Dealers\21200 Star Dealers.Inputs[OLE DB Destination Input].ExternalColumns[DLR_Code]"
+                          lineageId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].Columns[DLR_Code]" />
+                        <inputColumn
+                          refId="Package\20000 Dealer Table\21000 Corp Dealers\21200 Star Dealers.Inputs[OLE DB Destination Input].Columns[DLR_Name]"
+                          cachedCodepage="1252"
+                          cachedDataType="str"
+                          cachedLength="256"
+                          cachedName="DLR_Name"
+                          externalMetadataColumnId="Package\20000 Dealer Table\21000 Corp Dealers\21200 Star Dealers.Inputs[OLE DB Destination Input].ExternalColumns[DLR_Name]"
+                          lineageId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].Columns[DLR_Name]" />
+                        <inputColumn
+                          refId="Package\20000 Dealer Table\21000 Corp Dealers\21200 Star Dealers.Inputs[OLE DB Destination Input].Columns[DLR_Address]"
+                          cachedCodepage="1252"
+                          cachedDataType="str"
+                          cachedLength="256"
+                          cachedName="DLR_Address"
+                          externalMetadataColumnId="Package\20000 Dealer Table\21000 Corp Dealers\21200 Star Dealers.Inputs[OLE DB Destination Input].ExternalColumns[DLR_Address]"
+                          lineageId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].Columns[DLR_Address]" />
+                        <inputColumn
+                          refId="Package\20000 Dealer Table\21000 Corp Dealers\21200 Star Dealers.Inputs[OLE DB Destination Input].Columns[DLR_City]"
+                          cachedCodepage="1252"
+                          cachedDataType="str"
+                          cachedLength="60"
+                          cachedName="DLR_City"
+                          externalMetadataColumnId="Package\20000 Dealer Table\21000 Corp Dealers\21200 Star Dealers.Inputs[OLE DB Destination Input].ExternalColumns[DLR_City]"
+                          lineageId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].Columns[DLR_City]" />
+                        <inputColumn
+                          refId="Package\20000 Dealer Table\21000 Corp Dealers\21200 Star Dealers.Inputs[OLE DB Destination Input].Columns[DLR_County]"
+                          cachedCodepage="1252"
+                          cachedDataType="str"
+                          cachedLength="60"
+                          cachedName="DLR_County"
+                          externalMetadataColumnId="Package\20000 Dealer Table\21000 Corp Dealers\21200 Star Dealers.Inputs[OLE DB Destination Input].ExternalColumns[DLR_County]"
+                          lineageId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].Columns[DLR_County]" />
+                        <inputColumn
+                          refId="Package\20000 Dealer Table\21000 Corp Dealers\21200 Star Dealers.Inputs[OLE DB Destination Input].Columns[DLR_Zip]"
+                          cachedCodepage="1252"
+                          cachedDataType="str"
+                          cachedLength="10"
+                          cachedName="DLR_Zip"
+                          externalMetadataColumnId="Package\20000 Dealer Table\21000 Corp Dealers\21200 Star Dealers.Inputs[OLE DB Destination Input].ExternalColumns[DLR_Zip]"
+                          lineageId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].Columns[DLR_Zip]" />
+                        <inputColumn
+                          refId="Package\20000 Dealer Table\21000 Corp Dealers\21200 Star Dealers.Inputs[OLE DB Destination Input].Columns[DLR_Independent_Or_Corporate]"
+                          cachedCodepage="1252"
+                          cachedDataType="str"
+                          cachedLength="11"
+                          cachedName="DLR_Independent_Or_Corporate"
+                          externalMetadataColumnId="Package\20000 Dealer Table\21000 Corp Dealers\21200 Star Dealers.Inputs[OLE DB Destination Input].ExternalColumns[DLR_Independent_Or_Corporate]"
+                          lineageId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].Columns[DLR_Independent_Or_Corporate]" />
+                        <inputColumn
+                          refId="Package\20000 Dealer Table\21000 Corp Dealers\21200 Star Dealers.Inputs[OLE DB Destination Input].Columns[DLR_Email_Address]"
+                          cachedCodepage="1252"
+                          cachedDataType="str"
+                          cachedLength="256"
+                          cachedName="DLR_Email_Address"
+                          externalMetadataColumnId="Package\20000 Dealer Table\21000 Corp Dealers\21200 Star Dealers.Inputs[OLE DB Destination Input].ExternalColumns[DLR_Email_Address]"
+                          lineageId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].Columns[DLR_Email_Address]" />
+                        <inputColumn
+                          refId="Package\20000 Dealer Table\21000 Corp Dealers\21200 Star Dealers.Inputs[OLE DB Destination Input].Columns[DLR_Initiation_Date]"
+                          cachedDataType="dbTimeStamp"
+                          cachedName="DLR_Initiation_Date"
+                          externalMetadataColumnId="Package\20000 Dealer Table\21000 Corp Dealers\21200 Star Dealers.Inputs[OLE DB Destination Input].ExternalColumns[DLR_Initiation_Date]"
+                          lineageId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].Columns[DLR_Initiation_Date]" />
+                        <inputColumn
+                          refId="Package\20000 Dealer Table\21000 Corp Dealers\21200 Star Dealers.Inputs[OLE DB Destination Input].Columns[DLR_Official_Website_ID]"
+                          cachedDataType="i2"
+                          cachedName="DLR_Official_Website_ID"
+                          externalMetadataColumnId="Package\20000 Dealer Table\21000 Corp Dealers\21200 Star Dealers.Inputs[OLE DB Destination Input].ExternalColumns[DLR_Official_Website_ID]"
+                          lineageId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].Columns[DLR_Official_Website_ID]" />
+                        <inputColumn
+                          refId="Package\20000 Dealer Table\21000 Corp Dealers\21200 Star Dealers.Inputs[OLE DB Destination Input].Columns[DLR_Official_WebsiteURL]"
+                          cachedCodepage="1252"
+                          cachedDataType="str"
+                          cachedLength="256"
+                          cachedName="DLR_Official_WebsiteURL"
+                          externalMetadataColumnId="Package\20000 Dealer Table\21000 Corp Dealers\21200 Star Dealers.Inputs[OLE DB Destination Input].ExternalColumns[DLR_Official_WebsiteURL]"
+                          lineageId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].Columns[DLR_Official_WebsiteURL]" />
+                        <inputColumn
+                          refId="Package\20000 Dealer Table\21000 Corp Dealers\21200 Star Dealers.Inputs[OLE DB Destination Input].Columns[DLR_Official_Website_Start_Date]"
+                          cachedDataType="dbTimeStamp"
+                          cachedName="DLR_Official_Website_Start_Date"
+                          externalMetadataColumnId="Package\20000 Dealer Table\21000 Corp Dealers\21200 Star Dealers.Inputs[OLE DB Destination Input].ExternalColumns[DLR_Official_Website_Start_Date]"
+                          lineageId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].Columns[DLR_Official_Website_Start_Date]" />
+                        <inputColumn
+                          refId="Package\20000 Dealer Table\21000 Corp Dealers\21200 Star Dealers.Inputs[OLE DB Destination Input].Columns[DLR_State]"
+                          cachedCodepage="1252"
+                          cachedDataType="str"
+                          cachedLength="2"
+                          cachedName="DLR_State"
+                          externalMetadataColumnId="Package\20000 Dealer Table\21000 Corp Dealers\21200 Star Dealers.Inputs[OLE DB Destination Input].ExternalColumns[DLR_State]"
+                          lineageId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].Columns[DLR_State]" />
+                        <inputColumn
+                          refId="Package\20000 Dealer Table\21000 Corp Dealers\21200 Star Dealers.Inputs[OLE DB Destination Input].Columns[DLR_Country]"
+                          cachedCodepage="1252"
+                          cachedDataType="str"
+                          cachedLength="60"
+                          cachedName="DLR_Country"
+                          externalMetadataColumnId="Package\20000 Dealer Table\21000 Corp Dealers\21200 Star Dealers.Inputs[OLE DB Destination Input].ExternalColumns[DLR_Country]"
+                          lineageId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].Columns[DLR_Country]" />
+                        <inputColumn
+                          refId="Package\20000 Dealer Table\21000 Corp Dealers\21200 Star Dealers.Inputs[OLE DB Destination Input].Columns[DLR_Phone_Number]"
+                          cachedCodepage="1252"
+                          cachedDataType="str"
+                          cachedLength="20"
+                          cachedName="DLR_Phone_Number"
+                          externalMetadataColumnId="Package\20000 Dealer Table\21000 Corp Dealers\21200 Star Dealers.Inputs[OLE DB Destination Input].ExternalColumns[DLR_Phone_Number]"
+                          lineageId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].Columns[DLR_Phone_Number]" />
+                        <inputColumn
+                          refId="Package\20000 Dealer Table\21000 Corp Dealers\21200 Star Dealers.Inputs[OLE DB Destination Input].Columns[DLR_Official_WebsiteAdministrator_Email]"
+                          cachedCodepage="1252"
+                          cachedDataType="str"
+                          cachedLength="256"
+                          cachedName="DLR_Official_WebsiteAdministrator_Email"
+                          externalMetadataColumnId="Package\20000 Dealer Table\21000 Corp Dealers\21200 Star Dealers.Inputs[OLE DB Destination Input].ExternalColumns[DLR_Official_WebsiteAdministrator_Email]"
+                          lineageId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].Columns[DLR_Official_WebsiteAdministrator_Email]" />
+                        <inputColumn
+                          refId="Package\20000 Dealer Table\21000 Corp Dealers\21200 Star Dealers.Inputs[OLE DB Destination Input].Columns[DLR_Authorized_Makes]"
+                          cachedCodepage="1252"
+                          cachedDataType="str"
+                          cachedLength="30"
+                          cachedName="DLR_Authorized_Makes"
+                          externalMetadataColumnId="Package\20000 Dealer Table\21000 Corp Dealers\21200 Star Dealers.Inputs[OLE DB Destination Input].ExternalColumns[DLR_Authorized_Makes]"
+                          lineageId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].Columns[DLR_Authorized_Makes]" />
+                      </inputColumns>
+                      <externalMetadataColumns
+                        isUsed="True">
+                        <externalMetadataColumn
+                          refId="Package\20000 Dealer Table\21000 Corp Dealers\21200 Star Dealers.Inputs[OLE DB Destination Input].ExternalColumns[DLR_Key]"
+                          dataType="numeric"
+                          name="DLR_Key"
+                          precision="18" />
+                        <externalMetadataColumn
+                          refId="Package\20000 Dealer Table\21000 Corp Dealers\21200 Star Dealers.Inputs[OLE DB Destination Input].ExternalColumns[DLR_Code]"
+                          codePage="1252"
+                          dataType="str"
+                          length="15"
+                          name="DLR_Code" />
+                        <externalMetadataColumn
+                          refId="Package\20000 Dealer Table\21000 Corp Dealers\21200 Star Dealers.Inputs[OLE DB Destination Input].ExternalColumns[DLR_Name]"
+                          codePage="1252"
+                          dataType="str"
+                          length="256"
+                          name="DLR_Name" />
+                        <externalMetadataColumn
+                          refId="Package\20000 Dealer Table\21000 Corp Dealers\21200 Star Dealers.Inputs[OLE DB Destination Input].ExternalColumns[DLR_Address]"
+                          codePage="1252"
+                          dataType="str"
+                          length="256"
+                          name="DLR_Address" />
+                        <externalMetadataColumn
+                          refId="Package\20000 Dealer Table\21000 Corp Dealers\21200 Star Dealers.Inputs[OLE DB Destination Input].ExternalColumns[DLR_City]"
+                          codePage="1252"
+                          dataType="str"
+                          length="60"
+                          name="DLR_City" />
+                        <externalMetadataColumn
+                          refId="Package\20000 Dealer Table\21000 Corp Dealers\21200 Star Dealers.Inputs[OLE DB Destination Input].ExternalColumns[DLR_County]"
+                          codePage="1252"
+                          dataType="str"
+                          length="60"
+                          name="DLR_County" />
+                        <externalMetadataColumn
+                          refId="Package\20000 Dealer Table\21000 Corp Dealers\21200 Star Dealers.Inputs[OLE DB Destination Input].ExternalColumns[DLR_State]"
+                          codePage="1252"
+                          dataType="str"
+                          length="2"
+                          name="DLR_State" />
+                        <externalMetadataColumn
+                          refId="Package\20000 Dealer Table\21000 Corp Dealers\21200 Star Dealers.Inputs[OLE DB Destination Input].ExternalColumns[DLR_Country]"
+                          codePage="1252"
+                          dataType="str"
+                          length="60"
+                          name="DLR_Country" />
+                        <externalMetadataColumn
+                          refId="Package\20000 Dealer Table\21000 Corp Dealers\21200 Star Dealers.Inputs[OLE DB Destination Input].ExternalColumns[DLR_Zip]"
+                          codePage="1252"
+                          dataType="str"
+                          length="10"
+                          name="DLR_Zip" />
+                        <externalMetadataColumn
+                          refId="Package\20000 Dealer Table\21000 Corp Dealers\21200 Star Dealers.Inputs[OLE DB Destination Input].ExternalColumns[DLR_Authorized_Makes]"
+                          codePage="1252"
+                          dataType="str"
+                          length="30"
+                          name="DLR_Authorized_Makes" />
+                        <externalMetadataColumn
+                          refId="Package\20000 Dealer Table\21000 Corp Dealers\21200 Star Dealers.Inputs[OLE DB Destination Input].ExternalColumns[DLR_Independent_Or_Corporate]"
+                          codePage="1252"
+                          dataType="str"
+                          length="11"
+                          name="DLR_Independent_Or_Corporate" />
+                        <externalMetadataColumn
+                          refId="Package\20000 Dealer Table\21000 Corp Dealers\21200 Star Dealers.Inputs[OLE DB Destination Input].ExternalColumns[DLR_Email_Address]"
+                          codePage="1252"
+                          dataType="str"
+                          length="256"
+                          name="DLR_Email_Address" />
+                        <externalMetadataColumn
+                          refId="Package\20000 Dealer Table\21000 Corp Dealers\21200 Star Dealers.Inputs[OLE DB Destination Input].ExternalColumns[DLR_Initiation_Date]"
+                          dataType="dbTimeStamp"
+                          name="DLR_Initiation_Date" />
+                        <externalMetadataColumn
+                          refId="Package\20000 Dealer Table\21000 Corp Dealers\21200 Star Dealers.Inputs[OLE DB Destination Input].ExternalColumns[DLR_Phone_Number]"
+                          codePage="1252"
+                          dataType="str"
+                          length="30"
+                          name="DLR_Phone_Number" />
+                        <externalMetadataColumn
+                          refId="Package\20000 Dealer Table\21000 Corp Dealers\21200 Star Dealers.Inputs[OLE DB Destination Input].ExternalColumns[DLR_Official_Website_ID]"
+                          dataType="i2"
+                          name="DLR_Official_Website_ID" />
+                        <externalMetadataColumn
+                          refId="Package\20000 Dealer Table\21000 Corp Dealers\21200 Star Dealers.Inputs[OLE DB Destination Input].ExternalColumns[DLR_Official_WebsiteURL]"
+                          codePage="1252"
+                          dataType="str"
+                          length="256"
+                          name="DLR_Official_WebsiteURL" />
+                        <externalMetadataColumn
+                          refId="Package\20000 Dealer Table\21000 Corp Dealers\21200 Star Dealers.Inputs[OLE DB Destination Input].ExternalColumns[DLR_Official_WebsiteAdministrator_Email]"
+                          codePage="1252"
+                          dataType="str"
+                          length="256"
+                          name="DLR_Official_WebsiteAdministrator_Email" />
+                        <externalMetadataColumn
+                          refId="Package\20000 Dealer Table\21000 Corp Dealers\21200 Star Dealers.Inputs[OLE DB Destination Input].ExternalColumns[DLR_Official_Website_Start_Date]"
+                          dataType="dbTimeStamp"
+                          name="DLR_Official_Website_Start_Date" />
+                      </externalMetadataColumns>
+                    </input>
+                  </inputs>
+                  <outputs>
+                    <output
+                      refId="Package\20000 Dealer Table\21000 Corp Dealers\21200 Star Dealers.Outputs[OLE DB Destination Error Output]"
+                      exclusionGroup="1"
+                      isErrorOut="true"
+                      name="OLE DB Destination Error Output"
+                      synchronousInputId="Package\20000 Dealer Table\21000 Corp Dealers\21200 Star Dealers.Inputs[OLE DB Destination Input]">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\20000 Dealer Table\21000 Corp Dealers\21200 Star Dealers.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                          dataType="i4"
+                          lineageId="Package\20000 Dealer Table\21000 Corp Dealers\21200 Star Dealers.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                          name="ErrorCode"
+                          specialFlags="1" />
+                        <outputColumn
+                          refId="Package\20000 Dealer Table\21000 Corp Dealers\21200 Star Dealers.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                          dataType="i4"
+                          lineageId="Package\20000 Dealer Table\21000 Corp Dealers\21200 Star Dealers.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                          name="ErrorColumn"
+                          specialFlags="2" />
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                  </outputs>
+                </component>
+              </components>
+              <paths>
+                <path
+                  refId="Package\20000 Dealer Table\21000 Corp Dealers.Paths[OLE DB Source Output]"
+                  endId="Package\20000 Dealer Table\21000 Corp Dealers\21200 Star Dealers.Inputs[OLE DB Destination Input]"
+                  name="OLE DB Source Output"
+                  startId="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output]" />
+              </paths>
+            </pipeline>
+          </DTS:ObjectData>
+        </DTS:Executable>
+      </DTS:Executables>
+    </DTS:Executable>
   </DTS:Executables>
+  <DTS:PrecedenceConstraints>
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint]"
+      DTS:CreationName=""
+      DTS:DTSID="{19B3062D-9D61-4E4F-9509-A3E590C31A97}"
+      DTS:From="Package\10000 Clear Star Schema Tables"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint"
+      DTS:To="Package\20000 Dealer Table" />
+  </DTS:PrecedenceConstraints>
   <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
 <!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
 <!--If you manually edit this section and make a mistake, you can delete it. -->
@@ -95,13 +1022,117 @@
     design-time-name="Package">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="234,42"
           Id="Package\10000 Clear Star Schema Tables"
-          TopLeft="307,77" />
+          TopLeft="251,55" />
+        <NodeLayout
+          Size="174,42"
+          Id="Package\20000 Dealer Table\21000 Corp Dealers"
+          TopLeft="40,21" />
+        <ContainerLayout
+          HeaderHeight="43"
+          IsExpanded="True"
+          PanelSize="302,121"
+          Size="302,164"
+          Id="Package\20000 Dealer Table"
+          TopLeft="230,146" />
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint]"
+          TopLeft="368,97">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="13,49"
+              Start="0,0"
+              End="13,41.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,20.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,20.5"
+                    Point2="0,24.5"
+                    Point3="4,24.5" />
+                  <mssgle:LineSegment
+                    End="9,24.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="9,24.5"
+                    Point2="13,24.5"
+                    Point3="13,28.5" />
+                  <mssgle:LineSegment
+                    End="13,41.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </Package>
+  <TaskHost
+    design-time-name="Package\20000 Dealer Table\21000 Corp Dealers">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="174,42"
+          Id="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers"
+          TopLeft="262,61" />
+        <NodeLayout
+          Size="171,42"
+          Id="Package\20000 Dealer Table\21000 Corp Dealers\21200 Star Dealers"
+          TopLeft="263,147" />
+        <EdgeLayout
+          Id="Package\20000 Dealer Table\21000 Corp Dealers.Paths[OLE DB Source Output]"
+          TopLeft="348.75,103">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,44"
+              Start="0,0"
+              End="0,36.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,36.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\20000 Dealer Table\21000 Corp Dealers\21200 Star Dealers">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
 </Objects>]]></DTS:DesignTimeProperties>
 </DTS:Executable>
