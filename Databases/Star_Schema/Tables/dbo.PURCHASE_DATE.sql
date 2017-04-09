@@ -40,6 +40,12 @@ ALTER TABLE [dbo].[PURCHASE_DATE] ADD CONSTRAINT [CKC_PDAT_Weekday_Or_Weekend_PU
 GO
 ALTER TABLE [dbo].[PURCHASE_DATE] ADD CONSTRAINT [PK_PURCHASE_DATE] PRIMARY KEY CLUSTERED  ([PDAT_Key]) ON [PRIMARY]
 GO
+GRANT SELECT ON  [dbo].[PURCHASE_DATE] TO [SEIS732_Team_21_Star_Schema_User]
+GO
+GRANT INSERT ON  [dbo].[PURCHASE_DATE] TO [SEIS732_Team_21_Star_Schema_User]
+GO
+GRANT DELETE ON  [dbo].[PURCHASE_DATE] TO [SEIS732_Team_21_Star_Schema_User]
+GO
 EXEC sp_addextendedproperty N'MS_Description', 'The Date that an RRV was purchased', 'SCHEMA', N'dbo', 'TABLE', N'PURCHASE_DATE', NULL, NULL
 GO
 EXEC sp_addextendedproperty N'MS_Description', 'purchase date in format mm/dd/CCYY', 'SCHEMA', N'dbo', 'TABLE', N'PURCHASE_DATE', 'COLUMN', N'PDAT_Date'

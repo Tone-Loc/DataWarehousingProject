@@ -12,6 +12,12 @@ CREATE TABLE [dbo].[INCENTIVE_PLAN]
 GO
 ALTER TABLE [dbo].[INCENTIVE_PLAN] ADD CONSTRAINT [PK_INCENTIVE_PLAN] PRIMARY KEY CLUSTERED  ([PLAN_Key]) ON [PRIMARY]
 GO
+GRANT SELECT ON  [dbo].[INCENTIVE_PLAN] TO [SEIS732_Team_21_Star_Schema_User]
+GO
+GRANT INSERT ON  [dbo].[INCENTIVE_PLAN] TO [SEIS732_Team_21_Star_Schema_User]
+GO
+GRANT DELETE ON  [dbo].[INCENTIVE_PLAN] TO [SEIS732_Team_21_Star_Schema_User]
+GO
 EXEC sp_addextendedproperty N'MS_Description', 'the plan used in the purchase', 'SCHEMA', N'dbo', 'TABLE', N'INCENTIVE_PLAN', NULL, NULL
 GO
 EXEC sp_addextendedproperty N'MS_Description', 'description of plan', 'SCHEMA', N'dbo', 'TABLE', N'INCENTIVE_PLAN', 'COLUMN', N'PLAN_Description'

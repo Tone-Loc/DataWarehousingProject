@@ -12,6 +12,12 @@ CREATE TABLE [dbo].[MSA]
 GO
 ALTER TABLE [dbo].[MSA] ADD CONSTRAINT [PK_MSA] PRIMARY KEY CLUSTERED  ([MSA_Micropolitan_Area_Key]) ON [PRIMARY]
 GO
+GRANT SELECT ON  [dbo].[MSA] TO [SEIS732_Team_21_Star_Schema_User]
+GO
+GRANT INSERT ON  [dbo].[MSA] TO [SEIS732_Team_21_Star_Schema_User]
+GO
+GRANT DELETE ON  [dbo].[MSA] TO [SEIS732_Team_21_Star_Schema_User]
+GO
 EXEC sp_addextendedproperty N'MS_Description', 'the MSA containing the dealership', 'SCHEMA', N'dbo', 'TABLE', N'MSA', NULL, NULL
 GO
 EXEC sp_addextendedproperty N'MS_Description', 'MSA Production Key for Metropolitan area', 'SCHEMA', N'dbo', 'TABLE', N'MSA', 'COLUMN', N'MSA_Metropolitan_Area_ID'

@@ -66,6 +66,12 @@ ALTER TABLE [dbo].[RRV_SALES] ADD CONSTRAINT [FK_RRV_SALES_PRODUCT_For_RRV_Sales
 GO
 ALTER TABLE [dbo].[RRV_SALES] ADD CONSTRAINT [FK_RRV_SALES_SALES_ORG_For_RRV_Sales_SALES_ORG] FOREIGN KEY ([SORG_Key]) REFERENCES [dbo].[SALES_ORG] ([SORG_Key])
 GO
+GRANT SELECT ON  [dbo].[RRV_SALES] TO [SEIS732_Team_21_Star_Schema_User]
+GO
+GRANT INSERT ON  [dbo].[RRV_SALES] TO [SEIS732_Team_21_Star_Schema_User]
+GO
+GRANT DELETE ON  [dbo].[RRV_SALES] TO [SEIS732_Team_21_Star_Schema_User]
+GO
 EXEC sp_addextendedproperty N'MS_Description', 'the fact table', 'SCHEMA', N'dbo', 'TABLE', N'RRV_SALES', NULL, NULL
 GO
 EXEC sp_addextendedproperty N'MS_Description', 'customer Surrogate Key', 'SCHEMA', N'dbo', 'TABLE', N'RRV_SALES', 'COLUMN', N'CUST_Key'

@@ -11,6 +11,12 @@ CREATE TABLE [dbo].[CUSTOMER]
 GO
 ALTER TABLE [dbo].[CUSTOMER] ADD CONSTRAINT [PK_CUSTOMER] PRIMARY KEY CLUSTERED  ([CUST_Key]) ON [PRIMARY]
 GO
+GRANT SELECT ON  [dbo].[CUSTOMER] TO [SEIS732_Team_21_Star_Schema_User]
+GO
+GRANT INSERT ON  [dbo].[CUSTOMER] TO [SEIS732_Team_21_Star_Schema_User]
+GO
+GRANT DELETE ON  [dbo].[CUSTOMER] TO [SEIS732_Team_21_Star_Schema_User]
+GO
 EXEC sp_addextendedproperty N'MS_Description', 'the customer that bought the vehicle', 'SCHEMA', N'dbo', 'TABLE', N'CUSTOMER', NULL, NULL
 GO
 EXEC sp_addextendedproperty N'MS_Description', 'customer city name', 'SCHEMA', N'dbo', 'TABLE', N'CUSTOMER', 'COLUMN', N'CUST_City'

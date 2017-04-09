@@ -23,6 +23,12 @@ CREATE TABLE [dbo].[PRODUCT]
 GO
 ALTER TABLE [dbo].[PRODUCT] ADD CONSTRAINT [PK_PRODUCT] PRIMARY KEY CLUSTERED  ([PRD_Key]) ON [PRIMARY]
 GO
+GRANT SELECT ON  [dbo].[PRODUCT] TO [SEIS732_Team_21_Star_Schema_User]
+GO
+GRANT INSERT ON  [dbo].[PRODUCT] TO [SEIS732_Team_21_Star_Schema_User]
+GO
+GRANT DELETE ON  [dbo].[PRODUCT] TO [SEIS732_Team_21_Star_Schema_User]
+GO
 EXEC sp_addextendedproperty N'MS_Description', 'the vehicle sold', 'SCHEMA', N'dbo', 'TABLE', N'PRODUCT', NULL, NULL
 GO
 EXEC sp_addextendedproperty N'MS_Description', 'description of class', 'SCHEMA', N'dbo', 'TABLE', N'PRODUCT', 'COLUMN', N'PRD_Class_Description'

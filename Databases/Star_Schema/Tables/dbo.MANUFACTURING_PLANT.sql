@@ -20,6 +20,12 @@ CREATE TABLE [dbo].[MANUFACTURING_PLANT]
 GO
 ALTER TABLE [dbo].[MANUFACTURING_PLANT] ADD CONSTRAINT [PK_MANUFACTURING_PLANT] PRIMARY KEY CLUSTERED  ([MFG_Key]) ON [PRIMARY]
 GO
+GRANT SELECT ON  [dbo].[MANUFACTURING_PLANT] TO [SEIS732_Team_21_Star_Schema_User]
+GO
+GRANT INSERT ON  [dbo].[MANUFACTURING_PLANT] TO [SEIS732_Team_21_Star_Schema_User]
+GO
+GRANT DELETE ON  [dbo].[MANUFACTURING_PLANT] TO [SEIS732_Team_21_Star_Schema_User]
+GO
 EXEC sp_addextendedproperty N'MS_Description', 'the plant that made the vehicle', 'SCHEMA', N'dbo', 'TABLE', N'MANUFACTURING_PLANT', NULL, NULL
 GO
 EXEC sp_addextendedproperty N'MS_Description', 'manufacturing plant street address', 'SCHEMA', N'dbo', 'TABLE', N'MANUFACTURING_PLANT', 'COLUMN', N'MFG_Address'

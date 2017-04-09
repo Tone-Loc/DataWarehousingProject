@@ -17,6 +17,12 @@ CREATE TABLE [dbo].[SALES_ORG]
 GO
 ALTER TABLE [dbo].[SALES_ORG] ADD CONSTRAINT [PK_SALES_ORG] PRIMARY KEY CLUSTERED  ([SORG_Key]) ON [PRIMARY]
 GO
+GRANT SELECT ON  [dbo].[SALES_ORG] TO [SEIS732_Team_21_Star_Schema_User]
+GO
+GRANT INSERT ON  [dbo].[SALES_ORG] TO [SEIS732_Team_21_Star_Schema_User]
+GO
+GRANT DELETE ON  [dbo].[SALES_ORG] TO [SEIS732_Team_21_Star_Schema_User]
+GO
 EXEC sp_addextendedproperty N'MS_Description', 'the sales organization that the dealership that sold th vehicle belongs to', 'SCHEMA', N'dbo', 'TABLE', N'SALES_ORG', NULL, NULL
 GO
 EXEC sp_addextendedproperty N'MS_Description', 'Sales Domain Production Key', 'SCHEMA', N'dbo', 'TABLE', N'SALES_ORG', 'COLUMN', N'SORG_Domain_ID'

@@ -25,6 +25,12 @@ CREATE TABLE [dbo].[PACKAGE]
 GO
 ALTER TABLE [dbo].[PACKAGE] ADD CONSTRAINT [PK_PACKAGE] PRIMARY KEY CLUSTERED  ([PKG_Key]) ON [PRIMARY]
 GO
+GRANT SELECT ON  [dbo].[PACKAGE] TO [SEIS732_Team_21_Star_Schema_User]
+GO
+GRANT INSERT ON  [dbo].[PACKAGE] TO [SEIS732_Team_21_Star_Schema_User]
+GO
+GRANT DELETE ON  [dbo].[PACKAGE] TO [SEIS732_Team_21_Star_Schema_User]
+GO
 EXEC sp_addextendedproperty N'MS_Description', 'the package bundled with the vehicle', 'SCHEMA', N'dbo', 'TABLE', N'PACKAGE', NULL, NULL
 GO
 EXEC sp_addextendedproperty N'MS_Description', 'air conditioning feature for package', 'SCHEMA', N'dbo', 'TABLE', N'PACKAGE', 'COLUMN', N'PKG_Air_Conditioner'

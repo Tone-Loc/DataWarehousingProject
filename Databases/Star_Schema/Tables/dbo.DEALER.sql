@@ -26,6 +26,12 @@ ALTER TABLE [dbo].[DEALER] ADD CONSTRAINT [CKC_DLR_Independent_Or_Corporate_DEAL
 GO
 ALTER TABLE [dbo].[DEALER] ADD CONSTRAINT [PK_DEALER] PRIMARY KEY CLUSTERED  ([DLR_Key]) ON [PRIMARY]
 GO
+GRANT SELECT ON  [dbo].[DEALER] TO [SEIS732_Team_21_Star_Schema_User]
+GO
+GRANT INSERT ON  [dbo].[DEALER] TO [SEIS732_Team_21_Star_Schema_User]
+GO
+GRANT DELETE ON  [dbo].[DEALER] TO [SEIS732_Team_21_Star_Schema_User]
+GO
 EXEC sp_addextendedproperty N'MS_Description', 'the dealer that sold the vehicle', 'SCHEMA', N'dbo', 'TABLE', N'DEALER', NULL, NULL
 GO
 EXEC sp_addextendedproperty N'MS_Description', 'dealer street address', 'SCHEMA', N'dbo', 'TABLE', N'DEALER', 'COLUMN', N'DLR_Address'

@@ -44,6 +44,12 @@ ALTER TABLE [dbo].[MANUFACTURE_DATE] ADD CONSTRAINT [CKC_MDAT_Year_MANUFACTURE_D
 GO
 ALTER TABLE [dbo].[MANUFACTURE_DATE] ADD CONSTRAINT [PK_MANUFACTURE_DATE] PRIMARY KEY CLUSTERED  ([MDAT_Key]) ON [PRIMARY]
 GO
+GRANT SELECT ON  [dbo].[MANUFACTURE_DATE] TO [SEIS732_Team_21_Star_Schema_User]
+GO
+GRANT INSERT ON  [dbo].[MANUFACTURE_DATE] TO [SEIS732_Team_21_Star_Schema_User]
+GO
+GRANT DELETE ON  [dbo].[MANUFACTURE_DATE] TO [SEIS732_Team_21_Star_Schema_User]
+GO
 EXEC sp_addextendedproperty N'MS_Description', 'The date that an RRV was Manufactured', 'SCHEMA', N'dbo', 'TABLE', N'MANUFACTURE_DATE', NULL, NULL
 GO
 EXEC sp_addextendedproperty N'MS_Description', 'Date in format mm/dd/CCYY
