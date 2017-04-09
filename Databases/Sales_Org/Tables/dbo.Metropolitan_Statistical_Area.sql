@@ -8,6 +8,8 @@ CREATE TABLE [dbo].[Metropolitan_Statistical_Area]
 GO
 ALTER TABLE [dbo].[Metropolitan_Statistical_Area] ADD CONSTRAINT [PK_Metropolitan_Statistical_Area] PRIMARY KEY NONCLUSTERED  ([MSA_ID]) ON [PRIMARY]
 GO
+GRANT SELECT ON  [dbo].[Metropolitan_Statistical_Area] TO [SEIS732_Team_21_Sales_Org_User]
+GO
 EXEC sp_addextendedproperty N'MS_Description', 'This is the Name of an MSA as defined by the United States Office of Management and Budget (OMB) according to published standards that are applied to Census Bureau data.', 'SCHEMA', N'dbo', 'TABLE', N'Metropolitan_Statistical_Area', NULL, NULL
 GO
 EXEC sp_addextendedproperty N'MS_Description', 'This is an informal description of the MSA.', 'SCHEMA', N'dbo', 'TABLE', N'Metropolitan_Statistical_Area', 'COLUMN', N'MSA_Description'

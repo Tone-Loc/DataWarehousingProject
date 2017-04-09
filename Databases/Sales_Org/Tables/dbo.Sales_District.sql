@@ -12,6 +12,8 @@ CREATE NONCLUSTERED INDEX [MANAGES_SD_FK] ON [dbo].[Sales_District] ([MGR_ID]) O
 GO
 ALTER TABLE [dbo].[Sales_District] ADD CONSTRAINT [FK_Sales_District_Manages_SD_Sales_Mgr] FOREIGN KEY ([MGR_ID]) REFERENCES [dbo].[Sales_Mgr] ([MGR_ID])
 GO
+GRANT SELECT ON  [dbo].[Sales_District] TO [SEIS732_Team_21_Sales_Org_User]
+GO
 EXEC sp_addextendedproperty N'MS_Description', 'This is a Sales District it is a grouping of Sales Areas', 'SCHEMA', N'dbo', 'TABLE', N'Sales_District', NULL, NULL
 GO
 EXEC sp_addextendedproperty N'MS_Description', 'Identifies a sales manager', 'SCHEMA', N'dbo', 'TABLE', N'Sales_District', 'COLUMN', N'MGR_ID'

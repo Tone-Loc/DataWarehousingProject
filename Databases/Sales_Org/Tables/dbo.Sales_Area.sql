@@ -17,6 +17,8 @@ ALTER TABLE [dbo].[Sales_Area] ADD CONSTRAINT [FK_Sales_Area_Manages_SA_Sales_Mg
 GO
 ALTER TABLE [dbo].[Sales_Area] ADD CONSTRAINT [FK_Sales_Area_SD_Has_SA_Sales_District] FOREIGN KEY ([SD_ID]) REFERENCES [dbo].[Sales_District] ([SD_ID])
 GO
+GRANT SELECT ON  [dbo].[Sales_Area] TO [SEIS732_Team_21_Sales_Org_User]
+GO
 EXEC sp_addextendedproperty N'MS_Description', 'This is a sales Area it is a grouping of Sales Territories', 'SCHEMA', N'dbo', 'TABLE', N'Sales_Area', NULL, NULL
 GO
 EXEC sp_addextendedproperty N'MS_Description', 'Identifies a sales manager', 'SCHEMA', N'dbo', 'TABLE', N'Sales_Area', 'COLUMN', N'MGR_ID'

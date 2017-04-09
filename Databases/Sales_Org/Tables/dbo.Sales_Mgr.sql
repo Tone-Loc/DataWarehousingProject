@@ -9,6 +9,8 @@ CREATE TABLE [dbo].[Sales_Mgr]
 GO
 ALTER TABLE [dbo].[Sales_Mgr] ADD CONSTRAINT [PK_Sales_Mgr] PRIMARY KEY NONCLUSTERED  ([MGR_ID]) ON [PRIMARY]
 GO
+GRANT SELECT ON  [dbo].[Sales_Mgr] TO [SEIS732_Team_21_Sales_Org_User]
+GO
 EXEC sp_addextendedproperty N'MS_Description', 'This is the manager of a Sales District, Sales Area, or Sales Territory.
 
 It is possible for a manager to manage more than one sales unit, even sales units at different levels (but that is not very common)', 'SCHEMA', N'dbo', 'TABLE', N'Sales_Mgr', NULL, NULL

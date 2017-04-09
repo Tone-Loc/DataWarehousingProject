@@ -21,6 +21,8 @@ ALTER TABLE [dbo].[Dealer] ADD CONSTRAINT [FK_Dealer_Dealer_Has_ST_Sales_Territo
 GO
 ALTER TABLE [dbo].[Dealer] ADD CONSTRAINT [FK_Dealer_Dealer_In_MSA_Micropolitan_Statistical_Area] FOREIGN KEY ([MICSA_ID]) REFERENCES [dbo].[Micropolitan_Statistical_Area] ([MICSA_ID])
 GO
+GRANT SELECT ON  [dbo].[Dealer] TO [SEIS732_Team_21_Sales_Org_User]
+GO
 EXEC sp_addextendedproperty N'MS_Description', 'This is a corporate or independent dealership', 'SCHEMA', N'dbo', 'TABLE', N'Dealer', NULL, NULL
 GO
 EXEC sp_addextendedproperty N'MS_Description', 'This is the identifier (unique) for a dealership', 'SCHEMA', N'dbo', 'TABLE', N'Dealer', 'COLUMN', N'DLR_Code'

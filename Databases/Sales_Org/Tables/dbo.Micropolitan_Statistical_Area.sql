@@ -12,6 +12,8 @@ CREATE NONCLUSTERED INDEX [MSA_HAS_MICROSA_FK] ON [dbo].[Micropolitan_Statistica
 GO
 ALTER TABLE [dbo].[Micropolitan_Statistical_Area] ADD CONSTRAINT [FK_Micropolitan_Statistical_Area_MSA_has_MicroSA_Metropolitan_Statistical_Area] FOREIGN KEY ([MSA_ID]) REFERENCES [dbo].[Metropolitan_Statistical_Area] ([MSA_ID])
 GO
+GRANT SELECT ON  [dbo].[Micropolitan_Statistical_Area] TO [SEIS732_Team_21_Sales_Org_User]
+GO
 EXEC sp_addextendedproperty N'MS_Description', 'This is specific subset of an MSA (loosely based upon the zip code).
 There can be one or more MSA_Zip_Code subsets for each MSA', 'SCHEMA', N'dbo', 'TABLE', N'Micropolitan_Statistical_Area', NULL, NULL
 GO
