@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="17"
-  DTS:VersionGUID="{9C40F216-681A-4718-9A78-9541484C876E}">
+  DTS:VersionBuild="18"
+  DTS:VersionGUID="{58DE623E-734A-4F9F-ABAA-732A0D1BF717}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">6</DTS:Property>
   <DTS:ConnectionManagers>
@@ -27,7 +27,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeIll/ZDaXUKAdtm3s8eNfwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAAAXv7Ki4301JXdUijvgH4A5AAAAAASAAACgAAAAEAAAAI1rlwQmyIlsPBKMYIIwnd4gAAAAvQzo1m3QU6fX3w+5sHHdHKh4tzc36MBGLzJWl9DuyqAUAAAA4799isWISa0TJrkOFeIxFNfeHIA</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeIll/ZDaXUKAdtm3s8eNfwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAADcdJQDyebWMZtSIX+zm1weAAAAAASAAACgAAAAEAAAAGdcOy2hI9AdXwrGjmv6Ev0gAAAAKmT7LuzP4S3RERQFfL4SpzRFDySH+Nve9kEYDGK1f+4UAAAAeqgzwy2volmo0qtvQYbNpUBE4Q8</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -42,7 +42,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeIll/ZDaXUKAdtm3s8eNfwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAACKkJ36dF0r8JLcSYAyNkFGAAAAAASAAACgAAAAEAAAAN99z6RnneEvaEP++0lw/Z8gAAAAMPVvX6/Cpb1eSRoVdYci8Cb8YpbIWcGG9scAA4HqbbAUAAAAkJ/87/I0DO3RgUcS8n16ENFj3+I</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeIll/ZDaXUKAdtm3s8eNfwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAABuXjVLDEko184thr1sgRPzAAAAAASAAACgAAAAEAAAAGv4LpqRWv6cr3NoUWoVC5UgAAAAIiMNTQUSYcSKdHXOcvWzBU2p5dgVLkDqG4wUsaa5h0EUAAAALAZoiDSZUFVxaK/pizEzDy9kiCs</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -57,7 +57,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeIll/ZDaXUKAdtm3s8eNfwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAABy4a0Jj5PsGiof26KkAkyjAAAAAASAAACgAAAAEAAAAPtjttGVap3TsEkqdEPMbhogAAAAVyZYEMrJwDGtCU7WJBRHlw5lXs5+pmsz5Qw0xyoWpSwUAAAA+cPQ8iRVvR+zEom9VXFcOVyQT8Y</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeIll/ZDaXUKAdtm3s8eNfwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAACp678+d0Kej79BMZPnTEziAAAAAASAAACgAAAAEAAAAMCG2D88+yh112Y2ILxZWZ0gAAAA2zJSKnf7XxN9J8dj6/E17J4eF5ZyQS12hjqUrHTYb5IUAAAAqh4f+1GyV501L5r/7J1NNN1di0I</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -72,7 +72,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeIll/ZDaXUKAdtm3s8eNfwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAADQCu+EQ2mB9U2G5jPoaMLKAAAAAASAAACgAAAAEAAAAL6LQsYjUoMtJSyTDh+endEgAAAAbG3zU/jzqboV4mJ3O/gV7BW7IB4rnptnieokzIw6I4oUAAAA8lXOgqYCOgGZhEx/YqVGKjKFNMw</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeIll/ZDaXUKAdtm3s8eNfwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAAC7Dv4hhGaWsZM4Dc8QX4VJAAAAAASAAACgAAAAEAAAADUKA6n7nWd5MDpdQn1yJLUgAAAApv321bBYH6hnfC0tp8jw5lv6HcebHI2t7fARpZwGGbYUAAAA9TnDFqn0vYgpCNbftG3/3urRW8A</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -2809,6 +2809,454 @@ FROM dbo.IncentiveProgram AS ip</property>
                 </pipeline>
               </DTS:ObjectData>
             </DTS:Executable>
+            <DTS:Executable
+              DTS:refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23200 Customers"
+              DTS:CreationName="SSIS.Pipeline.3"
+              DTS:Description="Data Flow Task"
+              DTS:DTSID="{D2B12ED8-F624-4E95-858E-845D2C02BA64}"
+              DTS:ExecutableType="SSIS.Pipeline.3"
+              DTS:LocaleID="-1"
+              DTS:ObjectName="23200 Customers"
+              DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) 2007 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+              <DTS:Variables />
+              <DTS:ObjectData>
+                <pipeline
+                  version="1">
+                  <components>
+                    <component
+                      refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23200 Customers\Products Customers"
+                      componentClassID="{165A526D-D5DE-47FF-96A6-F8274C19826B}"
+                      contactInfo="OLE DB Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;7"
+                      description="OLE DB Source"
+                      name="Products Customers"
+                      usesDispositions="true"
+                      version="7">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                          name="CommandTimeout">0</property>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the name of the database object used to open a rowset."
+                          name="OpenRowset"></property>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the variable that contains the name of the database object used to open a rowset."
+                          name="OpenRowsetVariable"></property>
+                        <property
+                          dataType="System.String"
+                          description="The SQL command to be executed."
+                          name="SqlCommand"
+                          UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">--USE SEIS732_Team_21_Products
+
+SELECT  
+		c.CUST_ID		AS CUST_ID
+     , c.CUST_CITY		AS CUST_City
+     , c.CUST_COUNTY	AS CUST_County
+     , c.CUST_STATE		AS CUST_State
+     , c.CUST_COUNTRY	AS CUST_Country
+     , c.CUST_ZIP		AS CUST_Zip
+FROM dbo.Customer AS c</property>
+                        <property
+                          dataType="System.String"
+                          description="The variable that contains the SQL command to be executed."
+                          name="SqlCommandVariable"></property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the column code page to use when code page information is unavailable from the data source."
+                          name="DefaultCodePage">1252</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Forces the use of the DefaultCodePage property value when describing character data."
+                          name="AlwaysUseDefaultCodePage">false</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the mode used to access the database."
+                          name="AccessMode"
+                          typeConverter="AccessMode">2</property>
+                        <property
+                          dataType="System.String"
+                          description="The mappings between the parameters in the SQL command and variables."
+                          name="ParameterMapping"></property>
+                      </properties>
+                      <connections>
+                        <connection
+                          refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23200 Customers\Products Customers.Connections[OleDbConnection]"
+                          connectionManagerID="Package.ConnectionManagers[(local).SEIS732_Team_21_Products.SEIS732_Team_21_Products_User]"
+                          connectionManagerRefId="Package.ConnectionManagers[(local).SEIS732_Team_21_Products.SEIS732_Team_21_Products_User]"
+                          description="The OLE DB runtime connection used to access the database."
+                          name="OleDbConnection" />
+                      </connections>
+                      <outputs>
+                        <output
+                          refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23200 Customers\Products Customers.Outputs[OLE DB Source Output]"
+                          name="OLE DB Source Output">
+                          <outputColumns>
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23200 Customers\Products Customers.Outputs[OLE DB Source Output].Columns[CUST_ID]"
+                              dataType="i8"
+                              errorOrTruncationOperation="Conversion"
+                              errorRowDisposition="FailComponent"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23200 Customers\Products Customers.Outputs[OLE DB Source Output].ExternalColumns[CUST_ID]"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23200 Customers\Products Customers.Outputs[OLE DB Source Output].Columns[CUST_ID]"
+                              name="CUST_ID"
+                              truncationRowDisposition="FailComponent" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23200 Customers\Products Customers.Outputs[OLE DB Source Output].Columns[CUST_City]"
+                              codePage="1252"
+                              dataType="str"
+                              errorOrTruncationOperation="Conversion"
+                              errorRowDisposition="FailComponent"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23200 Customers\Products Customers.Outputs[OLE DB Source Output].ExternalColumns[CUST_City]"
+                              length="45"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23200 Customers\Products Customers.Outputs[OLE DB Source Output].Columns[CUST_City]"
+                              name="CUST_City"
+                              truncationRowDisposition="FailComponent" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23200 Customers\Products Customers.Outputs[OLE DB Source Output].Columns[CUST_County]"
+                              codePage="1252"
+                              dataType="str"
+                              errorOrTruncationOperation="Conversion"
+                              errorRowDisposition="FailComponent"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23200 Customers\Products Customers.Outputs[OLE DB Source Output].ExternalColumns[CUST_County]"
+                              length="60"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23200 Customers\Products Customers.Outputs[OLE DB Source Output].Columns[CUST_County]"
+                              name="CUST_County"
+                              truncationRowDisposition="FailComponent" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23200 Customers\Products Customers.Outputs[OLE DB Source Output].Columns[CUST_State]"
+                              codePage="1252"
+                              dataType="str"
+                              errorOrTruncationOperation="Conversion"
+                              errorRowDisposition="FailComponent"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23200 Customers\Products Customers.Outputs[OLE DB Source Output].ExternalColumns[CUST_State]"
+                              length="2"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23200 Customers\Products Customers.Outputs[OLE DB Source Output].Columns[CUST_State]"
+                              name="CUST_State"
+                              truncationRowDisposition="FailComponent" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23200 Customers\Products Customers.Outputs[OLE DB Source Output].Columns[CUST_Country]"
+                              codePage="1252"
+                              dataType="str"
+                              errorOrTruncationOperation="Conversion"
+                              errorRowDisposition="FailComponent"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23200 Customers\Products Customers.Outputs[OLE DB Source Output].ExternalColumns[CUST_Country]"
+                              length="60"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23200 Customers\Products Customers.Outputs[OLE DB Source Output].Columns[CUST_Country]"
+                              name="CUST_Country"
+                              truncationRowDisposition="FailComponent" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23200 Customers\Products Customers.Outputs[OLE DB Source Output].Columns[CUST_Zip]"
+                              codePage="1252"
+                              dataType="str"
+                              errorOrTruncationOperation="Conversion"
+                              errorRowDisposition="FailComponent"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23200 Customers\Products Customers.Outputs[OLE DB Source Output].ExternalColumns[CUST_Zip]"
+                              length="10"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23200 Customers\Products Customers.Outputs[OLE DB Source Output].Columns[CUST_Zip]"
+                              name="CUST_Zip"
+                              truncationRowDisposition="FailComponent" />
+                          </outputColumns>
+                          <externalMetadataColumns
+                            isUsed="True">
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23200 Customers\Products Customers.Outputs[OLE DB Source Output].ExternalColumns[CUST_ID]"
+                              dataType="i8"
+                              name="CUST_ID" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23200 Customers\Products Customers.Outputs[OLE DB Source Output].ExternalColumns[CUST_City]"
+                              codePage="1252"
+                              dataType="str"
+                              length="45"
+                              name="CUST_City" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23200 Customers\Products Customers.Outputs[OLE DB Source Output].ExternalColumns[CUST_County]"
+                              codePage="1252"
+                              dataType="str"
+                              length="60"
+                              name="CUST_County" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23200 Customers\Products Customers.Outputs[OLE DB Source Output].ExternalColumns[CUST_State]"
+                              codePage="1252"
+                              dataType="str"
+                              length="2"
+                              name="CUST_State" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23200 Customers\Products Customers.Outputs[OLE DB Source Output].ExternalColumns[CUST_Country]"
+                              codePage="1252"
+                              dataType="str"
+                              length="60"
+                              name="CUST_Country" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23200 Customers\Products Customers.Outputs[OLE DB Source Output].ExternalColumns[CUST_Zip]"
+                              codePage="1252"
+                              dataType="str"
+                              length="10"
+                              name="CUST_Zip" />
+                          </externalMetadataColumns>
+                        </output>
+                        <output
+                          refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23200 Customers\Products Customers.Outputs[OLE DB Source Error Output]"
+                          isErrorOut="true"
+                          name="OLE DB Source Error Output">
+                          <outputColumns>
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23200 Customers\Products Customers.Outputs[OLE DB Source Error Output].Columns[CUST_ID]"
+                              dataType="i8"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23200 Customers\Products Customers.Outputs[OLE DB Source Error Output].Columns[CUST_ID]"
+                              name="CUST_ID" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23200 Customers\Products Customers.Outputs[OLE DB Source Error Output].Columns[CUST_City]"
+                              codePage="1252"
+                              dataType="str"
+                              length="45"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23200 Customers\Products Customers.Outputs[OLE DB Source Error Output].Columns[CUST_City]"
+                              name="CUST_City" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23200 Customers\Products Customers.Outputs[OLE DB Source Error Output].Columns[CUST_County]"
+                              codePage="1252"
+                              dataType="str"
+                              length="60"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23200 Customers\Products Customers.Outputs[OLE DB Source Error Output].Columns[CUST_County]"
+                              name="CUST_County" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23200 Customers\Products Customers.Outputs[OLE DB Source Error Output].Columns[CUST_State]"
+                              codePage="1252"
+                              dataType="str"
+                              length="2"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23200 Customers\Products Customers.Outputs[OLE DB Source Error Output].Columns[CUST_State]"
+                              name="CUST_State" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23200 Customers\Products Customers.Outputs[OLE DB Source Error Output].Columns[CUST_Country]"
+                              codePage="1252"
+                              dataType="str"
+                              length="60"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23200 Customers\Products Customers.Outputs[OLE DB Source Error Output].Columns[CUST_Country]"
+                              name="CUST_Country" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23200 Customers\Products Customers.Outputs[OLE DB Source Error Output].Columns[CUST_Zip]"
+                              codePage="1252"
+                              dataType="str"
+                              length="10"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23200 Customers\Products Customers.Outputs[OLE DB Source Error Output].Columns[CUST_Zip]"
+                              name="CUST_Zip" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23200 Customers\Products Customers.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                              dataType="i4"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23200 Customers\Products Customers.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                              name="ErrorCode"
+                              specialFlags="1" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23200 Customers\Products Customers.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                              dataType="i4"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23200 Customers\Products Customers.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                              name="ErrorColumn"
+                              specialFlags="2" />
+                          </outputColumns>
+                          <externalMetadataColumns />
+                        </output>
+                      </outputs>
+                    </component>
+                    <component
+                      refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23200 Customers\Star Customers"
+                      componentClassID="{4ADA7EAA-136C-4215-8098-D7A7C27FC0D1}"
+                      contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
+                      description="OLE DB Destination"
+                      name="Star Customers"
+                      usesDispositions="true"
+                      version="4">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                          name="CommandTimeout">0</property>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the name of the database object used to open a rowset."
+                          name="OpenRowset">[dbo].[CUSTOMER]</property>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the variable that contains the name of the database object used to open a rowset."
+                          name="OpenRowsetVariable"></property>
+                        <property
+                          dataType="System.String"
+                          description="The SQL command to be executed."
+                          name="SqlCommand"
+                          UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the column code page to use when code page information is unavailable from the data source."
+                          name="DefaultCodePage">1252</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Forces the use of the DefaultCodePage property value when describing character data."
+                          name="AlwaysUseDefaultCodePage">false</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the mode used to access the database."
+                          name="AccessMode"
+                          typeConverter="AccessMode">3</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the values supplied for identity columns will be copied to the destination. If false, values for identity columns will be auto-generated at the destination. Applies only if fast load is turned on."
+                          name="FastLoadKeepIdentity">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the columns containing null will have null inserted in the destination. If false, columns containing null will have their default values inserted at the destination. Applies only if fast load is turned on."
+                          name="FastLoadKeepNulls">false</property>
+                        <property
+                          dataType="System.String"
+                          description="Specifies options to be used with fast load.  Applies only if fast load is turned on."
+                          name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies when commits are issued during data insertion.  A value of 0 specifies that one commit will be issued at the end of data insertion.  Applies only if fast load is turned on."
+                          name="FastLoadMaxInsertCommitSize">2147483647</property>
+                      </properties>
+                      <connections>
+                        <connection
+                          refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23200 Customers\Star Customers.Connections[OleDbConnection]"
+                          connectionManagerID="Package.ConnectionManagers[(local).SEIS732_Team_21_Star_Schema.SEIS732_Team_21_Star_Schema_User]"
+                          connectionManagerRefId="Package.ConnectionManagers[(local).SEIS732_Team_21_Star_Schema.SEIS732_Team_21_Star_Schema_User]"
+                          description="The OLE DB runtime connection used to access the database."
+                          name="OleDbConnection" />
+                      </connections>
+                      <inputs>
+                        <input
+                          refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23200 Customers\Star Customers.Inputs[OLE DB Destination Input]"
+                          errorOrTruncationOperation="Insert"
+                          errorRowDisposition="FailComponent"
+                          hasSideEffects="true"
+                          name="OLE DB Destination Input">
+                          <inputColumns>
+                            <inputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23200 Customers\Star Customers.Inputs[OLE DB Destination Input].Columns[CUST_ID]"
+                              cachedDataType="i8"
+                              cachedName="CUST_ID"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23200 Customers\Star Customers.Inputs[OLE DB Destination Input].ExternalColumns[CUST_ID]"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23200 Customers\Products Customers.Outputs[OLE DB Source Output].Columns[CUST_ID]" />
+                            <inputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23200 Customers\Star Customers.Inputs[OLE DB Destination Input].Columns[CUST_City]"
+                              cachedCodepage="1252"
+                              cachedDataType="str"
+                              cachedLength="45"
+                              cachedName="CUST_City"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23200 Customers\Star Customers.Inputs[OLE DB Destination Input].ExternalColumns[CUST_City]"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23200 Customers\Products Customers.Outputs[OLE DB Source Output].Columns[CUST_City]" />
+                            <inputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23200 Customers\Star Customers.Inputs[OLE DB Destination Input].Columns[CUST_County]"
+                              cachedCodepage="1252"
+                              cachedDataType="str"
+                              cachedLength="60"
+                              cachedName="CUST_County"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23200 Customers\Star Customers.Inputs[OLE DB Destination Input].ExternalColumns[CUST_County]"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23200 Customers\Products Customers.Outputs[OLE DB Source Output].Columns[CUST_County]" />
+                            <inputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23200 Customers\Star Customers.Inputs[OLE DB Destination Input].Columns[CUST_State]"
+                              cachedCodepage="1252"
+                              cachedDataType="str"
+                              cachedLength="2"
+                              cachedName="CUST_State"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23200 Customers\Star Customers.Inputs[OLE DB Destination Input].ExternalColumns[CUST_State]"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23200 Customers\Products Customers.Outputs[OLE DB Source Output].Columns[CUST_State]" />
+                            <inputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23200 Customers\Star Customers.Inputs[OLE DB Destination Input].Columns[CUST_Country]"
+                              cachedCodepage="1252"
+                              cachedDataType="str"
+                              cachedLength="60"
+                              cachedName="CUST_Country"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23200 Customers\Star Customers.Inputs[OLE DB Destination Input].ExternalColumns[CUST_Country]"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23200 Customers\Products Customers.Outputs[OLE DB Source Output].Columns[CUST_Country]" />
+                            <inputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23200 Customers\Star Customers.Inputs[OLE DB Destination Input].Columns[CUST_Zip]"
+                              cachedCodepage="1252"
+                              cachedDataType="str"
+                              cachedLength="10"
+                              cachedName="CUST_Zip"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23200 Customers\Star Customers.Inputs[OLE DB Destination Input].ExternalColumns[CUST_Zip]"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23200 Customers\Products Customers.Outputs[OLE DB Source Output].Columns[CUST_Zip]" />
+                          </inputColumns>
+                          <externalMetadataColumns
+                            isUsed="True">
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23200 Customers\Star Customers.Inputs[OLE DB Destination Input].ExternalColumns[CUST_Key]"
+                              dataType="numeric"
+                              name="CUST_Key"
+                              precision="18" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23200 Customers\Star Customers.Inputs[OLE DB Destination Input].ExternalColumns[CUST_ID]"
+                              dataType="i8"
+                              name="CUST_ID" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23200 Customers\Star Customers.Inputs[OLE DB Destination Input].ExternalColumns[CUST_City]"
+                              codePage="1252"
+                              dataType="str"
+                              length="45"
+                              name="CUST_City" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23200 Customers\Star Customers.Inputs[OLE DB Destination Input].ExternalColumns[CUST_County]"
+                              codePage="1252"
+                              dataType="str"
+                              length="60"
+                              name="CUST_County" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23200 Customers\Star Customers.Inputs[OLE DB Destination Input].ExternalColumns[CUST_State]"
+                              codePage="1252"
+                              dataType="str"
+                              length="2"
+                              name="CUST_State" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23200 Customers\Star Customers.Inputs[OLE DB Destination Input].ExternalColumns[CUST_Country]"
+                              codePage="1252"
+                              dataType="str"
+                              length="60"
+                              name="CUST_Country" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23200 Customers\Star Customers.Inputs[OLE DB Destination Input].ExternalColumns[CUST_Zip]"
+                              codePage="1252"
+                              dataType="str"
+                              length="10"
+                              name="CUST_Zip" />
+                          </externalMetadataColumns>
+                        </input>
+                      </inputs>
+                      <outputs>
+                        <output
+                          refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23200 Customers\Star Customers.Outputs[OLE DB Destination Error Output]"
+                          exclusionGroup="1"
+                          isErrorOut="true"
+                          name="OLE DB Destination Error Output"
+                          synchronousInputId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23200 Customers\Star Customers.Inputs[OLE DB Destination Input]">
+                          <outputColumns>
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23200 Customers\Star Customers.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                              dataType="i4"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23200 Customers\Star Customers.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                              name="ErrorCode"
+                              specialFlags="1" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23200 Customers\Star Customers.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                              dataType="i4"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23200 Customers\Star Customers.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                              name="ErrorColumn"
+                              specialFlags="2" />
+                          </outputColumns>
+                          <externalMetadataColumns />
+                        </output>
+                      </outputs>
+                    </component>
+                  </components>
+                  <paths>
+                    <path
+                      refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23200 Customers.Paths[OLE DB Source Output]"
+                      endId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23200 Customers\Star Customers.Inputs[OLE DB Destination Input]"
+                      name="OLE DB Source Output"
+                      startId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23200 Customers\Products Customers.Outputs[OLE DB Source Output]" />
+                  </paths>
+                </pipeline>
+              </DTS:ObjectData>
+            </DTS:Executable>
           </DTS:Executables>
         </DTS:Executable>
       </DTS:Executables>
@@ -2866,18 +3314,22 @@ FROM dbo.IncentiveProgram AS ip</property>
           Size="180,42"
           Id="Package\20000 Star SchemaTables Load\23000 Products DB Source\23100 Incentive Plan"
           TopLeft="26,18" />
+        <NodeLayout
+          Size="163,42"
+          Id="Package\20000 Star SchemaTables Load\23000 Products DB Source\23200 Customers"
+          TopLeft="33,85" />
         <ContainerLayout
           HeaderHeight="43"
           IsExpanded="True"
-          PanelSize="259,120"
-          Size="259,163"
+          PanelSize="259,179"
+          Size="259,222"
           Id="Package\20000 Star SchemaTables Load\23000 Products DB Source"
           TopLeft="372,252" />
         <ContainerLayout
           HeaderHeight="43"
           IsExpanded="True"
-          PanelSize="677,470"
-          Size="677,513"
+          PanelSize="677,529"
+          Size="677,572"
           Id="Package\20000 Star SchemaTables Load"
           TopLeft="170,299" />
         <NodeLayout
@@ -3203,6 +3655,65 @@ FROM dbo.IncentiveProgram AS ip</property>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\20000 Star SchemaTables Load\23000 Products DB Source\23100 Incentive Plan\Star Incentive Plan">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <TaskHost
+    design-time-name="Package\20000 Star SchemaTables Load\23000 Products DB Source\23200 Customers">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="175,42"
+          Id="Package\20000 Star SchemaTables Load\23000 Products DB Source\23200 Customers\Products Customers"
+          TopLeft="318,94" />
+        <NodeLayout
+          Size="153,42"
+          Id="Package\20000 Star SchemaTables Load\23000 Products DB Source\23200 Customers\Star Customers"
+          TopLeft="325,194" />
+        <EdgeLayout
+          Id="Package\20000 Star SchemaTables Load\23000 Products DB Source\23200 Customers.Paths[OLE DB Source Output]"
+          TopLeft="403.5,136">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,58"
+              Start="0,0"
+              End="0,50.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,50.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\20000 Star SchemaTables Load\23000 Products DB Source\23200 Customers\Products Customers">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\20000 Star SchemaTables Load\23000 Products DB Source\23200 Customers\Star Customers">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
