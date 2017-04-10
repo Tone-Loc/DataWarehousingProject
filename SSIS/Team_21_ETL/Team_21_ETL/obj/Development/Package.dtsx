@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="6"
-  DTS:VersionGUID="{509F0FCA-FC3A-4BFE-9483-A6AC15B24606}">
+  DTS:VersionBuild="10"
+  DTS:VersionGUID="{4642D402-37CF-4A10-B2ED-483B577375DF}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">6</DTS:Property>
   <DTS:ConnectionManagers>
@@ -27,7 +27,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeIll/ZDaXUKAdtm3s8eNfwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAAAFhPyRVzjgYYP38VgMEya9AAAAAASAAACgAAAAEAAAABhNmskMnVg4lXbXcOSPPbogAAAAmFIz4UyjNkl3bHaLGlu9/2UCv6R+Y6Po2rFsCvlKMKIUAAAA+vNnfWTPv7qBqkNsLG4yNQ2BYrg</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeIll/ZDaXUKAdtm3s8eNfwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAABCVPfipPxHNSCk3CtF5M6cAAAAAASAAACgAAAAEAAAAADREbcnJtFaHqnc1lsuqRMgAAAA1PCclKaILkt3ixB87Gl3sMX2uqMOopjQheAt0FajZb8UAAAAyeY3QeKgyJ7Zh8bGJ4057gmZqBE</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -42,7 +42,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeIll/ZDaXUKAdtm3s8eNfwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAAAOhPNjH117zQAT9ODBCAQ8AAAAAASAAACgAAAAEAAAADRxphkHpfFxF/l5QyBXWowgAAAA6o1w9lxs9H2KcCX9/y6atBACRY0tsb6P5wXyDT1SqjoUAAAAPcDs/2nICxzBnt/ZHq6JrrKatw4</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeIll/ZDaXUKAdtm3s8eNfwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAAAU1YwuqjyYeFk76IWxgu8uAAAAAASAAACgAAAAEAAAAOPko5mBUmMHYY4V3FU2hrMgAAAAHH/Tlab+0VBMM9ojwJ4fPk9DAFgYkQL2kHZP2OF36fkUAAAAYoD2CBK2RMkNLv28QAIKtSLx8wk</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -57,7 +57,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeIll/ZDaXUKAdtm3s8eNfwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAADQL5QTffLtH3pmwo8U9R7mAAAAAASAAACgAAAAEAAAAGpE8N/q6i+H1rjfiA3aUxQgAAAALRpdd6eIwnrv0waUokZAqkkyY8+szRwOOtHJltdbFO8UAAAAPdjzELntqWCWsyqKNJWvXtugheM</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeIll/ZDaXUKAdtm3s8eNfwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAADqBdJdA1YDh05VV0VntcU2AAAAAASAAACgAAAAEAAAAOun/BQ8grnlkFrwkB9Oj6YgAAAASPKXjNIONP0eZuz7WGCVHc77QS6xmMXxsJ8Ob57HpXIUAAAArw8y0x3GQGxbuXwH0M1sfSl7ltQ</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -65,23 +65,66 @@
   <DTS:Variables />
   <DTS:Executables>
     <DTS:Executable
-      DTS:refId="Package\10000 Clear Star Schema Tables"
-      DTS:CreationName="Microsoft.SqlServer.Dts.Tasks.ExecuteSQLTask.ExecuteSQLTask, Microsoft.SqlServer.SQLTask, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"
-      DTS:Description="Execute SQL Task"
-      DTS:DTSID="{0F3210FF-4D04-4169-82B3-91A3A86402E5}"
-      DTS:ExecutableType="Microsoft.SqlServer.Dts.Tasks.ExecuteSQLTask.ExecuteSQLTask, Microsoft.SqlServer.SQLTask, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"
+      DTS:refId="Package\10000 Clear Star Schema"
+      DTS:CreationName="STOCK:SEQUENCE"
+      DTS:Description="Sequence Container"
+      DTS:DTSID="{DDC446E7-A35F-49FE-B8F6-067A6FF02055}"
+      DTS:ExecutableType="STOCK:SEQUENCE"
       DTS:FailPackageOnFailure="True"
       DTS:FailParentOnFailure="True"
       DTS:LocaleID="-1"
-      DTS:ObjectName="10000 Clear Star Schema Tables"
-      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2012; © 2007 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="0">
+      DTS:ObjectName="10000 Clear Star Schema">
       <DTS:Variables />
-      <DTS:ObjectData>
-        <SQLTask:SqlTaskData
-          SQLTask:Connection="{1A017C9E-6014-4617-9B58-28F12A40EF33}"
-          SQLTask:SqlStatementSource="DELETE FROM dbo.CUSTOMER;&#xA;DELETE FROM dbo.DEALER;&#xA;DELETE FROM dbo.INCENTIVE_PLAN;&#xA;DELETE FROM dbo.MANUFACTURE_DATE;&#xA;DELETE FROM dbo.MANUFACTURING_PLANT;&#xA;DELETE FROM dbo.MSA;&#xA;DELETE FROM dbo.PACKAGE;&#xA;DELETE FROM dbo.PRODUCT;&#xA;DELETE FROM dbo.PURCHASE_DATE;&#xA;DELETE FROM dbo.RRV_SALES;&#xA;DELETE FROM dbo.SALES_ORG;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
-      </DTS:ObjectData>
+      <DTS:Executables>
+        <DTS:Executable
+          DTS:refId="Package\10000 Clear Star Schema\11000 Clear Star Schema Tables"
+          DTS:CreationName="Microsoft.SqlServer.Dts.Tasks.ExecuteSQLTask.ExecuteSQLTask, Microsoft.SqlServer.SQLTask, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"
+          DTS:Description="Execute SQL Task"
+          DTS:DTSID="{0F3210FF-4D04-4169-82B3-91A3A86402E5}"
+          DTS:ExecutableType="Microsoft.SqlServer.Dts.Tasks.ExecuteSQLTask.ExecuteSQLTask, Microsoft.SqlServer.SQLTask, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"
+          DTS:FailPackageOnFailure="True"
+          DTS:FailParentOnFailure="True"
+          DTS:LocaleID="-1"
+          DTS:ObjectName="11000 Clear Star Schema Tables"
+          DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2012; © 2007 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+          DTS:ThreadHint="0">
+          <DTS:Variables />
+          <DTS:ObjectData>
+            <SQLTask:SqlTaskData
+              SQLTask:Connection="{1A017C9E-6014-4617-9B58-28F12A40EF33}"
+              SQLTask:SqlStatementSource="DELETE FROM dbo.CUSTOMER;&#xA;DELETE FROM dbo.DEALER;&#xA;DELETE FROM dbo.INCENTIVE_PLAN;&#xA;DELETE FROM dbo.MANUFACTURE_DATE;&#xA;DELETE FROM dbo.MANUFACTURING_PLANT;&#xA;DELETE FROM dbo.MSA;&#xA;DELETE FROM dbo.PACKAGE;&#xA;DELETE FROM dbo.PRODUCT;&#xA;DELETE FROM dbo.PURCHASE_DATE;&#xA;DELETE FROM dbo.RRV_SALES;&#xA;DELETE FROM dbo.SALES_ORG;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          </DTS:ObjectData>
+        </DTS:Executable>
+        <DTS:Executable
+          DTS:refId="Package\10000 Clear Star Schema\12000 Reseed Star Schema Tables"
+          DTS:CreationName="Microsoft.SqlServer.Dts.Tasks.ExecuteSQLTask.ExecuteSQLTask, Microsoft.SqlServer.SQLTask, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"
+          DTS:Description="Execute SQL Task"
+          DTS:DTSID="{C2552CF2-F4C3-4B45-8B35-1E2D7B3DFE0F}"
+          DTS:ExecutableType="Microsoft.SqlServer.Dts.Tasks.ExecuteSQLTask.ExecuteSQLTask, Microsoft.SqlServer.SQLTask, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"
+          DTS:FailPackageOnFailure="True"
+          DTS:FailParentOnFailure="True"
+          DTS:LocaleID="-1"
+          DTS:ObjectName="12000 Reseed Star Schema Tables"
+          DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2012; © 2007 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+          DTS:ThreadHint="0">
+          <DTS:Variables />
+          <DTS:ObjectData>
+            <SQLTask:SqlTaskData
+              SQLTask:Connection="{1A017C9E-6014-4617-9B58-28F12A40EF33}"
+              SQLTask:SqlStatementSource="&#xA;--USE SEIS732_Team_21_Star_Schema&#xA;--reseed the tables&#xA;DBCC CHECKIDENT (CUSTOMER, reseed, 0);&#xA;DBCC CHECKIDENT (DEALER, reseed, 0);&#xA;DBCC CHECKIDENT (INCENTIVE_PLAN, reseed, 0);&#xA;DBCC CHECKIDENT (MANUFACTURE_DATE, reseed, 0);&#xA;DBCC CHECKIDENT (MANUFACTURING_PLANT, reseed, 0);&#xA;DBCC CHECKIDENT (MSA, reseed, 0);&#xA;DBCC CHECKIDENT (PACKAGE, reseed, 0);&#xA;DBCC CHECKIDENT (PRODUCT, reseed, 0);&#xA;DBCC CHECKIDENT (PURCHASE_DATE, reseed, 0);&#xA;DBCC CHECKIDENT (RRV_SALES, reseed, 0);&#xA;DBCC CHECKIDENT (SALES_ORG, reseed, 0);" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          </DTS:ObjectData>
+        </DTS:Executable>
+      </DTS:Executables>
+      <DTS:PrecedenceConstraints>
+        <DTS:PrecedenceConstraint
+          DTS:refId="Package\10000 Clear Star Schema.PrecedenceConstraints[Constraint]"
+          DTS:CreationName=""
+          DTS:DTSID="{4ADE78F1-CD2B-4C35-BF74-E52555670942}"
+          DTS:From="Package\10000 Clear Star Schema\11000 Clear Star Schema Tables"
+          DTS:LogicalAnd="True"
+          DTS:ObjectName="Constraint"
+          DTS:To="Package\10000 Clear Star Schema\12000 Reseed Star Schema Tables" />
+      </DTS:PrecedenceConstraints>
     </DTS:Executable>
     <DTS:Executable
       DTS:refId="Package\20000 Dealer Table"
@@ -89,6 +132,8 @@
       DTS:Description="Sequence Container"
       DTS:DTSID="{BF978ACE-937F-411B-88CA-5C2915DC4D91}"
       DTS:ExecutableType="STOCK:SEQUENCE"
+      DTS:FailPackageOnFailure="True"
+      DTS:FailParentOnFailure="True"
       DTS:LocaleID="-1"
       DTS:ObjectName="20000 Dealer Table">
       <DTS:Variables />
@@ -99,6 +144,8 @@
           DTS:Description="Data Flow Task"
           DTS:DTSID="{70C133DE-B50E-4438-AF5F-49CE49D01BDB}"
           DTS:ExecutableType="SSIS.Pipeline.3"
+          DTS:FailPackageOnFailure="True"
+          DTS:FailParentOnFailure="True"
           DTS:LocaleID="-1"
           DTS:ObjectName="21000 Corp Dealers"
           DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) 2007 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
@@ -1005,8 +1052,8 @@ ORDER BY a.DLR_ID asc</property>
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint]"
       DTS:CreationName=""
-      DTS:DTSID="{19B3062D-9D61-4E4F-9509-A3E590C31A97}"
-      DTS:From="Package\10000 Clear Star Schema Tables"
+      DTS:DTSID="{52DFD842-A49D-4939-8419-8C7211B3235F}"
+      DTS:From="Package\10000 Clear Star Schema"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint"
       DTS:To="Package\20000 Dealer Table" />
@@ -1022,11 +1069,7 @@ ORDER BY a.DLR_ID asc</property>
     design-time-name="Package">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
-        <NodeLayout
-          Size="234,42"
-          Id="Package\10000 Clear Star Schema Tables"
-          TopLeft="251,55" />
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="174,42"
           Id="Package\20000 Dealer Table\21000 Corp Dealers"
@@ -1034,36 +1077,73 @@ ORDER BY a.DLR_ID asc</property>
         <ContainerLayout
           HeaderHeight="43"
           IsExpanded="True"
-          PanelSize="302,121"
-          Size="302,164"
+          PanelSize="398,121"
+          Size="398,164"
           Id="Package\20000 Dealer Table"
-          TopLeft="230,146" />
+          TopLeft="241,300" />
+        <NodeLayout
+          Size="234,42"
+          Id="Package\10000 Clear Star Schema\11000 Clear Star Schema Tables"
+          TopLeft="16,5.5" />
+        <NodeLayout
+          Size="244,42"
+          Id="Package\10000 Clear Star Schema\12000 Reseed Star Schema Tables"
+          TopLeft="15,87" />
         <EdgeLayout
-          Id="Package.PrecedenceConstraints[Constraint]"
-          TopLeft="368,97">
+          Id="Package\10000 Clear Star Schema.PrecedenceConstraints[Constraint]"
+          TopLeft="135,47.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="13,49"
+              EndConnector="0,39.5"
               Start="0,0"
-              End="13,41.5">
+              End="0,32">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,20.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,20.5"
-                    Point2="0,24.5"
-                    Point3="4,24.5" />
+                    End="0,32" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <ContainerLayout
+          HeaderHeight="43"
+          IsExpanded="True"
+          PanelSize="280,181"
+          Size="280,224"
+          Id="Package\10000 Clear Star Schema"
+          TopLeft="291,19" />
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint]"
+          TopLeft="431,243">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="9,57"
+              Start="0,0"
+              End="9,49.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
                   <mssgle:LineSegment
-                    End="9,24.5" />
+                    End="0,24.5" />
                   <mssgle:CubicBezierSegment
-                    Point1="9,24.5"
-                    Point2="13,24.5"
-                    Point3="13,28.5" />
+                    Point1="0,24.5"
+                    Point2="0,28.5"
+                    Point3="4,28.5" />
                   <mssgle:LineSegment
-                    End="13,41.5" />
+                    End="5,28.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="5,28.5"
+                    Point2="9,28.5"
+                    Point3="9,32.5" />
+                  <mssgle:LineSegment
+                    End="9,49.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -1079,7 +1159,7 @@ ORDER BY a.DLR_ID asc</property>
     design-time-name="Package\20000 Dealer Table\21000 Corp Dealers">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="174,42"
           Id="Package\20000 Dealer Table\21000 Corp Dealers\21100 Corp Dealers"
@@ -1107,7 +1187,9 @@ ORDER BY a.DLR_ID asc</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
