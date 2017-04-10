@@ -25,6 +25,8 @@ ALTER TABLE [dbo].[RRV_Instance] ADD CONSTRAINT [FK_RRV_Instance_Has_FeatureSet_
 GO
 ALTER TABLE [dbo].[RRV_Instance] ADD CONSTRAINT [FK_RRV_Instance_Has_Vehicle_Type_Vehicle_Type] FOREIGN KEY ([VT_ID]) REFERENCES [dbo].[Vehicle_Type] ([VT_ID])
 GO
+GRANT SELECT ON  [dbo].[RRV_Instance] TO [SEIS732_Team_21_Products_User]
+GO
 EXEC sp_addextendedproperty N'MS_Description', 'This is a physical RV it must have a U, S, or A subtype', 'SCHEMA', N'dbo', 'TABLE', N'RRV_Instance', NULL, NULL
 GO
 EXEC sp_addextendedproperty N'MS_Description', 'This is the ID for a color', 'SCHEMA', N'dbo', 'TABLE', N'RRV_Instance', 'COLUMN', N'CLR_ID'

@@ -10,6 +10,8 @@ CREATE TABLE [dbo].[Dealer]
 GO
 ALTER TABLE [dbo].[Dealer] ADD CONSTRAINT [PK_Dealer] PRIMARY KEY NONCLUSTERED  ([DLR_ID]) ON [PRIMARY]
 GO
+GRANT SELECT ON  [dbo].[Dealer] TO [SEIS732_Team_21_Products_User]
+GO
 EXEC sp_addextendedproperty N'MS_Description', 'This is a dealer (a place that sells physical RVs)', 'SCHEMA', N'dbo', 'TABLE', N'Dealer', NULL, NULL
 GO
 EXEC sp_addextendedproperty N'MS_Description', 'This is the city for a dealership', 'SCHEMA', N'dbo', 'TABLE', N'Dealer', 'COLUMN', N'DLR_City'

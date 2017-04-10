@@ -13,6 +13,8 @@ CREATE NONCLUSTERED INDEX [VT_HAS_MMC_FK] ON [dbo].[Vehicle_Type] ([MMC_ID]) ON 
 GO
 ALTER TABLE [dbo].[Vehicle_Type] ADD CONSTRAINT [FK_Vehicle_Type_VT_Has_MMC_MMC] FOREIGN KEY ([MMC_ID]) REFERENCES [dbo].[MMC] ([MMC_ID])
 GO
+GRANT SELECT ON  [dbo].[Vehicle_Type] TO [SEIS732_Team_21_Products_User]
+GO
 EXEC sp_addextendedproperty N'MS_Description', 'This is a vehicle type (a unique combination of make, model class, color, and feature sets)', 'SCHEMA', N'dbo', 'TABLE', N'Vehicle_Type', NULL, NULL
 GO
 EXEC sp_addextendedproperty N'MS_Description', 'This is the ID for a combination of Make, Model, and Class', 'SCHEMA', N'dbo', 'TABLE', N'Vehicle_Type', 'COLUMN', N'MMC_ID'

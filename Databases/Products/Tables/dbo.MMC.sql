@@ -11,6 +11,8 @@ CREATE TABLE [dbo].[MMC]
 GO
 ALTER TABLE [dbo].[MMC] ADD CONSTRAINT [PK_MMC] PRIMARY KEY NONCLUSTERED  ([MMC_ID]) ON [PRIMARY]
 GO
+GRANT SELECT ON  [dbo].[MMC] TO [SEIS732_Team_21_Products_User]
+GO
 EXEC sp_addextendedproperty N'MS_Description', 'This is the make, model. and class information for a vehicle type', 'SCHEMA', N'dbo', 'TABLE', N'MMC', NULL, NULL
 GO
 EXEC sp_addextendedproperty N'MS_Description', 'This is the description of the class', 'SCHEMA', N'dbo', 'TABLE', N'MMC', 'COLUMN', N'MMC_Class_Desc'

@@ -6,6 +6,8 @@ CREATE TABLE [dbo].[FeatureSet]
 GO
 ALTER TABLE [dbo].[FeatureSet] ADD CONSTRAINT [PK_FeatureSet] PRIMARY KEY NONCLUSTERED  ([FS_ID]) ON [PRIMARY]
 GO
+GRANT SELECT ON  [dbo].[FeatureSet] TO [SEIS732_Team_21_Products_User]
+GO
 EXEC sp_addextendedproperty N'MS_Description', 'This is a set of feature types and values', 'SCHEMA', N'dbo', 'TABLE', N'FeatureSet', NULL, NULL
 GO
 EXEC sp_addextendedproperty N'MS_Description', 'This is the ID for a set of features', 'SCHEMA', N'dbo', 'TABLE', N'FeatureSet', 'COLUMN', N'FS_ID'

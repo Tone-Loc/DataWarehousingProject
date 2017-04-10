@@ -17,6 +17,8 @@ ALTER TABLE [dbo].[Allocated] ADD CONSTRAINT [FK_Allocated_Allocated_to_Dealer_D
 GO
 ALTER TABLE [dbo].[Allocated] ADD CONSTRAINT [FK_Allocated_ISA_RRV_RRV_Instance] FOREIGN KEY ([RV_Serial_Number]) REFERENCES [dbo].[RRV_Instance] ([RV_Serial_Number])
 GO
+GRANT SELECT ON  [dbo].[Allocated] TO [SEIS732_Team_21_Products_User]
+GO
 EXEC sp_addextendedproperty N'MS_Description', 'This is a physical RV that has been allocated to a dealer', 'SCHEMA', N'dbo', 'TABLE', N'Allocated', NULL, NULL
 GO
 EXEC sp_addextendedproperty N'MS_Description', 'This is the date that a RRV instance was allocated to a dealership', 'SCHEMA', N'dbo', 'TABLE', N'Allocated', 'COLUMN', N'Allocation_Date'

@@ -7,6 +7,8 @@ CREATE TABLE [dbo].[Color]
 GO
 ALTER TABLE [dbo].[Color] ADD CONSTRAINT [PK_Color] PRIMARY KEY NONCLUSTERED  ([CLR_ID]) ON [PRIMARY]
 GO
+GRANT SELECT ON  [dbo].[Color] TO [SEIS732_Team_21_Products_User]
+GO
 EXEC sp_addextendedproperty N'MS_Description', 'This is a color for a vehicle type', 'SCHEMA', N'dbo', 'TABLE', N'Color', NULL, NULL
 GO
 EXEC sp_addextendedproperty N'MS_Description', 'This is the description of a color.', 'SCHEMA', N'dbo', 'TABLE', N'Color', 'COLUMN', N'CLR_Description'

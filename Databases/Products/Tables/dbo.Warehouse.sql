@@ -10,6 +10,8 @@ CREATE TABLE [dbo].[Warehouse]
 GO
 ALTER TABLE [dbo].[Warehouse] ADD CONSTRAINT [PK_Warehouse] PRIMARY KEY NONCLUSTERED  ([WH_ID]) ON [PRIMARY]
 GO
+GRANT SELECT ON  [dbo].[Warehouse] TO [SEIS732_Team_21_Products_User]
+GO
 EXEC sp_addextendedproperty N'MS_Description', 'This is a brach office that has storage of RRV''s which are unallocated', 'SCHEMA', N'dbo', 'TABLE', N'Warehouse', NULL, NULL
 GO
 EXEC sp_addextendedproperty N'MS_Description', 'The warehouse code, a unique value used to identify the warehouse at the enterprise-wide level', 'SCHEMA', N'dbo', 'TABLE', N'Warehouse', 'COLUMN', N'WH_Code'

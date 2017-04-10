@@ -11,6 +11,8 @@ CREATE TABLE [dbo].[IncentiveProgram]
 GO
 ALTER TABLE [dbo].[IncentiveProgram] ADD CONSTRAINT [PK_IncentiveProgram] PRIMARY KEY NONCLUSTERED  ([IP_ID]) ON [PRIMARY]
 GO
+GRANT SELECT ON  [dbo].[IncentiveProgram] TO [SEIS732_Team_21_Products_User]
+GO
 EXEC sp_addextendedproperty N'MS_Description', 'This is the incentive program that an RRV was sold under (there is a standard program used as the default)', 'SCHEMA', N'dbo', 'TABLE', N'IncentiveProgram', NULL, NULL
 GO
 EXEC sp_addextendedproperty N'MS_Description', 'This is the description for an incentive program', 'SCHEMA', N'dbo', 'TABLE', N'IncentiveProgram', 'COLUMN', N'IP_Desc'

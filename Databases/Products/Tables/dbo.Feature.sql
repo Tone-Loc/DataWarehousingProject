@@ -13,6 +13,8 @@ CREATE NONCLUSTERED INDEX [HAS_FEATURE_FK] ON [dbo].[Feature] ([FS_ID]) ON [PRIM
 GO
 ALTER TABLE [dbo].[Feature] ADD CONSTRAINT [FK_Feature_Has_Feature_FeatureSet] FOREIGN KEY ([FS_ID]) REFERENCES [dbo].[FeatureSet] ([FS_ID])
 GO
+GRANT SELECT ON  [dbo].[Feature] TO [SEIS732_Team_21_Products_User]
+GO
 EXEC sp_addextendedproperty N'MS_Description', 'This is single feature type and value', 'SCHEMA', N'dbo', 'TABLE', N'Feature', NULL, NULL
 GO
 EXEC sp_addextendedproperty N'MS_Description', 'This is the Description for a feature', 'SCHEMA', N'dbo', 'TABLE', N'Feature', 'COLUMN', N'FEA_Description'

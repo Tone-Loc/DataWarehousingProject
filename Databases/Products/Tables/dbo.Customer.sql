@@ -17,6 +17,8 @@ CREATE TABLE [dbo].[Customer]
 GO
 ALTER TABLE [dbo].[Customer] ADD CONSTRAINT [PK_Customer] PRIMARY KEY NONCLUSTERED  ([CUST_ID]) ON [PRIMARY]
 GO
+GRANT SELECT ON  [dbo].[Customer] TO [SEIS732_Team_21_Products_User]
+GO
 EXEC sp_addextendedproperty N'MS_Description', 'This is someone who has bought at least one physical vehicle', 'SCHEMA', N'dbo', 'TABLE', N'Customer', NULL, NULL
 GO
 EXEC sp_addextendedproperty N'MS_Description', 'This is a customer''s street address', 'SCHEMA', N'dbo', 'TABLE', N'Customer', 'COLUMN', N'CUST_ADDR'
