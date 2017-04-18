@@ -33,6 +33,8 @@ ALTER TABLE [dbo].[Sold] ADD CONSTRAINT [FK_Sold_ISA_Allocated_Allocated] FOREIG
 GO
 ALTER TABLE [dbo].[Sold] ADD CONSTRAINT [FK_Sold_Using_Plan_IncentiveProgram] FOREIGN KEY ([IP_ID]) REFERENCES [dbo].[IncentiveProgram] ([IP_ID])
 GO
+GRANT SELECT ON  [dbo].[Sold] TO [SEIS732_Team_21_Products_User]
+GO
 EXEC sp_addextendedproperty N'MS_Description', 'This is a physical RV that has been sold', 'SCHEMA', N'dbo', 'TABLE', N'Sold', NULL, NULL
 GO
 EXEC sp_addextendedproperty N'MS_Description', 'This is the actual sales amount for a sale (Tax NOT included)
