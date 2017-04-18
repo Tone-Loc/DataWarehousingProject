@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="20"
-  DTS:VersionGUID="{DDDD80C6-49DC-472B-A4E3-EF1476B82395}">
+  DTS:VersionBuild="21"
+  DTS:VersionGUID="{437D4C15-4965-4CE1-AF04-6D8BFBD5EE82}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">6</DTS:Property>
   <DTS:ConnectionManagers>
@@ -27,7 +27,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeIll/ZDaXUKAdtm3s8eNfwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAABXK9CAFlslIU/hoXpa6vqNAAAAAASAAACgAAAAEAAAAOzFaO3S1qe0+xPyK8oLqbIgAAAAeDWgXtJOotS95qNg9fkcCU3Thbwme4Ewvy4fN6ZTtfwUAAAADgdAgLFk+QnBlzwHPuyljhatiRk</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeIll/ZDaXUKAdtm3s8eNfwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAAAlRc13a72S+dJdUiLB8UaTAAAAAASAAACgAAAAEAAAAEg4JIWFOEWeFurFpFXL50ogAAAAKK0mEtaz4hzYB/H2II1DiYTt1e5gjrsQfxhBJX1MU14UAAAAQSHNx8OWs+fJBqAxOWBbvXdBCIA</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -42,7 +42,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeIll/ZDaXUKAdtm3s8eNfwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAABohVKad7jfrS1jgXXWRx4YAAAAAASAAACgAAAAEAAAAFmgXhI9Es8EKP1TMYwykHQgAAAAvC3LJAZDS0ax7gIKbMuzYUxOItBgxBjEbHfvpKyUXYcUAAAAA0hkpZeZsAyF0ewU327RlgL9FPY</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeIll/ZDaXUKAdtm3s8eNfwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAADhrqsdcXLMAdMSbLeg7xa5AAAAAASAAACgAAAAEAAAAAt/sim7Te9QlrF7dQ+pdQkgAAAAwtBT8APdNSiHUWF2B6BAioMDm4NV2k0XMsBvz8jFa8kUAAAAOVHQMZW+bedRvVuI9HWcPwenf4A</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -57,7 +57,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeIll/ZDaXUKAdtm3s8eNfwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAABtjY5yyDWPgGvUrl9iqsEWAAAAAASAAACgAAAAEAAAAPVhd5xQXEPR7rdtf3A01o8gAAAAqeDTbQbi0HZPqNqZmRCp7ZXvMb3V1//gOVG9JMAP1XEUAAAA0yOAMoIdkVBD/KvxB7kq81DpvCQ</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeIll/ZDaXUKAdtm3s8eNfwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAAAZ84s1nqPpYoyrSbZHqPJgAAAAAASAAACgAAAAEAAAANNS8opA1cS+ThQ86A6WRTYgAAAAsj6hcPZKoEfa0rWmmXBn6Yd/Z5m0hG/hoC/SeKQ4VicUAAAALi8v7ORqBOf0LR4NBCEvbttp7oo</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -72,7 +72,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeIll/ZDaXUKAdtm3s8eNfwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAAAAimXMw7RL+Y76Xq8iuoGVAAAAAASAAACgAAAAEAAAAObE093AAgXE0zFVC8ev7s8gAAAAll0lTfI/cYai0sVvUK/JA/PBNgO8O5THQCztyU5d/+0UAAAAUO5uk+nwdB61DKSPk0qW4adTiPE</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeIll/ZDaXUKAdtm3s8eNfwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAABMgIyRGtGKA1hi9qagVjawAAAAAASAAACgAAAAEAAAALwv2hrnczEVak3RlcUH0PAgAAAAqBEQ2L9841L5z/Lc6N0lmm99KCoEY1JhGEvIKt+Sa64UAAAAt+TaX6qWQDKqCdGhWKVVw9q7/WE</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -3908,6 +3908,840 @@ FROM dbo.Customer AS c</property>
                 </pipeline>
               </DTS:ObjectData>
             </DTS:Executable>
+            <DTS:Executable
+              DTS:refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products"
+              DTS:CreationName="SSIS.Pipeline.3"
+              DTS:Description="Data Flow Task"
+              DTS:DTSID="{042FDE2D-7802-465A-8DAA-7ED2FE160413}"
+              DTS:ExecutableType="SSIS.Pipeline.3"
+              DTS:LocaleID="-1"
+              DTS:ObjectName="23300 Products"
+              DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) 2007 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+              <DTS:Variables />
+              <DTS:ObjectData>
+                <pipeline
+                  version="1">
+                  <components>
+                    <component
+                      refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products"
+                      componentClassID="{165A526D-D5DE-47FF-96A6-F8274C19826B}"
+                      contactInfo="OLE DB Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;7"
+                      description="OLE DB Source"
+                      name="Products"
+                      usesDispositions="true"
+                      version="7">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                          name="CommandTimeout">0</property>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the name of the database object used to open a rowset."
+                          name="OpenRowset"></property>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the variable that contains the name of the database object used to open a rowset."
+                          name="OpenRowsetVariable"></property>
+                        <property
+                          dataType="System.String"
+                          description="The SQL command to be executed."
+                          name="SqlCommand"
+                          UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">--USE SEIS732_Team_21_Products;
+
+
+SELECT 0 AS PRD_Make_Key, --?
+    m.MMC_Make_Name AS PRD_Make_Name,
+    m.MMC_Make_Desc AS PRD_Make_Description,
+    0 AS PRD_Model_Key,   --?
+    m.MMC_Model_Name AS PRD_Model_Name,
+    m.MMC_Model_Desc AS PRD_Model_Description,
+    0 AS PRD_Class_Key,  --?
+    m.MMC_Class_Name AS PRD_Class_Name,
+    m.MMC_Class_Desc AS PRD_Class_Description,
+    0 AS PRD_Color_Key, --?
+	c.CLR_ID AS PRD_Color_ID,
+    c.CLR_Name AS PRD_Color_Name,
+    c.CLR_Description AS PRD_Color_Description,
+    vt.VT_Model_Year AS PRD_Model_Year,
+    vt.VT_ID AS PRD_VehicleType_ID,
+    vt.VT_MSRP AS PRD_Manufacturer_Suggested_Retail_Price,
+    vt.VT_Wholesale_Price AS PRD_Wholesale_Price,
+    m.MMC_ID AS PRD_MMC_ID
+FROM dbo.RRV_Instance AS ri
+    INNER JOIN dbo.Vehicle_Type AS vt
+        ON ri.VT_ID = vt.VT_ID
+    INNER JOIN dbo.MMC AS m
+        ON vt.MMC_ID = m.MMC_ID
+    INNER JOIN dbo.Color AS c
+        ON ri.CLR_ID = c.CLR_ID;</property>
+                        <property
+                          dataType="System.String"
+                          description="The variable that contains the SQL command to be executed."
+                          name="SqlCommandVariable"></property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the column code page to use when code page information is unavailable from the data source."
+                          name="DefaultCodePage">1252</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Forces the use of the DefaultCodePage property value when describing character data."
+                          name="AlwaysUseDefaultCodePage">false</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the mode used to access the database."
+                          name="AccessMode"
+                          typeConverter="AccessMode">2</property>
+                        <property
+                          dataType="System.String"
+                          description="The mappings between the parameters in the SQL command and variables."
+                          name="ParameterMapping"></property>
+                      </properties>
+                      <connections>
+                        <connection
+                          refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Connections[OleDbConnection]"
+                          connectionManagerID="Package.ConnectionManagers[(local).SEIS732_Team_21_Products.SEIS732_Team_21_Products_User]"
+                          connectionManagerRefId="Package.ConnectionManagers[(local).SEIS732_Team_21_Products.SEIS732_Team_21_Products_User]"
+                          description="The OLE DB runtime connection used to access the database."
+                          name="OleDbConnection" />
+                      </connections>
+                      <outputs>
+                        <output
+                          refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Output]"
+                          name="OLE DB Source Output">
+                          <outputColumns>
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Output].Columns[PRD_Make_Name]"
+                              codePage="1252"
+                              dataType="str"
+                              errorOrTruncationOperation="Conversion"
+                              errorRowDisposition="FailComponent"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Output].ExternalColumns[PRD_Make_Name]"
+                              length="40"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Output].Columns[PRD_Make_Name]"
+                              name="PRD_Make_Name"
+                              truncationRowDisposition="FailComponent" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Output].Columns[PRD_Make_Description]"
+                              codePage="1252"
+                              dataType="str"
+                              errorOrTruncationOperation="Conversion"
+                              errorRowDisposition="FailComponent"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Output].ExternalColumns[PRD_Make_Description]"
+                              length="256"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Output].Columns[PRD_Make_Description]"
+                              name="PRD_Make_Description"
+                              truncationRowDisposition="FailComponent" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Output].Columns[PRD_Model_Key]"
+                              dataType="i4"
+                              errorOrTruncationOperation="Conversion"
+                              errorRowDisposition="FailComponent"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Output].ExternalColumns[PRD_Model_Key]"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Output].Columns[PRD_Model_Key]"
+                              name="PRD_Model_Key"
+                              truncationRowDisposition="FailComponent" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Output].Columns[PRD_Model_Name]"
+                              codePage="1252"
+                              dataType="str"
+                              errorOrTruncationOperation="Conversion"
+                              errorRowDisposition="FailComponent"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Output].ExternalColumns[PRD_Model_Name]"
+                              length="40"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Output].Columns[PRD_Model_Name]"
+                              name="PRD_Model_Name"
+                              truncationRowDisposition="FailComponent" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Output].Columns[PRD_Model_Description]"
+                              codePage="1252"
+                              dataType="str"
+                              errorOrTruncationOperation="Conversion"
+                              errorRowDisposition="FailComponent"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Output].ExternalColumns[PRD_Model_Description]"
+                              length="256"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Output].Columns[PRD_Model_Description]"
+                              name="PRD_Model_Description"
+                              truncationRowDisposition="FailComponent" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Output].Columns[PRD_Class_Name]"
+                              codePage="1252"
+                              dataType="str"
+                              errorOrTruncationOperation="Conversion"
+                              errorRowDisposition="FailComponent"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Output].ExternalColumns[PRD_Class_Name]"
+                              length="40"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Output].Columns[PRD_Class_Name]"
+                              name="PRD_Class_Name"
+                              truncationRowDisposition="FailComponent" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Output].Columns[PRD_Class_Description]"
+                              codePage="1252"
+                              dataType="str"
+                              errorOrTruncationOperation="Conversion"
+                              errorRowDisposition="FailComponent"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Output].ExternalColumns[PRD_Class_Description]"
+                              length="256"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Output].Columns[PRD_Class_Description]"
+                              name="PRD_Class_Description"
+                              truncationRowDisposition="FailComponent" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Output].Columns[PRD_Color_Name]"
+                              codePage="1252"
+                              dataType="str"
+                              errorOrTruncationOperation="Conversion"
+                              errorRowDisposition="FailComponent"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Output].ExternalColumns[PRD_Color_Name]"
+                              length="40"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Output].Columns[PRD_Color_Name]"
+                              name="PRD_Color_Name"
+                              truncationRowDisposition="FailComponent" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Output].Columns[PRD_Color_Description]"
+                              codePage="1252"
+                              dataType="str"
+                              errorOrTruncationOperation="Conversion"
+                              errorRowDisposition="FailComponent"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Output].ExternalColumns[PRD_Color_Description]"
+                              length="256"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Output].Columns[PRD_Color_Description]"
+                              name="PRD_Color_Description"
+                              truncationRowDisposition="FailComponent" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Output].Columns[PRD_Model_Year]"
+                              dataType="i2"
+                              errorOrTruncationOperation="Conversion"
+                              errorRowDisposition="FailComponent"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Output].ExternalColumns[PRD_Model_Year]"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Output].Columns[PRD_Model_Year]"
+                              name="PRD_Model_Year"
+                              truncationRowDisposition="FailComponent" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Output].Columns[PRD_VehicleType_ID]"
+                              dataType="i8"
+                              errorOrTruncationOperation="Conversion"
+                              errorRowDisposition="FailComponent"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Output].ExternalColumns[PRD_VehicleType_ID]"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Output].Columns[PRD_VehicleType_ID]"
+                              name="PRD_VehicleType_ID"
+                              truncationRowDisposition="FailComponent" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Output].Columns[PRD_Wholesale_Price]"
+                              dataType="cy"
+                              errorOrTruncationOperation="Conversion"
+                              errorRowDisposition="FailComponent"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Output].ExternalColumns[PRD_Wholesale_Price]"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Output].Columns[PRD_Wholesale_Price]"
+                              name="PRD_Wholesale_Price"
+                              truncationRowDisposition="FailComponent" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Output].Columns[PRD_MMC_ID]"
+                              dataType="i2"
+                              errorOrTruncationOperation="Conversion"
+                              errorRowDisposition="FailComponent"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Output].ExternalColumns[PRD_MMC_ID]"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Output].Columns[PRD_MMC_ID]"
+                              name="PRD_MMC_ID"
+                              truncationRowDisposition="FailComponent" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Output].Columns[PRD_Make_Key]"
+                              dataType="i4"
+                              errorOrTruncationOperation="Conversion"
+                              errorRowDisposition="FailComponent"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Output].ExternalColumns[PRD_Make_Key]"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Output].Columns[PRD_Make_Key]"
+                              name="PRD_Make_Key"
+                              truncationRowDisposition="FailComponent" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Output].Columns[PRD_Class_Key]"
+                              dataType="i4"
+                              errorOrTruncationOperation="Conversion"
+                              errorRowDisposition="FailComponent"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Output].ExternalColumns[PRD_Class_Key]"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Output].Columns[PRD_Class_Key]"
+                              name="PRD_Class_Key"
+                              truncationRowDisposition="FailComponent" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Output].Columns[PRD_Color_Key]"
+                              dataType="i4"
+                              errorOrTruncationOperation="Conversion"
+                              errorRowDisposition="FailComponent"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Output].ExternalColumns[PRD_Color_Key]"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Output].Columns[PRD_Color_Key]"
+                              name="PRD_Color_Key"
+                              truncationRowDisposition="FailComponent" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Output].Columns[PRD_Color_ID]"
+                              dataType="i8"
+                              errorOrTruncationOperation="Conversion"
+                              errorRowDisposition="FailComponent"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Output].ExternalColumns[PRD_Color_ID]"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Output].Columns[PRD_Color_ID]"
+                              name="PRD_Color_ID"
+                              truncationRowDisposition="FailComponent" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Output].Columns[PRD_Manufacturer_Suggested_Retail_Price]"
+                              dataType="cy"
+                              errorOrTruncationOperation="Conversion"
+                              errorRowDisposition="FailComponent"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Output].ExternalColumns[PRD_Manufacturer_Suggested_Retail_Price]"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Output].Columns[PRD_Manufacturer_Suggested_Retail_Price]"
+                              name="PRD_Manufacturer_Suggested_Retail_Price"
+                              truncationRowDisposition="FailComponent" />
+                          </outputColumns>
+                          <externalMetadataColumns
+                            isUsed="True">
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Output].ExternalColumns[PRD_Make_Name]"
+                              codePage="1252"
+                              dataType="str"
+                              length="40"
+                              name="PRD_Make_Name" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Output].ExternalColumns[PRD_Make_Description]"
+                              codePage="1252"
+                              dataType="str"
+                              length="256"
+                              name="PRD_Make_Description" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Output].ExternalColumns[PRD_Model_Key]"
+                              dataType="i4"
+                              name="PRD_Model_Key" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Output].ExternalColumns[PRD_Model_Name]"
+                              codePage="1252"
+                              dataType="str"
+                              length="40"
+                              name="PRD_Model_Name" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Output].ExternalColumns[PRD_Model_Description]"
+                              codePage="1252"
+                              dataType="str"
+                              length="256"
+                              name="PRD_Model_Description" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Output].ExternalColumns[PRD_Class_Name]"
+                              codePage="1252"
+                              dataType="str"
+                              length="40"
+                              name="PRD_Class_Name" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Output].ExternalColumns[PRD_Class_Description]"
+                              codePage="1252"
+                              dataType="str"
+                              length="256"
+                              name="PRD_Class_Description" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Output].ExternalColumns[PRD_Color_Name]"
+                              codePage="1252"
+                              dataType="str"
+                              length="40"
+                              name="PRD_Color_Name" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Output].ExternalColumns[PRD_Color_Description]"
+                              codePage="1252"
+                              dataType="str"
+                              length="256"
+                              name="PRD_Color_Description" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Output].ExternalColumns[PRD_Model_Year]"
+                              dataType="i2"
+                              name="PRD_Model_Year" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Output].ExternalColumns[PRD_VehicleType_ID]"
+                              dataType="i8"
+                              name="PRD_VehicleType_ID" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Output].ExternalColumns[PRD_Wholesale_Price]"
+                              dataType="cy"
+                              name="PRD_Wholesale_Price" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Output].ExternalColumns[PRD_MMC_ID]"
+                              dataType="i2"
+                              name="PRD_MMC_ID" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Output].ExternalColumns[PRD_Make_Key]"
+                              dataType="i4"
+                              name="PRD_Make_Key" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Output].ExternalColumns[PRD_Class_Key]"
+                              dataType="i4"
+                              name="PRD_Class_Key" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Output].ExternalColumns[PRD_Color_Key]"
+                              dataType="i4"
+                              name="PRD_Color_Key" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Output].ExternalColumns[PRD_Color_ID]"
+                              dataType="i8"
+                              name="PRD_Color_ID" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Output].ExternalColumns[PRD_Manufacturer_Suggested_Retail_Price]"
+                              dataType="cy"
+                              name="PRD_Manufacturer_Suggested_Retail_Price" />
+                          </externalMetadataColumns>
+                        </output>
+                        <output
+                          refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Error Output]"
+                          isErrorOut="true"
+                          name="OLE DB Source Error Output">
+                          <outputColumns>
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Error Output].Columns[PRD_Make_Key]"
+                              dataType="i4"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Error Output].Columns[PRD_Make_Key]"
+                              name="PRD_Make_Key" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Error Output].Columns[PRD_Make_Name]"
+                              codePage="1252"
+                              dataType="str"
+                              length="40"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Error Output].Columns[PRD_Make_Name]"
+                              name="PRD_Make_Name" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Error Output].Columns[PRD_Make_Description]"
+                              codePage="1252"
+                              dataType="str"
+                              length="256"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Error Output].Columns[PRD_Make_Description]"
+                              name="PRD_Make_Description" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Error Output].Columns[PRD_Model_Key]"
+                              dataType="i4"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Error Output].Columns[PRD_Model_Key]"
+                              name="PRD_Model_Key" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Error Output].Columns[PRD_Model_Name]"
+                              codePage="1252"
+                              dataType="str"
+                              length="40"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Error Output].Columns[PRD_Model_Name]"
+                              name="PRD_Model_Name" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Error Output].Columns[PRD_Model_Description]"
+                              codePage="1252"
+                              dataType="str"
+                              length="256"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Error Output].Columns[PRD_Model_Description]"
+                              name="PRD_Model_Description" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Error Output].Columns[PRD_Class_Key]"
+                              dataType="i4"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Error Output].Columns[PRD_Class_Key]"
+                              name="PRD_Class_Key" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Error Output].Columns[PRD_Class_Name]"
+                              codePage="1252"
+                              dataType="str"
+                              length="40"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Error Output].Columns[PRD_Class_Name]"
+                              name="PRD_Class_Name" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Error Output].Columns[PRD_Class_Description]"
+                              codePage="1252"
+                              dataType="str"
+                              length="256"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Error Output].Columns[PRD_Class_Description]"
+                              name="PRD_Class_Description" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Error Output].Columns[PRD_Color_Key]"
+                              dataType="i4"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Error Output].Columns[PRD_Color_Key]"
+                              name="PRD_Color_Key" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Error Output].Columns[PRD_Color_ID]"
+                              dataType="i8"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Error Output].Columns[PRD_Color_ID]"
+                              name="PRD_Color_ID" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Error Output].Columns[PRD_Color_Name]"
+                              codePage="1252"
+                              dataType="str"
+                              length="40"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Error Output].Columns[PRD_Color_Name]"
+                              name="PRD_Color_Name" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Error Output].Columns[PRD_Color_Description]"
+                              codePage="1252"
+                              dataType="str"
+                              length="256"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Error Output].Columns[PRD_Color_Description]"
+                              name="PRD_Color_Description" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Error Output].Columns[PRD_Model_Year]"
+                              dataType="i2"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Error Output].Columns[PRD_Model_Year]"
+                              name="PRD_Model_Year" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Error Output].Columns[PRD_VehicleType_ID]"
+                              dataType="i8"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Error Output].Columns[PRD_VehicleType_ID]"
+                              name="PRD_VehicleType_ID" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Error Output].Columns[PRD_Manufacturer_Suggested_Retail_Price]"
+                              dataType="cy"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Error Output].Columns[PRD_Manufacturer_Suggested_Retail_Price]"
+                              name="PRD_Manufacturer_Suggested_Retail_Price" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Error Output].Columns[PRD_Wholesale_Price]"
+                              dataType="cy"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Error Output].Columns[PRD_Wholesale_Price]"
+                              name="PRD_Wholesale_Price" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Error Output].Columns[PRD_MMC_ID]"
+                              dataType="i2"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Error Output].Columns[PRD_MMC_ID]"
+                              name="PRD_MMC_ID" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                              dataType="i4"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                              name="ErrorCode"
+                              specialFlags="1" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                              dataType="i4"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                              name="ErrorColumn"
+                              specialFlags="2" />
+                          </outputColumns>
+                          <externalMetadataColumns />
+                        </output>
+                      </outputs>
+                    </component>
+                    <component
+                      refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Star Schema Product"
+                      componentClassID="{4ADA7EAA-136C-4215-8098-D7A7C27FC0D1}"
+                      contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
+                      description="OLE DB Destination"
+                      name="Star Schema Product"
+                      usesDispositions="true"
+                      version="4">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                          name="CommandTimeout">0</property>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the name of the database object used to open a rowset."
+                          name="OpenRowset">[dbo].[PRODUCT]</property>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the variable that contains the name of the database object used to open a rowset."
+                          name="OpenRowsetVariable"></property>
+                        <property
+                          dataType="System.String"
+                          description="The SQL command to be executed."
+                          name="SqlCommand"
+                          UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the column code page to use when code page information is unavailable from the data source."
+                          name="DefaultCodePage">1252</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Forces the use of the DefaultCodePage property value when describing character data."
+                          name="AlwaysUseDefaultCodePage">false</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the mode used to access the database."
+                          name="AccessMode"
+                          typeConverter="AccessMode">3</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the values supplied for identity columns will be copied to the destination. If false, values for identity columns will be auto-generated at the destination. Applies only if fast load is turned on."
+                          name="FastLoadKeepIdentity">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the columns containing null will have null inserted in the destination. If false, columns containing null will have their default values inserted at the destination. Applies only if fast load is turned on."
+                          name="FastLoadKeepNulls">false</property>
+                        <property
+                          dataType="System.String"
+                          description="Specifies options to be used with fast load.  Applies only if fast load is turned on."
+                          name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies when commits are issued during data insertion.  A value of 0 specifies that one commit will be issued at the end of data insertion.  Applies only if fast load is turned on."
+                          name="FastLoadMaxInsertCommitSize">2147483647</property>
+                      </properties>
+                      <connections>
+                        <connection
+                          refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Star Schema Product.Connections[OleDbConnection]"
+                          connectionManagerID="Package.ConnectionManagers[(local).SEIS732_Team_21_Star_Schema.SEIS732_Team_21_Star_Schema_User]"
+                          connectionManagerRefId="Package.ConnectionManagers[(local).SEIS732_Team_21_Star_Schema.SEIS732_Team_21_Star_Schema_User]"
+                          description="The OLE DB runtime connection used to access the database."
+                          name="OleDbConnection" />
+                      </connections>
+                      <inputs>
+                        <input
+                          refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Star Schema Product.Inputs[OLE DB Destination Input]"
+                          errorOrTruncationOperation="Insert"
+                          errorRowDisposition="FailComponent"
+                          hasSideEffects="true"
+                          name="OLE DB Destination Input">
+                          <inputColumns>
+                            <inputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Star Schema Product.Inputs[OLE DB Destination Input].Columns[PRD_Make_Name]"
+                              cachedCodepage="1252"
+                              cachedDataType="str"
+                              cachedLength="40"
+                              cachedName="PRD_Make_Name"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Star Schema Product.Inputs[OLE DB Destination Input].ExternalColumns[PRD_Make_Name]"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Output].Columns[PRD_Make_Name]" />
+                            <inputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Star Schema Product.Inputs[OLE DB Destination Input].Columns[PRD_Make_Description]"
+                              cachedCodepage="1252"
+                              cachedDataType="str"
+                              cachedLength="256"
+                              cachedName="PRD_Make_Description"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Star Schema Product.Inputs[OLE DB Destination Input].ExternalColumns[PRD_Make_Description]"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Output].Columns[PRD_Make_Description]" />
+                            <inputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Star Schema Product.Inputs[OLE DB Destination Input].Columns[PRD_Model_Key]"
+                              cachedDataType="i4"
+                              cachedName="PRD_Model_Key"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Star Schema Product.Inputs[OLE DB Destination Input].ExternalColumns[PRD_Model_Key]"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Output].Columns[PRD_Model_Key]" />
+                            <inputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Star Schema Product.Inputs[OLE DB Destination Input].Columns[PRD_Model_Name]"
+                              cachedCodepage="1252"
+                              cachedDataType="str"
+                              cachedLength="40"
+                              cachedName="PRD_Model_Name"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Star Schema Product.Inputs[OLE DB Destination Input].ExternalColumns[PRD_Model_Name]"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Output].Columns[PRD_Model_Name]" />
+                            <inputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Star Schema Product.Inputs[OLE DB Destination Input].Columns[PRD_Model_Description]"
+                              cachedCodepage="1252"
+                              cachedDataType="str"
+                              cachedLength="256"
+                              cachedName="PRD_Model_Description"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Star Schema Product.Inputs[OLE DB Destination Input].ExternalColumns[PRD_Model_Description]"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Output].Columns[PRD_Model_Description]" />
+                            <inputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Star Schema Product.Inputs[OLE DB Destination Input].Columns[PRD_Class_Name]"
+                              cachedCodepage="1252"
+                              cachedDataType="str"
+                              cachedLength="40"
+                              cachedName="PRD_Class_Name"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Star Schema Product.Inputs[OLE DB Destination Input].ExternalColumns[PRD_Class_Name]"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Output].Columns[PRD_Class_Name]" />
+                            <inputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Star Schema Product.Inputs[OLE DB Destination Input].Columns[PRD_Class_Description]"
+                              cachedCodepage="1252"
+                              cachedDataType="str"
+                              cachedLength="256"
+                              cachedName="PRD_Class_Description"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Star Schema Product.Inputs[OLE DB Destination Input].ExternalColumns[PRD_Class_Description]"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Output].Columns[PRD_Class_Description]" />
+                            <inputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Star Schema Product.Inputs[OLE DB Destination Input].Columns[PRD_Color_Name]"
+                              cachedCodepage="1252"
+                              cachedDataType="str"
+                              cachedLength="40"
+                              cachedName="PRD_Color_Name"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Star Schema Product.Inputs[OLE DB Destination Input].ExternalColumns[PRD_Color_Name]"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Output].Columns[PRD_Color_Name]" />
+                            <inputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Star Schema Product.Inputs[OLE DB Destination Input].Columns[PRD_Color_Description]"
+                              cachedCodepage="1252"
+                              cachedDataType="str"
+                              cachedLength="256"
+                              cachedName="PRD_Color_Description"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Star Schema Product.Inputs[OLE DB Destination Input].ExternalColumns[PRD_Color_Description]"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Output].Columns[PRD_Color_Description]" />
+                            <inputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Star Schema Product.Inputs[OLE DB Destination Input].Columns[PRD_Model_Year]"
+                              cachedDataType="i2"
+                              cachedName="PRD_Model_Year"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Star Schema Product.Inputs[OLE DB Destination Input].ExternalColumns[PRD_Model_Year]"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Output].Columns[PRD_Model_Year]" />
+                            <inputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Star Schema Product.Inputs[OLE DB Destination Input].Columns[PRD_VehicleType_ID]"
+                              cachedDataType="i8"
+                              cachedName="PRD_VehicleType_ID"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Star Schema Product.Inputs[OLE DB Destination Input].ExternalColumns[PRD_VehicleType_ID]"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Output].Columns[PRD_VehicleType_ID]" />
+                            <inputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Star Schema Product.Inputs[OLE DB Destination Input].Columns[PRD_Wholesale_Price]"
+                              cachedDataType="cy"
+                              cachedName="PRD_Wholesale_Price"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Star Schema Product.Inputs[OLE DB Destination Input].ExternalColumns[PRD_Wholesale_Price]"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Output].Columns[PRD_Wholesale_Price]" />
+                            <inputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Star Schema Product.Inputs[OLE DB Destination Input].Columns[PRD_MMC_ID]"
+                              cachedDataType="i2"
+                              cachedName="PRD_MMC_ID"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Star Schema Product.Inputs[OLE DB Destination Input].ExternalColumns[PRD_MMC_ID]"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Output].Columns[PRD_MMC_ID]" />
+                            <inputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Star Schema Product.Inputs[OLE DB Destination Input].Columns[PRD_Make_Key]"
+                              cachedDataType="i4"
+                              cachedName="PRD_Make_Key"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Star Schema Product.Inputs[OLE DB Destination Input].ExternalColumns[PRD_Make_Key]"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Output].Columns[PRD_Make_Key]" />
+                            <inputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Star Schema Product.Inputs[OLE DB Destination Input].Columns[PRD_Class_Key]"
+                              cachedDataType="i4"
+                              cachedName="PRD_Class_Key"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Star Schema Product.Inputs[OLE DB Destination Input].ExternalColumns[PRD_Class_Key]"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Output].Columns[PRD_Class_Key]" />
+                            <inputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Star Schema Product.Inputs[OLE DB Destination Input].Columns[PRD_Color_Key]"
+                              cachedDataType="i4"
+                              cachedName="PRD_Color_Key"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Star Schema Product.Inputs[OLE DB Destination Input].ExternalColumns[PRD_Color_Key]"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Output].Columns[PRD_Color_Key]" />
+                            <inputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Star Schema Product.Inputs[OLE DB Destination Input].Columns[PRD_Color_ID]"
+                              cachedDataType="i8"
+                              cachedName="PRD_Color_ID"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Star Schema Product.Inputs[OLE DB Destination Input].ExternalColumns[PRD_Color_ID]"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Output].Columns[PRD_Color_ID]" />
+                            <inputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Star Schema Product.Inputs[OLE DB Destination Input].Columns[PRD_Manufacturer_Suggested_Retail_Price]"
+                              cachedDataType="cy"
+                              cachedName="PRD_Manufacturer_Suggested_Retail_Price"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Star Schema Product.Inputs[OLE DB Destination Input].ExternalColumns[PRD_Manufacturer_Suggested_Retail_Price]"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Output].Columns[PRD_Manufacturer_Suggested_Retail_Price]" />
+                          </inputColumns>
+                          <externalMetadataColumns
+                            isUsed="True">
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Star Schema Product.Inputs[OLE DB Destination Input].ExternalColumns[PRD_Key]"
+                              dataType="numeric"
+                              name="PRD_Key"
+                              precision="18" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Star Schema Product.Inputs[OLE DB Destination Input].ExternalColumns[PRD_Make_Key]"
+                              dataType="i2"
+                              name="PRD_Make_Key" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Star Schema Product.Inputs[OLE DB Destination Input].ExternalColumns[PRD_Make_Name]"
+                              codePage="1252"
+                              dataType="str"
+                              length="40"
+                              name="PRD_Make_Name" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Star Schema Product.Inputs[OLE DB Destination Input].ExternalColumns[PRD_Make_Description]"
+                              codePage="1252"
+                              dataType="str"
+                              length="256"
+                              name="PRD_Make_Description" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Star Schema Product.Inputs[OLE DB Destination Input].ExternalColumns[PRD_Model_Key]"
+                              dataType="i2"
+                              name="PRD_Model_Key" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Star Schema Product.Inputs[OLE DB Destination Input].ExternalColumns[PRD_Model_Name]"
+                              codePage="1252"
+                              dataType="str"
+                              length="40"
+                              name="PRD_Model_Name" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Star Schema Product.Inputs[OLE DB Destination Input].ExternalColumns[PRD_Model_Description]"
+                              codePage="1252"
+                              dataType="str"
+                              length="256"
+                              name="PRD_Model_Description" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Star Schema Product.Inputs[OLE DB Destination Input].ExternalColumns[PRD_Class_Key]"
+                              dataType="i2"
+                              name="PRD_Class_Key" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Star Schema Product.Inputs[OLE DB Destination Input].ExternalColumns[PRD_Class_Name]"
+                              codePage="1252"
+                              dataType="str"
+                              length="40"
+                              name="PRD_Class_Name" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Star Schema Product.Inputs[OLE DB Destination Input].ExternalColumns[PRD_Class_Description]"
+                              codePage="1252"
+                              dataType="str"
+                              length="256"
+                              name="PRD_Class_Description" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Star Schema Product.Inputs[OLE DB Destination Input].ExternalColumns[PRD_Color_Key]"
+                              dataType="i2"
+                              name="PRD_Color_Key" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Star Schema Product.Inputs[OLE DB Destination Input].ExternalColumns[PRD_Color_ID]"
+                              dataType="i8"
+                              name="PRD_Color_ID" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Star Schema Product.Inputs[OLE DB Destination Input].ExternalColumns[PRD_Color_Name]"
+                              codePage="1252"
+                              dataType="str"
+                              length="40"
+                              name="PRD_Color_Name" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Star Schema Product.Inputs[OLE DB Destination Input].ExternalColumns[PRD_Color_Description]"
+                              codePage="1252"
+                              dataType="str"
+                              length="256"
+                              name="PRD_Color_Description" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Star Schema Product.Inputs[OLE DB Destination Input].ExternalColumns[PRD_Model_Year]"
+                              codePage="1252"
+                              dataType="str"
+                              length="10"
+                              name="PRD_Model_Year" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Star Schema Product.Inputs[OLE DB Destination Input].ExternalColumns[PRD_VehicleType_ID]"
+                              dataType="i8"
+                              name="PRD_VehicleType_ID" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Star Schema Product.Inputs[OLE DB Destination Input].ExternalColumns[PRD_Manufacturer_Suggested_Retail_Price]"
+                              dataType="cy"
+                              name="PRD_Manufacturer_Suggested_Retail_Price" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Star Schema Product.Inputs[OLE DB Destination Input].ExternalColumns[PRD_Wholesale_Price]"
+                              dataType="cy"
+                              name="PRD_Wholesale_Price" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Star Schema Product.Inputs[OLE DB Destination Input].ExternalColumns[PRD_MMC_ID]"
+                              dataType="i2"
+                              name="PRD_MMC_ID" />
+                          </externalMetadataColumns>
+                        </input>
+                      </inputs>
+                      <outputs>
+                        <output
+                          refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Star Schema Product.Outputs[OLE DB Destination Error Output]"
+                          exclusionGroup="1"
+                          isErrorOut="true"
+                          name="OLE DB Destination Error Output"
+                          synchronousInputId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Star Schema Product.Inputs[OLE DB Destination Input]">
+                          <outputColumns>
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Star Schema Product.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                              dataType="i4"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Star Schema Product.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                              name="ErrorCode"
+                              specialFlags="1" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Star Schema Product.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                              dataType="i4"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Star Schema Product.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                              name="ErrorColumn"
+                              specialFlags="2" />
+                          </outputColumns>
+                          <externalMetadataColumns />
+                        </output>
+                      </outputs>
+                    </component>
+                  </components>
+                  <paths>
+                    <path
+                      refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products.Paths[OLE DB Source Output]"
+                      endId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Star Schema Product.Inputs[OLE DB Destination Input]"
+                      name="OLE DB Source Output"
+                      startId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Output]" />
+                  </paths>
+                </pipeline>
+              </DTS:ObjectData>
+            </DTS:Executable>
           </DTS:Executables>
         </DTS:Executable>
       </DTS:Executables>
@@ -3971,7 +4805,7 @@ FROM dbo.Customer AS c</property>
           PanelSize="280,181"
           Size="280,224"
           Id="Package\10000 Clear Star Schema"
-          TopLeft="291,19" />
+          TopLeft="291,114" />
         <NodeLayout
           Size="149,42"
           Id="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers"
@@ -4009,24 +4843,28 @@ FROM dbo.Customer AS c</property>
         <NodeLayout
           Size="163,42"
           Id="Package\20000 Star SchemaTables Load\23000 Products DB Source\23200 Customers"
-          TopLeft="33,85" />
+          TopLeft="255,22" />
+        <NodeLayout
+          Size="154,42"
+          Id="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products"
+          TopLeft="34,84" />
         <ContainerLayout
           HeaderHeight="43"
           IsExpanded="True"
-          PanelSize="259,179"
-          Size="259,222"
+          PanelSize="474,182"
+          Size="474,225"
           Id="Package\20000 Star SchemaTables Load\23000 Products DB Source"
-          TopLeft="38,284" />
+          TopLeft="85,309" />
         <ContainerLayout
           HeaderHeight="43"
           IsExpanded="True"
-          PanelSize="677,561"
-          Size="677,604"
+          PanelSize="677,589"
+          Size="677,632"
           Id="Package\20000 Star SchemaTables Load"
-          TopLeft="170,299" />
+          TopLeft="170,394" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint]"
-          TopLeft="431,243">
+          TopLeft="431,338">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -4065,7 +4903,7 @@ FROM dbo.Customer AS c</property>
     design-time-name="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="174,42"
           Id="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\21100 Corp Dealers"
@@ -4093,7 +4931,9 @@ FROM dbo.Customer AS c</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -4124,15 +4964,15 @@ FROM dbo.Customer AS c</property>
     design-time-name="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21200 Plants">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
-        <NodeLayout
-          Size="130,42"
-          Id="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21200 Plants\Corp Plant"
-          TopLeft="281,95" />
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="127,42"
           Id="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21200 Plants\Star Plant"
           TopLeft="278,214" />
+        <NodeLayout
+          Size="130,42"
+          Id="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21200 Plants\Corp Plant"
+          TopLeft="281,95" />
         <EdgeLayout
           Id="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21200 Plants.Paths[OLE DB Source Output]"
           TopLeft="343.75,137">
@@ -4152,7 +4992,9 @@ FROM dbo.Customer AS c</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -4254,15 +5096,15 @@ FROM dbo.Customer AS c</property>
     design-time-name="Package\20000 Star SchemaTables Load\23000 Products DB Source\23100 Incentive Plan">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
-        <NodeLayout
-          Size="191,42"
-          Id="Package\20000 Star SchemaTables Load\23000 Products DB Source\23100 Incentive Plan\Products Incentive Plan"
-          TopLeft="353,97" />
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="170,42"
           Id="Package\20000 Star SchemaTables Load\23000 Products DB Source\23100 Incentive Plan\Star Incentive Plan"
           TopLeft="372,221" />
+        <NodeLayout
+          Size="191,42"
+          Id="Package\20000 Star SchemaTables Load\23000 Products DB Source\23100 Incentive Plan\Products Incentive Plan"
+          TopLeft="353,97" />
         <EdgeLayout
           Id="Package\20000 Star SchemaTables Load\23000 Products DB Source\23100 Incentive Plan.Paths[OLE DB Source Output]"
           TopLeft="448.5,139">
@@ -4294,7 +5136,9 @@ FROM dbo.Customer AS c</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -4325,7 +5169,7 @@ FROM dbo.Customer AS c</property>
     design-time-name="Package\20000 Star SchemaTables Load\23000 Products DB Source\23200 Customers">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="175,42"
           Id="Package\20000 Star SchemaTables Load\23000 Products DB Source\23200 Customers\Products Customers"
@@ -4353,7 +5197,9 @@ FROM dbo.Customer AS c</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -4428,6 +5274,77 @@ FROM dbo.Customer AS c</property>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\Star Schema Sales Org">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <TaskHost
+    design-time-name="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="122,42"
+          Id="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products"
+          TopLeft="288,83" />
+        <NodeLayout
+          Size="179,42"
+          Id="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Star Schema Product"
+          TopLeft="277,209" />
+        <EdgeLayout
+          Id="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products.Paths[OLE DB Source Output]"
+          TopLeft="349,125">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="17.5,84"
+              Start="0,0"
+              End="17.5,76.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,38" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,38"
+                    Point2="0,42"
+                    Point3="4,42" />
+                  <mssgle:LineSegment
+                    End="13.5,42" />
+                  <mssgle:CubicBezierSegment
+                    Point1="13.5,42"
+                    Point2="17.5,42"
+                    Point3="17.5,46" />
+                  <mssgle:LineSegment
+                    End="17.5,76.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Star Schema Product">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
