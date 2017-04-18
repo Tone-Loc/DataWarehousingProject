@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="18"
-  DTS:VersionGUID="{58DE623E-734A-4F9F-ABAA-732A0D1BF717}">
+  DTS:VersionBuild="20"
+  DTS:VersionGUID="{DDDD80C6-49DC-472B-A4E3-EF1476B82395}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">6</DTS:Property>
   <DTS:ConnectionManagers>
@@ -27,7 +27,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeIll/ZDaXUKAdtm3s8eNfwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAACVYo1S6zo+x5MHOiGoKIgAAAAAAASAAACgAAAAEAAAAKi5aPt6ljodb/7y3RPSVxogAAAAhLfmSDMPhGUgg58XatOkiotCBr/OgrukJO46V7w85EIUAAAASNuwSfgsc7bpUeESaSAs/5kQtGg</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeIll/ZDaXUKAdtm3s8eNfwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAABXK9CAFlslIU/hoXpa6vqNAAAAAASAAACgAAAAEAAAAOzFaO3S1qe0+xPyK8oLqbIgAAAAeDWgXtJOotS95qNg9fkcCU3Thbwme4Ewvy4fN6ZTtfwUAAAADgdAgLFk+QnBlzwHPuyljhatiRk</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -42,7 +42,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeIll/ZDaXUKAdtm3s8eNfwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAABzL7UrDKkPnPW5KZfW7i6UAAAAAASAAACgAAAAEAAAAOpQtyoWmRwN+YIA7GTK/50gAAAAlEV8eqgf0WDml1hvu2BHuSN7SR3Y31YKbB9hfqq162kUAAAALk9CzEwZUHe5aZA/zs+Uq2EHTMc</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeIll/ZDaXUKAdtm3s8eNfwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAABohVKad7jfrS1jgXXWRx4YAAAAAASAAACgAAAAEAAAAFmgXhI9Es8EKP1TMYwykHQgAAAAvC3LJAZDS0ax7gIKbMuzYUxOItBgxBjEbHfvpKyUXYcUAAAAA0hkpZeZsAyF0ewU327RlgL9FPY</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -57,7 +57,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeIll/ZDaXUKAdtm3s8eNfwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAACKJEmfoiNv9NMbOYdxQLrhAAAAAASAAACgAAAAEAAAAH/4E9KQaWQZEO5+Bxtq/AEgAAAAjEYj3m3aaOSAzEr0KOyVeDM0lZX37H+dED+56lZwZHUUAAAA6pDTb4zQwTaY7bPb2LYMSnC59Ww</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeIll/ZDaXUKAdtm3s8eNfwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAABtjY5yyDWPgGvUrl9iqsEWAAAAAASAAACgAAAAEAAAAPVhd5xQXEPR7rdtf3A01o8gAAAAqeDTbQbi0HZPqNqZmRCp7ZXvMb3V1//gOVG9JMAP1XEUAAAA0yOAMoIdkVBD/KvxB7kq81DpvCQ</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -72,7 +72,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeIll/ZDaXUKAdtm3s8eNfwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAACA3WAC5/mahoC85XhnSR1HAAAAAASAAACgAAAAEAAAADh/zcKtdNOHxqe/AUJjNJMgAAAAubMjEBSuBmhf9uWuhy49d72ZSyXpMxpPOMjIUchJYq4UAAAAtteetFtBN8ss7eilk7tgAotbzRU</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeIll/ZDaXUKAdtm3s8eNfwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAAAAimXMw7RL+Y76Xq8iuoGVAAAAAASAAACgAAAAEAAAAObE093AAgXE0zFVC8ev7s8gAAAAll0lTfI/cYai0sVvUK/JA/PBNgO8O5THQCztyU5d/+0UAAAAUO5uk+nwdB61DKSPk0qW4adTiPE</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -2316,6 +2316,657 @@ LEFT JOIN dbo.Metropolitan_Statistical_Area AS msa2 ON msa.MSA_ID = msa2.MSA_ID<
                 </pipeline>
               </DTS:ObjectData>
             </DTS:Executable>
+            <DTS:Executable
+              DTS:refId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org"
+              DTS:CreationName="SSIS.Pipeline.3"
+              DTS:Description="Data Flow Task"
+              DTS:DTSID="{ECFDBB08-803C-4CB1-B17F-D714502685C3}"
+              DTS:ExecutableType="SSIS.Pipeline.3"
+              DTS:LocaleID="-1"
+              DTS:ObjectName="22200 Sales Org"
+              DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) 2007 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+              <DTS:Variables />
+              <DTS:ObjectData>
+                <pipeline
+                  version="1">
+                  <components>
+                    <component
+                      refId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\sales org org chart"
+                      componentClassID="{165A526D-D5DE-47FF-96A6-F8274C19826B}"
+                      contactInfo="OLE DB Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;7"
+                      description="OLE DB Source"
+                      name="sales org org chart"
+                      usesDispositions="true"
+                      version="7">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                          name="CommandTimeout">0</property>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the name of the database object used to open a rowset."
+                          name="OpenRowset"></property>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the variable that contains the name of the database object used to open a rowset."
+                          name="OpenRowsetVariable"></property>
+                        <property
+                          dataType="System.String"
+                          description="The SQL command to be executed."
+                          name="SqlCommand"
+                          UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">--USE SEIS732_Team_21_Sales_Org;
+
+SELECT Zones.SD_ID AS SORG_Zone_ID,
+    Zones.SD_Name AS SORG_Zone_Name,
+    ISNULL(zone_mgr.MGR_First_Name + '  ', ' &lt;N/A&gt;') + ISNULL(zone_mgr.MGR_Last_Name, '') AS SORG_Zone_Manager_Name,
+    ISNULL(zone_mgr.MGR_ID, 0) AS SORG_Zone_Key,
+    domain.SA_ID AS SORG_Domain_ID,
+    domain.SA_Name AS SORG_Domain_Name,
+    ISNULL(domain_mgr.MGR_First_Name + '  ', ' &lt;N/A&gt;') + ISNULL(domain_mgr.MGR_Last_Name, '') AS SORG_Domain_Manager_Name,
+    Region.ST_ID AS SORG_Region_ID,
+    Region.ST_Name AS SORG_Region_Name,
+    ISNULL(region_mgr.MGR_First_Name + '  ', ' &lt;N/A&gt;') + ISNULL(region_mgr.MGR_Last_Name, '') AS SORG_Region_Manager_Name,
+    ISNULL(region_mgr.MGR_ID, 0) AS SORG_Region_Key,
+    'TBA' AS SORG_Full_Name
+FROM dbo.Sales_District AS Zones
+    LEFT JOIN dbo.Sales_Mgr AS zone_mgr
+        ON Zones.MGR_ID = zone_mgr.MGR_ID
+    LEFT JOIN dbo.Sales_Area AS domain
+        ON Zones.SD_ID = domain.SD_ID
+    LEFT JOIN dbo.Sales_Mgr AS domain_mgr
+        ON domain.MGR_ID = domain_mgr.MGR_ID
+    INNER JOIN dbo.Sales_Territory AS Region
+        ON domain.SA_ID = Region.SA_ID
+    LEFT JOIN dbo.Sales_Mgr AS region_mgr
+        ON Region.MGR_ID = region_mgr.MGR_ID;</property>
+                        <property
+                          dataType="System.String"
+                          description="The variable that contains the SQL command to be executed."
+                          name="SqlCommandVariable"></property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the column code page to use when code page information is unavailable from the data source."
+                          name="DefaultCodePage">1252</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Forces the use of the DefaultCodePage property value when describing character data."
+                          name="AlwaysUseDefaultCodePage">false</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the mode used to access the database."
+                          name="AccessMode"
+                          typeConverter="AccessMode">2</property>
+                        <property
+                          dataType="System.String"
+                          description="The mappings between the parameters in the SQL command and variables."
+                          name="ParameterMapping"></property>
+                      </properties>
+                      <connections>
+                        <connection
+                          refId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\sales org org chart.Connections[OleDbConnection]"
+                          connectionManagerID="Package.ConnectionManagers[(local).SEIS732_Team_21_Sales_Org.SEIS732_Team_21_Sales_Org_User]"
+                          connectionManagerRefId="Package.ConnectionManagers[(local).SEIS732_Team_21_Sales_Org.SEIS732_Team_21_Sales_Org_User]"
+                          description="The OLE DB runtime connection used to access the database."
+                          name="OleDbConnection" />
+                      </connections>
+                      <outputs>
+                        <output
+                          refId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\sales org org chart.Outputs[OLE DB Source Output]"
+                          name="OLE DB Source Output">
+                          <outputColumns>
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\sales org org chart.Outputs[OLE DB Source Output].Columns[SORG_Zone_ID]"
+                              dataType="i2"
+                              errorOrTruncationOperation="Conversion"
+                              errorRowDisposition="FailComponent"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\sales org org chart.Outputs[OLE DB Source Output].ExternalColumns[SORG_Zone_ID]"
+                              lineageId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\sales org org chart.Outputs[OLE DB Source Output].Columns[SORG_Zone_ID]"
+                              name="SORG_Zone_ID"
+                              truncationRowDisposition="FailComponent" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\sales org org chart.Outputs[OLE DB Source Output].Columns[SORG_Zone_Name]"
+                              codePage="1252"
+                              dataType="str"
+                              errorOrTruncationOperation="Conversion"
+                              errorRowDisposition="FailComponent"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\sales org org chart.Outputs[OLE DB Source Output].ExternalColumns[SORG_Zone_Name]"
+                              length="60"
+                              lineageId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\sales org org chart.Outputs[OLE DB Source Output].Columns[SORG_Zone_Name]"
+                              name="SORG_Zone_Name"
+                              truncationRowDisposition="FailComponent" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\sales org org chart.Outputs[OLE DB Source Output].Columns[SORG_Zone_Key]"
+                              dataType="i2"
+                              errorOrTruncationOperation="Conversion"
+                              errorRowDisposition="FailComponent"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\sales org org chart.Outputs[OLE DB Source Output].ExternalColumns[SORG_Zone_Key]"
+                              lineageId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\sales org org chart.Outputs[OLE DB Source Output].Columns[SORG_Zone_Key]"
+                              name="SORG_Zone_Key"
+                              truncationRowDisposition="FailComponent" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\sales org org chart.Outputs[OLE DB Source Output].Columns[SORG_Domain_ID]"
+                              dataType="i2"
+                              errorOrTruncationOperation="Conversion"
+                              errorRowDisposition="FailComponent"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\sales org org chart.Outputs[OLE DB Source Output].ExternalColumns[SORG_Domain_ID]"
+                              lineageId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\sales org org chart.Outputs[OLE DB Source Output].Columns[SORG_Domain_ID]"
+                              name="SORG_Domain_ID"
+                              truncationRowDisposition="FailComponent" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\sales org org chart.Outputs[OLE DB Source Output].Columns[SORG_Domain_Name]"
+                              codePage="1252"
+                              dataType="str"
+                              errorOrTruncationOperation="Conversion"
+                              errorRowDisposition="FailComponent"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\sales org org chart.Outputs[OLE DB Source Output].ExternalColumns[SORG_Domain_Name]"
+                              length="60"
+                              lineageId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\sales org org chart.Outputs[OLE DB Source Output].Columns[SORG_Domain_Name]"
+                              name="SORG_Domain_Name"
+                              truncationRowDisposition="FailComponent" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\sales org org chart.Outputs[OLE DB Source Output].Columns[SORG_Region_ID]"
+                              dataType="i2"
+                              errorOrTruncationOperation="Conversion"
+                              errorRowDisposition="FailComponent"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\sales org org chart.Outputs[OLE DB Source Output].ExternalColumns[SORG_Region_ID]"
+                              lineageId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\sales org org chart.Outputs[OLE DB Source Output].Columns[SORG_Region_ID]"
+                              name="SORG_Region_ID"
+                              truncationRowDisposition="FailComponent" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\sales org org chart.Outputs[OLE DB Source Output].Columns[SORG_Region_Name]"
+                              codePage="1252"
+                              dataType="str"
+                              errorOrTruncationOperation="Conversion"
+                              errorRowDisposition="FailComponent"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\sales org org chart.Outputs[OLE DB Source Output].ExternalColumns[SORG_Region_Name]"
+                              length="60"
+                              lineageId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\sales org org chart.Outputs[OLE DB Source Output].Columns[SORG_Region_Name]"
+                              name="SORG_Region_Name"
+                              truncationRowDisposition="FailComponent" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\sales org org chart.Outputs[OLE DB Source Output].Columns[SORG_Region_Key]"
+                              dataType="i2"
+                              errorOrTruncationOperation="Conversion"
+                              errorRowDisposition="FailComponent"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\sales org org chart.Outputs[OLE DB Source Output].ExternalColumns[SORG_Region_Key]"
+                              lineageId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\sales org org chart.Outputs[OLE DB Source Output].Columns[SORG_Region_Key]"
+                              name="SORG_Region_Key"
+                              truncationRowDisposition="FailComponent" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\sales org org chart.Outputs[OLE DB Source Output].Columns[SORG_Full_Name]"
+                              codePage="1252"
+                              dataType="str"
+                              errorOrTruncationOperation="Conversion"
+                              errorRowDisposition="FailComponent"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\sales org org chart.Outputs[OLE DB Source Output].ExternalColumns[SORG_Full_Name]"
+                              length="3"
+                              lineageId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\sales org org chart.Outputs[OLE DB Source Output].Columns[SORG_Full_Name]"
+                              name="SORG_Full_Name"
+                              truncationRowDisposition="FailComponent" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\sales org org chart.Outputs[OLE DB Source Output].Columns[SORG_Zone_Manager_Name]"
+                              codePage="1252"
+                              dataType="str"
+                              errorOrTruncationOperation="Conversion"
+                              errorRowDisposition="FailComponent"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\sales org org chart.Outputs[OLE DB Source Output].ExternalColumns[SORG_Zone_Manager_Name]"
+                              length="122"
+                              lineageId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\sales org org chart.Outputs[OLE DB Source Output].Columns[SORG_Zone_Manager_Name]"
+                              name="SORG_Zone_Manager_Name"
+                              truncationRowDisposition="FailComponent" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\sales org org chart.Outputs[OLE DB Source Output].Columns[SORG_Domain_Manager_Name]"
+                              codePage="1252"
+                              dataType="str"
+                              errorOrTruncationOperation="Conversion"
+                              errorRowDisposition="FailComponent"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\sales org org chart.Outputs[OLE DB Source Output].ExternalColumns[SORG_Domain_Manager_Name]"
+                              length="122"
+                              lineageId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\sales org org chart.Outputs[OLE DB Source Output].Columns[SORG_Domain_Manager_Name]"
+                              name="SORG_Domain_Manager_Name"
+                              truncationRowDisposition="FailComponent" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\sales org org chart.Outputs[OLE DB Source Output].Columns[SORG_Region_Manager_Name]"
+                              codePage="1252"
+                              dataType="str"
+                              errorOrTruncationOperation="Conversion"
+                              errorRowDisposition="FailComponent"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\sales org org chart.Outputs[OLE DB Source Output].ExternalColumns[SORG_Region_Manager_Name]"
+                              length="122"
+                              lineageId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\sales org org chart.Outputs[OLE DB Source Output].Columns[SORG_Region_Manager_Name]"
+                              name="SORG_Region_Manager_Name"
+                              truncationRowDisposition="FailComponent" />
+                          </outputColumns>
+                          <externalMetadataColumns
+                            isUsed="True">
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\sales org org chart.Outputs[OLE DB Source Output].ExternalColumns[SORG_Zone_ID]"
+                              dataType="i2"
+                              name="SORG_Zone_ID" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\sales org org chart.Outputs[OLE DB Source Output].ExternalColumns[SORG_Zone_Name]"
+                              codePage="1252"
+                              dataType="str"
+                              length="60"
+                              name="SORG_Zone_Name" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\sales org org chart.Outputs[OLE DB Source Output].ExternalColumns[SORG_Zone_Key]"
+                              dataType="i2"
+                              name="SORG_Zone_Key" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\sales org org chart.Outputs[OLE DB Source Output].ExternalColumns[SORG_Domain_ID]"
+                              dataType="i2"
+                              name="SORG_Domain_ID" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\sales org org chart.Outputs[OLE DB Source Output].ExternalColumns[SORG_Domain_Name]"
+                              codePage="1252"
+                              dataType="str"
+                              length="60"
+                              name="SORG_Domain_Name" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\sales org org chart.Outputs[OLE DB Source Output].ExternalColumns[SORG_Region_ID]"
+                              dataType="i2"
+                              name="SORG_Region_ID" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\sales org org chart.Outputs[OLE DB Source Output].ExternalColumns[SORG_Region_Name]"
+                              codePage="1252"
+                              dataType="str"
+                              length="60"
+                              name="SORG_Region_Name" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\sales org org chart.Outputs[OLE DB Source Output].ExternalColumns[SORG_Region_Key]"
+                              dataType="i2"
+                              name="SORG_Region_Key" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\sales org org chart.Outputs[OLE DB Source Output].ExternalColumns[SORG_Full_Name]"
+                              codePage="1252"
+                              dataType="str"
+                              length="3"
+                              name="SORG_Full_Name" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\sales org org chart.Outputs[OLE DB Source Output].ExternalColumns[SORG_Zone_Manager_Name]"
+                              codePage="1252"
+                              dataType="str"
+                              length="122"
+                              name="SORG_Zone_Manager_Name" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\sales org org chart.Outputs[OLE DB Source Output].ExternalColumns[SORG_Domain_Manager_Name]"
+                              codePage="1252"
+                              dataType="str"
+                              length="122"
+                              name="SORG_Domain_Manager_Name" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\sales org org chart.Outputs[OLE DB Source Output].ExternalColumns[SORG_Region_Manager_Name]"
+                              codePage="1252"
+                              dataType="str"
+                              length="122"
+                              name="SORG_Region_Manager_Name" />
+                          </externalMetadataColumns>
+                        </output>
+                        <output
+                          refId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\sales org org chart.Outputs[OLE DB Source Error Output]"
+                          isErrorOut="true"
+                          name="OLE DB Source Error Output">
+                          <outputColumns>
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\sales org org chart.Outputs[OLE DB Source Error Output].Columns[SORG_Zone_ID]"
+                              dataType="i2"
+                              lineageId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\sales org org chart.Outputs[OLE DB Source Error Output].Columns[SORG_Zone_ID]"
+                              name="SORG_Zone_ID" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\sales org org chart.Outputs[OLE DB Source Error Output].Columns[SORG_Zone_Name]"
+                              codePage="1252"
+                              dataType="str"
+                              length="60"
+                              lineageId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\sales org org chart.Outputs[OLE DB Source Error Output].Columns[SORG_Zone_Name]"
+                              name="SORG_Zone_Name" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\sales org org chart.Outputs[OLE DB Source Error Output].Columns[SORG_Zone_Manager_Name]"
+                              codePage="1252"
+                              dataType="str"
+                              length="122"
+                              lineageId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\sales org org chart.Outputs[OLE DB Source Error Output].Columns[SORG_Zone_Manager_Name]"
+                              name="SORG_Zone_Manager_Name" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\sales org org chart.Outputs[OLE DB Source Error Output].Columns[SORG_Zone_Key]"
+                              dataType="i2"
+                              lineageId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\sales org org chart.Outputs[OLE DB Source Error Output].Columns[SORG_Zone_Key]"
+                              name="SORG_Zone_Key" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\sales org org chart.Outputs[OLE DB Source Error Output].Columns[SORG_Domain_ID]"
+                              dataType="i2"
+                              lineageId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\sales org org chart.Outputs[OLE DB Source Error Output].Columns[SORG_Domain_ID]"
+                              name="SORG_Domain_ID" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\sales org org chart.Outputs[OLE DB Source Error Output].Columns[SORG_Domain_Name]"
+                              codePage="1252"
+                              dataType="str"
+                              length="60"
+                              lineageId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\sales org org chart.Outputs[OLE DB Source Error Output].Columns[SORG_Domain_Name]"
+                              name="SORG_Domain_Name" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\sales org org chart.Outputs[OLE DB Source Error Output].Columns[SORG_Domain_Manager_Name]"
+                              codePage="1252"
+                              dataType="str"
+                              length="122"
+                              lineageId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\sales org org chart.Outputs[OLE DB Source Error Output].Columns[SORG_Domain_Manager_Name]"
+                              name="SORG_Domain_Manager_Name" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\sales org org chart.Outputs[OLE DB Source Error Output].Columns[SORG_Region_ID]"
+                              dataType="i2"
+                              lineageId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\sales org org chart.Outputs[OLE DB Source Error Output].Columns[SORG_Region_ID]"
+                              name="SORG_Region_ID" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\sales org org chart.Outputs[OLE DB Source Error Output].Columns[SORG_Region_Name]"
+                              codePage="1252"
+                              dataType="str"
+                              length="60"
+                              lineageId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\sales org org chart.Outputs[OLE DB Source Error Output].Columns[SORG_Region_Name]"
+                              name="SORG_Region_Name" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\sales org org chart.Outputs[OLE DB Source Error Output].Columns[SORG_Region_Manager_Name]"
+                              codePage="1252"
+                              dataType="str"
+                              length="122"
+                              lineageId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\sales org org chart.Outputs[OLE DB Source Error Output].Columns[SORG_Region_Manager_Name]"
+                              name="SORG_Region_Manager_Name" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\sales org org chart.Outputs[OLE DB Source Error Output].Columns[SORG_Region_Key]"
+                              dataType="i2"
+                              lineageId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\sales org org chart.Outputs[OLE DB Source Error Output].Columns[SORG_Region_Key]"
+                              name="SORG_Region_Key" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\sales org org chart.Outputs[OLE DB Source Error Output].Columns[SORG_Full_Name]"
+                              codePage="1252"
+                              dataType="str"
+                              length="3"
+                              lineageId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\sales org org chart.Outputs[OLE DB Source Error Output].Columns[SORG_Full_Name]"
+                              name="SORG_Full_Name" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\sales org org chart.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                              dataType="i4"
+                              lineageId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\sales org org chart.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                              name="ErrorCode"
+                              specialFlags="1" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\sales org org chart.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                              dataType="i4"
+                              lineageId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\sales org org chart.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                              name="ErrorColumn"
+                              specialFlags="2" />
+                          </outputColumns>
+                          <externalMetadataColumns />
+                        </output>
+                      </outputs>
+                    </component>
+                    <component
+                      refId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\Star Schema Sales Org"
+                      componentClassID="{4ADA7EAA-136C-4215-8098-D7A7C27FC0D1}"
+                      contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
+                      description="OLE DB Destination"
+                      name="Star Schema Sales Org"
+                      usesDispositions="true"
+                      version="4">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                          name="CommandTimeout">0</property>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the name of the database object used to open a rowset."
+                          name="OpenRowset">[dbo].[SALES_ORG]</property>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the variable that contains the name of the database object used to open a rowset."
+                          name="OpenRowsetVariable"></property>
+                        <property
+                          dataType="System.String"
+                          description="The SQL command to be executed."
+                          name="SqlCommand"
+                          UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the column code page to use when code page information is unavailable from the data source."
+                          name="DefaultCodePage">1252</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Forces the use of the DefaultCodePage property value when describing character data."
+                          name="AlwaysUseDefaultCodePage">false</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the mode used to access the database."
+                          name="AccessMode"
+                          typeConverter="AccessMode">3</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the values supplied for identity columns will be copied to the destination. If false, values for identity columns will be auto-generated at the destination. Applies only if fast load is turned on."
+                          name="FastLoadKeepIdentity">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the columns containing null will have null inserted in the destination. If false, columns containing null will have their default values inserted at the destination. Applies only if fast load is turned on."
+                          name="FastLoadKeepNulls">false</property>
+                        <property
+                          dataType="System.String"
+                          description="Specifies options to be used with fast load.  Applies only if fast load is turned on."
+                          name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies when commits are issued during data insertion.  A value of 0 specifies that one commit will be issued at the end of data insertion.  Applies only if fast load is turned on."
+                          name="FastLoadMaxInsertCommitSize">2147483647</property>
+                      </properties>
+                      <connections>
+                        <connection
+                          refId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\Star Schema Sales Org.Connections[OleDbConnection]"
+                          connectionManagerID="Package.ConnectionManagers[(local).SEIS732_Team_21_Star_Schema.SEIS732_Team_21_Star_Schema_User]"
+                          connectionManagerRefId="Package.ConnectionManagers[(local).SEIS732_Team_21_Star_Schema.SEIS732_Team_21_Star_Schema_User]"
+                          description="The OLE DB runtime connection used to access the database."
+                          name="OleDbConnection" />
+                      </connections>
+                      <inputs>
+                        <input
+                          refId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\Star Schema Sales Org.Inputs[OLE DB Destination Input]"
+                          errorOrTruncationOperation="Insert"
+                          errorRowDisposition="FailComponent"
+                          hasSideEffects="true"
+                          name="OLE DB Destination Input">
+                          <inputColumns>
+                            <inputColumn
+                              refId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\Star Schema Sales Org.Inputs[OLE DB Destination Input].Columns[SORG_Zone_ID]"
+                              cachedDataType="i2"
+                              cachedName="SORG_Zone_ID"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\Star Schema Sales Org.Inputs[OLE DB Destination Input].ExternalColumns[SORG_Zone_ID]"
+                              lineageId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\sales org org chart.Outputs[OLE DB Source Output].Columns[SORG_Zone_ID]" />
+                            <inputColumn
+                              refId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\Star Schema Sales Org.Inputs[OLE DB Destination Input].Columns[SORG_Zone_Name]"
+                              cachedCodepage="1252"
+                              cachedDataType="str"
+                              cachedLength="60"
+                              cachedName="SORG_Zone_Name"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\Star Schema Sales Org.Inputs[OLE DB Destination Input].ExternalColumns[SORG_Zone_Name]"
+                              lineageId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\sales org org chart.Outputs[OLE DB Source Output].Columns[SORG_Zone_Name]" />
+                            <inputColumn
+                              refId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\Star Schema Sales Org.Inputs[OLE DB Destination Input].Columns[SORG_Zone_Key]"
+                              cachedDataType="i2"
+                              cachedName="SORG_Zone_Key"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\Star Schema Sales Org.Inputs[OLE DB Destination Input].ExternalColumns[SORG_Zone_Key]"
+                              lineageId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\sales org org chart.Outputs[OLE DB Source Output].Columns[SORG_Zone_Key]" />
+                            <inputColumn
+                              refId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\Star Schema Sales Org.Inputs[OLE DB Destination Input].Columns[SORG_Domain_ID]"
+                              cachedDataType="i2"
+                              cachedName="SORG_Domain_ID"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\Star Schema Sales Org.Inputs[OLE DB Destination Input].ExternalColumns[SORG_Domain_ID]"
+                              lineageId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\sales org org chart.Outputs[OLE DB Source Output].Columns[SORG_Domain_ID]" />
+                            <inputColumn
+                              refId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\Star Schema Sales Org.Inputs[OLE DB Destination Input].Columns[SORG_Domain_Name]"
+                              cachedCodepage="1252"
+                              cachedDataType="str"
+                              cachedLength="60"
+                              cachedName="SORG_Domain_Name"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\Star Schema Sales Org.Inputs[OLE DB Destination Input].ExternalColumns[SORG_Domain_Name]"
+                              lineageId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\sales org org chart.Outputs[OLE DB Source Output].Columns[SORG_Domain_Name]" />
+                            <inputColumn
+                              refId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\Star Schema Sales Org.Inputs[OLE DB Destination Input].Columns[SORG_Region_ID]"
+                              cachedDataType="i2"
+                              cachedName="SORG_Region_ID"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\Star Schema Sales Org.Inputs[OLE DB Destination Input].ExternalColumns[SORG_Region_ID]"
+                              lineageId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\sales org org chart.Outputs[OLE DB Source Output].Columns[SORG_Region_ID]" />
+                            <inputColumn
+                              refId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\Star Schema Sales Org.Inputs[OLE DB Destination Input].Columns[SORG_Region_Name]"
+                              cachedCodepage="1252"
+                              cachedDataType="str"
+                              cachedLength="60"
+                              cachedName="SORG_Region_Name"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\Star Schema Sales Org.Inputs[OLE DB Destination Input].ExternalColumns[SORG_Region_Name]"
+                              lineageId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\sales org org chart.Outputs[OLE DB Source Output].Columns[SORG_Region_Name]" />
+                            <inputColumn
+                              refId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\Star Schema Sales Org.Inputs[OLE DB Destination Input].Columns[SORG_Region_Key]"
+                              cachedDataType="i2"
+                              cachedName="SORG_Region_Key"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\Star Schema Sales Org.Inputs[OLE DB Destination Input].ExternalColumns[SORG_Region_Key]"
+                              lineageId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\sales org org chart.Outputs[OLE DB Source Output].Columns[SORG_Region_Key]" />
+                            <inputColumn
+                              refId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\Star Schema Sales Org.Inputs[OLE DB Destination Input].Columns[SORG_Full_Name]"
+                              cachedCodepage="1252"
+                              cachedDataType="str"
+                              cachedLength="3"
+                              cachedName="SORG_Full_Name"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\Star Schema Sales Org.Inputs[OLE DB Destination Input].ExternalColumns[SORG_Full_Name]"
+                              lineageId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\sales org org chart.Outputs[OLE DB Source Output].Columns[SORG_Full_Name]" />
+                            <inputColumn
+                              refId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\Star Schema Sales Org.Inputs[OLE DB Destination Input].Columns[SORG_Zone_Manager_Name]"
+                              cachedCodepage="1252"
+                              cachedDataType="str"
+                              cachedLength="122"
+                              cachedName="SORG_Zone_Manager_Name"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\Star Schema Sales Org.Inputs[OLE DB Destination Input].ExternalColumns[SORG_Zone_Manager_Name]"
+                              lineageId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\sales org org chart.Outputs[OLE DB Source Output].Columns[SORG_Zone_Manager_Name]" />
+                            <inputColumn
+                              refId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\Star Schema Sales Org.Inputs[OLE DB Destination Input].Columns[SORG_Domain_Manager_Name]"
+                              cachedCodepage="1252"
+                              cachedDataType="str"
+                              cachedLength="122"
+                              cachedName="SORG_Domain_Manager_Name"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\Star Schema Sales Org.Inputs[OLE DB Destination Input].ExternalColumns[SORG_Domain_Manager_Name]"
+                              lineageId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\sales org org chart.Outputs[OLE DB Source Output].Columns[SORG_Domain_Manager_Name]" />
+                            <inputColumn
+                              refId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\Star Schema Sales Org.Inputs[OLE DB Destination Input].Columns[SORG_Region_Manager_Name]"
+                              cachedCodepage="1252"
+                              cachedDataType="str"
+                              cachedLength="122"
+                              cachedName="SORG_Region_Manager_Name"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\Star Schema Sales Org.Inputs[OLE DB Destination Input].ExternalColumns[SORG_Region_Manager_Name]"
+                              lineageId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\sales org org chart.Outputs[OLE DB Source Output].Columns[SORG_Region_Manager_Name]" />
+                          </inputColumns>
+                          <externalMetadataColumns
+                            isUsed="True">
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\Star Schema Sales Org.Inputs[OLE DB Destination Input].ExternalColumns[SORG_Key]"
+                              dataType="numeric"
+                              name="SORG_Key"
+                              precision="18" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\Star Schema Sales Org.Inputs[OLE DB Destination Input].ExternalColumns[SORG_Zone_ID]"
+                              dataType="i2"
+                              name="SORG_Zone_ID" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\Star Schema Sales Org.Inputs[OLE DB Destination Input].ExternalColumns[SORG_Zone_Name]"
+                              codePage="1252"
+                              dataType="str"
+                              length="60"
+                              name="SORG_Zone_Name" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\Star Schema Sales Org.Inputs[OLE DB Destination Input].ExternalColumns[SORG_Zone_Manager_Name]"
+                              codePage="1252"
+                              dataType="str"
+                              length="60"
+                              name="SORG_Zone_Manager_Name" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\Star Schema Sales Org.Inputs[OLE DB Destination Input].ExternalColumns[SORG_Zone_Key]"
+                              dataType="i2"
+                              name="SORG_Zone_Key" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\Star Schema Sales Org.Inputs[OLE DB Destination Input].ExternalColumns[SORG_Domain_ID]"
+                              dataType="i2"
+                              name="SORG_Domain_ID" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\Star Schema Sales Org.Inputs[OLE DB Destination Input].ExternalColumns[SORG_Domain_Name]"
+                              codePage="1252"
+                              dataType="str"
+                              length="60"
+                              name="SORG_Domain_Name" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\Star Schema Sales Org.Inputs[OLE DB Destination Input].ExternalColumns[SORG_Domain_Manager_Name]"
+                              codePage="1252"
+                              dataType="str"
+                              length="60"
+                              name="SORG_Domain_Manager_Name" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\Star Schema Sales Org.Inputs[OLE DB Destination Input].ExternalColumns[SORG_Region_ID]"
+                              dataType="i2"
+                              name="SORG_Region_ID" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\Star Schema Sales Org.Inputs[OLE DB Destination Input].ExternalColumns[SORG_Region_Name]"
+                              codePage="1252"
+                              dataType="str"
+                              length="60"
+                              name="SORG_Region_Name" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\Star Schema Sales Org.Inputs[OLE DB Destination Input].ExternalColumns[SORG_Region_Manager_Name]"
+                              codePage="1252"
+                              dataType="str"
+                              length="60"
+                              name="SORG_Region_Manager_Name" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\Star Schema Sales Org.Inputs[OLE DB Destination Input].ExternalColumns[SORG_Region_Key]"
+                              dataType="i2"
+                              name="SORG_Region_Key" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\Star Schema Sales Org.Inputs[OLE DB Destination Input].ExternalColumns[SORG_Full_Name]"
+                              codePage="1252"
+                              dataType="str"
+                              length="256"
+                              name="SORG_Full_Name" />
+                          </externalMetadataColumns>
+                        </input>
+                      </inputs>
+                      <outputs>
+                        <output
+                          refId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\Star Schema Sales Org.Outputs[OLE DB Destination Error Output]"
+                          exclusionGroup="1"
+                          isErrorOut="true"
+                          name="OLE DB Destination Error Output"
+                          synchronousInputId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\Star Schema Sales Org.Inputs[OLE DB Destination Input]">
+                          <outputColumns>
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\Star Schema Sales Org.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                              dataType="i4"
+                              lineageId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\Star Schema Sales Org.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                              name="ErrorCode"
+                              specialFlags="1" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\Star Schema Sales Org.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                              dataType="i4"
+                              lineageId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\Star Schema Sales Org.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                              name="ErrorColumn"
+                              specialFlags="2" />
+                          </outputColumns>
+                          <externalMetadataColumns />
+                        </output>
+                      </outputs>
+                    </component>
+                  </components>
+                  <paths>
+                    <path
+                      refId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org.Paths[OLE DB Source Output]"
+                      endId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\Star Schema Sales Org.Inputs[OLE DB Destination Input]"
+                      name="OLE DB Source Output"
+                      startId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\sales org org chart.Outputs[OLE DB Source Output]" />
+                  </paths>
+                </pipeline>
+              </DTS:ObjectData>
+            </DTS:Executable>
           </DTS:Executables>
         </DTS:Executable>
         <DTS:Executable
@@ -3285,54 +3936,6 @@ FROM dbo.Customer AS c</property>
       <GraphLayout
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="149,42"
-          Id="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers"
-          TopLeft="19,11" />
-        <NodeLayout
-          Size="142,42"
-          Id="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21200 Plants"
-          TopLeft="27,70" />
-        <ContainerLayout
-          HeaderHeight="43"
-          IsExpanded="True"
-          PanelSize="231,167"
-          Size="231,210"
-          Id="Package\20000 Star SchemaTables Load\21000 Corp Db Source"
-          TopLeft="38,42" />
-        <NodeLayout
-          Size="192,42"
-          Id="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22100 Metro Area Stats"
-          TopLeft="27,20" />
-        <ContainerLayout
-          HeaderHeight="43"
-          IsExpanded="True"
-          PanelSize="285,130"
-          Size="285,173"
-          Id="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source"
-          TopLeft="335,40" />
-        <NodeLayout
-          Size="180,42"
-          Id="Package\20000 Star SchemaTables Load\23000 Products DB Source\23100 Incentive Plan"
-          TopLeft="26,18" />
-        <NodeLayout
-          Size="163,42"
-          Id="Package\20000 Star SchemaTables Load\23000 Products DB Source\23200 Customers"
-          TopLeft="33,85" />
-        <ContainerLayout
-          HeaderHeight="43"
-          IsExpanded="True"
-          PanelSize="259,179"
-          Size="259,222"
-          Id="Package\20000 Star SchemaTables Load\23000 Products DB Source"
-          TopLeft="372,252" />
-        <ContainerLayout
-          HeaderHeight="43"
-          IsExpanded="True"
-          PanelSize="677,529"
-          Size="677,572"
-          Id="Package\20000 Star SchemaTables Load"
-          TopLeft="170,299" />
-        <NodeLayout
           Size="234,42"
           Id="Package\10000 Clear Star Schema\11000 Clear Star Schema Tables"
           TopLeft="16,5.5" />
@@ -3369,6 +3972,58 @@ FROM dbo.Customer AS c</property>
           Size="280,224"
           Id="Package\10000 Clear Star Schema"
           TopLeft="291,19" />
+        <NodeLayout
+          Size="149,42"
+          Id="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers"
+          TopLeft="19,11" />
+        <NodeLayout
+          Size="142,42"
+          Id="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21200 Plants"
+          TopLeft="27,70" />
+        <ContainerLayout
+          HeaderHeight="43"
+          IsExpanded="True"
+          PanelSize="231,167"
+          Size="231,210"
+          Id="Package\20000 Star SchemaTables Load\21000 Corp Db Source"
+          TopLeft="38,42" />
+        <NodeLayout
+          Size="192,42"
+          Id="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22100 Metro Area Stats"
+          TopLeft="27,20" />
+        <NodeLayout
+          Size="158,42"
+          Id="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org"
+          TopLeft="44,92" />
+        <ContainerLayout
+          HeaderHeight="43"
+          IsExpanded="True"
+          PanelSize="285,195"
+          Size="285,238"
+          Id="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source"
+          TopLeft="335,40" />
+        <NodeLayout
+          Size="180,42"
+          Id="Package\20000 Star SchemaTables Load\23000 Products DB Source\23100 Incentive Plan"
+          TopLeft="26,18" />
+        <NodeLayout
+          Size="163,42"
+          Id="Package\20000 Star SchemaTables Load\23000 Products DB Source\23200 Customers"
+          TopLeft="33,85" />
+        <ContainerLayout
+          HeaderHeight="43"
+          IsExpanded="True"
+          PanelSize="259,179"
+          Size="259,222"
+          Id="Package\20000 Star SchemaTables Load\23000 Products DB Source"
+          TopLeft="38,284" />
+        <ContainerLayout
+          HeaderHeight="43"
+          IsExpanded="True"
+          PanelSize="677,561"
+          Size="677,604"
+          Id="Package\20000 Star SchemaTables Load"
+          TopLeft="170,299" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint]"
           TopLeft="431,243">
@@ -3466,77 +4121,6 @@ FROM dbo.Customer AS c</property>
     </Properties>
   </PipelineComponentMetadata>
   <TaskHost
-    design-time-name="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22100 Metro Area Stats">
-    <LayoutInfo>
-      <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
-        <NodeLayout
-          Size="181,42"
-          Id="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22100 Metro Area Stats\Sales Org Metro Area"
-          TopLeft="301,78" />
-        <NodeLayout
-          Size="195,42"
-          Id="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22100 Metro Area Stats\Star Schema Metro Area"
-          TopLeft="326,188" />
-        <EdgeLayout
-          Id="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22100 Metro Area Stats.Paths[OLE DB Source Output]"
-          TopLeft="391.5,120">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="32,68"
-              Start="0,0"
-              End="32,60.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,30" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,30"
-                    Point2="0,34"
-                    Point3="4,34" />
-                  <mssgle:LineSegment
-                    End="28,34" />
-                  <mssgle:CubicBezierSegment
-                    Point1="28,34"
-                    Point2="32,34"
-                    Point3="32,38" />
-                  <mssgle:LineSegment
-                    End="32,60.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-      </GraphLayout>
-    </LayoutInfo>
-  </TaskHost>
-  <PipelineComponentMetadata
-    design-time-name="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22100 Metro Area Stats\Sales Org Metro Area">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22100 Metro Area Stats\Star Schema Metro Area">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <TaskHost
     design-time-name="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21200 Plants">
     <LayoutInfo>
       <GraphLayout
@@ -3584,6 +4168,77 @@ FROM dbo.Customer AS c</property>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21200 Plants\Star Plant">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <TaskHost
+    design-time-name="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22100 Metro Area Stats">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="195,42"
+          Id="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22100 Metro Area Stats\Star Schema Metro Area"
+          TopLeft="326,188" />
+        <NodeLayout
+          Size="181,42"
+          Id="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22100 Metro Area Stats\Sales Org Metro Area"
+          TopLeft="301,78" />
+        <EdgeLayout
+          Id="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22100 Metro Area Stats.Paths[OLE DB Source Output]"
+          TopLeft="391.5,120">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="32,68"
+              Start="0,0"
+              End="32,60.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,30" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,30"
+                    Point2="0,34"
+                    Point3="4,34" />
+                  <mssgle:LineSegment
+                    End="28,34" />
+                  <mssgle:CubicBezierSegment
+                    Point1="28,34"
+                    Point2="32,34"
+                    Point3="32,38" />
+                  <mssgle:LineSegment
+                    End="32,60.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22100 Metro Area Stats\Sales Org Metro Area">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22100 Metro Area Stats\Star Schema Metro Area">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -3714,6 +4369,65 @@ FROM dbo.Customer AS c</property>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\20000 Star SchemaTables Load\23000 Products DB Source\23200 Customers\Star Customers">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <TaskHost
+    design-time-name="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="169,42"
+          Id="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\sales org org chart"
+          TopLeft="375,72" />
+        <NodeLayout
+          Size="189,42"
+          Id="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\Star Schema Sales Org"
+          TopLeft="366,182" />
+        <EdgeLayout
+          Id="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org.Paths[OLE DB Source Output]"
+          TopLeft="460,114">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,68"
+              Start="0,0"
+              End="0,60.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,60.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\sales org org chart">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\Star Schema Sales Org">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
