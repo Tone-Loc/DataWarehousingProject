@@ -1,4 +1,4 @@
-﻿<?xml version="1.0"?>
+<?xml version="1.0"?>
 <DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
   DTS:refId="Package"
   DTS:CreationDate="4/9/2017 1:35:29 PM"
@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="23"
-  DTS:VersionGUID="{C5A7D6AB-812A-4D3F-9C71-605561C3E4A4}">
+  DTS:VersionBuild="27"
+  DTS:VersionGUID="{7A4C03B3-AF1D-4444-A0C7-23A3D1CAC466}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">6</DTS:Property>
   <DTS:ConnectionManagers>
@@ -27,7 +27,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeIll/ZDaXUKAdtm3s8eNfwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAACYJ+6jq7qLIao4kVu4+VF/AAAAAASAAACgAAAAEAAAAPSuDaN7lyGEfYl/33fDXiEgAAAAEiR3xqsA6G5bsX5lAwtIuPl2mFTaiiN+CqerMQEdqoEUAAAAuIDRzh2pX7VL4vDlbF3NI9u8zv0</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeIll/ZDaXUKAdtm3s8eNfwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAAC+0eO53vrjGpb/tleREf6VAAAAAASAAACgAAAAEAAAANBvlyvRclBYbFxyZ7G4U3wgAAAAe3ZShDv0yLCI55jQCYIE1a/Xx0MtlOURIMf+kxie8TAUAAAAY3+at7WccSDLqrw7mXqIHqlAgI8</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -42,7 +42,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeIll/ZDaXUKAdtm3s8eNfwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAACDc9psD5ZZkAamymjgYTZvAAAAAASAAACgAAAAEAAAABhtWESWDpsa3NbTNzWpBxsgAAAAYbPK3uBHfy6klmJ863z1yOzFR0XTRuyLLuM63nOGDNUUAAAA2m4O6Mr5U2kw+uZgMSN9eAeILqM</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeIll/ZDaXUKAdtm3s8eNfwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAAAjlEGTlfVX/SmbarrnnBTBAAAAAASAAACgAAAAEAAAAO1QYAldwqoVDzOk8ONa4bUgAAAAALKEc/E7ijJhfPYVPFHeHdCA5xpDllBWZgjYRpPfdo8UAAAARPK5e8uvR3lgkX+LHY+ly4OPNds</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -57,7 +57,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeIll/ZDaXUKAdtm3s8eNfwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAADZ11EfuZJL9fF/BtInT/7PAAAAAASAAACgAAAAEAAAANuYQ3F38yp+wi/pmnAZ/20gAAAA5+Kh0a704/MVR5IzEQai+3q9bx3NSNjstyB0LHEh/gUUAAAApI57g0FygZC4vmUY+94+u6yhU88</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeIll/ZDaXUKAdtm3s8eNfwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAABWdP5EHq0YOI8vX/rGVLNkAAAAAASAAACgAAAAEAAAAAPhcjcldf7QL7rSxO1YFEUgAAAAyiKlcuX7nhzDvxDDEj/LWKNnVb8fgV7nz6aoZQkHvpYUAAAARmes0Quiy79y2lJUdspQpgAwj0w</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -72,7 +72,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeIll/ZDaXUKAdtm3s8eNfwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAADvbaUqEf38EVmC82mMvP2GAAAAAASAAACgAAAAEAAAAO38UqP76xRJk9IwxpQZQnIgAAAA1cemexQNCasbeFXzT2Nw2aQZji3Hyo/ogdmvuS77nB4UAAAA21IQPMDahIe8ejAaKvkyB2oOHo8</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeIll/ZDaXUKAdtm3s8eNfwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAAB7+7g+MD7OplXghdGq153XAAAAAASAAACgAAAAEAAAAB1cFx3sIYaK6uN+F/yIlHUgAAAA2rjnfeobPbM62leMLiAR57J07sLf6rtHTvVhgCzBp6wUAAAALbDF0S8ozbHujTzDbL2PkrCT0KI</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -5740,6 +5740,1858 @@ GROUP BY fs.FS_ID
                 </pipeline>
               </DTS:ObjectData>
             </DTS:Executable>
+            <DTS:Executable
+              DTS:refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date"
+              DTS:CreationName="SSIS.Pipeline.3"
+              DTS:Description="Data Flow Task"
+              DTS:DTSID="{C7A4563D-95F1-47C5-8EC0-7DCDB09A5B2A}"
+              DTS:ExecutableType="SSIS.Pipeline.3"
+              DTS:LocaleID="-1"
+              DTS:ObjectName="23500 MFG Date"
+              DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) 2007 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+              <DTS:Variables />
+              <DTS:ObjectData>
+                <pipeline
+                  version="1">
+                  <components>
+                    <component
+                      refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date"
+                      componentClassID="{165A526D-D5DE-47FF-96A6-F8274C19826B}"
+                      contactInfo="OLE DB Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;7"
+                      description="OLE DB Source"
+                      name="Products MFG Date"
+                      usesDispositions="true"
+                      version="7">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                          name="CommandTimeout">0</property>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the name of the database object used to open a rowset."
+                          name="OpenRowset"></property>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the variable that contains the name of the database object used to open a rowset."
+                          name="OpenRowsetVariable"></property>
+                        <property
+                          dataType="System.String"
+                          description="The SQL command to be executed."
+                          name="SqlCommand"
+                          UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">--USE SEIS732_Team_21_Products
+
+--not sure if i want to use CTE seems slower.
+;WITH Quarters AS (
+    SELECT Q = 'Q1', MonthBegin = 1, MonthEnd = 3 UNION
+    SELECT Q = 'Q2', MonthBegin = 4, MonthEnd = 6 UNION
+    SELECT Q = 'Q3', MonthBegin = 7, MonthEnd = 9 UNION
+    SELECT Q = 'Q4', MonthBegin = 10, MonthEnd = 12
+)
+,QuartersName AS (
+	SELECT Q = 'First Quarter', MonthBegin = 1, MonthEnd = 3 UNION
+    SELECT Q = 'Second Quarter', MonthBegin = 4, MonthEnd = 6 UNION
+    SELECT Q = 'third Quarter', MonthBegin = 7, MonthEnd = 9 UNION
+    SELECT Q = 'Fourth Quarter', MonthBegin = 10, MonthEnd = 12
+)
+
+SELECT DISTINCT  
+		MDAT_Year			= YEAR(ri.RV_MFG_Date),
+		--quarter information
+		MDAT_Quarter_KEY	= DATEPART(qq, ri.RV_MFG_Date) ,
+		MDAT_Quarter_Name =	CASE 
+								WHEN DATEPART(m,ri.RV_MFG_Date) BETWEEN 1 and 3 THEN 'First Quarter'
+								WHEN DATEPART(m,ri.RV_MFG_Date) BETWEEN 4 and 6 THEN 'Second Quarter'
+								WHEN DATEPART(m,ri.RV_MFG_Date) BETWEEN 7 and 9 THEN 'Third Quarter'
+								WHEN DATEPART(m,ri.RV_MFG_Date) BETWEEN 10 and 12 THEN 'Fourth Quarter'
+							END,
+		MDAT_Quarter_Abbreviation = CASE 
+									WHEN DATEPART(m,ri.RV_MFG_Date) BETWEEN 1 and 3 THEN 'Q1'
+									WHEN DATEPART(m,ri.RV_MFG_Date) BETWEEN 4 and 6 THEN 'Q2'
+									WHEN DATEPART(m,ri.RV_MFG_Date) BETWEEN 7 and 9 THEN 'Q3'
+									WHEN DATEPART(m,ri.RV_MFG_Date) BETWEEN 10 and 12 THEN 'Q4'
+								END,
+		MDAT_Quarter = CONVERT(VARCHAR(4), DATEPART(yyyy, ri.RV_MFG_Date)) + '-' + 
+									CASE 
+										WHEN DATEPART(m,ri.RV_MFG_Date) BETWEEN 1 and 3 THEN 'Q1'
+										WHEN DATEPART(m,ri.RV_MFG_Date) BETWEEN 4 and 6 THEN 'Q2'
+										WHEN DATEPART(m,ri.RV_MFG_Date) BETWEEN 7 and 9 THEN 'Q3'
+										WHEN DATEPART(m,ri.RV_MFG_Date) BETWEEN 10 and 12 THEN 'Q4'
+									END ,
+		 --week information
+		 MDAT_Week			= CONVERT(VARCHAR(4), DATEPART(yyyy, ri.RV_MFG_Date)) + '-Week' +right('00'+CAST(DATEPART(m,ri.RV_MFG_Date) AS varchar(2)),2) ,
+		 MDAT_Week_Of_Year	= DATEPART(WEEK, ri.RV_MFG_Date) ,
+		 MDAT_Week_Of_Quarter = (datediff(dd,dateadd(QQ,datediff(QQ,0,ri.RV_MFG_Date),0),ri.RV_MFG_Date)/7)+1, --not sure
+		 --month
+		 MDAT_Month_KEY			= 0 , --??
+		 MDAT_Month_Number		= DATEPART(m,ri.RV_MFG_Date),
+		 MDAT_Month_Name			= CAST(DATENAME(MONTH, ri.RV_MFG_Date) AS varchar(9)),
+		 MDAT_Month_Abbreviation	= UPPER(CONVERT(char(3), ri.RV_MFG_Date, 0)),
+		 MDAT_Day_Of_Year			= datename(dayofyear, ri.RV_MFG_Date),
+		 MDAT_Day_Of_Quarter		= datename(quarter, ri.RV_MFG_Date),
+		 MDAT_Day_Of_Week			= CAST(DATENAME(weekday, ri.RV_MFG_Date) AS VARCHAR(9)),
+		 MDAT_Day_of_Month		= DATENAME(DAY,ri.RV_MFG_Date),
+		 MDAT_Weekday_Or_Weekend	= CASE 
+											WHEN DATEPART(WEEKDAY, ri.RV_MFG_Date) BETWEEN 2 AND 6 THEN 'Weekday'
+											ELSE 'Weekend'
+										END,
+		 MDAT_Date				= ri.RV_MFG_Date,
+		MDAT_Full_Date_Description	= 'Date Description' --?
+		 --day of part
+FROM dbo.RRV_Instance AS ri
+/*
+INNER JOIN Quarters q ON
+        DATEPART(m,ri.RV_MFG_Date) &gt;= q.MonthBegin AND
+        DATEPART(m, ri.RV_MFG_Date) &lt;= q.MonthEnd
+INNER JOIN QuartersName qn ON
+        DATEPART(m,ri.RV_MFG_Date) &gt;= qn.MonthBegin AND
+        DATEPART(m, ri.RV_MFG_Date) &lt;= qn.MonthEnd
+	*/			
+	--ORDER BY ri.RV_MFG_Date ASC
+	;</property>
+                        <property
+                          dataType="System.String"
+                          description="The variable that contains the SQL command to be executed."
+                          name="SqlCommandVariable"></property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the column code page to use when code page information is unavailable from the data source."
+                          name="DefaultCodePage">1252</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Forces the use of the DefaultCodePage property value when describing character data."
+                          name="AlwaysUseDefaultCodePage">false</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the mode used to access the database."
+                          name="AccessMode"
+                          typeConverter="AccessMode">2</property>
+                        <property
+                          dataType="System.String"
+                          description="The mappings between the parameters in the SQL command and variables."
+                          name="ParameterMapping"></property>
+                      </properties>
+                      <connections>
+                        <connection
+                          refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Connections[OleDbConnection]"
+                          connectionManagerID="Package.ConnectionManagers[(local).SEIS732_Team_21_Products.SEIS732_Team_21_Products_User]"
+                          connectionManagerRefId="Package.ConnectionManagers[(local).SEIS732_Team_21_Products.SEIS732_Team_21_Products_User]"
+                          description="The OLE DB runtime connection used to access the database."
+                          name="OleDbConnection" />
+                      </connections>
+                      <outputs>
+                        <output
+                          refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Output]"
+                          name="OLE DB Source Output">
+                          <outputColumns>
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Output].Columns[MDAT_Year]"
+                              dataType="i4"
+                              errorOrTruncationOperation="Conversion"
+                              errorRowDisposition="FailComponent"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Output].ExternalColumns[MDAT_Year]"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Output].Columns[MDAT_Year]"
+                              name="MDAT_Year"
+                              truncationRowDisposition="FailComponent" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Output].Columns[MDAT_Quarter_KEY]"
+                              dataType="i4"
+                              errorOrTruncationOperation="Conversion"
+                              errorRowDisposition="FailComponent"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Output].ExternalColumns[MDAT_Quarter_KEY]"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Output].Columns[MDAT_Quarter_KEY]"
+                              name="MDAT_Quarter_KEY"
+                              truncationRowDisposition="FailComponent" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Output].Columns[MDAT_Quarter_Name]"
+                              codePage="1252"
+                              dataType="str"
+                              errorOrTruncationOperation="Conversion"
+                              errorRowDisposition="FailComponent"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Output].ExternalColumns[MDAT_Quarter_Name]"
+                              length="14"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Output].Columns[MDAT_Quarter_Name]"
+                              name="MDAT_Quarter_Name"
+                              truncationRowDisposition="FailComponent" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Output].Columns[MDAT_Quarter_Abbreviation]"
+                              codePage="1252"
+                              dataType="str"
+                              errorOrTruncationOperation="Conversion"
+                              errorRowDisposition="FailComponent"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Output].ExternalColumns[MDAT_Quarter_Abbreviation]"
+                              length="2"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Output].Columns[MDAT_Quarter_Abbreviation]"
+                              name="MDAT_Quarter_Abbreviation"
+                              truncationRowDisposition="FailComponent" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Output].Columns[MDAT_Quarter]"
+                              codePage="1252"
+                              dataType="str"
+                              errorOrTruncationOperation="Conversion"
+                              errorRowDisposition="FailComponent"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Output].ExternalColumns[MDAT_Quarter]"
+                              length="7"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Output].Columns[MDAT_Quarter]"
+                              name="MDAT_Quarter"
+                              truncationRowDisposition="FailComponent" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Output].Columns[MDAT_Week]"
+                              codePage="1252"
+                              dataType="str"
+                              errorOrTruncationOperation="Conversion"
+                              errorRowDisposition="FailComponent"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Output].ExternalColumns[MDAT_Week]"
+                              length="11"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Output].Columns[MDAT_Week]"
+                              name="MDAT_Week"
+                              truncationRowDisposition="FailComponent" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Output].Columns[MDAT_Week_Of_Year]"
+                              dataType="i4"
+                              errorOrTruncationOperation="Conversion"
+                              errorRowDisposition="FailComponent"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Output].ExternalColumns[MDAT_Week_Of_Year]"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Output].Columns[MDAT_Week_Of_Year]"
+                              name="MDAT_Week_Of_Year"
+                              truncationRowDisposition="FailComponent" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Output].Columns[MDAT_Week_Of_Quarter]"
+                              dataType="i4"
+                              errorOrTruncationOperation="Conversion"
+                              errorRowDisposition="FailComponent"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Output].ExternalColumns[MDAT_Week_Of_Quarter]"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Output].Columns[MDAT_Week_Of_Quarter]"
+                              name="MDAT_Week_Of_Quarter"
+                              truncationRowDisposition="FailComponent" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Output].Columns[MDAT_Month_KEY]"
+                              dataType="i4"
+                              errorOrTruncationOperation="Conversion"
+                              errorRowDisposition="FailComponent"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Output].ExternalColumns[MDAT_Month_KEY]"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Output].Columns[MDAT_Month_KEY]"
+                              name="MDAT_Month_KEY"
+                              truncationRowDisposition="FailComponent" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Output].Columns[MDAT_Month_Number]"
+                              dataType="i4"
+                              errorOrTruncationOperation="Conversion"
+                              errorRowDisposition="FailComponent"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Output].ExternalColumns[MDAT_Month_Number]"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Output].Columns[MDAT_Month_Number]"
+                              name="MDAT_Month_Number"
+                              truncationRowDisposition="FailComponent" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Output].Columns[MDAT_Month_Name]"
+                              codePage="1252"
+                              dataType="str"
+                              errorOrTruncationOperation="Conversion"
+                              errorRowDisposition="FailComponent"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Output].ExternalColumns[MDAT_Month_Name]"
+                              length="9"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Output].Columns[MDAT_Month_Name]"
+                              name="MDAT_Month_Name"
+                              truncationRowDisposition="FailComponent" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Output].Columns[MDAT_Month_Abbreviation]"
+                              codePage="1252"
+                              dataType="str"
+                              errorOrTruncationOperation="Conversion"
+                              errorRowDisposition="FailComponent"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Output].ExternalColumns[MDAT_Month_Abbreviation]"
+                              length="3"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Output].Columns[MDAT_Month_Abbreviation]"
+                              name="MDAT_Month_Abbreviation"
+                              truncationRowDisposition="FailComponent" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Output].Columns[MDAT_Day_Of_Year]"
+                              dataType="wstr"
+                              errorOrTruncationOperation="Conversion"
+                              errorRowDisposition="FailComponent"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Output].ExternalColumns[MDAT_Day_Of_Year]"
+                              length="30"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Output].Columns[MDAT_Day_Of_Year]"
+                              name="MDAT_Day_Of_Year"
+                              truncationRowDisposition="FailComponent" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Output].Columns[MDAT_Day_Of_Quarter]"
+                              dataType="wstr"
+                              errorOrTruncationOperation="Conversion"
+                              errorRowDisposition="FailComponent"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Output].ExternalColumns[MDAT_Day_Of_Quarter]"
+                              length="30"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Output].Columns[MDAT_Day_Of_Quarter]"
+                              name="MDAT_Day_Of_Quarter"
+                              truncationRowDisposition="FailComponent" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Output].Columns[MDAT_Day_Of_Week]"
+                              codePage="1252"
+                              dataType="str"
+                              errorOrTruncationOperation="Conversion"
+                              errorRowDisposition="FailComponent"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Output].ExternalColumns[MDAT_Day_Of_Week]"
+                              length="9"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Output].Columns[MDAT_Day_Of_Week]"
+                              name="MDAT_Day_Of_Week"
+                              truncationRowDisposition="FailComponent" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Output].Columns[MDAT_Day_of_Month]"
+                              dataType="wstr"
+                              errorOrTruncationOperation="Conversion"
+                              errorRowDisposition="FailComponent"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Output].ExternalColumns[MDAT_Day_of_Month]"
+                              length="30"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Output].Columns[MDAT_Day_of_Month]"
+                              name="MDAT_Day_of_Month"
+                              truncationRowDisposition="FailComponent" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Output].Columns[MDAT_Weekday_Or_Weekend]"
+                              codePage="1252"
+                              dataType="str"
+                              errorOrTruncationOperation="Conversion"
+                              errorRowDisposition="FailComponent"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Output].ExternalColumns[MDAT_Weekday_Or_Weekend]"
+                              length="7"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Output].Columns[MDAT_Weekday_Or_Weekend]"
+                              name="MDAT_Weekday_Or_Weekend"
+                              truncationRowDisposition="FailComponent" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Output].Columns[MDAT_Date]"
+                              dataType="dbTimeStamp"
+                              errorOrTruncationOperation="Conversion"
+                              errorRowDisposition="FailComponent"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Output].ExternalColumns[MDAT_Date]"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Output].Columns[MDAT_Date]"
+                              name="MDAT_Date"
+                              truncationRowDisposition="FailComponent" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Output].Columns[MDAT_Full_Date_Description]"
+                              codePage="1252"
+                              dataType="str"
+                              errorOrTruncationOperation="Conversion"
+                              errorRowDisposition="FailComponent"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Output].ExternalColumns[MDAT_Full_Date_Description]"
+                              length="16"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Output].Columns[MDAT_Full_Date_Description]"
+                              name="MDAT_Full_Date_Description"
+                              truncationRowDisposition="FailComponent" />
+                          </outputColumns>
+                          <externalMetadataColumns
+                            isUsed="True">
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Output].ExternalColumns[MDAT_Year]"
+                              dataType="i4"
+                              name="MDAT_Year" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Output].ExternalColumns[MDAT_Quarter_KEY]"
+                              dataType="i4"
+                              name="MDAT_Quarter_KEY" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Output].ExternalColumns[MDAT_Quarter_Name]"
+                              codePage="1252"
+                              dataType="str"
+                              length="14"
+                              name="MDAT_Quarter_Name" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Output].ExternalColumns[MDAT_Quarter_Abbreviation]"
+                              codePage="1252"
+                              dataType="str"
+                              length="2"
+                              name="MDAT_Quarter_Abbreviation" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Output].ExternalColumns[MDAT_Quarter]"
+                              codePage="1252"
+                              dataType="str"
+                              length="7"
+                              name="MDAT_Quarter" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Output].ExternalColumns[MDAT_Week]"
+                              codePage="1252"
+                              dataType="str"
+                              length="11"
+                              name="MDAT_Week" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Output].ExternalColumns[MDAT_Week_Of_Year]"
+                              dataType="i4"
+                              name="MDAT_Week_Of_Year" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Output].ExternalColumns[MDAT_Week_Of_Quarter]"
+                              dataType="i4"
+                              name="MDAT_Week_Of_Quarter" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Output].ExternalColumns[MDAT_Month_KEY]"
+                              dataType="i4"
+                              name="MDAT_Month_KEY" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Output].ExternalColumns[MDAT_Month_Number]"
+                              dataType="i4"
+                              name="MDAT_Month_Number" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Output].ExternalColumns[MDAT_Month_Name]"
+                              codePage="1252"
+                              dataType="str"
+                              length="9"
+                              name="MDAT_Month_Name" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Output].ExternalColumns[MDAT_Month_Abbreviation]"
+                              codePage="1252"
+                              dataType="str"
+                              length="3"
+                              name="MDAT_Month_Abbreviation" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Output].ExternalColumns[MDAT_Day_Of_Year]"
+                              dataType="wstr"
+                              length="30"
+                              name="MDAT_Day_Of_Year" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Output].ExternalColumns[MDAT_Day_Of_Quarter]"
+                              dataType="wstr"
+                              length="30"
+                              name="MDAT_Day_Of_Quarter" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Output].ExternalColumns[MDAT_Day_Of_Week]"
+                              codePage="1252"
+                              dataType="str"
+                              length="9"
+                              name="MDAT_Day_Of_Week" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Output].ExternalColumns[MDAT_Day_of_Month]"
+                              dataType="wstr"
+                              length="30"
+                              name="MDAT_Day_of_Month" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Output].ExternalColumns[MDAT_Weekday_Or_Weekend]"
+                              codePage="1252"
+                              dataType="str"
+                              length="7"
+                              name="MDAT_Weekday_Or_Weekend" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Output].ExternalColumns[MDAT_Date]"
+                              dataType="dbTimeStamp"
+                              name="MDAT_Date" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Output].ExternalColumns[MDAT_Full_Date_Description]"
+                              codePage="1252"
+                              dataType="str"
+                              length="16"
+                              name="MDAT_Full_Date_Description" />
+                          </externalMetadataColumns>
+                        </output>
+                        <output
+                          refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Error Output]"
+                          isErrorOut="true"
+                          name="OLE DB Source Error Output">
+                          <outputColumns>
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Error Output].Columns[MDAT_Year]"
+                              dataType="i4"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Error Output].Columns[MDAT_Year]"
+                              name="MDAT_Year" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Error Output].Columns[MDAT_Quarter_KEY]"
+                              dataType="i4"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Error Output].Columns[MDAT_Quarter_KEY]"
+                              name="MDAT_Quarter_KEY" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Error Output].Columns[MDAT_Quarter_Name]"
+                              codePage="1252"
+                              dataType="str"
+                              length="14"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Error Output].Columns[MDAT_Quarter_Name]"
+                              name="MDAT_Quarter_Name" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Error Output].Columns[MDAT_Quarter_Abbreviation]"
+                              codePage="1252"
+                              dataType="str"
+                              length="2"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Error Output].Columns[MDAT_Quarter_Abbreviation]"
+                              name="MDAT_Quarter_Abbreviation" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Error Output].Columns[MDAT_Quarter]"
+                              codePage="1252"
+                              dataType="str"
+                              length="7"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Error Output].Columns[MDAT_Quarter]"
+                              name="MDAT_Quarter" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Error Output].Columns[MDAT_Week]"
+                              codePage="1252"
+                              dataType="str"
+                              length="11"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Error Output].Columns[MDAT_Week]"
+                              name="MDAT_Week" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Error Output].Columns[MDAT_Week_Of_Year]"
+                              dataType="i4"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Error Output].Columns[MDAT_Week_Of_Year]"
+                              name="MDAT_Week_Of_Year" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Error Output].Columns[MDAT_Week_Of_Quarter]"
+                              dataType="i4"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Error Output].Columns[MDAT_Week_Of_Quarter]"
+                              name="MDAT_Week_Of_Quarter" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Error Output].Columns[MDAT_Month_KEY]"
+                              dataType="i4"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Error Output].Columns[MDAT_Month_KEY]"
+                              name="MDAT_Month_KEY" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Error Output].Columns[MDAT_Month_Number]"
+                              dataType="i4"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Error Output].Columns[MDAT_Month_Number]"
+                              name="MDAT_Month_Number" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Error Output].Columns[MDAT_Month_Name]"
+                              codePage="1252"
+                              dataType="str"
+                              length="9"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Error Output].Columns[MDAT_Month_Name]"
+                              name="MDAT_Month_Name" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Error Output].Columns[MDAT_Month_Abbreviation]"
+                              codePage="1252"
+                              dataType="str"
+                              length="3"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Error Output].Columns[MDAT_Month_Abbreviation]"
+                              name="MDAT_Month_Abbreviation" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Error Output].Columns[MDAT_Day_Of_Year]"
+                              dataType="wstr"
+                              length="30"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Error Output].Columns[MDAT_Day_Of_Year]"
+                              name="MDAT_Day_Of_Year" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Error Output].Columns[MDAT_Day_Of_Quarter]"
+                              dataType="wstr"
+                              length="30"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Error Output].Columns[MDAT_Day_Of_Quarter]"
+                              name="MDAT_Day_Of_Quarter" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Error Output].Columns[MDAT_Day_Of_Week]"
+                              codePage="1252"
+                              dataType="str"
+                              length="9"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Error Output].Columns[MDAT_Day_Of_Week]"
+                              name="MDAT_Day_Of_Week" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Error Output].Columns[MDAT_Day_of_Month]"
+                              dataType="wstr"
+                              length="30"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Error Output].Columns[MDAT_Day_of_Month]"
+                              name="MDAT_Day_of_Month" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Error Output].Columns[MDAT_Weekday_Or_Weekend]"
+                              codePage="1252"
+                              dataType="str"
+                              length="7"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Error Output].Columns[MDAT_Weekday_Or_Weekend]"
+                              name="MDAT_Weekday_Or_Weekend" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Error Output].Columns[MDAT_Date]"
+                              dataType="dbTimeStamp"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Error Output].Columns[MDAT_Date]"
+                              name="MDAT_Date" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Error Output].Columns[MDAT_Full_Date_Description]"
+                              codePage="1252"
+                              dataType="str"
+                              length="16"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Error Output].Columns[MDAT_Full_Date_Description]"
+                              name="MDAT_Full_Date_Description" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                              dataType="i4"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                              name="ErrorCode"
+                              specialFlags="1" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                              dataType="i4"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                              name="ErrorColumn"
+                              specialFlags="2" />
+                          </outputColumns>
+                          <externalMetadataColumns />
+                        </output>
+                      </outputs>
+                    </component>
+                    <component
+                      refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Star Schema MFG Date"
+                      componentClassID="{4ADA7EAA-136C-4215-8098-D7A7C27FC0D1}"
+                      contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
+                      description="OLE DB Destination"
+                      name="Star Schema MFG Date"
+                      usesDispositions="true"
+                      version="4">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                          name="CommandTimeout">0</property>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the name of the database object used to open a rowset."
+                          name="OpenRowset">[dbo].[MANUFACTURE_DATE]</property>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the variable that contains the name of the database object used to open a rowset."
+                          name="OpenRowsetVariable"></property>
+                        <property
+                          dataType="System.String"
+                          description="The SQL command to be executed."
+                          name="SqlCommand"
+                          UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the column code page to use when code page information is unavailable from the data source."
+                          name="DefaultCodePage">1252</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Forces the use of the DefaultCodePage property value when describing character data."
+                          name="AlwaysUseDefaultCodePage">false</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the mode used to access the database."
+                          name="AccessMode"
+                          typeConverter="AccessMode">3</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the values supplied for identity columns will be copied to the destination. If false, values for identity columns will be auto-generated at the destination. Applies only if fast load is turned on."
+                          name="FastLoadKeepIdentity">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the columns containing null will have null inserted in the destination. If false, columns containing null will have their default values inserted at the destination. Applies only if fast load is turned on."
+                          name="FastLoadKeepNulls">false</property>
+                        <property
+                          dataType="System.String"
+                          description="Specifies options to be used with fast load.  Applies only if fast load is turned on."
+                          name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies when commits are issued during data insertion.  A value of 0 specifies that one commit will be issued at the end of data insertion.  Applies only if fast load is turned on."
+                          name="FastLoadMaxInsertCommitSize">2147483647</property>
+                      </properties>
+                      <connections>
+                        <connection
+                          refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Star Schema MFG Date.Connections[OleDbConnection]"
+                          connectionManagerID="Package.ConnectionManagers[(local).SEIS732_Team_21_Star_Schema.SEIS732_Team_21_Star_Schema_User]"
+                          connectionManagerRefId="Package.ConnectionManagers[(local).SEIS732_Team_21_Star_Schema.SEIS732_Team_21_Star_Schema_User]"
+                          description="The OLE DB runtime connection used to access the database."
+                          name="OleDbConnection" />
+                      </connections>
+                      <inputs>
+                        <input
+                          refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Star Schema MFG Date.Inputs[OLE DB Destination Input]"
+                          errorOrTruncationOperation="Insert"
+                          errorRowDisposition="FailComponent"
+                          hasSideEffects="true"
+                          name="OLE DB Destination Input">
+                          <inputColumns>
+                            <inputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Star Schema MFG Date.Inputs[OLE DB Destination Input].Columns[MDAT_Year]"
+                              cachedDataType="i4"
+                              cachedName="MDAT_Year"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Star Schema MFG Date.Inputs[OLE DB Destination Input].ExternalColumns[MDAT_Year]"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Output].Columns[MDAT_Year]" />
+                            <inputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Star Schema MFG Date.Inputs[OLE DB Destination Input].Columns[MDAT_Quarter_KEY]"
+                              cachedDataType="i4"
+                              cachedName="MDAT_Quarter_KEY"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Star Schema MFG Date.Inputs[OLE DB Destination Input].ExternalColumns[MDAT_Quarter_KEY]"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Output].Columns[MDAT_Quarter_KEY]" />
+                            <inputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Star Schema MFG Date.Inputs[OLE DB Destination Input].Columns[MDAT_Quarter_Name]"
+                              cachedCodepage="1252"
+                              cachedDataType="str"
+                              cachedLength="14"
+                              cachedName="MDAT_Quarter_Name"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Star Schema MFG Date.Inputs[OLE DB Destination Input].ExternalColumns[MDAT_Quarter_Name]"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Output].Columns[MDAT_Quarter_Name]" />
+                            <inputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Star Schema MFG Date.Inputs[OLE DB Destination Input].Columns[MDAT_Quarter_Abbreviation]"
+                              cachedCodepage="1252"
+                              cachedDataType="str"
+                              cachedLength="2"
+                              cachedName="MDAT_Quarter_Abbreviation"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Star Schema MFG Date.Inputs[OLE DB Destination Input].ExternalColumns[MDAT_Quarter_Abbreviation]"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Output].Columns[MDAT_Quarter_Abbreviation]" />
+                            <inputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Star Schema MFG Date.Inputs[OLE DB Destination Input].Columns[MDAT_Quarter]"
+                              cachedCodepage="1252"
+                              cachedDataType="str"
+                              cachedLength="7"
+                              cachedName="MDAT_Quarter"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Star Schema MFG Date.Inputs[OLE DB Destination Input].ExternalColumns[MDAT_Quarter]"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Output].Columns[MDAT_Quarter]" />
+                            <inputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Star Schema MFG Date.Inputs[OLE DB Destination Input].Columns[MDAT_Week]"
+                              cachedCodepage="1252"
+                              cachedDataType="str"
+                              cachedLength="11"
+                              cachedName="MDAT_Week"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Star Schema MFG Date.Inputs[OLE DB Destination Input].ExternalColumns[MDAT_Week]"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Output].Columns[MDAT_Week]" />
+                            <inputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Star Schema MFG Date.Inputs[OLE DB Destination Input].Columns[MDAT_Week_Of_Year]"
+                              cachedDataType="i4"
+                              cachedName="MDAT_Week_Of_Year"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Star Schema MFG Date.Inputs[OLE DB Destination Input].ExternalColumns[MDAT_Week_Of_Year]"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Output].Columns[MDAT_Week_Of_Year]" />
+                            <inputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Star Schema MFG Date.Inputs[OLE DB Destination Input].Columns[MDAT_Week_Of_Quarter]"
+                              cachedDataType="i4"
+                              cachedName="MDAT_Week_Of_Quarter"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Star Schema MFG Date.Inputs[OLE DB Destination Input].ExternalColumns[MDAT_Week_Of_Quarter]"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Output].Columns[MDAT_Week_Of_Quarter]" />
+                            <inputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Star Schema MFG Date.Inputs[OLE DB Destination Input].Columns[MDAT_Month_KEY]"
+                              cachedDataType="i4"
+                              cachedName="MDAT_Month_KEY"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Star Schema MFG Date.Inputs[OLE DB Destination Input].ExternalColumns[MDAT_Month_KEY]"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Output].Columns[MDAT_Month_KEY]" />
+                            <inputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Star Schema MFG Date.Inputs[OLE DB Destination Input].Columns[MDAT_Month_Number]"
+                              cachedDataType="i4"
+                              cachedName="MDAT_Month_Number"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Star Schema MFG Date.Inputs[OLE DB Destination Input].ExternalColumns[MDAT_Month_Number]"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Output].Columns[MDAT_Month_Number]" />
+                            <inputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Star Schema MFG Date.Inputs[OLE DB Destination Input].Columns[MDAT_Month_Name]"
+                              cachedCodepage="1252"
+                              cachedDataType="str"
+                              cachedLength="9"
+                              cachedName="MDAT_Month_Name"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Star Schema MFG Date.Inputs[OLE DB Destination Input].ExternalColumns[MDAT_Month_Name]"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Output].Columns[MDAT_Month_Name]" />
+                            <inputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Star Schema MFG Date.Inputs[OLE DB Destination Input].Columns[MDAT_Month_Abbreviation]"
+                              cachedCodepage="1252"
+                              cachedDataType="str"
+                              cachedLength="3"
+                              cachedName="MDAT_Month_Abbreviation"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Star Schema MFG Date.Inputs[OLE DB Destination Input].ExternalColumns[MDAT_Month_Abbreviation]"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Output].Columns[MDAT_Month_Abbreviation]" />
+                            <inputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Star Schema MFG Date.Inputs[OLE DB Destination Input].Columns[MDAT_Day_Of_Year]"
+                              cachedDataType="wstr"
+                              cachedLength="30"
+                              cachedName="MDAT_Day_Of_Year"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Star Schema MFG Date.Inputs[OLE DB Destination Input].ExternalColumns[MDAT_Day_Of_Year]"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Output].Columns[MDAT_Day_Of_Year]" />
+                            <inputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Star Schema MFG Date.Inputs[OLE DB Destination Input].Columns[MDAT_Day_Of_Quarter]"
+                              cachedDataType="wstr"
+                              cachedLength="30"
+                              cachedName="MDAT_Day_Of_Quarter"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Star Schema MFG Date.Inputs[OLE DB Destination Input].ExternalColumns[MDAT_Day_Of_Quarter]"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Output].Columns[MDAT_Day_Of_Quarter]" />
+                            <inputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Star Schema MFG Date.Inputs[OLE DB Destination Input].Columns[MDAT_Day_Of_Week]"
+                              cachedCodepage="1252"
+                              cachedDataType="str"
+                              cachedLength="9"
+                              cachedName="MDAT_Day_Of_Week"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Star Schema MFG Date.Inputs[OLE DB Destination Input].ExternalColumns[MDAT_Day_Of_Week]"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Output].Columns[MDAT_Day_Of_Week]" />
+                            <inputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Star Schema MFG Date.Inputs[OLE DB Destination Input].Columns[MDAT_Day_of_Month]"
+                              cachedDataType="wstr"
+                              cachedLength="30"
+                              cachedName="MDAT_Day_of_Month"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Star Schema MFG Date.Inputs[OLE DB Destination Input].ExternalColumns[MDAT_Day_of_Month]"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Output].Columns[MDAT_Day_of_Month]" />
+                            <inputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Star Schema MFG Date.Inputs[OLE DB Destination Input].Columns[MDAT_Weekday_Or_Weekend]"
+                              cachedCodepage="1252"
+                              cachedDataType="str"
+                              cachedLength="7"
+                              cachedName="MDAT_Weekday_Or_Weekend"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Star Schema MFG Date.Inputs[OLE DB Destination Input].ExternalColumns[MDAT_Weekday_Or_Weekend]"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Output].Columns[MDAT_Weekday_Or_Weekend]" />
+                            <inputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Star Schema MFG Date.Inputs[OLE DB Destination Input].Columns[MDAT_Date]"
+                              cachedDataType="dbTimeStamp"
+                              cachedName="MDAT_Date"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Star Schema MFG Date.Inputs[OLE DB Destination Input].ExternalColumns[MDAT_Date]"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Output].Columns[MDAT_Date]" />
+                            <inputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Star Schema MFG Date.Inputs[OLE DB Destination Input].Columns[MDAT_Full_Date_Description]"
+                              cachedCodepage="1252"
+                              cachedDataType="str"
+                              cachedLength="16"
+                              cachedName="MDAT_Full_Date_Description"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Star Schema MFG Date.Inputs[OLE DB Destination Input].ExternalColumns[MDAT_Full_Date_Description]"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Output].Columns[MDAT_Full_Date_Description]" />
+                          </inputColumns>
+                          <externalMetadataColumns
+                            isUsed="True">
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Star Schema MFG Date.Inputs[OLE DB Destination Input].ExternalColumns[MDAT_Key]"
+                              dataType="numeric"
+                              name="MDAT_Key"
+                              precision="18" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Star Schema MFG Date.Inputs[OLE DB Destination Input].ExternalColumns[MDAT_Year]"
+                              codePage="1252"
+                              dataType="str"
+                              length="4"
+                              name="MDAT_Year" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Star Schema MFG Date.Inputs[OLE DB Destination Input].ExternalColumns[MDAT_Quarter_KEY]"
+                              dataType="i2"
+                              name="MDAT_Quarter_KEY" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Star Schema MFG Date.Inputs[OLE DB Destination Input].ExternalColumns[MDAT_Quarter_Name]"
+                              codePage="1252"
+                              dataType="str"
+                              length="14"
+                              name="MDAT_Quarter_Name" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Star Schema MFG Date.Inputs[OLE DB Destination Input].ExternalColumns[MDAT_Quarter_Abbreviation]"
+                              codePage="1252"
+                              dataType="str"
+                              length="2"
+                              name="MDAT_Quarter_Abbreviation" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Star Schema MFG Date.Inputs[OLE DB Destination Input].ExternalColumns[MDAT_Quarter]"
+                              codePage="1252"
+                              dataType="str"
+                              length="7"
+                              name="MDAT_Quarter" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Star Schema MFG Date.Inputs[OLE DB Destination Input].ExternalColumns[MDAT_Week]"
+                              codePage="1252"
+                              dataType="str"
+                              length="11"
+                              name="MDAT_Week" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Star Schema MFG Date.Inputs[OLE DB Destination Input].ExternalColumns[MDAT_Week_Of_Year]"
+                              dataType="i2"
+                              name="MDAT_Week_Of_Year" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Star Schema MFG Date.Inputs[OLE DB Destination Input].ExternalColumns[MDAT_Week_Of_Quarter]"
+                              dataType="i2"
+                              name="MDAT_Week_Of_Quarter" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Star Schema MFG Date.Inputs[OLE DB Destination Input].ExternalColumns[MDAT_Month_KEY]"
+                              dataType="i2"
+                              name="MDAT_Month_KEY" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Star Schema MFG Date.Inputs[OLE DB Destination Input].ExternalColumns[MDAT_Month_Number]"
+                              dataType="i2"
+                              name="MDAT_Month_Number" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Star Schema MFG Date.Inputs[OLE DB Destination Input].ExternalColumns[MDAT_Month_Name]"
+                              codePage="1252"
+                              dataType="str"
+                              length="9"
+                              name="MDAT_Month_Name" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Star Schema MFG Date.Inputs[OLE DB Destination Input].ExternalColumns[MDAT_Month_Abbreviation]"
+                              codePage="1252"
+                              dataType="str"
+                              length="3"
+                              name="MDAT_Month_Abbreviation" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Star Schema MFG Date.Inputs[OLE DB Destination Input].ExternalColumns[MDAT_Day_Of_Year]"
+                              dataType="i2"
+                              name="MDAT_Day_Of_Year" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Star Schema MFG Date.Inputs[OLE DB Destination Input].ExternalColumns[MDAT_Day_Of_Quarter]"
+                              dataType="i2"
+                              name="MDAT_Day_Of_Quarter" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Star Schema MFG Date.Inputs[OLE DB Destination Input].ExternalColumns[MDAT_Day_Of_Week]"
+                              codePage="1252"
+                              dataType="str"
+                              length="9"
+                              name="MDAT_Day_Of_Week" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Star Schema MFG Date.Inputs[OLE DB Destination Input].ExternalColumns[MDAT_Day_of_Month]"
+                              dataType="i2"
+                              name="MDAT_Day_of_Month" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Star Schema MFG Date.Inputs[OLE DB Destination Input].ExternalColumns[MDAT_Weekday_Or_Weekend]"
+                              codePage="1252"
+                              dataType="str"
+                              length="8"
+                              name="MDAT_Weekday_Or_Weekend" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Star Schema MFG Date.Inputs[OLE DB Destination Input].ExternalColumns[MDAT_Date]"
+                              dataType="dbTimeStamp"
+                              name="MDAT_Date" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Star Schema MFG Date.Inputs[OLE DB Destination Input].ExternalColumns[MDAT_Full_Date_Description]"
+                              codePage="1252"
+                              dataType="str"
+                              length="18"
+                              name="MDAT_Full_Date_Description" />
+                          </externalMetadataColumns>
+                        </input>
+                      </inputs>
+                      <outputs>
+                        <output
+                          refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Star Schema MFG Date.Outputs[OLE DB Destination Error Output]"
+                          exclusionGroup="1"
+                          isErrorOut="true"
+                          name="OLE DB Destination Error Output"
+                          synchronousInputId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Star Schema MFG Date.Inputs[OLE DB Destination Input]">
+                          <outputColumns>
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Star Schema MFG Date.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                              dataType="i4"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Star Schema MFG Date.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                              name="ErrorCode"
+                              specialFlags="1" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Star Schema MFG Date.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                              dataType="i4"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Star Schema MFG Date.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                              name="ErrorColumn"
+                              specialFlags="2" />
+                          </outputColumns>
+                          <externalMetadataColumns />
+                        </output>
+                      </outputs>
+                    </component>
+                  </components>
+                  <paths>
+                    <path
+                      refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date.Paths[OLE DB Source Output]"
+                      endId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Star Schema MFG Date.Inputs[OLE DB Destination Input]"
+                      name="OLE DB Source Output"
+                      startId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Output]" />
+                  </paths>
+                </pipeline>
+              </DTS:ObjectData>
+            </DTS:Executable>
+            <DTS:Executable
+              DTS:refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date"
+              DTS:CreationName="SSIS.Pipeline.3"
+              DTS:Description="Data Flow Task"
+              DTS:DTSID="{9E0A5CE2-814E-4D98-B33B-7EB2C28F0165}"
+              DTS:ExecutableType="SSIS.Pipeline.3"
+              DTS:LocaleID="-1"
+              DTS:ObjectName="23600 Sale Date"
+              DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) 2007 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+              <DTS:Variables />
+              <DTS:ObjectData>
+                <pipeline
+                  version="1">
+                  <components>
+                    <component
+                      refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date"
+                      componentClassID="{165A526D-D5DE-47FF-96A6-F8274C19826B}"
+                      contactInfo="OLE DB Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;7"
+                      description="OLE DB Source"
+                      name="Products Sale Date"
+                      usesDispositions="true"
+                      version="7">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                          name="CommandTimeout">0</property>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the name of the database object used to open a rowset."
+                          name="OpenRowset"></property>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the variable that contains the name of the database object used to open a rowset."
+                          name="OpenRowsetVariable"></property>
+                        <property
+                          dataType="System.String"
+                          description="The SQL command to be executed."
+                          name="SqlCommand"
+                          UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">--USE SEIS732_Team_21_Products
+
+--not sure if i want to use CTE seems slower.
+;WITH Quarters AS (
+    SELECT Q = 'Q1', MonthBegin = 1, MonthEnd = 3 UNION
+    SELECT Q = 'Q2', MonthBegin = 4, MonthEnd = 6 UNION
+    SELECT Q = 'Q3', MonthBegin = 7, MonthEnd = 9 UNION
+    SELECT Q = 'Q4', MonthBegin = 10, MonthEnd = 12
+)
+,QuartersName AS (
+	SELECT Q = 'First Quarter', MonthBegin = 1, MonthEnd = 3 UNION
+    SELECT Q = 'Second Quarter', MonthBegin = 4, MonthEnd = 6 UNION
+    SELECT Q = 'third Quarter', MonthBegin = 7, MonthEnd = 9 UNION
+    SELECT Q = 'Fourth Quarter', MonthBegin = 10, MonthEnd = 12
+)
+
+SELECT DISTINCT  
+		PDAT_Year			= YEAR(s.Sale_Date),
+		--quarter information
+		PDAT_Quarter_KEY	= DATEPART(qq, s.Sale_Date) ,
+		PDAT_Quarter_Name =	CASE 
+								WHEN DATEPART(m,s.Sale_Date) BETWEEN 1 and 3 THEN 'First Quarter'
+								WHEN DATEPART(m,s.Sale_Date) BETWEEN 4 and 6 THEN 'Second Quarter'
+								WHEN DATEPART(m,s.Sale_Date) BETWEEN 7 and 9 THEN 'Third Quarter'
+								WHEN DATEPART(m,s.Sale_Date) BETWEEN 10 and 12 THEN 'Fourth Quarter'
+							END,
+		PDAT_Quarter_Abbreviation = CASE 
+									WHEN DATEPART(m,s.Sale_Date) BETWEEN 1 and 3 THEN 'Q1'
+									WHEN DATEPART(m,s.Sale_Date) BETWEEN 4 and 6 THEN 'Q2'
+									WHEN DATEPART(m,s.Sale_Date) BETWEEN 7 and 9 THEN 'Q3'
+									WHEN DATEPART(m,s.Sale_Date) BETWEEN 10 and 12 THEN 'Q4'
+								END,
+		PDAT_Quarter = CONVERT(VARCHAR(4), DATEPART(yyyy, s.Sale_Date)) + '-' + 
+									CASE 
+										WHEN DATEPART(m,s.Sale_Date) BETWEEN 1 and 3 THEN 'Q1'
+										WHEN DATEPART(m,s.Sale_Date) BETWEEN 4 and 6 THEN 'Q2'
+										WHEN DATEPART(m,s.Sale_Date) BETWEEN 7 and 9 THEN 'Q3'
+										WHEN DATEPART(m,s.Sale_Date) BETWEEN 10 and 12 THEN 'Q4'
+									END ,
+		 --week information
+		 PDAT_Week			= CONVERT(VARCHAR(4), DATEPART(yyyy, s.Sale_Date)) + '-Week' +right('00'+CAST(DATEPART(m,s.Sale_Date) AS varchar(2)),2) ,
+		 PDAT_Week_Of_Year	= DATEPART(WEEK, s.Sale_Date) ,
+		 PDAT_Week_Of_Quarter = (datediff(dd,dateadd(QQ,datediff(QQ,0,s.Sale_Date),0),s.Sale_Date)/7)+1, --not sure
+		 --month
+		 PDAT_Month_KEY			= 0 , --??
+		 PDAT_Month_Number		= DATEPART(m,s.Sale_Date),
+		 PDAT_Month_Name			= CAST(DATENAME(MONTH, s.Sale_Date) AS varchar(9)),
+		 PDAT_Month_Abbreviation	= UPPER(CONVERT(char(3), s.Sale_Date, 0)),
+		 PDAT_Day_Of_Year			= datename(dayofyear, s.Sale_Date),
+		 PDAT_Day_Of_Quarter		= datename(quarter, s.Sale_Date),
+		 PDAT_Day_Of_Week			= CAST(DATENAME(weekday, s.Sale_Date) AS VARCHAR(9)),
+		 PDAT_Day_of_Month		= DATENAME(DAY,s.Sale_Date),
+		 PDAT_Weekday_Or_Weekend	= CASE 
+											WHEN DATEPART(WEEKDAY, s.Sale_Date) BETWEEN 2 AND 6 THEN 'Weekday'
+											ELSE 'Weekend'
+										END,
+		 PDAT_Date				= s.Sale_Date,
+		PDAT_Full_Date_Description	= 'Date Description' --?
+		 --day of part
+FROM dbo.Sold AS s
+/*
+INNER JOIN Quarters q ON
+        DATEPART(m,s.Sale_Date) &gt;= q.MonthBegin AND
+        DATEPART(m, s.Sale_Date) &lt;= q.MonthEnd
+INNER JOIN QuartersName qn ON
+        DATEPART(m,s.Sale_Date) &gt;= qn.MonthBegin AND
+        DATEPART(m, s.Sale_Date) &lt;= qn.MonthEnd
+	*/			
+	--ORDER BY s.Sale_Date ASC
+	;</property>
+                        <property
+                          dataType="System.String"
+                          description="The variable that contains the SQL command to be executed."
+                          name="SqlCommandVariable"></property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the column code page to use when code page information is unavailable from the data source."
+                          name="DefaultCodePage">1252</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Forces the use of the DefaultCodePage property value when describing character data."
+                          name="AlwaysUseDefaultCodePage">false</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the mode used to access the database."
+                          name="AccessMode"
+                          typeConverter="AccessMode">2</property>
+                        <property
+                          dataType="System.String"
+                          description="The mappings between the parameters in the SQL command and variables."
+                          name="ParameterMapping"></property>
+                      </properties>
+                      <connections>
+                        <connection
+                          refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Connections[OleDbConnection]"
+                          connectionManagerID="Package.ConnectionManagers[(local).SEIS732_Team_21_Products.SEIS732_Team_21_Products_User]"
+                          connectionManagerRefId="Package.ConnectionManagers[(local).SEIS732_Team_21_Products.SEIS732_Team_21_Products_User]"
+                          description="The OLE DB runtime connection used to access the database."
+                          name="OleDbConnection" />
+                      </connections>
+                      <outputs>
+                        <output
+                          refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Output]"
+                          name="OLE DB Source Output">
+                          <outputColumns>
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Output].Columns[PDAT_Year]"
+                              dataType="i4"
+                              errorOrTruncationOperation="Conversion"
+                              errorRowDisposition="FailComponent"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Output].ExternalColumns[PDAT_Year]"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Output].Columns[PDAT_Year]"
+                              name="PDAT_Year"
+                              truncationRowDisposition="FailComponent" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Output].Columns[PDAT_Quarter_KEY]"
+                              dataType="i4"
+                              errorOrTruncationOperation="Conversion"
+                              errorRowDisposition="FailComponent"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Output].ExternalColumns[PDAT_Quarter_KEY]"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Output].Columns[PDAT_Quarter_KEY]"
+                              name="PDAT_Quarter_KEY"
+                              truncationRowDisposition="FailComponent" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Output].Columns[PDAT_Quarter_Name]"
+                              codePage="1252"
+                              dataType="str"
+                              errorOrTruncationOperation="Conversion"
+                              errorRowDisposition="FailComponent"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Output].ExternalColumns[PDAT_Quarter_Name]"
+                              length="14"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Output].Columns[PDAT_Quarter_Name]"
+                              name="PDAT_Quarter_Name"
+                              truncationRowDisposition="FailComponent" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Output].Columns[PDAT_Quarter_Abbreviation]"
+                              codePage="1252"
+                              dataType="str"
+                              errorOrTruncationOperation="Conversion"
+                              errorRowDisposition="FailComponent"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Output].ExternalColumns[PDAT_Quarter_Abbreviation]"
+                              length="2"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Output].Columns[PDAT_Quarter_Abbreviation]"
+                              name="PDAT_Quarter_Abbreviation"
+                              truncationRowDisposition="FailComponent" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Output].Columns[PDAT_Quarter]"
+                              codePage="1252"
+                              dataType="str"
+                              errorOrTruncationOperation="Conversion"
+                              errorRowDisposition="FailComponent"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Output].ExternalColumns[PDAT_Quarter]"
+                              length="7"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Output].Columns[PDAT_Quarter]"
+                              name="PDAT_Quarter"
+                              truncationRowDisposition="FailComponent" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Output].Columns[PDAT_Week]"
+                              codePage="1252"
+                              dataType="str"
+                              errorOrTruncationOperation="Conversion"
+                              errorRowDisposition="FailComponent"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Output].ExternalColumns[PDAT_Week]"
+                              length="11"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Output].Columns[PDAT_Week]"
+                              name="PDAT_Week"
+                              truncationRowDisposition="FailComponent" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Output].Columns[PDAT_Week_Of_Year]"
+                              dataType="i4"
+                              errorOrTruncationOperation="Conversion"
+                              errorRowDisposition="FailComponent"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Output].ExternalColumns[PDAT_Week_Of_Year]"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Output].Columns[PDAT_Week_Of_Year]"
+                              name="PDAT_Week_Of_Year"
+                              truncationRowDisposition="FailComponent" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Output].Columns[PDAT_Week_Of_Quarter]"
+                              dataType="i4"
+                              errorOrTruncationOperation="Conversion"
+                              errorRowDisposition="FailComponent"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Output].ExternalColumns[PDAT_Week_Of_Quarter]"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Output].Columns[PDAT_Week_Of_Quarter]"
+                              name="PDAT_Week_Of_Quarter"
+                              truncationRowDisposition="FailComponent" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Output].Columns[PDAT_Month_KEY]"
+                              dataType="i4"
+                              errorOrTruncationOperation="Conversion"
+                              errorRowDisposition="FailComponent"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Output].ExternalColumns[PDAT_Month_KEY]"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Output].Columns[PDAT_Month_KEY]"
+                              name="PDAT_Month_KEY"
+                              truncationRowDisposition="FailComponent" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Output].Columns[PDAT_Month_Number]"
+                              dataType="i4"
+                              errorOrTruncationOperation="Conversion"
+                              errorRowDisposition="FailComponent"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Output].ExternalColumns[PDAT_Month_Number]"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Output].Columns[PDAT_Month_Number]"
+                              name="PDAT_Month_Number"
+                              truncationRowDisposition="FailComponent" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Output].Columns[PDAT_Month_Name]"
+                              codePage="1252"
+                              dataType="str"
+                              errorOrTruncationOperation="Conversion"
+                              errorRowDisposition="FailComponent"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Output].ExternalColumns[PDAT_Month_Name]"
+                              length="9"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Output].Columns[PDAT_Month_Name]"
+                              name="PDAT_Month_Name"
+                              truncationRowDisposition="FailComponent" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Output].Columns[PDAT_Month_Abbreviation]"
+                              codePage="1252"
+                              dataType="str"
+                              errorOrTruncationOperation="Conversion"
+                              errorRowDisposition="FailComponent"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Output].ExternalColumns[PDAT_Month_Abbreviation]"
+                              length="3"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Output].Columns[PDAT_Month_Abbreviation]"
+                              name="PDAT_Month_Abbreviation"
+                              truncationRowDisposition="FailComponent" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Output].Columns[PDAT_Day_Of_Year]"
+                              dataType="wstr"
+                              errorOrTruncationOperation="Conversion"
+                              errorRowDisposition="FailComponent"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Output].ExternalColumns[PDAT_Day_Of_Year]"
+                              length="30"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Output].Columns[PDAT_Day_Of_Year]"
+                              name="PDAT_Day_Of_Year"
+                              truncationRowDisposition="FailComponent" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Output].Columns[PDAT_Day_Of_Quarter]"
+                              dataType="wstr"
+                              errorOrTruncationOperation="Conversion"
+                              errorRowDisposition="FailComponent"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Output].ExternalColumns[PDAT_Day_Of_Quarter]"
+                              length="30"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Output].Columns[PDAT_Day_Of_Quarter]"
+                              name="PDAT_Day_Of_Quarter"
+                              truncationRowDisposition="FailComponent" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Output].Columns[PDAT_Day_Of_Week]"
+                              codePage="1252"
+                              dataType="str"
+                              errorOrTruncationOperation="Conversion"
+                              errorRowDisposition="FailComponent"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Output].ExternalColumns[PDAT_Day_Of_Week]"
+                              length="9"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Output].Columns[PDAT_Day_Of_Week]"
+                              name="PDAT_Day_Of_Week"
+                              truncationRowDisposition="FailComponent" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Output].Columns[PDAT_Day_of_Month]"
+                              dataType="wstr"
+                              errorOrTruncationOperation="Conversion"
+                              errorRowDisposition="FailComponent"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Output].ExternalColumns[PDAT_Day_of_Month]"
+                              length="30"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Output].Columns[PDAT_Day_of_Month]"
+                              name="PDAT_Day_of_Month"
+                              truncationRowDisposition="FailComponent" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Output].Columns[PDAT_Weekday_Or_Weekend]"
+                              codePage="1252"
+                              dataType="str"
+                              errorOrTruncationOperation="Conversion"
+                              errorRowDisposition="FailComponent"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Output].ExternalColumns[PDAT_Weekday_Or_Weekend]"
+                              length="7"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Output].Columns[PDAT_Weekday_Or_Weekend]"
+                              name="PDAT_Weekday_Or_Weekend"
+                              truncationRowDisposition="FailComponent" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Output].Columns[PDAT_Date]"
+                              dataType="dbTimeStamp"
+                              errorOrTruncationOperation="Conversion"
+                              errorRowDisposition="FailComponent"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Output].ExternalColumns[PDAT_Date]"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Output].Columns[PDAT_Date]"
+                              name="PDAT_Date"
+                              truncationRowDisposition="FailComponent" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Output].Columns[PDAT_Full_Date_Description]"
+                              codePage="1252"
+                              dataType="str"
+                              errorOrTruncationOperation="Conversion"
+                              errorRowDisposition="FailComponent"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Output].ExternalColumns[PDAT_Full_Date_Description]"
+                              length="16"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Output].Columns[PDAT_Full_Date_Description]"
+                              name="PDAT_Full_Date_Description"
+                              truncationRowDisposition="FailComponent" />
+                          </outputColumns>
+                          <externalMetadataColumns
+                            isUsed="True">
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Output].ExternalColumns[PDAT_Year]"
+                              dataType="i4"
+                              name="PDAT_Year" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Output].ExternalColumns[PDAT_Quarter_KEY]"
+                              dataType="i4"
+                              name="PDAT_Quarter_KEY" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Output].ExternalColumns[PDAT_Quarter_Name]"
+                              codePage="1252"
+                              dataType="str"
+                              length="14"
+                              name="PDAT_Quarter_Name" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Output].ExternalColumns[PDAT_Quarter_Abbreviation]"
+                              codePage="1252"
+                              dataType="str"
+                              length="2"
+                              name="PDAT_Quarter_Abbreviation" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Output].ExternalColumns[PDAT_Quarter]"
+                              codePage="1252"
+                              dataType="str"
+                              length="7"
+                              name="PDAT_Quarter" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Output].ExternalColumns[PDAT_Week]"
+                              codePage="1252"
+                              dataType="str"
+                              length="11"
+                              name="PDAT_Week" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Output].ExternalColumns[PDAT_Week_Of_Year]"
+                              dataType="i4"
+                              name="PDAT_Week_Of_Year" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Output].ExternalColumns[PDAT_Week_Of_Quarter]"
+                              dataType="i4"
+                              name="PDAT_Week_Of_Quarter" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Output].ExternalColumns[PDAT_Month_KEY]"
+                              dataType="i4"
+                              name="PDAT_Month_KEY" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Output].ExternalColumns[PDAT_Month_Number]"
+                              dataType="i4"
+                              name="PDAT_Month_Number" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Output].ExternalColumns[PDAT_Month_Name]"
+                              codePage="1252"
+                              dataType="str"
+                              length="9"
+                              name="PDAT_Month_Name" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Output].ExternalColumns[PDAT_Month_Abbreviation]"
+                              codePage="1252"
+                              dataType="str"
+                              length="3"
+                              name="PDAT_Month_Abbreviation" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Output].ExternalColumns[PDAT_Day_Of_Year]"
+                              dataType="wstr"
+                              length="30"
+                              name="PDAT_Day_Of_Year" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Output].ExternalColumns[PDAT_Day_Of_Quarter]"
+                              dataType="wstr"
+                              length="30"
+                              name="PDAT_Day_Of_Quarter" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Output].ExternalColumns[PDAT_Day_Of_Week]"
+                              codePage="1252"
+                              dataType="str"
+                              length="9"
+                              name="PDAT_Day_Of_Week" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Output].ExternalColumns[PDAT_Day_of_Month]"
+                              dataType="wstr"
+                              length="30"
+                              name="PDAT_Day_of_Month" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Output].ExternalColumns[PDAT_Weekday_Or_Weekend]"
+                              codePage="1252"
+                              dataType="str"
+                              length="7"
+                              name="PDAT_Weekday_Or_Weekend" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Output].ExternalColumns[PDAT_Date]"
+                              dataType="dbTimeStamp"
+                              name="PDAT_Date" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Output].ExternalColumns[PDAT_Full_Date_Description]"
+                              codePage="1252"
+                              dataType="str"
+                              length="16"
+                              name="PDAT_Full_Date_Description" />
+                          </externalMetadataColumns>
+                        </output>
+                        <output
+                          refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Error Output]"
+                          isErrorOut="true"
+                          name="OLE DB Source Error Output">
+                          <outputColumns>
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Error Output].Columns[PDAT_Year]"
+                              dataType="i4"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Error Output].Columns[PDAT_Year]"
+                              name="PDAT_Year" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Error Output].Columns[PDAT_Quarter_KEY]"
+                              dataType="i4"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Error Output].Columns[PDAT_Quarter_KEY]"
+                              name="PDAT_Quarter_KEY" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Error Output].Columns[PDAT_Quarter_Name]"
+                              codePage="1252"
+                              dataType="str"
+                              length="14"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Error Output].Columns[PDAT_Quarter_Name]"
+                              name="PDAT_Quarter_Name" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Error Output].Columns[PDAT_Quarter_Abbreviation]"
+                              codePage="1252"
+                              dataType="str"
+                              length="2"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Error Output].Columns[PDAT_Quarter_Abbreviation]"
+                              name="PDAT_Quarter_Abbreviation" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Error Output].Columns[PDAT_Quarter]"
+                              codePage="1252"
+                              dataType="str"
+                              length="7"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Error Output].Columns[PDAT_Quarter]"
+                              name="PDAT_Quarter" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Error Output].Columns[PDAT_Week]"
+                              codePage="1252"
+                              dataType="str"
+                              length="11"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Error Output].Columns[PDAT_Week]"
+                              name="PDAT_Week" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Error Output].Columns[PDAT_Week_Of_Year]"
+                              dataType="i4"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Error Output].Columns[PDAT_Week_Of_Year]"
+                              name="PDAT_Week_Of_Year" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Error Output].Columns[PDAT_Week_Of_Quarter]"
+                              dataType="i4"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Error Output].Columns[PDAT_Week_Of_Quarter]"
+                              name="PDAT_Week_Of_Quarter" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Error Output].Columns[PDAT_Month_KEY]"
+                              dataType="i4"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Error Output].Columns[PDAT_Month_KEY]"
+                              name="PDAT_Month_KEY" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Error Output].Columns[PDAT_Month_Number]"
+                              dataType="i4"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Error Output].Columns[PDAT_Month_Number]"
+                              name="PDAT_Month_Number" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Error Output].Columns[PDAT_Month_Name]"
+                              codePage="1252"
+                              dataType="str"
+                              length="9"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Error Output].Columns[PDAT_Month_Name]"
+                              name="PDAT_Month_Name" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Error Output].Columns[PDAT_Month_Abbreviation]"
+                              codePage="1252"
+                              dataType="str"
+                              length="3"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Error Output].Columns[PDAT_Month_Abbreviation]"
+                              name="PDAT_Month_Abbreviation" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Error Output].Columns[PDAT_Day_Of_Year]"
+                              dataType="wstr"
+                              length="30"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Error Output].Columns[PDAT_Day_Of_Year]"
+                              name="PDAT_Day_Of_Year" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Error Output].Columns[PDAT_Day_Of_Quarter]"
+                              dataType="wstr"
+                              length="30"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Error Output].Columns[PDAT_Day_Of_Quarter]"
+                              name="PDAT_Day_Of_Quarter" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Error Output].Columns[PDAT_Day_Of_Week]"
+                              codePage="1252"
+                              dataType="str"
+                              length="9"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Error Output].Columns[PDAT_Day_Of_Week]"
+                              name="PDAT_Day_Of_Week" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Error Output].Columns[PDAT_Day_of_Month]"
+                              dataType="wstr"
+                              length="30"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Error Output].Columns[PDAT_Day_of_Month]"
+                              name="PDAT_Day_of_Month" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Error Output].Columns[PDAT_Weekday_Or_Weekend]"
+                              codePage="1252"
+                              dataType="str"
+                              length="7"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Error Output].Columns[PDAT_Weekday_Or_Weekend]"
+                              name="PDAT_Weekday_Or_Weekend" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Error Output].Columns[PDAT_Date]"
+                              dataType="dbTimeStamp"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Error Output].Columns[PDAT_Date]"
+                              name="PDAT_Date" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Error Output].Columns[PDAT_Full_Date_Description]"
+                              codePage="1252"
+                              dataType="str"
+                              length="16"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Error Output].Columns[PDAT_Full_Date_Description]"
+                              name="PDAT_Full_Date_Description" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                              dataType="i4"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                              name="ErrorCode"
+                              specialFlags="1" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                              dataType="i4"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                              name="ErrorColumn"
+                              specialFlags="2" />
+                          </outputColumns>
+                          <externalMetadataColumns />
+                        </output>
+                      </outputs>
+                    </component>
+                    <component
+                      refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Star Schema Purchase Date"
+                      componentClassID="{4ADA7EAA-136C-4215-8098-D7A7C27FC0D1}"
+                      contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
+                      description="OLE DB Destination"
+                      name="Star Schema Purchase Date"
+                      usesDispositions="true"
+                      version="4">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                          name="CommandTimeout">0</property>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the name of the database object used to open a rowset."
+                          name="OpenRowset">[dbo].[PURCHASE_DATE]</property>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the variable that contains the name of the database object used to open a rowset."
+                          name="OpenRowsetVariable"></property>
+                        <property
+                          dataType="System.String"
+                          description="The SQL command to be executed."
+                          name="SqlCommand"
+                          UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the column code page to use when code page information is unavailable from the data source."
+                          name="DefaultCodePage">1252</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Forces the use of the DefaultCodePage property value when describing character data."
+                          name="AlwaysUseDefaultCodePage">false</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the mode used to access the database."
+                          name="AccessMode"
+                          typeConverter="AccessMode">3</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the values supplied for identity columns will be copied to the destination. If false, values for identity columns will be auto-generated at the destination. Applies only if fast load is turned on."
+                          name="FastLoadKeepIdentity">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the columns containing null will have null inserted in the destination. If false, columns containing null will have their default values inserted at the destination. Applies only if fast load is turned on."
+                          name="FastLoadKeepNulls">false</property>
+                        <property
+                          dataType="System.String"
+                          description="Specifies options to be used with fast load.  Applies only if fast load is turned on."
+                          name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies when commits are issued during data insertion.  A value of 0 specifies that one commit will be issued at the end of data insertion.  Applies only if fast load is turned on."
+                          name="FastLoadMaxInsertCommitSize">2147483647</property>
+                      </properties>
+                      <connections>
+                        <connection
+                          refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Star Schema Purchase Date.Connections[OleDbConnection]"
+                          connectionManagerID="Package.ConnectionManagers[(local).SEIS732_Team_21_Star_Schema.SEIS732_Team_21_Star_Schema_User]"
+                          connectionManagerRefId="Package.ConnectionManagers[(local).SEIS732_Team_21_Star_Schema.SEIS732_Team_21_Star_Schema_User]"
+                          description="The OLE DB runtime connection used to access the database."
+                          name="OleDbConnection" />
+                      </connections>
+                      <inputs>
+                        <input
+                          refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Star Schema Purchase Date.Inputs[OLE DB Destination Input]"
+                          errorOrTruncationOperation="Insert"
+                          errorRowDisposition="FailComponent"
+                          hasSideEffects="true"
+                          name="OLE DB Destination Input">
+                          <inputColumns>
+                            <inputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Star Schema Purchase Date.Inputs[OLE DB Destination Input].Columns[PDAT_Year]"
+                              cachedDataType="i4"
+                              cachedName="PDAT_Year"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Star Schema Purchase Date.Inputs[OLE DB Destination Input].ExternalColumns[PDAT_Year]"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Output].Columns[PDAT_Year]" />
+                            <inputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Star Schema Purchase Date.Inputs[OLE DB Destination Input].Columns[PDAT_Quarter_KEY]"
+                              cachedDataType="i4"
+                              cachedName="PDAT_Quarter_KEY"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Star Schema Purchase Date.Inputs[OLE DB Destination Input].ExternalColumns[PDAT_Quarter_KEY]"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Output].Columns[PDAT_Quarter_KEY]" />
+                            <inputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Star Schema Purchase Date.Inputs[OLE DB Destination Input].Columns[PDAT_Quarter_Name]"
+                              cachedCodepage="1252"
+                              cachedDataType="str"
+                              cachedLength="14"
+                              cachedName="PDAT_Quarter_Name"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Star Schema Purchase Date.Inputs[OLE DB Destination Input].ExternalColumns[PDAT_Quarter_Name]"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Output].Columns[PDAT_Quarter_Name]" />
+                            <inputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Star Schema Purchase Date.Inputs[OLE DB Destination Input].Columns[PDAT_Quarter_Abbreviation]"
+                              cachedCodepage="1252"
+                              cachedDataType="str"
+                              cachedLength="2"
+                              cachedName="PDAT_Quarter_Abbreviation"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Star Schema Purchase Date.Inputs[OLE DB Destination Input].ExternalColumns[PDAT_Quarter_Abbreviation]"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Output].Columns[PDAT_Quarter_Abbreviation]" />
+                            <inputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Star Schema Purchase Date.Inputs[OLE DB Destination Input].Columns[PDAT_Quarter]"
+                              cachedCodepage="1252"
+                              cachedDataType="str"
+                              cachedLength="7"
+                              cachedName="PDAT_Quarter"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Star Schema Purchase Date.Inputs[OLE DB Destination Input].ExternalColumns[PDAT_Quarter]"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Output].Columns[PDAT_Quarter]" />
+                            <inputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Star Schema Purchase Date.Inputs[OLE DB Destination Input].Columns[PDAT_Week]"
+                              cachedCodepage="1252"
+                              cachedDataType="str"
+                              cachedLength="11"
+                              cachedName="PDAT_Week"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Star Schema Purchase Date.Inputs[OLE DB Destination Input].ExternalColumns[PDAT_Week]"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Output].Columns[PDAT_Week]" />
+                            <inputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Star Schema Purchase Date.Inputs[OLE DB Destination Input].Columns[PDAT_Week_Of_Year]"
+                              cachedDataType="i4"
+                              cachedName="PDAT_Week_Of_Year"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Star Schema Purchase Date.Inputs[OLE DB Destination Input].ExternalColumns[PDAT_Week_Of_Year]"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Output].Columns[PDAT_Week_Of_Year]" />
+                            <inputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Star Schema Purchase Date.Inputs[OLE DB Destination Input].Columns[PDAT_Week_Of_Quarter]"
+                              cachedDataType="i4"
+                              cachedName="PDAT_Week_Of_Quarter"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Star Schema Purchase Date.Inputs[OLE DB Destination Input].ExternalColumns[PDAT_Week_Of_Quarter]"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Output].Columns[PDAT_Week_Of_Quarter]" />
+                            <inputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Star Schema Purchase Date.Inputs[OLE DB Destination Input].Columns[PDAT_Month_KEY]"
+                              cachedDataType="i4"
+                              cachedName="PDAT_Month_KEY"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Star Schema Purchase Date.Inputs[OLE DB Destination Input].ExternalColumns[PDAT_Month_KEY]"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Output].Columns[PDAT_Month_KEY]" />
+                            <inputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Star Schema Purchase Date.Inputs[OLE DB Destination Input].Columns[PDAT_Month_Number]"
+                              cachedDataType="i4"
+                              cachedName="PDAT_Month_Number"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Star Schema Purchase Date.Inputs[OLE DB Destination Input].ExternalColumns[PDAT_Month_Number]"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Output].Columns[PDAT_Month_Number]" />
+                            <inputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Star Schema Purchase Date.Inputs[OLE DB Destination Input].Columns[PDAT_Month_Name]"
+                              cachedCodepage="1252"
+                              cachedDataType="str"
+                              cachedLength="9"
+                              cachedName="PDAT_Month_Name"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Star Schema Purchase Date.Inputs[OLE DB Destination Input].ExternalColumns[PDAT_Month_Name]"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Output].Columns[PDAT_Month_Name]" />
+                            <inputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Star Schema Purchase Date.Inputs[OLE DB Destination Input].Columns[PDAT_Month_Abbreviation]"
+                              cachedCodepage="1252"
+                              cachedDataType="str"
+                              cachedLength="3"
+                              cachedName="PDAT_Month_Abbreviation"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Star Schema Purchase Date.Inputs[OLE DB Destination Input].ExternalColumns[PDAT_Month_Abbreviation]"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Output].Columns[PDAT_Month_Abbreviation]" />
+                            <inputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Star Schema Purchase Date.Inputs[OLE DB Destination Input].Columns[PDAT_Day_Of_Year]"
+                              cachedDataType="wstr"
+                              cachedLength="30"
+                              cachedName="PDAT_Day_Of_Year"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Star Schema Purchase Date.Inputs[OLE DB Destination Input].ExternalColumns[PDAT_Day_Of_Year]"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Output].Columns[PDAT_Day_Of_Year]" />
+                            <inputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Star Schema Purchase Date.Inputs[OLE DB Destination Input].Columns[PDAT_Day_Of_Quarter]"
+                              cachedDataType="wstr"
+                              cachedLength="30"
+                              cachedName="PDAT_Day_Of_Quarter"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Star Schema Purchase Date.Inputs[OLE DB Destination Input].ExternalColumns[PDAT_Day_Of_Quarter]"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Output].Columns[PDAT_Day_Of_Quarter]" />
+                            <inputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Star Schema Purchase Date.Inputs[OLE DB Destination Input].Columns[PDAT_Day_Of_Week]"
+                              cachedCodepage="1252"
+                              cachedDataType="str"
+                              cachedLength="9"
+                              cachedName="PDAT_Day_Of_Week"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Star Schema Purchase Date.Inputs[OLE DB Destination Input].ExternalColumns[PDAT_Day_Of_Week]"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Output].Columns[PDAT_Day_Of_Week]" />
+                            <inputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Star Schema Purchase Date.Inputs[OLE DB Destination Input].Columns[PDAT_Day_of_Month]"
+                              cachedDataType="wstr"
+                              cachedLength="30"
+                              cachedName="PDAT_Day_of_Month"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Star Schema Purchase Date.Inputs[OLE DB Destination Input].ExternalColumns[PDAT_Day_of_Month]"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Output].Columns[PDAT_Day_of_Month]" />
+                            <inputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Star Schema Purchase Date.Inputs[OLE DB Destination Input].Columns[PDAT_Weekday_Or_Weekend]"
+                              cachedCodepage="1252"
+                              cachedDataType="str"
+                              cachedLength="7"
+                              cachedName="PDAT_Weekday_Or_Weekend"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Star Schema Purchase Date.Inputs[OLE DB Destination Input].ExternalColumns[PDAT_Weekday_Or_Weekend]"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Output].Columns[PDAT_Weekday_Or_Weekend]" />
+                            <inputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Star Schema Purchase Date.Inputs[OLE DB Destination Input].Columns[PDAT_Date]"
+                              cachedDataType="dbTimeStamp"
+                              cachedName="PDAT_Date"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Star Schema Purchase Date.Inputs[OLE DB Destination Input].ExternalColumns[PDAT_Date]"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Output].Columns[PDAT_Date]" />
+                            <inputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Star Schema Purchase Date.Inputs[OLE DB Destination Input].Columns[PDAT_Full_Date_Description]"
+                              cachedCodepage="1252"
+                              cachedDataType="str"
+                              cachedLength="16"
+                              cachedName="PDAT_Full_Date_Description"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Star Schema Purchase Date.Inputs[OLE DB Destination Input].ExternalColumns[PDAT_Full_Date_Description]"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Output].Columns[PDAT_Full_Date_Description]" />
+                          </inputColumns>
+                          <externalMetadataColumns
+                            isUsed="True">
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Star Schema Purchase Date.Inputs[OLE DB Destination Input].ExternalColumns[PDAT_Key]"
+                              dataType="numeric"
+                              name="PDAT_Key"
+                              precision="18" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Star Schema Purchase Date.Inputs[OLE DB Destination Input].ExternalColumns[PDAT_Year]"
+                              codePage="1252"
+                              dataType="str"
+                              length="4"
+                              name="PDAT_Year" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Star Schema Purchase Date.Inputs[OLE DB Destination Input].ExternalColumns[PDAT_Quarter_KEY]"
+                              dataType="i2"
+                              name="PDAT_Quarter_KEY" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Star Schema Purchase Date.Inputs[OLE DB Destination Input].ExternalColumns[PDAT_Quarter_Name]"
+                              codePage="1252"
+                              dataType="str"
+                              length="14"
+                              name="PDAT_Quarter_Name" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Star Schema Purchase Date.Inputs[OLE DB Destination Input].ExternalColumns[PDAT_Quarter_Abbreviation]"
+                              codePage="1252"
+                              dataType="str"
+                              length="2"
+                              name="PDAT_Quarter_Abbreviation" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Star Schema Purchase Date.Inputs[OLE DB Destination Input].ExternalColumns[PDAT_Quarter]"
+                              codePage="1252"
+                              dataType="str"
+                              length="7"
+                              name="PDAT_Quarter" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Star Schema Purchase Date.Inputs[OLE DB Destination Input].ExternalColumns[PDAT_Week]"
+                              codePage="1252"
+                              dataType="str"
+                              length="11"
+                              name="PDAT_Week" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Star Schema Purchase Date.Inputs[OLE DB Destination Input].ExternalColumns[PDAT_Week_Of_Year]"
+                              dataType="i2"
+                              name="PDAT_Week_Of_Year" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Star Schema Purchase Date.Inputs[OLE DB Destination Input].ExternalColumns[PDAT_Week_Of_Quarter]"
+                              dataType="i2"
+                              name="PDAT_Week_Of_Quarter" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Star Schema Purchase Date.Inputs[OLE DB Destination Input].ExternalColumns[PDAT_Month_KEY]"
+                              dataType="i2"
+                              name="PDAT_Month_KEY" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Star Schema Purchase Date.Inputs[OLE DB Destination Input].ExternalColumns[PDAT_Month_Number]"
+                              dataType="i2"
+                              name="PDAT_Month_Number" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Star Schema Purchase Date.Inputs[OLE DB Destination Input].ExternalColumns[PDAT_Month_Name]"
+                              codePage="1252"
+                              dataType="str"
+                              length="9"
+                              name="PDAT_Month_Name" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Star Schema Purchase Date.Inputs[OLE DB Destination Input].ExternalColumns[PDAT_Month_Abbreviation]"
+                              codePage="1252"
+                              dataType="str"
+                              length="3"
+                              name="PDAT_Month_Abbreviation" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Star Schema Purchase Date.Inputs[OLE DB Destination Input].ExternalColumns[PDAT_Day_Of_Year]"
+                              dataType="i2"
+                              name="PDAT_Day_Of_Year" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Star Schema Purchase Date.Inputs[OLE DB Destination Input].ExternalColumns[PDAT_Day_Of_Quarter]"
+                              dataType="i2"
+                              name="PDAT_Day_Of_Quarter" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Star Schema Purchase Date.Inputs[OLE DB Destination Input].ExternalColumns[PDAT_Day_Of_Week]"
+                              codePage="1252"
+                              dataType="str"
+                              length="9"
+                              name="PDAT_Day_Of_Week" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Star Schema Purchase Date.Inputs[OLE DB Destination Input].ExternalColumns[PDAT_Day_of_Month]"
+                              dataType="i2"
+                              name="PDAT_Day_of_Month" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Star Schema Purchase Date.Inputs[OLE DB Destination Input].ExternalColumns[PDAT_Weekday_Or_Weekend]"
+                              codePage="1252"
+                              dataType="str"
+                              length="8"
+                              name="PDAT_Weekday_Or_Weekend" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Star Schema Purchase Date.Inputs[OLE DB Destination Input].ExternalColumns[PDAT_Date]"
+                              dataType="dbTimeStamp"
+                              name="PDAT_Date" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Star Schema Purchase Date.Inputs[OLE DB Destination Input].ExternalColumns[PDAT_Full_Date_Description]"
+                              codePage="1252"
+                              dataType="str"
+                              length="18"
+                              name="PDAT_Full_Date_Description" />
+                          </externalMetadataColumns>
+                        </input>
+                      </inputs>
+                      <outputs>
+                        <output
+                          refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Star Schema Purchase Date.Outputs[OLE DB Destination Error Output]"
+                          exclusionGroup="1"
+                          isErrorOut="true"
+                          name="OLE DB Destination Error Output"
+                          synchronousInputId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Star Schema Purchase Date.Inputs[OLE DB Destination Input]">
+                          <outputColumns>
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Star Schema Purchase Date.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                              dataType="i4"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Star Schema Purchase Date.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                              name="ErrorCode"
+                              specialFlags="1" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Star Schema Purchase Date.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                              dataType="i4"
+                              lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Star Schema Purchase Date.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                              name="ErrorColumn"
+                              specialFlags="2" />
+                          </outputColumns>
+                          <externalMetadataColumns />
+                        </output>
+                      </outputs>
+                    </component>
+                  </components>
+                  <paths>
+                    <path
+                      refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date.Paths[OLE DB Source Output]"
+                      endId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Star Schema Purchase Date.Inputs[OLE DB Destination Input]"
+                      name="OLE DB Source Output"
+                      startId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Output]" />
+                  </paths>
+                </pipeline>
+              </DTS:ObjectData>
+            </DTS:Executable>
           </DTS:Executables>
         </DTS:Executable>
       </DTS:Executables>
@@ -5850,18 +7702,26 @@ GROUP BY fs.FS_ID
           Size="157,42"
           Id="Package\20000 Star SchemaTables Load\23000 Products DB Source\23400 Packages"
           TopLeft="253,90" />
+        <NodeLayout
+          Size="160,42"
+          Id="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date"
+          TopLeft="33,163" />
+        <NodeLayout
+          Size="158,42"
+          Id="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date"
+          TopLeft="251,165" />
         <ContainerLayout
           HeaderHeight="43"
           IsExpanded="True"
-          PanelSize="474,194"
-          Size="474,237"
+          PanelSize="541,274"
+          Size="541,317"
           Id="Package\20000 Star SchemaTables Load\23000 Products DB Source"
-          TopLeft="85,309" />
+          TopLeft="45,311" />
         <ContainerLayout
           HeaderHeight="43"
           IsExpanded="True"
-          PanelSize="677,601"
-          Size="677,644"
+          PanelSize="677,683"
+          Size="677,726"
           Id="Package\20000 Star SchemaTables Load"
           TopLeft="170,394" />
         <EdgeLayout
@@ -6027,7 +7887,7 @@ GROUP BY fs.FS_ID
     design-time-name="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22100 Metro Area Stats">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="195,42"
           Id="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22100 Metro Area Stats\Star Schema Metro Area"
@@ -6067,7 +7927,9 @@ GROUP BY fs.FS_ID
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -6083,6 +7945,67 @@ GROUP BY fs.FS_ID
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22100 Metro Area Stats\Star Schema Metro Area">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <TaskHost
+    design-time-name="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        <NodeLayout
+          Size="189,42"
+          Id="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\Star Schema Sales Org"
+          TopLeft="366,182" />
+        <NodeLayout
+          Size="169,42"
+          Id="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\sales org org chart"
+          TopLeft="375,72" />
+        <EdgeLayout
+          Id="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org.Paths[OLE DB Source Output]"
+          TopLeft="460,114">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,68"
+              Start="0,0"
+              End="0,60.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,60.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\sales org org chart">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\Star Schema Sales Org">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -6229,69 +8152,10 @@ GROUP BY fs.FS_ID
     </Properties>
   </PipelineComponentMetadata>
   <TaskHost
-    design-time-name="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org">
-    <LayoutInfo>
-      <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
-        <NodeLayout
-          Size="169,42"
-          Id="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\sales org org chart"
-          TopLeft="375,72" />
-        <NodeLayout
-          Size="189,42"
-          Id="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\Star Schema Sales Org"
-          TopLeft="366,182" />
-        <EdgeLayout
-          Id="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org.Paths[OLE DB Source Output]"
-          TopLeft="460,114">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,68"
-              Start="0,0"
-              End="0,60.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,60.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-      </GraphLayout>
-    </LayoutInfo>
-  </TaskHost>
-  <PipelineComponentMetadata
-    design-time-name="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\sales org org chart">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\Star Schema Sales Org">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <TaskHost
     design-time-name="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="122,42"
           Id="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products"
@@ -6331,7 +8195,9 @@ GROUP BY fs.FS_ID
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -6362,7 +8228,7 @@ GROUP BY fs.FS_ID
     design-time-name="Package\20000 Star SchemaTables Load\23000 Products DB Source\23400 Packages">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="163,42"
           Id="Package\20000 Star SchemaTables Load\23000 Products DB Source\23400 Packages\products features"
@@ -6402,7 +8268,9 @@ GROUP BY fs.FS_ID
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -6418,6 +8286,148 @@ GROUP BY fs.FS_ID
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\20000 Star SchemaTables Load\23000 Products DB Source\23400 Packages\Star Schema Package">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <TaskHost
+    design-time-name="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="171,42"
+          Id="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date"
+          TopLeft="451,183" />
+        <NodeLayout
+          Size="190,42"
+          Id="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Star Schema MFG Date"
+          TopLeft="454,341" />
+        <EdgeLayout
+          Id="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date.Paths[OLE DB Source Output]"
+          TopLeft="536.5,225">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="12.5,116"
+              Start="0,0"
+              End="12.5,108.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,54" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,54"
+                    Point2="0,58"
+                    Point3="4,58" />
+                  <mssgle:LineSegment
+                    End="8.5,58" />
+                  <mssgle:CubicBezierSegment
+                    Point1="8.5,58"
+                    Point2="12.5,58"
+                    Point3="12.5,62" />
+                  <mssgle:LineSegment
+                    End="12.5,108.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Star Schema MFG Date">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <TaskHost
+    design-time-name="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="170,42"
+          Id="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date"
+          TopLeft="444,197" />
+        <NodeLayout
+          Size="211,42"
+          Id="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Star Schema Purchase Date"
+          TopLeft="406,341" />
+        <EdgeLayout
+          Id="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date.Paths[OLE DB Source Output]"
+          TopLeft="529,239">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-17.5,102"
+              Start="0,0"
+              End="-17.5,94.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,47" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,47"
+                    Point2="0,51"
+                    Point3="-4,51" />
+                  <mssgle:LineSegment
+                    End="-13.5,51" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-13.5,51"
+                    Point2="-17.5,51"
+                    Point3="-17.5,55" />
+                  <mssgle:LineSegment
+                    End="-17.5,94.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Star Schema Purchase Date">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
