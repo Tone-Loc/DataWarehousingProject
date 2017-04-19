@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="37"
-  DTS:VersionGUID="{0F8D73F6-A9FB-4631-B80F-64077B472089}">
+  DTS:VersionBuild="42"
+  DTS:VersionGUID="{89CF51ED-D97D-4DEC-BC0C-9415C5E50CA6}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">6</DTS:Property>
   <DTS:ConnectionManagers>
@@ -27,7 +27,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeIll/ZDaXUKAdtm3s8eNfwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAADBZ94BI8GST0X3NYctsg3AAAAAAASAAACgAAAAEAAAAJRBuGFVUXSSPxaRQDNtb00gAAAA2J60OaQK3oP2xpmgK8iyH/X33SgyXMucQ6usNGv8CRYUAAAAOXkK4bmdlPNvcX0KV27mcZ0jKdc</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeIll/ZDaXUKAdtm3s8eNfwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAAAF1KsmnmDY5H/L428b9JIKAAAAAASAAACgAAAAEAAAAJDxLILjvYYSHMtvktp/tq8gAAAASJKy1anFsgGfNPCmfhqs3Alunmkru0KTzrV2VypqQmsUAAAAcuznB/wnXXNKgYDObMqIJIfmLBs</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -42,7 +42,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeIll/ZDaXUKAdtm3s8eNfwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAACa8LLlHTrfb9R6Xok81AcXAAAAAASAAACgAAAAEAAAAHHSfxCw7zVuLoTAv4tKJN8gAAAAj4SxDEqH1i7Yn4LQNiWiBYYLPGO+Bgpk7hMDRVr7s9gUAAAADVXDU5cfcKKmcpeQ31am49ArXdA</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeIll/ZDaXUKAdtm3s8eNfwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAADY0fn1/+TqAdLwV+9tsL0cAAAAAASAAACgAAAAEAAAADjDABqycB62Km0tj4gdwwEgAAAA0sbkGX75fSwIPq7yECC7vT6FpeCEdLfHBd8BvPAiBZsUAAAA7Eu4BKzaoV4+RZyJ28OmucEmAhI</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -57,7 +57,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeIll/ZDaXUKAdtm3s8eNfwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAABoqCHB0jE4/hL3rQk5FNiTAAAAAASAAACgAAAAEAAAACiihfJ5CYa/og/SAdJ6ofEgAAAARf4QRNcsGzU6D47Isz5cdfoBZo4UrmwO3AMfuZj77kcUAAAAkYlJJW3SEAKy4qXtDHul/drbSmQ</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeIll/ZDaXUKAdtm3s8eNfwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAACPnxvfCHtUUzBHHLRyvmQxAAAAAASAAACgAAAAEAAAAABcs33xq/Gca4rSv+YBrXMgAAAAwoETm1G3KrTtJqME3OdDHIFutT6AzxSWLMkU40FJy7gUAAAAwjh0h4/s24PFbgOSegsvuL0xm8w</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -72,7 +72,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeIll/ZDaXUKAdtm3s8eNfwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAAA0bRs/R1h5YzN2IAbw0HeTAAAAAASAAACgAAAAEAAAAKV1pHlfI8hmZWQaaG/7GeggAAAABlXqQI4J/tnA4Sz0q98rJZLlT0Osx25utxegr64Ao+sUAAAAcqplqx0IURmwEMg4j/aJP70kDT8</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeIll/ZDaXUKAdtm3s8eNfwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAAB3mpfruUTS0Hhkf0A6XdHuAAAAAASAAACgAAAAEAAAAOy4jOlcLFOkokFDeJEEyGAgAAAAxMeCw3lhwQLgFdqX1WwHcYvxZH6clJXlQKfwxABQffYUAAAALOr1FbKW1Ztw6MI+kCcHw8i49iQ</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -1933,16 +1933,28 @@ LEFT JOIN dbo.Branch	AS b ON p.BR_ID = b.BR_ID</property>
                           name="SqlCommand"
                           UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">--USE SEIS732_Team_21_Sales_Org
 
-SELECT 
-		MSA_Micropolitan_Area_Population	= msa.MICSA_Population	,
-		MSA_Micropolitan_Area_ID			= msa.MSA_ID,
-		MSA_Micropolitan_Area_Description	= CAST(RIGHT(msa.MICSA_Description,LEN(msa.MICSA_Description)-1) AS VARCHAR(60)), --remove period in col 1
-		MSA_Metropolitan_Area_Population	= msa2.MSA_Population,
-		MSA_Metropolitan_Area_ID			= msa2.MSA_ID,
-		MSA_Metropolitan_Area_Name			= msa2.MSA_Name,
-		MSA_Metropolitan_Area_Key			= msa.MICSA_ID
-FROM dbo.Micropolitan_Statistical_Area AS msa
-LEFT JOIN dbo.Metropolitan_Statistical_Area AS msa2 ON msa.MSA_ID = msa2.MSA_ID</property>
+
+SELECT a.MSA_Micropolitan_Area_Population
+     , a.MSA_Micropolitan_Area_ID
+     , a.MSA_Micropolitan_Area_Description
+     , a.MSA_Metropolitan_Area_Population
+     , a.MSA_Metropolitan_Area_ID
+     , a.MSA_Metropolitan_Area_Name
+     , MSA_Metropolitan_Area_Key  = Dense_RANK() OVER  (ORDER BY a.MSA_Metropolitan_Area_ID)
+FROM (
+	SELECT 
+			MSA_Micropolitan_Area_Population	= msa.MICSA_Population	,
+			MSA_Micropolitan_Area_ID			= msa.MSA_ID,
+			MSA_Micropolitan_Area_Description	= CAST(RIGHT(msa.MICSA_Description,LEN(msa.MICSA_Description)-1) AS VARCHAR(60)), --remove period in col 1
+			MSA_Metropolitan_Area_Population	= msa2.MSA_Population,
+			MSA_Metropolitan_Area_ID			= msa2.MSA_ID,
+			MSA_Metropolitan_Area_Name			= msa2.MSA_Name
+			--MSA_Metropolitan_Area_Key			= msa.MICSA_ID
+	FROM dbo.Micropolitan_Statistical_Area AS msa
+	LEFT JOIN dbo.Metropolitan_Statistical_Area AS msa2 ON msa.MSA_ID = msa2.MSA_ID
+) a
+ORDER BY a.MSA_Metropolitan_Area_ID
+;</property>
                         <property
                           dataType="System.String"
                           description="The variable that contains the SQL command to be executed."
@@ -2385,24 +2397,40 @@ LEFT JOIN dbo.Metropolitan_Statistical_Area AS msa2 ON msa.MSA_ID = msa2.MSA_ID<
                           name="SqlCommand"
                           UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">--USE SEIS732_Team_21_Sales_Org;
 
-SELECT	SORG_Zone_ID				= Zones.SD_ID ,
-		SORG_Zone_Name				= Zones.SD_Name ,
-		SORG_Zone_Manager_Name		= CAST(ISNULL(zone_mgr.MGR_First_Name + '  ', ' &lt;N/A&gt;') AS VARCHAR(60)),
-		SORG_Zone_Key				= ISNULL(zone_mgr.MGR_ID, 0),
-		SORG_Domain_ID				= domain.SA_ID,
-		SORG_Domain_Name			= domain.SA_Name,
-		SORG_Domain_Manager_Name	= CAST(ISNULL(domain_mgr.MGR_First_Name + '  ', ' &lt;N/A&gt;') AS VARCHAR(60)),
-		SORG_Region_ID				= Region.ST_ID,
-		SORG_Region_Name			= Region.ST_Name ,
-		SORG_Region_Manager_Name	= CAST(ISNULL(region_mgr.MGR_First_Name + '  ', ' &lt;N/A&gt;') AS VARCHAR(60)),
-		SORG_Region_Key				= ISNULL(region_mgr.MGR_ID, 0),
-		SORG_Full_Name				= 'TBA' 
-FROM dbo.Sales_District AS Zones
-LEFT JOIN dbo.Sales_Mgr AS zone_mgr			ON Zones.MGR_ID = zone_mgr.MGR_ID
-LEFT JOIN dbo.Sales_Area AS domain			ON Zones.SD_ID = domain.SD_ID
-LEFT JOIN dbo.Sales_Mgr AS domain_mgr		ON domain.MGR_ID = domain_mgr.MGR_ID
-INNER JOIN dbo.Sales_Territory AS Region	ON domain.SA_ID = Region.SA_ID
-LEFT JOIN dbo.Sales_Mgr AS region_mgr		ON Region.MGR_ID = region_mgr.MGR_ID;</property>
+
+
+SELECT a.SORG_Zone_ID
+     , a.SORG_Zone_Name
+     , a.SORG_Zone_Manager_Name
+     , SORG_Zone_Key = Dense_RANK() OVER  (ORDER BY a.SORG_Zone_ID)
+     , a.SORG_Domain_ID
+     , a.SORG_Domain_Name
+     , a.SORG_Domain_Manager_Name
+     , a.SORG_Region_ID
+     , a.SORG_Region_Name
+     , a.SORG_Region_Manager_Name
+     , SORG_Region_Key = Dense_RANK() OVER  (ORDER BY a.SORG_Zone_ID, a.SORG_Region_ID)
+     , a.SORG_Full_Name 
+FROM (
+	SELECT	SORG_Zone_ID				= Zones.SD_ID ,
+			SORG_Zone_Name				= Zones.SD_Name ,
+			SORG_Zone_Manager_Name		= CAST(ISNULL(zone_mgr.MGR_First_Name + '  ', ' &lt;N/A&gt;') AS VARCHAR(60)),
+			SORG_Domain_ID				= domain.SA_ID,
+			SORG_Domain_Name			= domain.SA_Name,
+			SORG_Domain_Manager_Name	= CAST(ISNULL(domain_mgr.MGR_First_Name + '  ', ' &lt;N/A&gt;') AS VARCHAR(60)),
+			SORG_Region_ID				= Region.ST_ID,
+			SORG_Region_Name			= Region.ST_Name ,
+			SORG_Region_Manager_Name	= CAST(ISNULL(region_mgr.MGR_First_Name + '  ', ' &lt;N/A&gt;') AS VARCHAR(60)),
+			SORG_Full_Name				= 'TBA' 
+	FROM dbo.Sales_District AS Zones
+	LEFT JOIN dbo.Sales_Mgr AS zone_mgr			ON Zones.MGR_ID = zone_mgr.MGR_ID
+	LEFT JOIN dbo.Sales_Area AS domain			ON Zones.SD_ID = domain.SD_ID
+	LEFT JOIN dbo.Sales_Mgr AS domain_mgr		ON domain.MGR_ID = domain_mgr.MGR_ID
+	INNER JOIN dbo.Sales_Territory AS Region	ON domain.SA_ID = Region.SA_ID
+	LEFT JOIN dbo.Sales_Mgr AS region_mgr		ON Region.MGR_ID = region_mgr.MGR_ID
+)a 
+ORDER BY a.SORG_Zone_ID asc, a.SORG_Region_ID asc
+;</property>
                         <property
                           dataType="System.String"
                           description="The variable that contains the SQL command to be executed."
@@ -2581,7 +2609,7 @@ LEFT JOIN dbo.Sales_Mgr AS region_mgr		ON Region.MGR_ID = region_mgr.MGR_ID;</pr
                               name="SORG_Zone_Manager_Name" />
                             <externalMetadataColumn
                               refId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\Sales Org.Outputs[OLE DB Source Output].ExternalColumns[SORG_Zone_Key]"
-                              dataType="i2"
+                              dataType="i8"
                               name="SORG_Zone_Key" />
                             <externalMetadataColumn
                               refId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\Sales Org.Outputs[OLE DB Source Output].ExternalColumns[SORG_Domain_ID]"
@@ -2617,7 +2645,7 @@ LEFT JOIN dbo.Sales_Mgr AS region_mgr		ON Region.MGR_ID = region_mgr.MGR_ID;</pr
                               name="SORG_Region_Manager_Name" />
                             <externalMetadataColumn
                               refId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\Sales Org.Outputs[OLE DB Source Output].ExternalColumns[SORG_Region_Key]"
-                              dataType="i2"
+                              dataType="i8"
                               name="SORG_Region_Key" />
                             <externalMetadataColumn
                               refId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\Sales Org.Outputs[OLE DB Source Output].ExternalColumns[SORG_Full_Name]"
@@ -2653,7 +2681,7 @@ LEFT JOIN dbo.Sales_Mgr AS region_mgr		ON Region.MGR_ID = region_mgr.MGR_ID;</pr
                               name="SORG_Zone_Manager_Name" />
                             <outputColumn
                               refId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\Sales Org.Outputs[OLE DB Source Error Output].Columns[SORG_Zone_Key]"
-                              dataType="i2"
+                              dataType="i8"
                               lineageId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\Sales Org.Outputs[OLE DB Source Error Output].Columns[SORG_Zone_Key]"
                               name="SORG_Zone_Key" />
                             <outputColumn
@@ -2696,7 +2724,7 @@ LEFT JOIN dbo.Sales_Mgr AS region_mgr		ON Region.MGR_ID = region_mgr.MGR_ID;</pr
                               name="SORG_Region_Manager_Name" />
                             <outputColumn
                               refId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\Sales Org.Outputs[OLE DB Source Error Output].Columns[SORG_Region_Key]"
-                              dataType="i2"
+                              dataType="i8"
                               lineageId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\Sales Org.Outputs[OLE DB Source Error Output].Columns[SORG_Region_Key]"
                               name="SORG_Region_Key" />
                             <outputColumn
@@ -3972,32 +4000,47 @@ FROM dbo.Customer AS c</property>
                           name="SqlCommand"
                           UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">--USE SEIS732_Team_21_Products;
 
-
-SELECT DISTINCT 0 AS PRD_Make_Key, --?
-    m.MMC_Make_Name AS PRD_Make_Name,
-    m.MMC_Make_Desc AS PRD_Make_Description,
-    0 AS PRD_Model_Key,   --?
-    m.MMC_Model_Name AS PRD_Model_Name,
-    m.MMC_Model_Desc AS PRD_Model_Description,
-    0 AS PRD_Class_Key,  --?
-    m.MMC_Class_Name AS PRD_Class_Name,
-    m.MMC_Class_Desc AS PRD_Class_Description,
-    0 AS PRD_Color_Key, --?
-	c.CLR_ID AS PRD_Color_ID,
-    c.CLR_Name AS PRD_Color_Name,
-    c.CLR_Description AS PRD_Color_Description,
-    vt.VT_Model_Year AS PRD_Model_Year,
-    vt.VT_ID AS PRD_VehicleType_ID,
-    vt.VT_MSRP AS PRD_Manufacturer_Suggested_Retail_Price,
-    vt.VT_Wholesale_Price AS PRD_Wholesale_Price,
-    m.MMC_ID AS PRD_MMC_ID
-FROM dbo.RRV_Instance AS ri
-    INNER JOIN dbo.Vehicle_Type AS vt
-        ON ri.VT_ID = vt.VT_ID
-    INNER JOIN dbo.MMC AS m
-        ON vt.MMC_ID = m.MMC_ID
-    INNER JOIN dbo.Color AS c
-        ON ri.CLR_ID = c.CLR_ID;</property>
+SELECT PRD_Make_Key = Dense_RANK() OVER  (ORDER BY a.PRD_Make_Name)
+     , a.PRD_Make_Name
+     , a.PRD_Make_Description
+     , PRD_Model_Key = Dense_RANK() OVER  (ORDER BY  a.PRD_Make_Name,a.PRD_Model_Name)
+     , a.PRD_Model_Name
+     , a.PRD_Model_Description
+     , PRD_Class_Key = Dense_RANK() OVER  (ORDER BY  a.PRD_Make_Name,a.PRD_Model_Name, a.PRD_Class_Name)
+     , a.PRD_Class_Name
+     , a.PRD_Class_Description
+     , PRD_Color_Key = Dense_RANK() OVER  (ORDER BY  a.PRD_Make_Name,a.PRD_Model_Name, a.PRD_Class_Name, a.PRD_Color_Name)
+     , a.PRD_Color_ID
+     , a.PRD_Color_Name
+     , a.PRD_Color_Description
+     , a.PRD_Model_Year
+     , a.PRD_VehicleType_ID
+     , a.PRD_Manufacturer_Suggested_Retail_Price
+     , a.PRD_Wholesale_Price
+     , a.PRD_MMC_ID 
+FROM (
+	SELECT DISTINCT 
+		PRD_Make_Name							= m.MMC_Make_Name,
+	    PRD_Make_Description					= m.MMC_Make_Desc,
+	    PRD_Model_Name							= m.MMC_Model_Name,
+	    PRD_Model_Description					= m.MMC_Model_Desc,
+	    PRD_Class_Name							= m.MMC_Class_Name,
+	    PRD_Class_Description					= m.MMC_Class_Desc,
+	    PRD_Color_ID							= c.CLR_ID,
+	    PRD_Color_Name							= c.CLR_Name,
+	    PRD_Color_Description					= c.CLR_Description,
+	    PRD_Model_Year							= vt.VT_Model_Year,
+	    PRD_VehicleType_ID						= vt.VT_ID,
+	    PRD_Manufacturer_Suggested_Retail_Price = vt.VT_MSRP,
+	    PRD_Wholesale_Price						= vt.VT_Wholesale_Price,
+	    PRD_MMC_ID								= m.MMC_ID
+	FROM dbo.RRV_Instance AS ri
+	INNER JOIN dbo.Vehicle_Type AS vt	ON ri.VT_ID = vt.VT_ID
+	INNER JOIN dbo.MMC AS m				ON vt.MMC_ID = m.MMC_ID
+	INNER JOIN dbo.Color AS	c			ON ri.CLR_ID = c.CLR_ID
+) a
+ORDER BY a.PRD_Make_Name, a.PRD_Model_Name ASC , a.PRD_Class_Name ASC, a.PRD_Color_Name ASC 
+;</property>
                         <property
                           dataType="System.String"
                           description="The variable that contains the SQL command to be executed."
@@ -4228,7 +4271,7 @@ FROM dbo.RRV_Instance AS ri
                               name="PRD_Make_Description" />
                             <externalMetadataColumn
                               refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Output].ExternalColumns[PRD_Model_Key]"
-                              dataType="i4"
+                              dataType="i8"
                               name="PRD_Model_Key" />
                             <externalMetadataColumn
                               refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Output].ExternalColumns[PRD_Model_Name]"
@@ -4284,15 +4327,15 @@ FROM dbo.RRV_Instance AS ri
                               name="PRD_MMC_ID" />
                             <externalMetadataColumn
                               refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Output].ExternalColumns[PRD_Make_Key]"
-                              dataType="i4"
+                              dataType="i8"
                               name="PRD_Make_Key" />
                             <externalMetadataColumn
                               refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Output].ExternalColumns[PRD_Class_Key]"
-                              dataType="i4"
+                              dataType="i8"
                               name="PRD_Class_Key" />
                             <externalMetadataColumn
                               refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Output].ExternalColumns[PRD_Color_Key]"
-                              dataType="i4"
+                              dataType="i8"
                               name="PRD_Color_Key" />
                             <externalMetadataColumn
                               refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Output].ExternalColumns[PRD_Color_ID]"
@@ -4311,7 +4354,7 @@ FROM dbo.RRV_Instance AS ri
                           <outputColumns>
                             <outputColumn
                               refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Error Output].Columns[PRD_Make_Key]"
-                              dataType="i4"
+                              dataType="i8"
                               lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Error Output].Columns[PRD_Make_Key]"
                               name="PRD_Make_Key" />
                             <outputColumn
@@ -4330,7 +4373,7 @@ FROM dbo.RRV_Instance AS ri
                               name="PRD_Make_Description" />
                             <outputColumn
                               refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Error Output].Columns[PRD_Model_Key]"
-                              dataType="i4"
+                              dataType="i8"
                               lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Error Output].Columns[PRD_Model_Key]"
                               name="PRD_Model_Key" />
                             <outputColumn
@@ -4349,7 +4392,7 @@ FROM dbo.RRV_Instance AS ri
                               name="PRD_Model_Description" />
                             <outputColumn
                               refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Error Output].Columns[PRD_Class_Key]"
-                              dataType="i4"
+                              dataType="i8"
                               lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Error Output].Columns[PRD_Class_Key]"
                               name="PRD_Class_Key" />
                             <outputColumn
@@ -4368,7 +4411,7 @@ FROM dbo.RRV_Instance AS ri
                               name="PRD_Class_Description" />
                             <outputColumn
                               refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Error Output].Columns[PRD_Color_Key]"
-                              dataType="i4"
+                              dataType="i8"
                               lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Error Output].Columns[PRD_Color_Key]"
                               name="PRD_Color_Key" />
                             <outputColumn
@@ -5804,24 +5847,29 @@ GROUP BY fs.FS_ID
                           name="SqlCommand"
                           UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">--USE SEIS732_Team_21_Products
 
---not sure if i want to use CTE seems slower.
-;WITH Quarters AS (
-    SELECT Q = 'Q1', MonthBegin = 1, MonthEnd = 3 UNION
-    SELECT Q = 'Q2', MonthBegin = 4, MonthEnd = 6 UNION
-    SELECT Q = 'Q3', MonthBegin = 7, MonthEnd = 9 UNION
-    SELECT Q = 'Q4', MonthBegin = 10, MonthEnd = 12
-)
-,QuartersName AS (
-	SELECT Q = 'First Quarter', MonthBegin = 1, MonthEnd = 3 UNION
-    SELECT Q = 'Second Quarter', MonthBegin = 4, MonthEnd = 6 UNION
-    SELECT Q = 'third Quarter', MonthBegin = 7, MonthEnd = 9 UNION
-    SELECT Q = 'Fourth Quarter', MonthBegin = 10, MonthEnd = 12
-)
-
-SELECT DISTINCT  
+Select a.MDAT_Year
+		, MDAT_Quarter_KEY	= Dense_RANK() OVER  (ORDER BY MDAT_Year, MDAT_Quarter_Abbreviation)
+		, a.MDAT_Quarter_Name
+		, a.MDAT_Quarter_Abbreviation
+		, a.MDAT_Quarter
+		, a.MDAT_Week
+		, a.MDAT_Week_Of_Year
+		, a.MDAT_Week_Of_Quarter
+		, MDAT_Month_KEY = Dense_RANK() OVER  (ORDER BY MDAT_Year, MDAT_Quarter_Abbreviation, a.MDAT_Month_Number)
+		, a.MDAT_Month_Number
+		, a.MDAT_Month_Name
+		, a.MDAT_Month_Abbreviation
+		, a.MDAT_Day_Of_Year
+		, a.MDAT_Day_Of_Quarter
+		, a.MDAT_Day_Of_Week
+		, a.MDAT_Day_of_Month
+		, a.MDAT_Weekday_Or_Weekend
+		, a.MDAT_Date
+		, a.MDAT_Full_Date_Description 
+FROM (
+SELECT DISTINCT 
 		MDAT_Year			= YEAR(ri.RV_MFG_Date),
 		--quarter information
-		MDAT_Quarter_KEY	= DATEPART(qq, ri.RV_MFG_Date) ,
 		MDAT_Quarter_Name =	CASE 
 								WHEN DATEPART(m,ri.RV_MFG_Date) BETWEEN 1 and 3 THEN 'First Quarter'
 								WHEN DATEPART(m,ri.RV_MFG_Date) BETWEEN 4 and 6 THEN 'Second Quarter'
@@ -5846,7 +5894,6 @@ SELECT DISTINCT
 		 MDAT_Week_Of_Year	= DATEPART(WEEK, ri.RV_MFG_Date) ,
 		 MDAT_Week_Of_Quarter = (datediff(dd,dateadd(QQ,datediff(QQ,0,ri.RV_MFG_Date),0),ri.RV_MFG_Date)/7)+1, --not sure
 		 --month
-		 MDAT_Month_KEY			= 0 , --??
 		 MDAT_Month_Number		= DATEPART(m,ri.RV_MFG_Date),
 		 MDAT_Month_Name			= CAST(DATENAME(MONTH, ri.RV_MFG_Date) AS varchar(9)),
 		 MDAT_Month_Abbreviation	= UPPER(CONVERT(char(3), ri.RV_MFG_Date, 0)),
@@ -5862,16 +5909,10 @@ SELECT DISTINCT
 		MDAT_Full_Date_Description	= 'Date Description' --?
 		 --day of part
 FROM dbo.RRV_Instance AS ri
-/*
-INNER JOIN Quarters q ON
-        DATEPART(m,ri.RV_MFG_Date) &gt;= q.MonthBegin AND
-        DATEPART(m, ri.RV_MFG_Date) &lt;= q.MonthEnd
-INNER JOIN QuartersName qn ON
-        DATEPART(m,ri.RV_MFG_Date) &gt;= qn.MonthBegin AND
-        DATEPART(m, ri.RV_MFG_Date) &lt;= qn.MonthEnd
-	*/			
-	ORDER BY ri.RV_MFG_Date ASC
-	;</property>
+
+)a
+ORDER BY MDAT_Date ASC
+;</property>
                         <property
                           dataType="System.String"
                           description="The variable that contains the SQL command to be executed."
@@ -6108,7 +6149,7 @@ INNER JOIN QuartersName qn ON
                               name="MDAT_Year" />
                             <externalMetadataColumn
                               refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Output].ExternalColumns[MDAT_Quarter_KEY]"
-                              dataType="i4"
+                              dataType="i8"
                               name="MDAT_Quarter_KEY" />
                             <externalMetadataColumn
                               refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Output].ExternalColumns[MDAT_Quarter_Name]"
@@ -6144,7 +6185,7 @@ INNER JOIN QuartersName qn ON
                               name="MDAT_Week_Of_Quarter" />
                             <externalMetadataColumn
                               refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Output].ExternalColumns[MDAT_Month_KEY]"
-                              dataType="i4"
+                              dataType="i8"
                               name="MDAT_Month_KEY" />
                             <externalMetadataColumn
                               refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Output].ExternalColumns[MDAT_Month_Number]"
@@ -6213,7 +6254,7 @@ INNER JOIN QuartersName qn ON
                               name="MDAT_Year" />
                             <outputColumn
                               refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Error Output].Columns[MDAT_Quarter_KEY]"
-                              dataType="i4"
+                              dataType="i8"
                               lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Error Output].Columns[MDAT_Quarter_KEY]"
                               name="MDAT_Quarter_KEY" />
                             <outputColumn
@@ -6256,7 +6297,7 @@ INNER JOIN QuartersName qn ON
                               name="MDAT_Week_Of_Quarter" />
                             <outputColumn
                               refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Error Output].Columns[MDAT_Month_KEY]"
-                              dataType="i4"
+                              dataType="i8"
                               lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Error Output].Columns[MDAT_Month_KEY]"
                               name="MDAT_Month_KEY" />
                             <outputColumn
@@ -6731,23 +6772,29 @@ INNER JOIN QuartersName qn ON
                           UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">--USE SEIS732_Team_21_Products
 
 --not sure if i want to use CTE seems slower.
-;WITH Quarters AS (
-    SELECT Q = 'Q1', MonthBegin = 1, MonthEnd = 3 UNION
-    SELECT Q = 'Q2', MonthBegin = 4, MonthEnd = 6 UNION
-    SELECT Q = 'Q3', MonthBegin = 7, MonthEnd = 9 UNION
-    SELECT Q = 'Q4', MonthBegin = 10, MonthEnd = 12
-)
-,QuartersName AS (
-	SELECT Q = 'First Quarter', MonthBegin = 1, MonthEnd = 3 UNION
-    SELECT Q = 'Second Quarter', MonthBegin = 4, MonthEnd = 6 UNION
-    SELECT Q = 'third Quarter', MonthBegin = 7, MonthEnd = 9 UNION
-    SELECT Q = 'Fourth Quarter', MonthBegin = 10, MonthEnd = 12
-)
-
+SELECT a.PDAT_Year
+     , PDAT_Quarter_KEY = Dense_RANK() OVER  (ORDER BY PDAT_Year, PDAT_Quarter_Abbreviation)
+     , a.PDAT_Quarter_Name
+     , a.PDAT_Quarter_Abbreviation
+     , a.PDAT_Quarter
+     , a.PDAT_Week
+     , a.PDAT_Week_Of_Year
+     , a.PDAT_Week_Of_Quarter
+     , PDAT_Month_KEY = Dense_RANK() OVER  (ORDER BY PDAT_Year, PDAT_Quarter_Abbreviation, PDAT_Month_Number)
+     , a.PDAT_Month_Number
+     , a.PDAT_Month_Name
+     , a.PDAT_Month_Abbreviation
+     , a.PDAT_Day_Of_Year
+     , a.PDAT_Day_Of_Quarter
+     , a.PDAT_Day_Of_Week
+     , a.PDAT_Day_of_Month
+     , a.PDAT_Weekday_Or_Weekend
+     , a.PDAT_Date
+     , a.PDAT_Full_Date_Description 
+FROM (
 SELECT DISTINCT  
 		PDAT_Year			= YEAR(s.Sale_Date),
 		--quarter information
-		PDAT_Quarter_KEY	= DATEPART(qq, s.Sale_Date) ,
 		PDAT_Quarter_Name =	CASE 
 								WHEN DATEPART(m,s.Sale_Date) BETWEEN 1 and 3 THEN 'First Quarter'
 								WHEN DATEPART(m,s.Sale_Date) BETWEEN 4 and 6 THEN 'Second Quarter'
@@ -6772,7 +6819,6 @@ SELECT DISTINCT
 		 PDAT_Week_Of_Year	= DATEPART(WEEK, s.Sale_Date) ,
 		 PDAT_Week_Of_Quarter = (datediff(dd,dateadd(QQ,datediff(QQ,0,s.Sale_Date),0),s.Sale_Date)/7)+1, --not sure
 		 --month
-		 PDAT_Month_KEY			= 0 , --??
 		 PDAT_Month_Number		= DATEPART(m,s.Sale_Date),
 		 PDAT_Month_Name			= CAST(DATENAME(MONTH, s.Sale_Date) AS varchar(9)),
 		 PDAT_Month_Abbreviation	= UPPER(CONVERT(char(3), s.Sale_Date, 0)),
@@ -6788,16 +6834,9 @@ SELECT DISTINCT
 		PDAT_Full_Date_Description	= 'Date Description' --?
 		 --day of part
 FROM dbo.Sold AS s
-/*
-INNER JOIN Quarters q ON
-        DATEPART(m,s.Sale_Date) &gt;= q.MonthBegin AND
-        DATEPART(m, s.Sale_Date) &lt;= q.MonthEnd
-INNER JOIN QuartersName qn ON
-        DATEPART(m,s.Sale_Date) &gt;= qn.MonthBegin AND
-        DATEPART(m, s.Sale_Date) &lt;= qn.MonthEnd
-	*/			
-	ORDER BY s.Sale_Date ASC
-	;</property>
+) a
+ORDER BY PDAT_Date ASC
+;</property>
                         <property
                           dataType="System.String"
                           description="The variable that contains the SQL command to be executed."
@@ -7034,7 +7073,7 @@ INNER JOIN QuartersName qn ON
                               name="PDAT_Year" />
                             <externalMetadataColumn
                               refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Output].ExternalColumns[PDAT_Quarter_KEY]"
-                              dataType="i4"
+                              dataType="i8"
                               name="PDAT_Quarter_KEY" />
                             <externalMetadataColumn
                               refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Output].ExternalColumns[PDAT_Quarter_Name]"
@@ -7070,7 +7109,7 @@ INNER JOIN QuartersName qn ON
                               name="PDAT_Week_Of_Quarter" />
                             <externalMetadataColumn
                               refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Output].ExternalColumns[PDAT_Month_KEY]"
-                              dataType="i4"
+                              dataType="i8"
                               name="PDAT_Month_KEY" />
                             <externalMetadataColumn
                               refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Output].ExternalColumns[PDAT_Month_Number]"
@@ -7139,7 +7178,7 @@ INNER JOIN QuartersName qn ON
                               name="PDAT_Year" />
                             <outputColumn
                               refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Error Output].Columns[PDAT_Quarter_KEY]"
-                              dataType="i4"
+                              dataType="i8"
                               lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Error Output].Columns[PDAT_Quarter_KEY]"
                               name="PDAT_Quarter_KEY" />
                             <outputColumn
@@ -7182,7 +7221,7 @@ INNER JOIN QuartersName qn ON
                               name="PDAT_Week_Of_Quarter" />
                             <outputColumn
                               refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Error Output].Columns[PDAT_Month_KEY]"
-                              dataType="i4"
+                              dataType="i8"
                               lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Error Output].Columns[PDAT_Month_KEY]"
                               name="PDAT_Month_KEY" />
                             <outputColumn
@@ -7769,8 +7808,8 @@ INNER JOIN QuartersName qn ON
         <ContainerLayout
           HeaderHeight="43"
           IsExpanded="True"
-          PanelSize="677,717"
-          Size="677,760"
+          PanelSize="677,679"
+          Size="677,722"
           Id="Package\20000 Star SchemaTables Load"
           TopLeft="170,394" />
         <EdgeLayout
@@ -7861,7 +7900,7 @@ INNER JOIN QuartersName qn ON
     design-time-name="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21200 Plants">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="127,42"
           Id="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21200 Plants\Star Plant"
@@ -7889,9 +7928,7 @@ INNER JOIN QuartersName qn ON
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -8344,16 +8381,16 @@ INNER JOIN QuartersName qn ON
         <NodeLayout
           Size="171,42"
           Id="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date"
-          TopLeft="451,183" />
+          TopLeft="452,183" />
         <EdgeLayout
           Id="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date.Paths[OLE DB Source Output]"
-          TopLeft="536.5,225">
+          TopLeft="537.5,225">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="12.5,116"
+              EndConnector="11.5,116"
               Start="0,0"
-              End="12.5,108.5">
+              End="11.5,108.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
@@ -8364,13 +8401,13 @@ INNER JOIN QuartersName qn ON
                     Point2="0,58"
                     Point3="4,58" />
                   <mssgle:LineSegment
-                    End="8.5,58" />
+                    End="7.5,58" />
                   <mssgle:CubicBezierSegment
-                    Point1="8.5,58"
-                    Point2="12.5,58"
-                    Point3="12.5,62" />
+                    Point1="7.5,58"
+                    Point2="11.5,58"
+                    Point3="11.5,62" />
                   <mssgle:LineSegment
-                    End="12.5,108.5" />
+                    End="11.5,108.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -8407,7 +8444,7 @@ INNER JOIN QuartersName qn ON
     design-time-name="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="211,42"
           Id="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Star Schema Purchase Date"
@@ -8447,9 +8484,7 @@ INNER JOIN QuartersName qn ON
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
