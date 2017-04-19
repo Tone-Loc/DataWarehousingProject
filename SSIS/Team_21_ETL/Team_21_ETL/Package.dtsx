@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="34"
-  DTS:VersionGUID="{3B1C90C5-9F51-424B-82DD-52CC4C72F09F}">
+  DTS:VersionBuild="37"
+  DTS:VersionGUID="{0F8D73F6-A9FB-4631-B80F-64077B472089}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">6</DTS:Property>
   <DTS:ConnectionManagers>
@@ -27,7 +27,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeIll/ZDaXUKAdtm3s8eNfwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAADH2w+o5kJMixNMGJXP2NN1AAAAAASAAACgAAAAEAAAAB36r2o2kh24hmFnponq90IgAAAApBs5fuDcaBLE+Ld1O453DrtokKfjzUJMV6EETcy8ixMUAAAAJzRGudcCH7bXLKCjHOwUtCHiRSM</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeIll/ZDaXUKAdtm3s8eNfwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAADBZ94BI8GST0X3NYctsg3AAAAAAASAAACgAAAAEAAAAJRBuGFVUXSSPxaRQDNtb00gAAAA2J60OaQK3oP2xpmgK8iyH/X33SgyXMucQ6usNGv8CRYUAAAAOXkK4bmdlPNvcX0KV27mcZ0jKdc</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -42,7 +42,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeIll/ZDaXUKAdtm3s8eNfwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAAC7RUqAC2XMS5nldkXsfsrkAAAAAASAAACgAAAAEAAAAElXghsCQmTrXNCinRqZmMYgAAAA7Z3LBLDc1/4/I6jkgqA0r0MXHXIfkgycXexGVNRuLMgUAAAAef9UVB8hWjwEXDWlW+5aiOM/Bh4</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeIll/ZDaXUKAdtm3s8eNfwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAACa8LLlHTrfb9R6Xok81AcXAAAAAASAAACgAAAAEAAAAHHSfxCw7zVuLoTAv4tKJN8gAAAAj4SxDEqH1i7Yn4LQNiWiBYYLPGO+Bgpk7hMDRVr7s9gUAAAADVXDU5cfcKKmcpeQ31am49ArXdA</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -57,7 +57,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeIll/ZDaXUKAdtm3s8eNfwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAAC14Ul0pboh2DUMrUVgB8f/AAAAAASAAACgAAAAEAAAAHYHt0gldaFK+LENZdUqTUcgAAAAteb/jP8CMbIfbKobx5UPRSvYurc/OvQTDm3+bxk0OTAUAAAAiVdBS/cj+kWXHlB1a+QC44KPZDY</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeIll/ZDaXUKAdtm3s8eNfwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAABoqCHB0jE4/hL3rQk5FNiTAAAAAASAAACgAAAAEAAAACiihfJ5CYa/og/SAdJ6ofEgAAAARf4QRNcsGzU6D47Isz5cdfoBZo4UrmwO3AMfuZj77kcUAAAAkYlJJW3SEAKy4qXtDHul/drbSmQ</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -72,7 +72,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeIll/ZDaXUKAdtm3s8eNfwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAADXFDPScPLDlVnzzadpW+GGAAAAAASAAACgAAAAEAAAAPqCgwsVm2P/s1dBM69gN8UgAAAAej/RLvZPUCqXa207NIo6UqY/DpsdY+9Q73qpNgC+oBAUAAAARE5QJWfDFsJtfjphrr/r0mmYT/Y</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeIll/ZDaXUKAdtm3s8eNfwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAAA0bRs/R1h5YzN2IAbw0HeTAAAAAASAAACgAAAAEAAAAKV1pHlfI8hmZWQaaG/7GeggAAAABlXqQI4J/tnA4Sz0q98rJZLlT0Osx25utxegr64Ao+sUAAAAcqplqx0IURmwEMg4j/aJP70kDT8</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -1938,7 +1938,7 @@ SELECT
 		MSA_Micropolitan_Area_ID			= msa.MSA_ID,
 		MSA_Micropolitan_Area_Description	= CAST(RIGHT(msa.MICSA_Description,LEN(msa.MICSA_Description)-1) AS VARCHAR(60)), --remove period in col 1
 		MSA_Metropolitan_Area_Population	= msa2.MSA_Population,
-		MSA_Metropolitan_Area_ID			= 1,  --need to figure out
+		MSA_Metropolitan_Area_ID			= msa2.MSA_ID,
 		MSA_Metropolitan_Area_Name			= msa2.MSA_Name,
 		MSA_Metropolitan_Area_Key			= msa.MICSA_ID
 FROM dbo.Micropolitan_Statistical_Area AS msa
@@ -2070,7 +2070,7 @@ LEFT JOIN dbo.Metropolitan_Statistical_Area AS msa2 ON msa.MSA_ID = msa2.MSA_ID<
                               name="MSA_Metropolitan_Area_Population" />
                             <externalMetadataColumn
                               refId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22100 Metro Area Stats\Sales Org Metro Area.Outputs[OLE DB Source Output].ExternalColumns[MSA_Metropolitan_Area_ID]"
-                              dataType="i4"
+                              dataType="i8"
                               name="MSA_Metropolitan_Area_ID" />
                             <externalMetadataColumn
                               refId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22100 Metro Area Stats\Sales Org Metro Area.Outputs[OLE DB Source Output].ExternalColumns[MSA_Metropolitan_Area_Name]"
@@ -2113,7 +2113,7 @@ LEFT JOIN dbo.Metropolitan_Statistical_Area AS msa2 ON msa.MSA_ID = msa2.MSA_ID<
                               name="MSA_Metropolitan_Area_Population" />
                             <outputColumn
                               refId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22100 Metro Area Stats\Sales Org Metro Area.Outputs[OLE DB Source Error Output].Columns[MSA_Metropolitan_Area_ID]"
-                              dataType="i4"
+                              dataType="i8"
                               lineageId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22100 Metro Area Stats\Sales Org Metro Area.Outputs[OLE DB Source Error Output].Columns[MSA_Metropolitan_Area_ID]"
                               name="MSA_Metropolitan_Area_ID" />
                             <outputColumn
@@ -4804,7 +4804,7 @@ FROM dbo.RRV_Instance AS ri
                           dataType="System.String"
                           description="The SQL command to be executed."
                           name="SqlCommand"
-                          UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">--USE SEIS732_Team_21_Products
+                          UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">USE SEIS732_Team_21_Products
 
 ;WITH cte_FeatureSet AS (
 		SELECT distinct fs.FS_ID,fs.FS_Retail_Price
@@ -4821,7 +4821,7 @@ SELECT  fs.FS_ID AS PKG_FeatureSet_ID
   , MAX(CASE WHEN f.FEA_Type = 'AirConditioning' THEN f.FEA_Value END) AS PKG_Air_Conditioner 
   , MAX(CASE WHEN f.FEA_Type = 'SlideOuts' THEN f.FEA_Value END) AS PKG_Slide_Outs
   , MAX(CASE WHEN f.FEA_Type = 'TowHitch' THEN f.FEA_Value END) AS  PKG_Tow_Hitch
-  , MAX(CASE WHEN f.FEA_Type = 'Seats' THEN CASE WHEN f.FEA_Value LIKE '%(R)%' THEN '&lt;N/A&gt;' ELSE f.FEA_Value end END) AS PKG_Seat_Material --might have junk data (I can not beleive its not Naugahyde(R))
+  , MAX(CASE WHEN f.FEA_Type = 'Seats' THEN f.FEA_Value END) AS PKG_Seat_Material --might have junk data (I can not beleive its not Naugahyde(R))
   , MAX(CASE WHEN f.FEA_Type = 'Beds' THEN f.FEA_Value END) AS  PKG_Bedding_Material
   , MAX(CASE WHEN f.FEA_Type = 'Carpet' THEN f.FEA_Value END) AS PKG_Carpeting
   , MAX(CASE WHEN f.FEA_Type = 'Electric' THEN f.FEA_Value END) AS  PKG_Electric
@@ -7684,27 +7684,27 @@ INNER JOIN QuartersName qn ON
           Id="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers"
           TopLeft="44,10" />
         <NodeLayout
+          Size="225,42"
+          Id="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21110 Format Phone Numbers"
+          TopLeft="7,76" />
+        <NodeLayout
           Size="142,42"
           Id="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21200 Plants"
           TopLeft="50,147" />
-        <NodeLayout
-          Size="225,42"
-          Id="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21110 Format Phone Numbers"
-          TopLeft="8,77" />
         <EdgeLayout
           Id="Package\20000 Star SchemaTables Load\21000 Corp Db Source.PrecedenceConstraints[Constraint]"
-          TopLeft="119.5,52">
+          TopLeft="119,52">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,25"
+              EndConnector="0,24"
               Start="0,0"
-              End="0,17.5">
+              End="0,16.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,17.5" />
+                    End="0,16.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -7765,12 +7765,12 @@ INNER JOIN QuartersName qn ON
           PanelSize="541,274"
           Size="541,317"
           Id="Package\20000 Star SchemaTables Load\23000 Products DB Source"
-          TopLeft="69,307" />
+          TopLeft="69,345" />
         <ContainerLayout
           HeaderHeight="43"
           IsExpanded="True"
-          PanelSize="677,683"
-          Size="677,726"
+          PanelSize="677,717"
+          Size="677,760"
           Id="Package\20000 Star SchemaTables Load"
           TopLeft="170,394" />
         <EdgeLayout
@@ -7806,25 +7806,25 @@ INNER JOIN QuartersName qn ON
         <NodeLayout
           Size="174,42"
           Id="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\21100 Corp Dealers"
-          TopLeft="262,61" />
+          TopLeft="262,57" />
         <NodeLayout
           Size="171,42"
           Id="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\21200 Star Dealers"
           TopLeft="263,147" />
         <EdgeLayout
           Id="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers.Paths[OLE DB Source Output]"
-          TopLeft="348.75,103">
+          TopLeft="348.75,99">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,44"
+              EndConnector="0,48"
               Start="0,0"
-              End="0,36.5">
+              End="0,40.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,36.5" />
+                    End="0,40.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -7995,13 +7995,13 @@ INNER JOIN QuartersName qn ON
       <GraphLayout
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="126,42"
-          Id="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\Sales Org"
-          TopLeft="457,138" />
-        <NodeLayout
           Size="189,42"
           Id="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\Star Schema Sales Org"
           TopLeft="461,280" />
+        <NodeLayout
+          Size="126,42"
+          Id="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\Sales Org"
+          TopLeft="457,138" />
         <EdgeLayout
           Id="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org.Paths[OLE DB Source Output]"
           TopLeft="520,180">
@@ -8039,11 +8039,32 @@ INNER JOIN QuartersName qn ON
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\Sales Org">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\Star Schema Sales Org">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
   <TaskHost
     design-time-name="Package\20000 Star SchemaTables Load\23000 Products DB Source\23100 Incentive Plan">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="170,42"
           Id="Package\20000 Star SchemaTables Load\23000 Products DB Source\23100 Incentive Plan\Star Incentive Plan"
@@ -8083,9 +8104,7 @@ INNER JOIN QuartersName qn ON
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -8116,7 +8135,7 @@ INNER JOIN QuartersName qn ON
     design-time-name="Package\20000 Star SchemaTables Load\23000 Products DB Source\23200 Customers">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="175,42"
           Id="Package\20000 Star SchemaTables Load\23000 Products DB Source\23200 Customers\Products Customers"
@@ -8144,9 +8163,7 @@ INNER JOIN QuartersName qn ON
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -8390,7 +8407,7 @@ INNER JOIN QuartersName qn ON
     design-time-name="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="211,42"
           Id="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Star Schema Purchase Date"
@@ -8430,7 +8447,9 @@ INNER JOIN QuartersName qn ON
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -8446,27 +8465,6 @@ INNER JOIN QuartersName qn ON
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Star Schema Purchase Date">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\Sales Org">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\Star Schema Sales Org">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
