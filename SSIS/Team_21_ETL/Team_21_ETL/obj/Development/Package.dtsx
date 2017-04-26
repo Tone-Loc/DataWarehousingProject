@@ -11,8 +11,9 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="37"
-  DTS:VersionGUID="{0F8D73F6-A9FB-4631-B80F-64077B472089}">
+  DTS:ProtectionLevel="0"
+  DTS:VersionBuild="63"
+  DTS:VersionGUID="{016DE1B7-D914-4E88-9EBD-C614895B46D8}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">6</DTS:Property>
   <DTS:ConnectionManagers>
@@ -21,13 +22,15 @@
       DTS:CreationName="OLEDB"
       DTS:DTSID="{DDCD7571-C60D-4E02-A307-08044B1F2D9E}"
       DTS:ObjectName="(local).SEIS732_Team_21_Corporate.SEIS732_Team_21_Corporate_User">
+      <DTS:PropertyExpression
+        DTS:Name="Password">"2017_Snow_21"</DTS:PropertyExpression>
       <DTS:ObjectData>
         <DTS:ConnectionManager
-          DTS:ConnectionString="Data Source=(local);User ID=SEIS732_Team_21_Corporate_User;Initial Catalog=SEIS732_Team_21_Corporate;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
+          DTS:Retain="True"
+          DTS:ConnectionString="Data Source=.;User ID=SEIS732_Team_21_Corporate_User;Initial Catalog=SEIS732_Team_21_Corporate;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
           <DTS:Password
             DTS:Name="Password"
-            Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeIll/ZDaXUKAdtm3s8eNfwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAAB7UfB3fS1WwvblhZIPUQxGAAAAAASAAACgAAAAEAAAAIFjXv2h+V8bKjpkxhGq85AgAAAAUpI6LAz7YaxI9PNzvwIykCpv8uUQh7C2Wxdxbr/9HEkUAAAARpKjHfH7dw0uOrAflBTkEYglZ80</DTS:Password>
+            Sensitive="1"></DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -36,13 +39,15 @@
       DTS:CreationName="OLEDB"
       DTS:DTSID="{A809728E-D4D0-4CC2-9110-6B93D41394DC}"
       DTS:ObjectName="(local).SEIS732_Team_21_Products.SEIS732_Team_21_Products_User">
+      <DTS:PropertyExpression
+        DTS:Name="Password">"2017_Snow_21"</DTS:PropertyExpression>
       <DTS:ObjectData>
         <DTS:ConnectionManager
-          DTS:ConnectionString="Data Source=(local);User ID=SEIS732_Team_21_Products_User;Initial Catalog=SEIS732_Team_21_Products;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
+          DTS:Retain="True"
+          DTS:ConnectionString="Data Source=.;User ID=SEIS732_Team_21_Products_User;Initial Catalog=SEIS732_Team_21_Products;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
           <DTS:Password
             DTS:Name="Password"
-            Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeIll/ZDaXUKAdtm3s8eNfwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAADuYShxLXWtGDMCNjvRPKslAAAAAASAAACgAAAAEAAAAJIT2uwz+bSu31ZfK+UxODQgAAAAxqdE1Eq6a2QnNbJxkpXdi56fTULs5ixTlvgkIcNlDtQUAAAAw9EWYWPJZ9p4th+7z3xzSmaf8M4</DTS:Password>
+            Sensitive="1"></DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -51,13 +56,15 @@
       DTS:CreationName="OLEDB"
       DTS:DTSID="{49B04632-FABA-41C7-8B59-7CF0E83F8C8C}"
       DTS:ObjectName="(local).SEIS732_Team_21_Sales_Org.SEIS732_Team_21_Sales_Org_User">
+      <DTS:PropertyExpression
+        DTS:Name="Password">"2017_Snow_21"</DTS:PropertyExpression>
       <DTS:ObjectData>
         <DTS:ConnectionManager
-          DTS:ConnectionString="Data Source=(local);User ID=SEIS732_Team_21_Sales_Org_User;Initial Catalog=SEIS732_Team_21_Sales_Org;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
+          DTS:Retain="True"
+          DTS:ConnectionString="Data Source=.;User ID=SEIS732_Team_21_Sales_Org_User;Initial Catalog=SEIS732_Team_21_Sales_Org;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
           <DTS:Password
             DTS:Name="Password"
-            Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeIll/ZDaXUKAdtm3s8eNfwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAADa4oaIRCwp16j9fDDP2pyyAAAAAASAAACgAAAAEAAAAIljr5s6BgyafjvEKYCrlTsgAAAAfmEXMY1u0Dz9NE2kEHCZ6fUuVPLTS4RcmIRyTkO3NhIUAAAAYNhizH0j8wqMXie8ts9o4PoU4Nk</DTS:Password>
+            Sensitive="1"></DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -66,13 +73,15 @@
       DTS:CreationName="OLEDB"
       DTS:DTSID="{1A017C9E-6014-4617-9B58-28F12A40EF33}"
       DTS:ObjectName="(local).SEIS732_Team_21_Star_Schema.SEIS732_Team_21_Star_Schema_User">
+      <DTS:PropertyExpression
+        DTS:Name="Password">"2017_Snow_21"</DTS:PropertyExpression>
       <DTS:ObjectData>
         <DTS:ConnectionManager
-          DTS:ConnectionString="Data Source=(local);User ID=SEIS732_Team_21_Star_Schema_User;Initial Catalog=SEIS732_Team_21_Star_Schema;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
+          DTS:Retain="True"
+          DTS:ConnectionString="Data Source=.;User ID=SEIS732_Team_21_Star_Schema_User;Initial Catalog=SEIS732_Team_21_Star_Schema;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
           <DTS:Password
             DTS:Name="Password"
-            Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeIll/ZDaXUKAdtm3s8eNfwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAABW9t9+s85oWISswkXiBU3BAAAAAASAAACgAAAAEAAAABj6TcOQEIw7lndYWLXg4H8gAAAA6U1pImZkFyfxm5fHud50Rf2SUPhpBfBdT37ORLCrQbYUAAAAKkSWCSTHZKChXVjx7s4y3ZcjJHE</DTS:Password>
+            Sensitive="1"></DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -211,8 +220,7 @@
 SELECT * 
 FROM 
 	(
-	SELECT c.DLR_ID
-			, c.DLR_Code
+	SELECT  c.DLR_Code
 			, d.DEP_Name		AS DLR_Name
 			, b.BR_Address		AS DLR_Address
 			, b.BR_City			AS DLR_City
@@ -234,8 +242,7 @@ FROM
 	LEFT JOIN dbo.Department AS d ON b.DEP_Code = d.DEP_Code
 	LEFT JOIN dbo.Website AS w ON c.WEB_ID = w.WEB_ID
 	UNION ALL
-	SELECT i.DLR_ID
-			, i.DLR_Code
+	SELECT  i.DLR_Code
 			,i.ID_Name			AS DLR_Name
 			, oa.OADR_Address	AS DLR_Address
 			, oa.OADR_City		AS DLR_City
@@ -256,7 +263,7 @@ FROM
 	LEFT JOIN dbo.Website AS w ON i.WEB_ID = w.WEB_ID
 	LEFT JOIN dbo.Owner_Address AS oa ON i.OADR_ID = oa.OADR_ID
 ) a
-ORDER BY a.DLR_ID asc</property>
+ORDER BY a.DLR_Code asc</property>
                         <property
                           dataType="System.String"
                           description="The variable that contains the SQL command to be executed."
@@ -290,17 +297,9 @@ ORDER BY a.DLR_ID asc</property>
                       <outputs>
                         <output
                           refId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output]"
+                          isSorted="true"
                           name="OLE DB Source Output">
                           <outputColumns>
-                            <outputColumn
-                              refId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].Columns[DLR_ID]"
-                              dataType="i2"
-                              errorOrTruncationOperation="Conversion"
-                              errorRowDisposition="FailComponent"
-                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].ExternalColumns[DLR_ID]"
-                              lineageId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].Columns[DLR_ID]"
-                              name="DLR_ID"
-                              truncationRowDisposition="FailComponent" />
                             <outputColumn
                               refId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].Columns[DLR_Code]"
                               codePage="1252"
@@ -311,6 +310,7 @@ ORDER BY a.DLR_ID asc</property>
                               length="15"
                               lineageId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].Columns[DLR_Code]"
                               name="DLR_Code"
+                              sortKeyPosition="1"
                               truncationRowDisposition="FailComponent" />
                             <outputColumn
                               refId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].Columns[DLR_Name]"
@@ -486,10 +486,6 @@ ORDER BY a.DLR_ID asc</property>
                           <externalMetadataColumns
                             isUsed="True">
                             <externalMetadataColumn
-                              refId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].ExternalColumns[DLR_ID]"
-                              dataType="i2"
-                              name="DLR_ID" />
-                            <externalMetadataColumn
                               refId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].ExternalColumns[DLR_Code]"
                               codePage="1252"
                               dataType="str"
@@ -590,20 +586,17 @@ ORDER BY a.DLR_ID asc</property>
                         <output
                           refId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\21100 Corp Dealers.Outputs[OLE DB Source Error Output]"
                           isErrorOut="true"
+                          isSorted="true"
                           name="OLE DB Source Error Output">
                           <outputColumns>
-                            <outputColumn
-                              refId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\21100 Corp Dealers.Outputs[OLE DB Source Error Output].Columns[DLR_ID]"
-                              dataType="i2"
-                              lineageId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\21100 Corp Dealers.Outputs[OLE DB Source Error Output].Columns[DLR_ID]"
-                              name="DLR_ID" />
                             <outputColumn
                               refId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\21100 Corp Dealers.Outputs[OLE DB Source Error Output].Columns[DLR_Code]"
                               codePage="1252"
                               dataType="str"
                               length="15"
                               lineageId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\21100 Corp Dealers.Outputs[OLE DB Source Error Output].Columns[DLR_Code]"
-                              name="DLR_Code" />
+                              name="DLR_Code"
+                              sortKeyPosition="1" />
                             <outputColumn
                               refId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\21100 Corp Dealers.Outputs[OLE DB Source Error Output].Columns[DLR_Name]"
                               codePage="1252"
@@ -805,8 +798,9 @@ ORDER BY a.DLR_ID asc</property>
                               cachedDataType="str"
                               cachedLength="15"
                               cachedName="DLR_Code"
+                              cachedSortKeyPosition="1"
                               externalMetadataColumnId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\21200 Star Dealers.Inputs[OLE DB Destination Input].ExternalColumns[DLR_Code]"
-                              lineageId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].Columns[DLR_Code]" />
+                              lineageId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Merge Join.Outputs[Merge Join Output].Columns[DLR_Code]" />
                             <inputColumn
                               refId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\21200 Star Dealers.Inputs[OLE DB Destination Input].Columns[DLR_Name]"
                               cachedCodepage="1252"
@@ -814,7 +808,7 @@ ORDER BY a.DLR_ID asc</property>
                               cachedLength="256"
                               cachedName="DLR_Name"
                               externalMetadataColumnId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\21200 Star Dealers.Inputs[OLE DB Destination Input].ExternalColumns[DLR_Name]"
-                              lineageId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].Columns[DLR_Name]" />
+                              lineageId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Merge Join.Outputs[Merge Join Output].Columns[DLR_Name]" />
                             <inputColumn
                               refId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\21200 Star Dealers.Inputs[OLE DB Destination Input].Columns[DLR_Address]"
                               cachedCodepage="1252"
@@ -822,7 +816,7 @@ ORDER BY a.DLR_ID asc</property>
                               cachedLength="256"
                               cachedName="DLR_Address"
                               externalMetadataColumnId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\21200 Star Dealers.Inputs[OLE DB Destination Input].ExternalColumns[DLR_Address]"
-                              lineageId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].Columns[DLR_Address]" />
+                              lineageId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Merge Join.Outputs[Merge Join Output].Columns[DLR_Address]" />
                             <inputColumn
                               refId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\21200 Star Dealers.Inputs[OLE DB Destination Input].Columns[DLR_City]"
                               cachedCodepage="1252"
@@ -830,7 +824,7 @@ ORDER BY a.DLR_ID asc</property>
                               cachedLength="60"
                               cachedName="DLR_City"
                               externalMetadataColumnId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\21200 Star Dealers.Inputs[OLE DB Destination Input].ExternalColumns[DLR_City]"
-                              lineageId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].Columns[DLR_City]" />
+                              lineageId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Merge Join.Outputs[Merge Join Output].Columns[DLR_City]" />
                             <inputColumn
                               refId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\21200 Star Dealers.Inputs[OLE DB Destination Input].Columns[DLR_County]"
                               cachedCodepage="1252"
@@ -838,7 +832,7 @@ ORDER BY a.DLR_ID asc</property>
                               cachedLength="60"
                               cachedName="DLR_County"
                               externalMetadataColumnId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\21200 Star Dealers.Inputs[OLE DB Destination Input].ExternalColumns[DLR_County]"
-                              lineageId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].Columns[DLR_County]" />
+                              lineageId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Merge Join.Outputs[Merge Join Output].Columns[DLR_County]" />
                             <inputColumn
                               refId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\21200 Star Dealers.Inputs[OLE DB Destination Input].Columns[DLR_Zip]"
                               cachedCodepage="1252"
@@ -846,7 +840,7 @@ ORDER BY a.DLR_ID asc</property>
                               cachedLength="10"
                               cachedName="DLR_Zip"
                               externalMetadataColumnId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\21200 Star Dealers.Inputs[OLE DB Destination Input].ExternalColumns[DLR_Zip]"
-                              lineageId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].Columns[DLR_Zip]" />
+                              lineageId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Merge Join.Outputs[Merge Join Output].Columns[DLR_Zip]" />
                             <inputColumn
                               refId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\21200 Star Dealers.Inputs[OLE DB Destination Input].Columns[DLR_Independent_Or_Corporate]"
                               cachedCodepage="1252"
@@ -854,7 +848,7 @@ ORDER BY a.DLR_ID asc</property>
                               cachedLength="11"
                               cachedName="DLR_Independent_Or_Corporate"
                               externalMetadataColumnId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\21200 Star Dealers.Inputs[OLE DB Destination Input].ExternalColumns[DLR_Independent_Or_Corporate]"
-                              lineageId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].Columns[DLR_Independent_Or_Corporate]" />
+                              lineageId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Merge Join.Outputs[Merge Join Output].Columns[DLR_Independent_Or_Corporate]" />
                             <inputColumn
                               refId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\21200 Star Dealers.Inputs[OLE DB Destination Input].Columns[DLR_Email_Address]"
                               cachedCodepage="1252"
@@ -862,19 +856,19 @@ ORDER BY a.DLR_ID asc</property>
                               cachedLength="256"
                               cachedName="DLR_Email_Address"
                               externalMetadataColumnId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\21200 Star Dealers.Inputs[OLE DB Destination Input].ExternalColumns[DLR_Email_Address]"
-                              lineageId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].Columns[DLR_Email_Address]" />
+                              lineageId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Merge Join.Outputs[Merge Join Output].Columns[DLR_Email_Address]" />
                             <inputColumn
                               refId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\21200 Star Dealers.Inputs[OLE DB Destination Input].Columns[DLR_Initiation_Date]"
                               cachedDataType="dbTimeStamp"
                               cachedName="DLR_Initiation_Date"
                               externalMetadataColumnId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\21200 Star Dealers.Inputs[OLE DB Destination Input].ExternalColumns[DLR_Initiation_Date]"
-                              lineageId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].Columns[DLR_Initiation_Date]" />
+                              lineageId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Merge Join.Outputs[Merge Join Output].Columns[DLR_Initiation_Date]" />
                             <inputColumn
                               refId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\21200 Star Dealers.Inputs[OLE DB Destination Input].Columns[DLR_Official_Website_ID]"
                               cachedDataType="i2"
                               cachedName="DLR_Official_Website_ID"
                               externalMetadataColumnId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\21200 Star Dealers.Inputs[OLE DB Destination Input].ExternalColumns[DLR_Official_Website_ID]"
-                              lineageId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].Columns[DLR_Official_Website_ID]" />
+                              lineageId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Merge Join.Outputs[Merge Join Output].Columns[DLR_Official_Website_ID]" />
                             <inputColumn
                               refId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\21200 Star Dealers.Inputs[OLE DB Destination Input].Columns[DLR_Official_WebsiteURL]"
                               cachedCodepage="1252"
@@ -882,13 +876,13 @@ ORDER BY a.DLR_ID asc</property>
                               cachedLength="256"
                               cachedName="DLR_Official_WebsiteURL"
                               externalMetadataColumnId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\21200 Star Dealers.Inputs[OLE DB Destination Input].ExternalColumns[DLR_Official_WebsiteURL]"
-                              lineageId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].Columns[DLR_Official_WebsiteURL]" />
+                              lineageId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Merge Join.Outputs[Merge Join Output].Columns[DLR_Official_WebsiteURL]" />
                             <inputColumn
                               refId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\21200 Star Dealers.Inputs[OLE DB Destination Input].Columns[DLR_Official_Website_Start_Date]"
                               cachedDataType="dbTimeStamp"
                               cachedName="DLR_Official_Website_Start_Date"
                               externalMetadataColumnId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\21200 Star Dealers.Inputs[OLE DB Destination Input].ExternalColumns[DLR_Official_Website_Start_Date]"
-                              lineageId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].Columns[DLR_Official_Website_Start_Date]" />
+                              lineageId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Merge Join.Outputs[Merge Join Output].Columns[DLR_Official_Website_Start_Date]" />
                             <inputColumn
                               refId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\21200 Star Dealers.Inputs[OLE DB Destination Input].Columns[DLR_State]"
                               cachedCodepage="1252"
@@ -896,7 +890,7 @@ ORDER BY a.DLR_ID asc</property>
                               cachedLength="2"
                               cachedName="DLR_State"
                               externalMetadataColumnId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\21200 Star Dealers.Inputs[OLE DB Destination Input].ExternalColumns[DLR_State]"
-                              lineageId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].Columns[DLR_State]" />
+                              lineageId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Merge Join.Outputs[Merge Join Output].Columns[DLR_State]" />
                             <inputColumn
                               refId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\21200 Star Dealers.Inputs[OLE DB Destination Input].Columns[DLR_Country]"
                               cachedCodepage="1252"
@@ -904,7 +898,7 @@ ORDER BY a.DLR_ID asc</property>
                               cachedLength="60"
                               cachedName="DLR_Country"
                               externalMetadataColumnId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\21200 Star Dealers.Inputs[OLE DB Destination Input].ExternalColumns[DLR_Country]"
-                              lineageId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].Columns[DLR_Country]" />
+                              lineageId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Merge Join.Outputs[Merge Join Output].Columns[DLR_Country]" />
                             <inputColumn
                               refId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\21200 Star Dealers.Inputs[OLE DB Destination Input].Columns[DLR_Phone_Number]"
                               cachedCodepage="1252"
@@ -912,7 +906,7 @@ ORDER BY a.DLR_ID asc</property>
                               cachedLength="20"
                               cachedName="DLR_Phone_Number"
                               externalMetadataColumnId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\21200 Star Dealers.Inputs[OLE DB Destination Input].ExternalColumns[DLR_Phone_Number]"
-                              lineageId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].Columns[DLR_Phone_Number]" />
+                              lineageId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Merge Join.Outputs[Merge Join Output].Columns[DLR_Phone_Number]" />
                             <inputColumn
                               refId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\21200 Star Dealers.Inputs[OLE DB Destination Input].Columns[DLR_Official_WebsiteAdministrator_Email]"
                               cachedCodepage="1252"
@@ -920,15 +914,15 @@ ORDER BY a.DLR_ID asc</property>
                               cachedLength="256"
                               cachedName="DLR_Official_WebsiteAdministrator_Email"
                               externalMetadataColumnId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\21200 Star Dealers.Inputs[OLE DB Destination Input].ExternalColumns[DLR_Official_WebsiteAdministrator_Email]"
-                              lineageId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].Columns[DLR_Official_WebsiteAdministrator_Email]" />
+                              lineageId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Merge Join.Outputs[Merge Join Output].Columns[DLR_Official_WebsiteAdministrator_Email]" />
                             <inputColumn
                               refId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\21200 Star Dealers.Inputs[OLE DB Destination Input].Columns[DLR_Authorized_Makes]"
                               cachedCodepage="1252"
                               cachedDataType="str"
-                              cachedLength="30"
+                              cachedLength="9"
                               cachedName="DLR_Authorized_Makes"
                               externalMetadataColumnId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\21200 Star Dealers.Inputs[OLE DB Destination Input].ExternalColumns[DLR_Authorized_Makes]"
-                              lineageId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].Columns[DLR_Authorized_Makes]" />
+                              lineageId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Merge Join.Outputs[Merge Join Output].Columns[DLR_Authorized_Makes]" />
                           </inputColumns>
                           <externalMetadataColumns
                             isUsed="True">
@@ -1061,11 +1055,648 @@ ORDER BY a.DLR_ID asc</property>
                         </output>
                       </outputs>
                     </component>
+                    <component
+                      refId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Merge Join"
+                      componentClassID="{14D43A4F-D7BD-489D-829E-6DE35750CFE4}"
+                      contactInfo="Merge Join;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
+                      description="Combine two sorted data flows into one using the FULL, LEFT, or INNER join. We recommend this transformation when data flows can be sorted at their sources."
+                      name="Merge Join"
+                      version="1">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the type of join to perform."
+                          name="JoinType"
+                          typeConverter="JoinType">2</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the number of columns in the ordering key."
+                          name="NumKeyColumns">1</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the null values are treated as equal values."
+                          name="TreatNullsAsEqual">true</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Indicates the requested maximum buffers per input before blocking."
+                          name="MaxBuffersPerInput">5</property>
+                      </properties>
+                      <inputs>
+                        <input
+                          refId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Merge Join.Inputs[Merge Join Left Input]"
+                          hasSideEffects="true"
+                          name="Merge Join Left Input">
+                          <inputColumns>
+                            <inputColumn
+                              refId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Merge Join.Inputs[Merge Join Left Input].Columns[DLR_Code]"
+                              cachedCodepage="1252"
+                              cachedDataType="str"
+                              cachedLength="15"
+                              cachedName="DLR_Code"
+                              cachedSortKeyPosition="1"
+                              lineageId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].Columns[DLR_Code]" />
+                            <inputColumn
+                              refId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Merge Join.Inputs[Merge Join Left Input].Columns[DLR_Name]"
+                              cachedCodepage="1252"
+                              cachedDataType="str"
+                              cachedLength="256"
+                              cachedName="DLR_Name"
+                              lineageId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].Columns[DLR_Name]" />
+                            <inputColumn
+                              refId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Merge Join.Inputs[Merge Join Left Input].Columns[DLR_Address]"
+                              cachedCodepage="1252"
+                              cachedDataType="str"
+                              cachedLength="256"
+                              cachedName="DLR_Address"
+                              lineageId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].Columns[DLR_Address]" />
+                            <inputColumn
+                              refId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Merge Join.Inputs[Merge Join Left Input].Columns[DLR_City]"
+                              cachedCodepage="1252"
+                              cachedDataType="str"
+                              cachedLength="60"
+                              cachedName="DLR_City"
+                              lineageId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].Columns[DLR_City]" />
+                            <inputColumn
+                              refId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Merge Join.Inputs[Merge Join Left Input].Columns[DLR_County]"
+                              cachedCodepage="1252"
+                              cachedDataType="str"
+                              cachedLength="60"
+                              cachedName="DLR_County"
+                              lineageId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].Columns[DLR_County]" />
+                            <inputColumn
+                              refId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Merge Join.Inputs[Merge Join Left Input].Columns[DLR_Zip]"
+                              cachedCodepage="1252"
+                              cachedDataType="str"
+                              cachedLength="10"
+                              cachedName="DLR_Zip"
+                              lineageId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].Columns[DLR_Zip]" />
+                            <inputColumn
+                              refId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Merge Join.Inputs[Merge Join Left Input].Columns[DLR_Independent_Or_Corporate]"
+                              cachedCodepage="1252"
+                              cachedDataType="str"
+                              cachedLength="11"
+                              cachedName="DLR_Independent_Or_Corporate"
+                              lineageId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].Columns[DLR_Independent_Or_Corporate]" />
+                            <inputColumn
+                              refId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Merge Join.Inputs[Merge Join Left Input].Columns[DLR_Email_Address]"
+                              cachedCodepage="1252"
+                              cachedDataType="str"
+                              cachedLength="256"
+                              cachedName="DLR_Email_Address"
+                              lineageId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].Columns[DLR_Email_Address]" />
+                            <inputColumn
+                              refId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Merge Join.Inputs[Merge Join Left Input].Columns[DLR_Initiation_Date]"
+                              cachedDataType="dbTimeStamp"
+                              cachedName="DLR_Initiation_Date"
+                              lineageId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].Columns[DLR_Initiation_Date]" />
+                            <inputColumn
+                              refId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Merge Join.Inputs[Merge Join Left Input].Columns[DLR_Official_Website_ID]"
+                              cachedDataType="i2"
+                              cachedName="DLR_Official_Website_ID"
+                              lineageId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].Columns[DLR_Official_Website_ID]" />
+                            <inputColumn
+                              refId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Merge Join.Inputs[Merge Join Left Input].Columns[DLR_Official_WebsiteURL]"
+                              cachedCodepage="1252"
+                              cachedDataType="str"
+                              cachedLength="256"
+                              cachedName="DLR_Official_WebsiteURL"
+                              lineageId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].Columns[DLR_Official_WebsiteURL]" />
+                            <inputColumn
+                              refId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Merge Join.Inputs[Merge Join Left Input].Columns[DLR_Official_Website_Start_Date]"
+                              cachedDataType="dbTimeStamp"
+                              cachedName="DLR_Official_Website_Start_Date"
+                              lineageId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].Columns[DLR_Official_Website_Start_Date]" />
+                            <inputColumn
+                              refId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Merge Join.Inputs[Merge Join Left Input].Columns[DLR_State]"
+                              cachedCodepage="1252"
+                              cachedDataType="str"
+                              cachedLength="2"
+                              cachedName="DLR_State"
+                              lineageId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].Columns[DLR_State]" />
+                            <inputColumn
+                              refId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Merge Join.Inputs[Merge Join Left Input].Columns[DLR_Country]"
+                              cachedCodepage="1252"
+                              cachedDataType="str"
+                              cachedLength="60"
+                              cachedName="DLR_Country"
+                              lineageId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].Columns[DLR_Country]" />
+                            <inputColumn
+                              refId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Merge Join.Inputs[Merge Join Left Input].Columns[DLR_Phone_Number]"
+                              cachedCodepage="1252"
+                              cachedDataType="str"
+                              cachedLength="20"
+                              cachedName="DLR_Phone_Number"
+                              lineageId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].Columns[DLR_Phone_Number]" />
+                            <inputColumn
+                              refId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Merge Join.Inputs[Merge Join Left Input].Columns[DLR_Official_WebsiteAdministrator_Email]"
+                              cachedCodepage="1252"
+                              cachedDataType="str"
+                              cachedLength="256"
+                              cachedName="DLR_Official_WebsiteAdministrator_Email"
+                              lineageId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output].Columns[DLR_Official_WebsiteAdministrator_Email]" />
+                          </inputColumns>
+                          <externalMetadataColumns />
+                        </input>
+                        <input
+                          refId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Merge Join.Inputs[Merge Join Right Input]"
+                          hasSideEffects="true"
+                          name="Merge Join Right Input">
+                          <inputColumns>
+                            <inputColumn
+                              refId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Merge Join.Inputs[Merge Join Right Input].Columns[DLR_Code]"
+                              cachedCodepage="1252"
+                              cachedDataType="str"
+                              cachedLength="15"
+                              cachedName="DLR_Code"
+                              cachedSortKeyPosition="1"
+                              lineageId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Sales Org Type.Outputs[OLE DB Source Output].Columns[DLR_Code]" />
+                            <inputColumn
+                              refId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Merge Join.Inputs[Merge Join Right Input].Columns[DLR_Authorized_Makes]"
+                              cachedCodepage="1252"
+                              cachedDataType="str"
+                              cachedLength="9"
+                              cachedName="DLR_Authorized_Makes"
+                              lineageId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Sales Org Type.Outputs[OLE DB Source Output].Columns[DLR_Authorized_Makes]" />
+                          </inputColumns>
+                          <externalMetadataColumns />
+                        </input>
+                      </inputs>
+                      <outputs>
+                        <output
+                          refId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Merge Join.Outputs[Merge Join Output]"
+                          isSorted="true"
+                          name="Merge Join Output">
+                          <outputColumns>
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Merge Join.Outputs[Merge Join Output].Columns[DLR_Code]"
+                              codePage="1252"
+                              dataType="str"
+                              length="15"
+                              lineageId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Merge Join.Outputs[Merge Join Output].Columns[DLR_Code]"
+                              name="DLR_Code"
+                              sortKeyPosition="1">
+                              <properties>
+                                <property
+                                  containsID="true"
+                                  dataType="System.Int32"
+                                  description="The input column associated with this output column"
+                                  name="InputColumnID">#{Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Merge Join.Inputs[Merge Join Left Input].Columns[DLR_Code]}</property>
+                              </properties>
+                            </outputColumn>
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Merge Join.Outputs[Merge Join Output].Columns[DLR_Name]"
+                              codePage="1252"
+                              dataType="str"
+                              length="256"
+                              lineageId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Merge Join.Outputs[Merge Join Output].Columns[DLR_Name]"
+                              name="DLR_Name">
+                              <properties>
+                                <property
+                                  containsID="true"
+                                  dataType="System.Int32"
+                                  description="The input column associated with this output column"
+                                  name="InputColumnID">#{Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Merge Join.Inputs[Merge Join Left Input].Columns[DLR_Name]}</property>
+                              </properties>
+                            </outputColumn>
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Merge Join.Outputs[Merge Join Output].Columns[DLR_Address]"
+                              codePage="1252"
+                              dataType="str"
+                              length="256"
+                              lineageId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Merge Join.Outputs[Merge Join Output].Columns[DLR_Address]"
+                              name="DLR_Address">
+                              <properties>
+                                <property
+                                  containsID="true"
+                                  dataType="System.Int32"
+                                  description="The input column associated with this output column"
+                                  name="InputColumnID">#{Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Merge Join.Inputs[Merge Join Left Input].Columns[DLR_Address]}</property>
+                              </properties>
+                            </outputColumn>
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Merge Join.Outputs[Merge Join Output].Columns[DLR_City]"
+                              codePage="1252"
+                              dataType="str"
+                              length="60"
+                              lineageId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Merge Join.Outputs[Merge Join Output].Columns[DLR_City]"
+                              name="DLR_City">
+                              <properties>
+                                <property
+                                  containsID="true"
+                                  dataType="System.Int32"
+                                  description="The input column associated with this output column"
+                                  name="InputColumnID">#{Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Merge Join.Inputs[Merge Join Left Input].Columns[DLR_City]}</property>
+                              </properties>
+                            </outputColumn>
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Merge Join.Outputs[Merge Join Output].Columns[DLR_County]"
+                              codePage="1252"
+                              dataType="str"
+                              length="60"
+                              lineageId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Merge Join.Outputs[Merge Join Output].Columns[DLR_County]"
+                              name="DLR_County">
+                              <properties>
+                                <property
+                                  containsID="true"
+                                  dataType="System.Int32"
+                                  description="The input column associated with this output column"
+                                  name="InputColumnID">#{Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Merge Join.Inputs[Merge Join Left Input].Columns[DLR_County]}</property>
+                              </properties>
+                            </outputColumn>
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Merge Join.Outputs[Merge Join Output].Columns[DLR_Zip]"
+                              codePage="1252"
+                              dataType="str"
+                              length="10"
+                              lineageId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Merge Join.Outputs[Merge Join Output].Columns[DLR_Zip]"
+                              name="DLR_Zip">
+                              <properties>
+                                <property
+                                  containsID="true"
+                                  dataType="System.Int32"
+                                  description="The input column associated with this output column"
+                                  name="InputColumnID">#{Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Merge Join.Inputs[Merge Join Left Input].Columns[DLR_Zip]}</property>
+                              </properties>
+                            </outputColumn>
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Merge Join.Outputs[Merge Join Output].Columns[DLR_Independent_Or_Corporate]"
+                              codePage="1252"
+                              dataType="str"
+                              length="11"
+                              lineageId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Merge Join.Outputs[Merge Join Output].Columns[DLR_Independent_Or_Corporate]"
+                              name="DLR_Independent_Or_Corporate">
+                              <properties>
+                                <property
+                                  containsID="true"
+                                  dataType="System.Int32"
+                                  description="The input column associated with this output column"
+                                  name="InputColumnID">#{Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Merge Join.Inputs[Merge Join Left Input].Columns[DLR_Independent_Or_Corporate]}</property>
+                              </properties>
+                            </outputColumn>
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Merge Join.Outputs[Merge Join Output].Columns[DLR_Email_Address]"
+                              codePage="1252"
+                              dataType="str"
+                              length="256"
+                              lineageId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Merge Join.Outputs[Merge Join Output].Columns[DLR_Email_Address]"
+                              name="DLR_Email_Address">
+                              <properties>
+                                <property
+                                  containsID="true"
+                                  dataType="System.Int32"
+                                  description="The input column associated with this output column"
+                                  name="InputColumnID">#{Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Merge Join.Inputs[Merge Join Left Input].Columns[DLR_Email_Address]}</property>
+                              </properties>
+                            </outputColumn>
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Merge Join.Outputs[Merge Join Output].Columns[DLR_Initiation_Date]"
+                              dataType="dbTimeStamp"
+                              lineageId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Merge Join.Outputs[Merge Join Output].Columns[DLR_Initiation_Date]"
+                              name="DLR_Initiation_Date">
+                              <properties>
+                                <property
+                                  containsID="true"
+                                  dataType="System.Int32"
+                                  description="The input column associated with this output column"
+                                  name="InputColumnID">#{Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Merge Join.Inputs[Merge Join Left Input].Columns[DLR_Initiation_Date]}</property>
+                              </properties>
+                            </outputColumn>
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Merge Join.Outputs[Merge Join Output].Columns[DLR_Official_Website_ID]"
+                              dataType="i2"
+                              lineageId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Merge Join.Outputs[Merge Join Output].Columns[DLR_Official_Website_ID]"
+                              name="DLR_Official_Website_ID">
+                              <properties>
+                                <property
+                                  containsID="true"
+                                  dataType="System.Int32"
+                                  description="The input column associated with this output column"
+                                  name="InputColumnID">#{Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Merge Join.Inputs[Merge Join Left Input].Columns[DLR_Official_Website_ID]}</property>
+                              </properties>
+                            </outputColumn>
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Merge Join.Outputs[Merge Join Output].Columns[DLR_Official_WebsiteURL]"
+                              codePage="1252"
+                              dataType="str"
+                              length="256"
+                              lineageId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Merge Join.Outputs[Merge Join Output].Columns[DLR_Official_WebsiteURL]"
+                              name="DLR_Official_WebsiteURL">
+                              <properties>
+                                <property
+                                  containsID="true"
+                                  dataType="System.Int32"
+                                  description="The input column associated with this output column"
+                                  name="InputColumnID">#{Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Merge Join.Inputs[Merge Join Left Input].Columns[DLR_Official_WebsiteURL]}</property>
+                              </properties>
+                            </outputColumn>
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Merge Join.Outputs[Merge Join Output].Columns[DLR_Official_Website_Start_Date]"
+                              dataType="dbTimeStamp"
+                              lineageId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Merge Join.Outputs[Merge Join Output].Columns[DLR_Official_Website_Start_Date]"
+                              name="DLR_Official_Website_Start_Date">
+                              <properties>
+                                <property
+                                  containsID="true"
+                                  dataType="System.Int32"
+                                  description="The input column associated with this output column"
+                                  name="InputColumnID">#{Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Merge Join.Inputs[Merge Join Left Input].Columns[DLR_Official_Website_Start_Date]}</property>
+                              </properties>
+                            </outputColumn>
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Merge Join.Outputs[Merge Join Output].Columns[DLR_State]"
+                              codePage="1252"
+                              dataType="str"
+                              length="2"
+                              lineageId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Merge Join.Outputs[Merge Join Output].Columns[DLR_State]"
+                              name="DLR_State">
+                              <properties>
+                                <property
+                                  containsID="true"
+                                  dataType="System.Int32"
+                                  description="The input column associated with this output column"
+                                  name="InputColumnID">#{Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Merge Join.Inputs[Merge Join Left Input].Columns[DLR_State]}</property>
+                              </properties>
+                            </outputColumn>
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Merge Join.Outputs[Merge Join Output].Columns[DLR_Country]"
+                              codePage="1252"
+                              dataType="str"
+                              length="60"
+                              lineageId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Merge Join.Outputs[Merge Join Output].Columns[DLR_Country]"
+                              name="DLR_Country">
+                              <properties>
+                                <property
+                                  containsID="true"
+                                  dataType="System.Int32"
+                                  description="The input column associated with this output column"
+                                  name="InputColumnID">#{Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Merge Join.Inputs[Merge Join Left Input].Columns[DLR_Country]}</property>
+                              </properties>
+                            </outputColumn>
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Merge Join.Outputs[Merge Join Output].Columns[DLR_Phone_Number]"
+                              codePage="1252"
+                              dataType="str"
+                              length="20"
+                              lineageId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Merge Join.Outputs[Merge Join Output].Columns[DLR_Phone_Number]"
+                              name="DLR_Phone_Number">
+                              <properties>
+                                <property
+                                  containsID="true"
+                                  dataType="System.Int32"
+                                  description="The input column associated with this output column"
+                                  name="InputColumnID">#{Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Merge Join.Inputs[Merge Join Left Input].Columns[DLR_Phone_Number]}</property>
+                              </properties>
+                            </outputColumn>
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Merge Join.Outputs[Merge Join Output].Columns[DLR_Official_WebsiteAdministrator_Email]"
+                              codePage="1252"
+                              dataType="str"
+                              length="256"
+                              lineageId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Merge Join.Outputs[Merge Join Output].Columns[DLR_Official_WebsiteAdministrator_Email]"
+                              name="DLR_Official_WebsiteAdministrator_Email">
+                              <properties>
+                                <property
+                                  containsID="true"
+                                  dataType="System.Int32"
+                                  description="The input column associated with this output column"
+                                  name="InputColumnID">#{Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Merge Join.Inputs[Merge Join Left Input].Columns[DLR_Official_WebsiteAdministrator_Email]}</property>
+                              </properties>
+                            </outputColumn>
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Merge Join.Outputs[Merge Join Output].Columns[DLR_Authorized_Makes]"
+                              codePage="1252"
+                              dataType="str"
+                              length="9"
+                              lineageId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Merge Join.Outputs[Merge Join Output].Columns[DLR_Authorized_Makes]"
+                              name="DLR_Authorized_Makes">
+                              <properties>
+                                <property
+                                  containsID="true"
+                                  dataType="System.Int32"
+                                  description="The input column associated with this output column"
+                                  name="InputColumnID">#{Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Merge Join.Inputs[Merge Join Right Input].Columns[DLR_Authorized_Makes]}</property>
+                              </properties>
+                            </outputColumn>
+                          </outputColumns>
+                          <externalMetadataColumns />
+                        </output>
+                      </outputs>
+                    </component>
+                    <component
+                      refId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Sales Org Type"
+                      componentClassID="{165A526D-D5DE-47FF-96A6-F8274C19826B}"
+                      contactInfo="OLE DB Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;7"
+                      description="OLE DB Source"
+                      name="Sales Org Type"
+                      usesDispositions="true"
+                      version="7">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                          name="CommandTimeout">0</property>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the name of the database object used to open a rowset."
+                          name="OpenRowset"></property>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the variable that contains the name of the database object used to open a rowset."
+                          name="OpenRowsetVariable"></property>
+                        <property
+                          dataType="System.String"
+                          description="The SQL command to be executed."
+                          name="SqlCommand"
+                          UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">--USE SEIS732_Team_21_Sales_Org
+SELECT DISTINCT  [DLR_Zip] = Dealer.DLR_Zip
+		,[DLR_Code] = Dealer.DLR_Code
+		,[DLR_Phone_Number]  = Dealer.DLR_Phone
+		,[DLR_Authorized_Makes]
+		= CASE 
+				WHEN Dealer.DLR_Type = 'A' THEN 'All_Makes'
+				WHEN Dealer.DLR_Type = 'B' THEN 'Behemoth'
+				WHEN Dealer.DLR_Type = 'P' THEN 'Packrat'
+				ELSE 'Unknown'
+			END 
+  FROM [SEIS732_Team_21_Sales_Org].[dbo].[Dealer]
+  ORDER BY Dealer.DLR_Code ASC</property>
+                        <property
+                          dataType="System.String"
+                          description="The variable that contains the SQL command to be executed."
+                          name="SqlCommandVariable"></property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the column code page to use when code page information is unavailable from the data source."
+                          name="DefaultCodePage">1252</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Forces the use of the DefaultCodePage property value when describing character data."
+                          name="AlwaysUseDefaultCodePage">false</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the mode used to access the database."
+                          name="AccessMode"
+                          typeConverter="AccessMode">2</property>
+                        <property
+                          dataType="System.String"
+                          description="The mappings between the parameters in the SQL command and variables."
+                          name="ParameterMapping"></property>
+                      </properties>
+                      <connections>
+                        <connection
+                          refId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Sales Org Type.Connections[OleDbConnection]"
+                          connectionManagerID="Package.ConnectionManagers[(local).SEIS732_Team_21_Sales_Org.SEIS732_Team_21_Sales_Org_User]"
+                          connectionManagerRefId="Package.ConnectionManagers[(local).SEIS732_Team_21_Sales_Org.SEIS732_Team_21_Sales_Org_User]"
+                          description="The OLE DB runtime connection used to access the database."
+                          name="OleDbConnection" />
+                      </connections>
+                      <outputs>
+                        <output
+                          refId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Sales Org Type.Outputs[OLE DB Source Output]"
+                          isSorted="true"
+                          name="OLE DB Source Output">
+                          <outputColumns>
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Sales Org Type.Outputs[OLE DB Source Output].Columns[DLR_Authorized_Makes]"
+                              codePage="1252"
+                              dataType="str"
+                              errorOrTruncationOperation="Conversion"
+                              errorRowDisposition="FailComponent"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Sales Org Type.Outputs[OLE DB Source Output].ExternalColumns[DLR_Authorized_Makes]"
+                              length="9"
+                              lineageId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Sales Org Type.Outputs[OLE DB Source Output].Columns[DLR_Authorized_Makes]"
+                              name="DLR_Authorized_Makes"
+                              truncationRowDisposition="FailComponent" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Sales Org Type.Outputs[OLE DB Source Output].Columns[DLR_Zip]"
+                              codePage="1252"
+                              dataType="str"
+                              errorOrTruncationOperation="Conversion"
+                              errorRowDisposition="FailComponent"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Sales Org Type.Outputs[OLE DB Source Output].ExternalColumns[DLR_Zip]"
+                              length="10"
+                              lineageId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Sales Org Type.Outputs[OLE DB Source Output].Columns[DLR_Zip]"
+                              name="DLR_Zip"
+                              truncationRowDisposition="FailComponent" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Sales Org Type.Outputs[OLE DB Source Output].Columns[DLR_Code]"
+                              codePage="1252"
+                              dataType="str"
+                              errorOrTruncationOperation="Conversion"
+                              errorRowDisposition="FailComponent"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Sales Org Type.Outputs[OLE DB Source Output].ExternalColumns[DLR_Code]"
+                              length="15"
+                              lineageId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Sales Org Type.Outputs[OLE DB Source Output].Columns[DLR_Code]"
+                              name="DLR_Code"
+                              sortKeyPosition="1"
+                              truncationRowDisposition="FailComponent" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Sales Org Type.Outputs[OLE DB Source Output].Columns[DLR_Phone_Number]"
+                              codePage="1252"
+                              dataType="str"
+                              errorOrTruncationOperation="Conversion"
+                              errorRowDisposition="FailComponent"
+                              externalMetadataColumnId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Sales Org Type.Outputs[OLE DB Source Output].ExternalColumns[DLR_Phone_Number]"
+                              length="20"
+                              lineageId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Sales Org Type.Outputs[OLE DB Source Output].Columns[DLR_Phone_Number]"
+                              name="DLR_Phone_Number"
+                              truncationRowDisposition="FailComponent" />
+                          </outputColumns>
+                          <externalMetadataColumns
+                            isUsed="True">
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Sales Org Type.Outputs[OLE DB Source Output].ExternalColumns[DLR_Authorized_Makes]"
+                              codePage="1252"
+                              dataType="str"
+                              length="9"
+                              name="DLR_Authorized_Makes" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Sales Org Type.Outputs[OLE DB Source Output].ExternalColumns[DLR_Zip]"
+                              codePage="1252"
+                              dataType="str"
+                              length="10"
+                              name="DLR_Zip" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Sales Org Type.Outputs[OLE DB Source Output].ExternalColumns[DLR_Code]"
+                              codePage="1252"
+                              dataType="str"
+                              length="15"
+                              name="DLR_Code" />
+                            <externalMetadataColumn
+                              refId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Sales Org Type.Outputs[OLE DB Source Output].ExternalColumns[DLR_Phone_Number]"
+                              codePage="1252"
+                              dataType="str"
+                              length="20"
+                              name="DLR_Phone_Number" />
+                          </externalMetadataColumns>
+                        </output>
+                        <output
+                          refId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Sales Org Type.Outputs[OLE DB Source Error Output]"
+                          isErrorOut="true"
+                          isSorted="true"
+                          name="OLE DB Source Error Output">
+                          <outputColumns>
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Sales Org Type.Outputs[OLE DB Source Error Output].Columns[DLR_Zip]"
+                              codePage="1252"
+                              dataType="str"
+                              length="10"
+                              lineageId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Sales Org Type.Outputs[OLE DB Source Error Output].Columns[DLR_Zip]"
+                              name="DLR_Zip" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Sales Org Type.Outputs[OLE DB Source Error Output].Columns[DLR_Code]"
+                              codePage="1252"
+                              dataType="str"
+                              length="15"
+                              lineageId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Sales Org Type.Outputs[OLE DB Source Error Output].Columns[DLR_Code]"
+                              name="DLR_Code"
+                              sortKeyPosition="1" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Sales Org Type.Outputs[OLE DB Source Error Output].Columns[DLR_Phone_Number]"
+                              codePage="1252"
+                              dataType="str"
+                              length="20"
+                              lineageId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Sales Org Type.Outputs[OLE DB Source Error Output].Columns[DLR_Phone_Number]"
+                              name="DLR_Phone_Number" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Sales Org Type.Outputs[OLE DB Source Error Output].Columns[DLR_Authorized_Makes]"
+                              codePage="1252"
+                              dataType="str"
+                              length="9"
+                              lineageId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Sales Org Type.Outputs[OLE DB Source Error Output].Columns[DLR_Authorized_Makes]"
+                              name="DLR_Authorized_Makes" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Sales Org Type.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                              dataType="i4"
+                              lineageId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Sales Org Type.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                              name="ErrorCode"
+                              specialFlags="1" />
+                            <outputColumn
+                              refId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Sales Org Type.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                              dataType="i4"
+                              lineageId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Sales Org Type.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                              name="ErrorColumn"
+                              specialFlags="2" />
+                          </outputColumns>
+                          <externalMetadataColumns />
+                        </output>
+                      </outputs>
+                    </component>
                   </components>
                   <paths>
                     <path
-                      refId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers.Paths[OLE DB Source Output]"
+                      refId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers.Paths[Merge Join Output]"
                       endId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\21200 Star Dealers.Inputs[OLE DB Destination Input]"
+                      name="Merge Join Output"
+                      startId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Merge Join.Outputs[Merge Join Output]" />
+                    <path
+                      refId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers.Paths[OLE DB Source Output1]"
+                      endId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Merge Join.Inputs[Merge Join Right Input]"
+                      name="OLE DB Source Output"
+                      startId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Sales Org Type.Outputs[OLE DB Source Output]" />
+                    <path
+                      refId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers.Paths[OLE DB Source Output]"
+                      endId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Merge Join.Inputs[Merge Join Left Input]"
                       name="OLE DB Source Output"
                       startId="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\21100 Corp Dealers.Outputs[OLE DB Source Output]" />
                   </paths>
@@ -1933,16 +2564,28 @@ LEFT JOIN dbo.Branch	AS b ON p.BR_ID = b.BR_ID</property>
                           name="SqlCommand"
                           UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">--USE SEIS732_Team_21_Sales_Org
 
-SELECT 
-		MSA_Micropolitan_Area_Population	= msa.MICSA_Population	,
-		MSA_Micropolitan_Area_ID			= msa.MSA_ID,
-		MSA_Micropolitan_Area_Description	= CAST(RIGHT(msa.MICSA_Description,LEN(msa.MICSA_Description)-1) AS VARCHAR(60)), --remove period in col 1
-		MSA_Metropolitan_Area_Population	= msa2.MSA_Population,
-		MSA_Metropolitan_Area_ID			= msa2.MSA_ID,
-		MSA_Metropolitan_Area_Name			= msa2.MSA_Name,
-		MSA_Metropolitan_Area_Key			= msa.MICSA_ID
-FROM dbo.Micropolitan_Statistical_Area AS msa
-LEFT JOIN dbo.Metropolitan_Statistical_Area AS msa2 ON msa.MSA_ID = msa2.MSA_ID</property>
+
+SELECT a.MSA_Micropolitan_Area_Population
+     , a.MSA_Micropolitan_Area_ID
+     , a.MSA_Micropolitan_Area_Description
+     , a.MSA_Metropolitan_Area_Population
+     , a.MSA_Metropolitan_Area_ID
+     , a.MSA_Metropolitan_Area_Name
+     , MSA_Metropolitan_Area_Key  = Dense_RANK() OVER  (ORDER BY a.MSA_Metropolitan_Area_ID)
+FROM (
+	SELECT 
+			MSA_Micropolitan_Area_Population	= msa.MICSA_Population	,
+			MSA_Micropolitan_Area_ID			= msa.MSA_ID,
+			MSA_Micropolitan_Area_Description	= CAST(RIGHT(msa.MICSA_Description,LEN(msa.MICSA_Description)-1) AS VARCHAR(60)), --remove period in col 1
+			MSA_Metropolitan_Area_Population	= msa2.MSA_Population,
+			MSA_Metropolitan_Area_ID			= msa2.MSA_ID,
+			MSA_Metropolitan_Area_Name			= msa2.MSA_Name
+			--MSA_Metropolitan_Area_Key			= msa.MICSA_ID
+	FROM dbo.Micropolitan_Statistical_Area AS msa
+	LEFT JOIN dbo.Metropolitan_Statistical_Area AS msa2 ON msa.MSA_ID = msa2.MSA_ID
+) a
+ORDER BY a.MSA_Metropolitan_Area_ID
+;</property>
                         <property
                           dataType="System.String"
                           description="The variable that contains the SQL command to be executed."
@@ -2385,24 +3028,39 @@ LEFT JOIN dbo.Metropolitan_Statistical_Area AS msa2 ON msa.MSA_ID = msa2.MSA_ID<
                           name="SqlCommand"
                           UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">--USE SEIS732_Team_21_Sales_Org;
 
-SELECT	SORG_Zone_ID				= Zones.SD_ID ,
-		SORG_Zone_Name				= Zones.SD_Name ,
-		SORG_Zone_Manager_Name		= CAST(ISNULL(zone_mgr.MGR_First_Name + '  ', ' &lt;N/A&gt;') AS VARCHAR(60)),
-		SORG_Zone_Key				= ISNULL(zone_mgr.MGR_ID, 0),
-		SORG_Domain_ID				= domain.SA_ID,
-		SORG_Domain_Name			= domain.SA_Name,
-		SORG_Domain_Manager_Name	= CAST(ISNULL(domain_mgr.MGR_First_Name + '  ', ' &lt;N/A&gt;') AS VARCHAR(60)),
-		SORG_Region_ID				= Region.ST_ID,
-		SORG_Region_Name			= Region.ST_Name ,
-		SORG_Region_Manager_Name	= CAST(ISNULL(region_mgr.MGR_First_Name + '  ', ' &lt;N/A&gt;') AS VARCHAR(60)),
-		SORG_Region_Key				= ISNULL(region_mgr.MGR_ID, 0),
-		SORG_Full_Name				= 'TBA' 
-FROM dbo.Sales_District AS Zones
-LEFT JOIN dbo.Sales_Mgr AS zone_mgr			ON Zones.MGR_ID = zone_mgr.MGR_ID
-LEFT JOIN dbo.Sales_Area AS domain			ON Zones.SD_ID = domain.SD_ID
-LEFT JOIN dbo.Sales_Mgr AS domain_mgr		ON domain.MGR_ID = domain_mgr.MGR_ID
-INNER JOIN dbo.Sales_Territory AS Region	ON domain.SA_ID = Region.SA_ID
-LEFT JOIN dbo.Sales_Mgr AS region_mgr		ON Region.MGR_ID = region_mgr.MGR_ID;</property>
+
+
+SELECT a.SORG_Zone_ID
+     , a.SORG_Zone_Name
+     , a.SORG_Zone_Manager_Name
+     , SORG_Zone_Key = Dense_RANK() OVER  (ORDER BY a.SORG_Zone_ID)
+     , a.SORG_Domain_ID
+     , a.SORG_Domain_Name
+     , a.SORG_Domain_Manager_Name
+     , a.SORG_Region_ID
+     , a.SORG_Region_Name
+     , a.SORG_Region_Manager_Name
+     , SORG_Region_Key = Dense_RANK() OVER  (ORDER BY a.SORG_Zone_ID, a.SORG_Region_ID)
+     , SORG_Full_Name   = '['+a.SORG_Region_Name + ']-(' + a.SORG_Zone_Name +')/' + a.SORG_Domain_Name
+FROM (
+	SELECT	SORG_Zone_ID				= Zones.SD_ID ,
+			SORG_Zone_Name				= Zones.SA_Name ,
+			SORG_Zone_Manager_Name		= CAST(ISNULL(zone_mgr.MGR_First_Name + '  ', ' &lt;N/A&gt;')  + ISNULL(zone_mgr.MGR_Last_Name, '&lt;/N/A&gt;') AS VARCHAR(60)),
+			SORG_Domain_ID				= domain.SA_ID,
+			SORG_Domain_Name			= domain.ST_Name,
+			SORG_Domain_Manager_Name	= CAST(ISNULL(domain_mgr.MGR_First_Name + '  ', ' &lt;N/A&gt;')+ ISNULL(domain_mgr.MGR_Last_Name, '&lt;/N/A&gt;') AS VARCHAR(60)),
+			SORG_Region_ID				= Region.SD_ID,
+			SORG_Region_Name			= Region.SD_Name ,
+			SORG_Region_Manager_Name	= CAST(ISNULL(region_mgr.MGR_First_Name + '  ', ' &lt;N/A&gt;')+ ISNULL(region_mgr.MGR_Last_Name, '&lt;/N/A&gt;') AS VARCHAR(60))
+	FROM dbo.Sales_District			AS Region
+	LEFT JOIN dbo.Sales_Mgr			AS region_mgr	ON Region.MGR_ID = region_mgr.MGR_ID
+	LEFT JOIN dbo.Sales_Area		AS Zones		ON Region.SD_ID = Zones.SD_ID
+	LEFT JOIN  dbo.Sales_Mgr		AS zone_mgr		ON Zones.MGR_ID = zone_mgr.MGR_ID
+	LEFT JOIN dbo.Sales_Territory	AS domain		ON Zones.SA_ID = domain.SA_ID
+	LEFT JOIN dbo.Sales_Mgr			AS domain_mgr	ON domain.MGR_ID = domain_mgr.MGR_ID
+)a 
+ORDER BY a.SORG_Zone_ID asc, a.SORG_Region_ID asc
+;</property>
                         <property
                           dataType="System.String"
                           description="The variable that contains the SQL command to be executed."
@@ -2471,7 +3129,7 @@ LEFT JOIN dbo.Sales_Mgr AS region_mgr		ON Region.MGR_ID = region_mgr.MGR_ID;</pr
                               truncationRowDisposition="FailComponent" />
                             <outputColumn
                               refId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\Sales Org.Outputs[OLE DB Source Output].Columns[SORG_Zone_Key]"
-                              dataType="i2"
+                              dataType="i8"
                               errorOrTruncationOperation="Conversion"
                               errorRowDisposition="FailComponent"
                               externalMetadataColumnId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\Sales Org.Outputs[OLE DB Source Output].ExternalColumns[SORG_Zone_Key]"
@@ -2542,7 +3200,7 @@ LEFT JOIN dbo.Sales_Mgr AS region_mgr		ON Region.MGR_ID = region_mgr.MGR_ID;</pr
                               truncationRowDisposition="FailComponent" />
                             <outputColumn
                               refId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\Sales Org.Outputs[OLE DB Source Output].Columns[SORG_Region_Key]"
-                              dataType="i2"
+                              dataType="i8"
                               errorOrTruncationOperation="Conversion"
                               errorRowDisposition="FailComponent"
                               externalMetadataColumnId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\Sales Org.Outputs[OLE DB Source Output].ExternalColumns[SORG_Region_Key]"
@@ -2556,7 +3214,7 @@ LEFT JOIN dbo.Sales_Mgr AS region_mgr		ON Region.MGR_ID = region_mgr.MGR_ID;</pr
                               errorOrTruncationOperation="Conversion"
                               errorRowDisposition="FailComponent"
                               externalMetadataColumnId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\Sales Org.Outputs[OLE DB Source Output].ExternalColumns[SORG_Full_Name]"
-                              length="3"
+                              length="186"
                               lineageId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\Sales Org.Outputs[OLE DB Source Output].Columns[SORG_Full_Name]"
                               name="SORG_Full_Name"
                               truncationRowDisposition="FailComponent" />
@@ -2581,7 +3239,7 @@ LEFT JOIN dbo.Sales_Mgr AS region_mgr		ON Region.MGR_ID = region_mgr.MGR_ID;</pr
                               name="SORG_Zone_Manager_Name" />
                             <externalMetadataColumn
                               refId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\Sales Org.Outputs[OLE DB Source Output].ExternalColumns[SORG_Zone_Key]"
-                              dataType="i2"
+                              dataType="i8"
                               name="SORG_Zone_Key" />
                             <externalMetadataColumn
                               refId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\Sales Org.Outputs[OLE DB Source Output].ExternalColumns[SORG_Domain_ID]"
@@ -2617,13 +3275,13 @@ LEFT JOIN dbo.Sales_Mgr AS region_mgr		ON Region.MGR_ID = region_mgr.MGR_ID;</pr
                               name="SORG_Region_Manager_Name" />
                             <externalMetadataColumn
                               refId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\Sales Org.Outputs[OLE DB Source Output].ExternalColumns[SORG_Region_Key]"
-                              dataType="i2"
+                              dataType="i8"
                               name="SORG_Region_Key" />
                             <externalMetadataColumn
                               refId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\Sales Org.Outputs[OLE DB Source Output].ExternalColumns[SORG_Full_Name]"
                               codePage="1252"
                               dataType="str"
-                              length="3"
+                              length="186"
                               name="SORG_Full_Name" />
                           </externalMetadataColumns>
                         </output>
@@ -2653,7 +3311,7 @@ LEFT JOIN dbo.Sales_Mgr AS region_mgr		ON Region.MGR_ID = region_mgr.MGR_ID;</pr
                               name="SORG_Zone_Manager_Name" />
                             <outputColumn
                               refId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\Sales Org.Outputs[OLE DB Source Error Output].Columns[SORG_Zone_Key]"
-                              dataType="i2"
+                              dataType="i8"
                               lineageId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\Sales Org.Outputs[OLE DB Source Error Output].Columns[SORG_Zone_Key]"
                               name="SORG_Zone_Key" />
                             <outputColumn
@@ -2696,14 +3354,14 @@ LEFT JOIN dbo.Sales_Mgr AS region_mgr		ON Region.MGR_ID = region_mgr.MGR_ID;</pr
                               name="SORG_Region_Manager_Name" />
                             <outputColumn
                               refId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\Sales Org.Outputs[OLE DB Source Error Output].Columns[SORG_Region_Key]"
-                              dataType="i2"
+                              dataType="i8"
                               lineageId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\Sales Org.Outputs[OLE DB Source Error Output].Columns[SORG_Region_Key]"
                               name="SORG_Region_Key" />
                             <outputColumn
                               refId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\Sales Org.Outputs[OLE DB Source Error Output].Columns[SORG_Full_Name]"
                               codePage="1252"
                               dataType="str"
-                              length="3"
+                              length="186"
                               lineageId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\Sales Org.Outputs[OLE DB Source Error Output].Columns[SORG_Full_Name]"
                               name="SORG_Full_Name" />
                             <outputColumn
@@ -2819,7 +3477,7 @@ LEFT JOIN dbo.Sales_Mgr AS region_mgr		ON Region.MGR_ID = region_mgr.MGR_ID;</pr
                               lineageId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\Sales Org.Outputs[OLE DB Source Output].Columns[SORG_Zone_Manager_Name]" />
                             <inputColumn
                               refId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\Star Schema Sales Org.Inputs[OLE DB Destination Input].Columns[SORG_Zone_Key]"
-                              cachedDataType="i2"
+                              cachedDataType="i8"
                               cachedName="SORG_Zone_Key"
                               externalMetadataColumnId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\Star Schema Sales Org.Inputs[OLE DB Destination Input].ExternalColumns[SORG_Zone_Key]"
                               lineageId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\Sales Org.Outputs[OLE DB Source Output].Columns[SORG_Zone_Key]" />
@@ -2869,7 +3527,7 @@ LEFT JOIN dbo.Sales_Mgr AS region_mgr		ON Region.MGR_ID = region_mgr.MGR_ID;</pr
                               lineageId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\Sales Org.Outputs[OLE DB Source Output].Columns[SORG_Region_Manager_Name]" />
                             <inputColumn
                               refId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\Star Schema Sales Org.Inputs[OLE DB Destination Input].Columns[SORG_Region_Key]"
-                              cachedDataType="i2"
+                              cachedDataType="i8"
                               cachedName="SORG_Region_Key"
                               externalMetadataColumnId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\Star Schema Sales Org.Inputs[OLE DB Destination Input].ExternalColumns[SORG_Region_Key]"
                               lineageId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\Sales Org.Outputs[OLE DB Source Output].Columns[SORG_Region_Key]" />
@@ -2877,7 +3535,7 @@ LEFT JOIN dbo.Sales_Mgr AS region_mgr		ON Region.MGR_ID = region_mgr.MGR_ID;</pr
                               refId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\Star Schema Sales Org.Inputs[OLE DB Destination Input].Columns[SORG_Full_Name]"
                               cachedCodepage="1252"
                               cachedDataType="str"
-                              cachedLength="3"
+                              cachedLength="186"
                               cachedName="SORG_Full_Name"
                               externalMetadataColumnId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\Star Schema Sales Org.Inputs[OLE DB Destination Input].ExternalColumns[SORG_Full_Name]"
                               lineageId="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\Sales Org.Outputs[OLE DB Source Output].Columns[SORG_Full_Name]" />
@@ -3972,32 +4630,47 @@ FROM dbo.Customer AS c</property>
                           name="SqlCommand"
                           UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">--USE SEIS732_Team_21_Products;
 
-
-SELECT DISTINCT 0 AS PRD_Make_Key, --?
-    m.MMC_Make_Name AS PRD_Make_Name,
-    m.MMC_Make_Desc AS PRD_Make_Description,
-    0 AS PRD_Model_Key,   --?
-    m.MMC_Model_Name AS PRD_Model_Name,
-    m.MMC_Model_Desc AS PRD_Model_Description,
-    0 AS PRD_Class_Key,  --?
-    m.MMC_Class_Name AS PRD_Class_Name,
-    m.MMC_Class_Desc AS PRD_Class_Description,
-    0 AS PRD_Color_Key, --?
-	c.CLR_ID AS PRD_Color_ID,
-    c.CLR_Name AS PRD_Color_Name,
-    c.CLR_Description AS PRD_Color_Description,
-    vt.VT_Model_Year AS PRD_Model_Year,
-    vt.VT_ID AS PRD_VehicleType_ID,
-    vt.VT_MSRP AS PRD_Manufacturer_Suggested_Retail_Price,
-    vt.VT_Wholesale_Price AS PRD_Wholesale_Price,
-    m.MMC_ID AS PRD_MMC_ID
-FROM dbo.RRV_Instance AS ri
-    INNER JOIN dbo.Vehicle_Type AS vt
-        ON ri.VT_ID = vt.VT_ID
-    INNER JOIN dbo.MMC AS m
-        ON vt.MMC_ID = m.MMC_ID
-    INNER JOIN dbo.Color AS c
-        ON ri.CLR_ID = c.CLR_ID;</property>
+SELECT PRD_Make_Key = Dense_RANK() OVER  (ORDER BY a.PRD_Make_Name)
+     , a.PRD_Make_Name
+     , a.PRD_Make_Description
+     , PRD_Model_Key = Dense_RANK() OVER  (ORDER BY  a.PRD_Make_Name,a.PRD_Model_Name)
+     , a.PRD_Model_Name
+     , a.PRD_Model_Description
+     , PRD_Class_Key = Dense_RANK() OVER  (ORDER BY  a.PRD_Make_Name,a.PRD_Model_Name, a.PRD_Class_Name)
+     , a.PRD_Class_Name
+     , a.PRD_Class_Description
+     , PRD_Color_Key = Dense_RANK() OVER  (ORDER BY  a.PRD_Make_Name,a.PRD_Model_Name, a.PRD_Class_Name, a.PRD_Color_Name)
+     , a.PRD_Color_ID
+     , a.PRD_Color_Name
+     , a.PRD_Color_Description
+     , a.PRD_Model_Year
+     , a.PRD_VehicleType_ID
+     , a.PRD_Manufacturer_Suggested_Retail_Price
+     , a.PRD_Wholesale_Price
+     , a.PRD_MMC_ID 
+FROM (
+    SELECT DISTINCT 
+        PRD_Make_Name                            = m.MMC_Make_Name,
+        PRD_Make_Description                    = m.MMC_Make_Desc,
+        PRD_Model_Name                            = m.MMC_Model_Name,
+        PRD_Model_Description                    = m.MMC_Model_Desc,
+        PRD_Class_Name                            = m.MMC_Class_Name,
+        PRD_Class_Description                    = m.MMC_Class_Desc,
+        PRD_Color_ID                            = isnull(c.CLR_ID,0),
+        PRD_Color_Name                            = isnull(c.CLR_Name,'&lt;N/A&gt;'),
+        PRD_Color_Description                    = isnull(c.CLR_Description,'&lt;N/A&gt;'),
+        PRD_Model_Year                            = vt.VT_Model_Year,
+        PRD_VehicleType_ID                        = vt.VT_ID,
+        PRD_Manufacturer_Suggested_Retail_Price = vt.VT_MSRP,
+        PRD_Wholesale_Price                        = vt.VT_Wholesale_Price,
+        PRD_MMC_ID                                = m.MMC_ID
+    FROM dbo.RRV_Instance AS ri
+    INNER JOIN dbo.Vehicle_Type AS vt    ON ri.VT_ID = vt.VT_ID
+    INNER JOIN dbo.MMC AS m                ON vt.MMC_ID = m.MMC_ID
+    left JOIN dbo.Color AS    c            ON ri.CLR_ID = c.CLR_ID
+) a
+ORDER BY a.PRD_Make_Name, a.PRD_Model_Name ASC , a.PRD_Class_Name ASC, a.PRD_Color_Name ASC 
+;</property>
                         <property
                           dataType="System.String"
                           description="The variable that contains the SQL command to be executed."
@@ -4228,7 +4901,7 @@ FROM dbo.RRV_Instance AS ri
                               name="PRD_Make_Description" />
                             <externalMetadataColumn
                               refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Output].ExternalColumns[PRD_Model_Key]"
-                              dataType="i4"
+                              dataType="i8"
                               name="PRD_Model_Key" />
                             <externalMetadataColumn
                               refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Output].ExternalColumns[PRD_Model_Name]"
@@ -4284,15 +4957,15 @@ FROM dbo.RRV_Instance AS ri
                               name="PRD_MMC_ID" />
                             <externalMetadataColumn
                               refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Output].ExternalColumns[PRD_Make_Key]"
-                              dataType="i4"
+                              dataType="i8"
                               name="PRD_Make_Key" />
                             <externalMetadataColumn
                               refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Output].ExternalColumns[PRD_Class_Key]"
-                              dataType="i4"
+                              dataType="i8"
                               name="PRD_Class_Key" />
                             <externalMetadataColumn
                               refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Output].ExternalColumns[PRD_Color_Key]"
-                              dataType="i4"
+                              dataType="i8"
                               name="PRD_Color_Key" />
                             <externalMetadataColumn
                               refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Output].ExternalColumns[PRD_Color_ID]"
@@ -4311,7 +4984,7 @@ FROM dbo.RRV_Instance AS ri
                           <outputColumns>
                             <outputColumn
                               refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Error Output].Columns[PRD_Make_Key]"
-                              dataType="i4"
+                              dataType="i8"
                               lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Error Output].Columns[PRD_Make_Key]"
                               name="PRD_Make_Key" />
                             <outputColumn
@@ -4330,7 +5003,7 @@ FROM dbo.RRV_Instance AS ri
                               name="PRD_Make_Description" />
                             <outputColumn
                               refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Error Output].Columns[PRD_Model_Key]"
-                              dataType="i4"
+                              dataType="i8"
                               lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Error Output].Columns[PRD_Model_Key]"
                               name="PRD_Model_Key" />
                             <outputColumn
@@ -4349,7 +5022,7 @@ FROM dbo.RRV_Instance AS ri
                               name="PRD_Model_Description" />
                             <outputColumn
                               refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Error Output].Columns[PRD_Class_Key]"
-                              dataType="i4"
+                              dataType="i8"
                               lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Error Output].Columns[PRD_Class_Key]"
                               name="PRD_Class_Key" />
                             <outputColumn
@@ -4368,7 +5041,7 @@ FROM dbo.RRV_Instance AS ri
                               name="PRD_Class_Description" />
                             <outputColumn
                               refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Error Output].Columns[PRD_Color_Key]"
-                              dataType="i4"
+                              dataType="i8"
                               lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products.Outputs[OLE DB Source Error Output].Columns[PRD_Color_Key]"
                               name="PRD_Color_Key" />
                             <outputColumn
@@ -5804,24 +6477,29 @@ GROUP BY fs.FS_ID
                           name="SqlCommand"
                           UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">--USE SEIS732_Team_21_Products
 
---not sure if i want to use CTE seems slower.
-;WITH Quarters AS (
-    SELECT Q = 'Q1', MonthBegin = 1, MonthEnd = 3 UNION
-    SELECT Q = 'Q2', MonthBegin = 4, MonthEnd = 6 UNION
-    SELECT Q = 'Q3', MonthBegin = 7, MonthEnd = 9 UNION
-    SELECT Q = 'Q4', MonthBegin = 10, MonthEnd = 12
-)
-,QuartersName AS (
-	SELECT Q = 'First Quarter', MonthBegin = 1, MonthEnd = 3 UNION
-    SELECT Q = 'Second Quarter', MonthBegin = 4, MonthEnd = 6 UNION
-    SELECT Q = 'third Quarter', MonthBegin = 7, MonthEnd = 9 UNION
-    SELECT Q = 'Fourth Quarter', MonthBegin = 10, MonthEnd = 12
-)
-
-SELECT DISTINCT  
+Select a.MDAT_Year
+		, MDAT_Quarter_KEY	= Dense_RANK() OVER  (ORDER BY MDAT_Year, MDAT_Quarter_Abbreviation)
+		, a.MDAT_Quarter_Name
+		, a.MDAT_Quarter_Abbreviation
+		, a.MDAT_Quarter
+		, a.MDAT_Week
+		, a.MDAT_Week_Of_Year
+		, a.MDAT_Week_Of_Quarter
+		, MDAT_Month_KEY = Dense_RANK() OVER  (ORDER BY MDAT_Year, MDAT_Quarter_Abbreviation, a.MDAT_Month_Number)
+		, a.MDAT_Month_Number
+		, a.MDAT_Month_Name
+		, a.MDAT_Month_Abbreviation
+		, a.MDAT_Day_Of_Year
+		, a.MDAT_Day_Of_Quarter
+		, a.MDAT_Day_Of_Week
+		, a.MDAT_Day_of_Month
+		, a.MDAT_Weekday_Or_Weekend
+		, a.MDAT_Date
+		, a.MDAT_Full_Date_Description 
+FROM (
+SELECT DISTINCT 
 		MDAT_Year			= YEAR(ri.RV_MFG_Date),
 		--quarter information
-		MDAT_Quarter_KEY	= DATEPART(qq, ri.RV_MFG_Date) ,
 		MDAT_Quarter_Name =	CASE 
 								WHEN DATEPART(m,ri.RV_MFG_Date) BETWEEN 1 and 3 THEN 'First Quarter'
 								WHEN DATEPART(m,ri.RV_MFG_Date) BETWEEN 4 and 6 THEN 'Second Quarter'
@@ -5846,7 +6524,6 @@ SELECT DISTINCT
 		 MDAT_Week_Of_Year	= DATEPART(WEEK, ri.RV_MFG_Date) ,
 		 MDAT_Week_Of_Quarter = (datediff(dd,dateadd(QQ,datediff(QQ,0,ri.RV_MFG_Date),0),ri.RV_MFG_Date)/7)+1, --not sure
 		 --month
-		 MDAT_Month_KEY			= 0 , --??
 		 MDAT_Month_Number		= DATEPART(m,ri.RV_MFG_Date),
 		 MDAT_Month_Name			= CAST(DATENAME(MONTH, ri.RV_MFG_Date) AS varchar(9)),
 		 MDAT_Month_Abbreviation	= UPPER(CONVERT(char(3), ri.RV_MFG_Date, 0)),
@@ -5862,16 +6539,10 @@ SELECT DISTINCT
 		MDAT_Full_Date_Description	= 'Date Description' --?
 		 --day of part
 FROM dbo.RRV_Instance AS ri
-/*
-INNER JOIN Quarters q ON
-        DATEPART(m,ri.RV_MFG_Date) &gt;= q.MonthBegin AND
-        DATEPART(m, ri.RV_MFG_Date) &lt;= q.MonthEnd
-INNER JOIN QuartersName qn ON
-        DATEPART(m,ri.RV_MFG_Date) &gt;= qn.MonthBegin AND
-        DATEPART(m, ri.RV_MFG_Date) &lt;= qn.MonthEnd
-	*/			
-	ORDER BY ri.RV_MFG_Date ASC
-	;</property>
+
+)a
+ORDER BY MDAT_Date ASC
+;</property>
                         <property
                           dataType="System.String"
                           description="The variable that contains the SQL command to be executed."
@@ -6108,7 +6779,7 @@ INNER JOIN QuartersName qn ON
                               name="MDAT_Year" />
                             <externalMetadataColumn
                               refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Output].ExternalColumns[MDAT_Quarter_KEY]"
-                              dataType="i4"
+                              dataType="i8"
                               name="MDAT_Quarter_KEY" />
                             <externalMetadataColumn
                               refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Output].ExternalColumns[MDAT_Quarter_Name]"
@@ -6144,7 +6815,7 @@ INNER JOIN QuartersName qn ON
                               name="MDAT_Week_Of_Quarter" />
                             <externalMetadataColumn
                               refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Output].ExternalColumns[MDAT_Month_KEY]"
-                              dataType="i4"
+                              dataType="i8"
                               name="MDAT_Month_KEY" />
                             <externalMetadataColumn
                               refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Output].ExternalColumns[MDAT_Month_Number]"
@@ -6213,7 +6884,7 @@ INNER JOIN QuartersName qn ON
                               name="MDAT_Year" />
                             <outputColumn
                               refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Error Output].Columns[MDAT_Quarter_KEY]"
-                              dataType="i4"
+                              dataType="i8"
                               lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Error Output].Columns[MDAT_Quarter_KEY]"
                               name="MDAT_Quarter_KEY" />
                             <outputColumn
@@ -6256,7 +6927,7 @@ INNER JOIN QuartersName qn ON
                               name="MDAT_Week_Of_Quarter" />
                             <outputColumn
                               refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Error Output].Columns[MDAT_Month_KEY]"
-                              dataType="i4"
+                              dataType="i8"
                               lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date.Outputs[OLE DB Source Error Output].Columns[MDAT_Month_KEY]"
                               name="MDAT_Month_KEY" />
                             <outputColumn
@@ -6731,23 +7402,29 @@ INNER JOIN QuartersName qn ON
                           UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">--USE SEIS732_Team_21_Products
 
 --not sure if i want to use CTE seems slower.
-;WITH Quarters AS (
-    SELECT Q = 'Q1', MonthBegin = 1, MonthEnd = 3 UNION
-    SELECT Q = 'Q2', MonthBegin = 4, MonthEnd = 6 UNION
-    SELECT Q = 'Q3', MonthBegin = 7, MonthEnd = 9 UNION
-    SELECT Q = 'Q4', MonthBegin = 10, MonthEnd = 12
-)
-,QuartersName AS (
-	SELECT Q = 'First Quarter', MonthBegin = 1, MonthEnd = 3 UNION
-    SELECT Q = 'Second Quarter', MonthBegin = 4, MonthEnd = 6 UNION
-    SELECT Q = 'third Quarter', MonthBegin = 7, MonthEnd = 9 UNION
-    SELECT Q = 'Fourth Quarter', MonthBegin = 10, MonthEnd = 12
-)
-
+SELECT a.PDAT_Year
+     , PDAT_Quarter_KEY = Dense_RANK() OVER  (ORDER BY PDAT_Year, PDAT_Quarter_Abbreviation)
+     , a.PDAT_Quarter_Name
+     , a.PDAT_Quarter_Abbreviation
+     , a.PDAT_Quarter
+     , a.PDAT_Week
+     , a.PDAT_Week_Of_Year
+     , a.PDAT_Week_Of_Quarter
+     , PDAT_Month_KEY = Dense_RANK() OVER  (ORDER BY PDAT_Year, PDAT_Quarter_Abbreviation, PDAT_Month_Number)
+     , a.PDAT_Month_Number
+     , a.PDAT_Month_Name
+     , a.PDAT_Month_Abbreviation
+     , a.PDAT_Day_Of_Year
+     , a.PDAT_Day_Of_Quarter
+     , a.PDAT_Day_Of_Week
+     , a.PDAT_Day_of_Month
+     , a.PDAT_Weekday_Or_Weekend
+     , a.PDAT_Date
+     , a.PDAT_Full_Date_Description 
+FROM (
 SELECT DISTINCT  
 		PDAT_Year			= YEAR(s.Sale_Date),
 		--quarter information
-		PDAT_Quarter_KEY	= DATEPART(qq, s.Sale_Date) ,
 		PDAT_Quarter_Name =	CASE 
 								WHEN DATEPART(m,s.Sale_Date) BETWEEN 1 and 3 THEN 'First Quarter'
 								WHEN DATEPART(m,s.Sale_Date) BETWEEN 4 and 6 THEN 'Second Quarter'
@@ -6772,7 +7449,6 @@ SELECT DISTINCT
 		 PDAT_Week_Of_Year	= DATEPART(WEEK, s.Sale_Date) ,
 		 PDAT_Week_Of_Quarter = (datediff(dd,dateadd(QQ,datediff(QQ,0,s.Sale_Date),0),s.Sale_Date)/7)+1, --not sure
 		 --month
-		 PDAT_Month_KEY			= 0 , --??
 		 PDAT_Month_Number		= DATEPART(m,s.Sale_Date),
 		 PDAT_Month_Name			= CAST(DATENAME(MONTH, s.Sale_Date) AS varchar(9)),
 		 PDAT_Month_Abbreviation	= UPPER(CONVERT(char(3), s.Sale_Date, 0)),
@@ -6788,16 +7464,9 @@ SELECT DISTINCT
 		PDAT_Full_Date_Description	= 'Date Description' --?
 		 --day of part
 FROM dbo.Sold AS s
-/*
-INNER JOIN Quarters q ON
-        DATEPART(m,s.Sale_Date) &gt;= q.MonthBegin AND
-        DATEPART(m, s.Sale_Date) &lt;= q.MonthEnd
-INNER JOIN QuartersName qn ON
-        DATEPART(m,s.Sale_Date) &gt;= qn.MonthBegin AND
-        DATEPART(m, s.Sale_Date) &lt;= qn.MonthEnd
-	*/			
-	ORDER BY s.Sale_Date ASC
-	;</property>
+) a
+ORDER BY PDAT_Date ASC
+;</property>
                         <property
                           dataType="System.String"
                           description="The variable that contains the SQL command to be executed."
@@ -7034,7 +7703,7 @@ INNER JOIN QuartersName qn ON
                               name="PDAT_Year" />
                             <externalMetadataColumn
                               refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Output].ExternalColumns[PDAT_Quarter_KEY]"
-                              dataType="i4"
+                              dataType="i8"
                               name="PDAT_Quarter_KEY" />
                             <externalMetadataColumn
                               refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Output].ExternalColumns[PDAT_Quarter_Name]"
@@ -7070,7 +7739,7 @@ INNER JOIN QuartersName qn ON
                               name="PDAT_Week_Of_Quarter" />
                             <externalMetadataColumn
                               refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Output].ExternalColumns[PDAT_Month_KEY]"
-                              dataType="i4"
+                              dataType="i8"
                               name="PDAT_Month_KEY" />
                             <externalMetadataColumn
                               refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Output].ExternalColumns[PDAT_Month_Number]"
@@ -7139,7 +7808,7 @@ INNER JOIN QuartersName qn ON
                               name="PDAT_Year" />
                             <outputColumn
                               refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Error Output].Columns[PDAT_Quarter_KEY]"
-                              dataType="i4"
+                              dataType="i8"
                               lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Error Output].Columns[PDAT_Quarter_KEY]"
                               name="PDAT_Quarter_KEY" />
                             <outputColumn
@@ -7182,7 +7851,7 @@ INNER JOIN QuartersName qn ON
                               name="PDAT_Week_Of_Quarter" />
                             <outputColumn
                               refId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Error Output].Columns[PDAT_Month_KEY]"
-                              dataType="i4"
+                              dataType="i8"
                               lineageId="Package\20000 Star SchemaTables Load\23000 Products DB Source\23600 Sale Date\Products Sale Date.Outputs[OLE DB Source Error Output].Columns[PDAT_Month_KEY]"
                               name="PDAT_Month_KEY" />
                             <outputColumn
@@ -7769,8 +8438,8 @@ INNER JOIN QuartersName qn ON
         <ContainerLayout
           HeaderHeight="43"
           IsExpanded="True"
-          PanelSize="677,717"
-          Size="677,760"
+          PanelSize="677,679"
+          Size="677,722"
           Id="Package\20000 Star SchemaTables Load"
           TopLeft="170,394" />
         <EdgeLayout
@@ -7802,7 +8471,7 @@ INNER JOIN QuartersName qn ON
     design-time-name="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="174,42"
           Id="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\21100 Corp Dealers"
@@ -7810,21 +8479,109 @@ INNER JOIN QuartersName qn ON
         <NodeLayout
           Size="171,42"
           Id="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\21200 Star Dealers"
-          TopLeft="263,147" />
+          TopLeft="409,323" />
+        <NodeLayout
+          Size="152,42"
+          Id="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Sales Org Type"
+          TopLeft="585,57" />
+        <NodeLayout
+          Size="132,42"
+          Id="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Merge Join"
+          TopLeft="417,191" />
         <EdgeLayout
           Id="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers.Paths[OLE DB Source Output]"
-          TopLeft="348.75,99">
+          TopLeft="349,99">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,48"
+              EndConnector="134,92"
               Start="0,0"
-              End="0,40.5">
+              End="134,84.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,40.5" />
+                    End="0,42" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,42"
+                    Point2="0,46"
+                    Point3="4,46" />
+                  <mssgle:LineSegment
+                    End="130,46" />
+                  <mssgle:CubicBezierSegment
+                    Point1="130,46"
+                    Point2="134,46"
+                    Point3="134,50" />
+                  <mssgle:LineSegment
+                    End="134,84.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers.Paths[OLE DB Source Output1]"
+          TopLeft="661,99">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-157.333333333333,92"
+              Start="0,0"
+              End="-157.333333333333,84.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,50.5389221556886" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,50.5389221556886"
+                    Point2="0,54.5389221556886"
+                    Point3="-4,54.5389221556886" />
+                  <mssgle:LineSegment
+                    End="-153.333333333333,54.5389221556886" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-153.333333333333,54.5389221556886"
+                    Point2="-157.333333333333,54.5389221556886"
+                    Point3="-157.333333333333,58.5389221556886" />
+                  <mssgle:LineSegment
+                    End="-157.333333333333,84.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers.Paths[Merge Join Output]"
+          TopLeft="483,233">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="11.5,90"
+              Start="0,0"
+              End="11.5,82.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,41" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,41"
+                    Point2="0,45"
+                    Point3="4,45" />
+                  <mssgle:LineSegment
+                    End="7.5,45" />
+                  <mssgle:CubicBezierSegment
+                    Point1="7.5,45"
+                    Point2="11.5,45"
+                    Point3="11.5,49" />
+                  <mssgle:LineSegment
+                    End="11.5,82.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -7922,7 +8679,7 @@ INNER JOIN QuartersName qn ON
     design-time-name="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22100 Metro Area Stats">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="195,42"
           Id="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22100 Metro Area Stats\Star Schema Metro Area"
@@ -7962,7 +8719,9 @@ INNER JOIN QuartersName qn ON
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -8001,33 +8760,33 @@ INNER JOIN QuartersName qn ON
         <NodeLayout
           Size="126,42"
           Id="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\Sales Org"
-          TopLeft="457,138" />
+          TopLeft="451,118" />
         <EdgeLayout
           Id="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org.Paths[OLE DB Source Output]"
-          TopLeft="520,180">
+          TopLeft="514,160">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="35.5,100"
+              EndConnector="41.5,120"
               Start="0,0"
-              End="35.5,92.5">
+              End="41.5,112.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,46" />
+                    End="0,56" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,46"
-                    Point2="0,50"
-                    Point3="4,50" />
+                    Point1="0,56"
+                    Point2="0,60"
+                    Point3="4,60" />
                   <mssgle:LineSegment
-                    End="31.5,50" />
+                    End="37.5,60" />
                   <mssgle:CubicBezierSegment
-                    Point1="31.5,50"
-                    Point2="35.5,50"
-                    Point3="35.5,54" />
+                    Point1="37.5,60"
+                    Point2="41.5,60"
+                    Point3="41.5,64" />
                   <mssgle:LineSegment
-                    End="35.5,92.5" />
+                    End="41.5,112.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -8039,14 +8798,6 @@ INNER JOIN QuartersName qn ON
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
-  <PipelineComponentMetadata
-    design-time-name="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\Sales Org">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\Star Schema Sales Org">
     <Properties>
@@ -8194,7 +8945,7 @@ INNER JOIN QuartersName qn ON
     design-time-name="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="122,42"
           Id="Package\20000 Star SchemaTables Load\23000 Products DB Source\23300 Products\Products"
@@ -8234,7 +8985,9 @@ INNER JOIN QuartersName qn ON
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -8344,16 +9097,16 @@ INNER JOIN QuartersName qn ON
         <NodeLayout
           Size="171,42"
           Id="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date\Products MFG Date"
-          TopLeft="451,183" />
+          TopLeft="452,183" />
         <EdgeLayout
           Id="Package\20000 Star SchemaTables Load\23000 Products DB Source\23500 MFG Date.Paths[OLE DB Source Output]"
-          TopLeft="536.5,225">
+          TopLeft="537.5,225">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="12.5,116"
+              EndConnector="11.5,116"
               Start="0,0"
-              End="12.5,108.5">
+              End="11.5,108.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
@@ -8364,13 +9117,13 @@ INNER JOIN QuartersName qn ON
                     Point2="0,58"
                     Point3="4,58" />
                   <mssgle:LineSegment
-                    End="8.5,58" />
+                    End="7.5,58" />
                   <mssgle:CubicBezierSegment
-                    Point1="8.5,58"
-                    Point2="12.5,58"
-                    Point3="12.5,62" />
+                    Point1="7.5,58"
+                    Point2="11.5,58"
+                    Point3="11.5,62" />
                   <mssgle:LineSegment
-                    End="12.5,108.5" />
+                    End="11.5,108.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -8473,6 +9226,22 @@ INNER JOIN QuartersName qn ON
         <Name>TableInfoObjectType</Name>
         <Value
           type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\20000 Star SchemaTables Load\22000 Sales Org DB Source\22200 Sales Org\Sales Org">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\20000 Star SchemaTables Load\21000 Corp Db Source\21100 Dealers\Sales Org Type">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
