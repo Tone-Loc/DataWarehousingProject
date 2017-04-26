@@ -8,5 +8,5 @@ These snapshots are under the main, Team_21 folder.
 
 Sub-directories contain .xlsx work files of each deliverable indicated in the folder name.
 
-The ETL program will export data from OLTP databases and import the data into the Star Schema OLAP database.
+The zipped, ETL program will export data from OLTP databases and import the data into the Star Schema OLAP database.
 
