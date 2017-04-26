@@ -12,8 +12,8 @@
   DTS:ObjectName="Package"
   DTS:PackageType="5"
   DTS:ProtectionLevel="0"
-  DTS:VersionBuild="67"
-  DTS:VersionGUID="{8A95C835-3708-49DE-BA55-4E00A197FFED}">
+  DTS:VersionBuild="68"
+  DTS:VersionGUID="{A8F515F4-08C3-47CA-986A-C307F636BD20}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">6</DTS:Property>
   <DTS:ConnectionManagers>
@@ -27,7 +27,7 @@
       <DTS:ObjectData>
         <DTS:ConnectionManager
           DTS:Retain="True"
-          DTS:ConnectionString="Data Source=.;User ID=SEIS732_Team_21_Corporate_User;Initial Catalog=SEIS732_Team_21_Corporate;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
+          DTS:ConnectionString="Data Source=.\GPSSQL;User ID=SEIS732_Team_21_Corporate_User;Initial Catalog=SEIS732_Team_21_Corporate;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"></DTS:Password>
@@ -44,7 +44,7 @@
       <DTS:ObjectData>
         <DTS:ConnectionManager
           DTS:Retain="True"
-          DTS:ConnectionString="Data Source=.;User ID=SEIS732_Team_21_Products_User;Initial Catalog=SEIS732_Team_21_Products;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
+          DTS:ConnectionString="Data Source=.\GPSSQL;User ID=SEIS732_Team_21_Products_User;Initial Catalog=SEIS732_Team_21_Products;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"></DTS:Password>
@@ -61,7 +61,7 @@
       <DTS:ObjectData>
         <DTS:ConnectionManager
           DTS:Retain="True"
-          DTS:ConnectionString="Data Source=.;User ID=SEIS732_Team_21_Sales_Org_User;Initial Catalog=SEIS732_Team_21_Sales_Org;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
+          DTS:ConnectionString="Data Source=.\GPSSQL;User ID=SEIS732_Team_21_Sales_Org_User;Initial Catalog=SEIS732_Team_21_Sales_Org;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"></DTS:Password>
@@ -78,7 +78,7 @@
       <DTS:ObjectData>
         <DTS:ConnectionManager
           DTS:Retain="True"
-          DTS:ConnectionString="Data Source=.;User ID=SEIS732_Team_21_Star_Schema_User;Initial Catalog=SEIS732_Team_21_Star_Schema;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
+          DTS:ConnectionString="Data Source=.\GPSSQL;User ID=SEIS732_Team_21_Star_Schema_User;Initial Catalog=SEIS732_Team_21_Star_Schema;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"></DTS:Password>
